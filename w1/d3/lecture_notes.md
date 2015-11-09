@@ -1,11 +1,9 @@
 # Lecture Notes 3
 
-## Arrays
+### Arrays
 
-## Scope
+### Decomposition
 
-## Decomposition
+### Abstraction
 
-## Abstraction
-
-## Useful Methods
+### Useful Methods

@@ -2,12 +2,12 @@
 
 ## Conditionals
 
-## if statements
+### if statements
 
-## switch statements
+### switch statements
 
 ## Looping
 
-## for loop
+### for loop
 
-## while loop
+### while loop
