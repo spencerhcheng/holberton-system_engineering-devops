@@ -1,5 +1,5 @@
 # Lecture Notes 17
 
-## Project Euler Together!
+## 1st Project Euler Question
 
-## Code Eval Together!
+## 2nd Project Euler Question

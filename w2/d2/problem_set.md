@@ -2,8 +2,6 @@
 
 ### validEmail
 
-### sentimentDetector
-
 ### peakFinder
 
 ### Project Euler Problem 1

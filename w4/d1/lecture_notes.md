@@ -4,6 +4,6 @@
 
 ## Asynchronous Programming
 
-## Closures
+## Callbacks
 
 ## Project Solution Review
