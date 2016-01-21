@@ -108,7 +108,9 @@ Evaluate each expression. Check your answer in the console.
 ```
 
 ### isSubstring
-**Input:** (1) A String, called `searchString`. (2) A String, called `subString`.
+**Input**
+* 1) A String, called `searchString`.
+* 2) A String, called `subString`.
 
 **Output:** A Boolean. `true` is the `subString` is apart of the `searchString`.
 
@@ -124,9 +126,52 @@ false
 ```
 
 ### echo
+**Input:** A String.
+
+**Output:** A String. The input string string echo-ized.
+
+```
+> echo("Mom!")
+"MOM! ... Mom! .. mom!"
+
+> echo("hey")
+"HEY ... hey ... hey"
+
+> echo("JUMp")
+"JUMP ... JUMp ... jump"
+```
+
+#Boolean
 
 ### is_Even
+**Input:** A Number.
 
-### Truthy or Falsey
+**Output:** A Boolean. `true` if the number is even, otherwise `false`
+
+**Condition:** Must be written in terms of `isOdd`
+
+```
+> idEven(2)
+true
+
+> idEven(5)
+false
+```
 
 ### Truth Table
+|   A   |   B   | A && B  | A &#124;&#124; B |
+| --------------|---------|------------------|
+| True  | True  |         |                  |
+| True  | False |         |                  |
+| False | True  |         |                  |
+| False | False |         |                  | |
+
+### Truthy or Falsey
+Will these expressions evaluate to true or false. Check your work in the console.
+
+* `true && true || false`
+* `true && (false || true)`
+* `(true || false) && (false || false)`
+* `(true || false) || (false || false)`
+* `(false || false || true) && (true && true && false)`
+* `(false || false) && (false && false) || (true && false) || (false && true)`
