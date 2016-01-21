@@ -82,6 +82,15 @@ undefined // Evaluates to undefined because we did not initialize myVar to any v
 * `/`
 * `%` (modulus)
 
+### Comparison Operators
+
+* `>`
+* `<`
+* `>=`
+* `<=`
+* `==`
+* `===`
+
 ### Logical Operators
 
 * `&&`
