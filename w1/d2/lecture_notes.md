@@ -132,7 +132,8 @@ while(i < 10){
 
 * `[conditional]` - If it evaluates to true, we do another loop. If false, we don't.
 
-With these new constructs in our toolbelt, fix the problems with our `print10` function.
+With these new constructs in our toolbelt, we can fix the problems with our
+earlier `print10` function.
 
 ```
 function printN(n){
@@ -153,7 +154,8 @@ Can you write this using a `for` loop.
 
 * `continue` - Skips the current loop iteration.
 
-If we wanted to change our `printN` function so that it skipped multiples of 5, we could write:
+If we wanted to change our `printN` function so that it skipped multiples of 5,
+we could write:
 
 ```
 function printNSkip17(n){
@@ -161,7 +163,7 @@ function printNSkip17(n){
 
   while(i < n){
     if(i % 17 === 0){ continue; }
-    
+
     console.log(i);
     i += 1;
   }
@@ -172,7 +174,7 @@ function printNStop17(n){
 
   while(i < n){
     if(i % 17 === 0){ break; }
-    
+
     console.log(i);
     i += 1;
   }
