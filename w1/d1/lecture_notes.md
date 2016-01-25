@@ -6,7 +6,7 @@ Programming is the process of developing a set of instructions that automate per
 
 ## The Language of Programming
 
-A programming language is a formal, constructed language designed to communicate instructions to a computer. When describing a programming language, we can think about it in two ways: syntactically and semantically. The syntax of a language refers to how its symbols are structured into valid statements and expressions. The semantics of a language refers to the meaning of those symbols. When learning a new language, one of the first steps is to get an understanding of its syntax and semantics.
+A programming language is a formal, constructed language designed to communicate instructions to a computer. When describing a programming language, we can think about it in two ways: syntactically and semantically. The *syntax* of a language refers to how its symbols are structured into valid statements and expressions. The *semantics* of a language refers to the meaning of those symbols. When learning a new language, one of the first steps is to get an understanding of its syntax and semantics.
 
 In this course, we will be using JavaScript, and the first couple of days will be dedicated to learning its syntax and semantics.
 
