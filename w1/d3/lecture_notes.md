@@ -2,7 +2,7 @@
 
 ### Arrays
 
-Sometimes we will want to group rekated data together into a convenient
+Sometimes we will want to group related data together into a convenient
 structure; for instance, the alphabet. Sure, I could create a bunch of strings:
 
 ```
