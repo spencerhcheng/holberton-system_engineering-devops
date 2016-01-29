@@ -1,4 +1,4 @@
-# Lecture Notes 6
+# Lecture Notes 6 REVIEW DAY
 
 ## Primitive Data Types
 
