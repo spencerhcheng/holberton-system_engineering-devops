@@ -1,6 +1,6 @@
 #Lecture Notes 8
 
-## Why is Style important?
+## Why is style important?
 
 ## JS Style Guidelines
 
