@@ -20,8 +20,8 @@ describe('Cookie Monster', function() {
       assert.deepEqual(cookieMonster.good_foods, ["pizza", "skittles"]);
     });
 
-    it('cookieMonster.bad_foods === ["water", "bannana"]', function () {
-      assert.deepEqual(cookieMonster.bad_foods, ["water", "bannana"]);
+    it('cookieMonster.bad_foods === ["water", "banana"]', function () {
+      assert.deepEqual(cookieMonster.bad_foods, ["water", "banana"]);
     });
 
     it('cookieMonster.hated_foods === ["spinach"]', function () {

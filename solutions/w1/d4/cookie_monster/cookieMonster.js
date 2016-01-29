@@ -7,7 +7,7 @@ var cookieMonster = {
 
   good_foods : ["pizza", "skittles"],
 
-  bad_foods : ["water", "bannana"],
+  bad_foods : ["water", "banana"],
 
   hated_foods : ["spinach"],
 

@@ -25,9 +25,9 @@ numbers.
 
 ### printRange
 
-Write a function `printRange(start, end)` that prints all the numbers in between
-`start` and `end`. If a range doesn't exist (start > end), then print a little
-message instead. Example:
+Write a function `printRange(start, end)` that prints all the numbers from
+`start` to `end`. If a range doesn't exist (start > end), then print `"Bad Range"`
+instead. Example:
 
 ```
 > printRange(22, 24)

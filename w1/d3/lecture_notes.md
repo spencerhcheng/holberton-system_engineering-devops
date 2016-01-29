@@ -5,7 +5,7 @@
 Sometimes we will want to group related data together into a convenient
 structure; for instance, the alphabet. Sure, I could create a bunch of strings:
 
-```
+```javascript
 var a = "a";
 var b = "b";
 var c = "c";
@@ -13,39 +13,34 @@ var d = "d";
 // and so on...
 ```
 
-But this becomes cumbersome and unmanageable quickly. The Array is a data structure that solves this problem. Arrays are denoted by `[]` and store their elements in sequential order.
+But this becomes cumbersome and unmanageable quickly. The Array is a data
+structure that solves this problem. Arrays are defined by `[]` and store their
+elements in sequential order.
 
-```
-var alphabet = [
-  "a", "b", "c", "d", "e",
-  "f", "g", "h", "i", "j",
-  "k", "l", "m", "n", "o",
-  "p", "q", "r", "s", "t",
-  "u", "v", "w", "x", "y",
-  "z"
-];
+```javascript
+var alphabet = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o",  "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
 ```
 
 If we want to get the nth-element in the array, we have to 'index' into the array:
 
-```
-alphabet[0] == "a"
-alphabet[9] == "j"
-alphabet[alphabet.length - 1] == "z"
-
-```
-
 As you can see, **arrays start at the 0 index, not 1**. This is the convention among the vast majority of programming languages.
 
+```
+alphabet[0] === "a"
+alphabet[9] === "j"
+alphabet[alphabet.length - 1] === "z"
 
-By packaging groups of related data in an array, we gain the added benefit of being able to refer to that data as a single name. Take a moment to just appreciate how useful the Array is as a tool for managing complexity...ah.
+```
+
+By packaging groups of related data in an array, we gain the added benefit of
+being able to refer to that data as a single collection. Take a moment to just
+appreciate how useful the Array is as a tool for managing complexity... ah.
 
 #### Useful methods
 
 Arrays have a bunch of useful properties and methods, such as `Array.prototype.length` (which returns the number of elements in the array). Take a look at the [documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array), but these are the ones you should commit to memory:
 
 * `Array.prototype.indexOf(element)`
-* `Array.prototype.forEach(callback)`
 * `Array.prototype.unshift(element)`
 * `Array.prototype.shift()`
 * `Array.prototype.push(element)`
@@ -57,13 +52,13 @@ Arrays have a bunch of useful properties and methods, such as `Array.prototype.l
 
 ### Controlling Complexity
 
-Uncontrolled complexity is the arch-nemisis of a programmer. If we do not understand out programs, we will inevitably introduce bugs. Today I want to introduce two ideas that will help us in our quest to master the complexity of our programs: Decomposition and Abstraction.
+Uncontrolled complexity is the arch-nemesis of a programmer. If we do not understand our programs, we will inevitably introduce bugs. Today I want to introduce two ideas that will help you in your quest to master the complexity of your programs: Decomposition and Abstraction.
 
 #### Decomposition
 
 Decomposition is the process of breaking down a larger problem into it's smaller sub problems. Let's look at an example:
 
-I want to write a function called `myMadeUpSequence(base, n)`. Return an array where every element is the product of the element before it and the largest prime number smaller than that element. The sequence starts with `base` and it's length is `n`. For example:
+I want to write a function called `myMadeUpSequence(base, n)`. Return an array where every element is the product of the element before it and the largest prime number smaller than that element. The sequence starts with `base` and its length is `n`. For example:
 
 ```
 myMadeUpSequence(10, 4) == [10, 70, 4690, 21944510]
@@ -151,9 +146,9 @@ function myMadeUpSequence(base, n){
 #### Abstraction
 
 Abstraction is the process of hiding details. The human mind is limited. The
-less is has to focus on, the more energy it can give to what is it focusing on.
+less it has to focus on, the more energy it can give to what it is focusing on.
 The act of hiding details allows our minds to focus on other aspects of the
 program that need attention. Decomposition is a technique that uses abstraction
-because it strips away details. Go back and look at the two `myMadeUpSequence`
+because it hides details. Go back and look at the two `myMadeUpSequence`
 functions. The decomposed one exposed less implementation details and is easier
 to reason about.

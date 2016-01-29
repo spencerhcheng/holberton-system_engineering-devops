@@ -11,14 +11,14 @@ if the email is considered valid. A valid email:
 ### peakFinder
 
 Write a function `peakFinder(array)` that takes in an array of numbers. It should
-return an array containing the indices of all the peaks. A peak in an element
-than is greater than both of it's neighbors.
+return an array containing the indices of all the peaks. A peak is an element
+that is greater than both of its neighbors.
 
 ### stockPicker
 
 Write a function `stockPicker(stocks)`. `stocks` is an array of numbers where
 the index represents the day, and the number at that index represents to stock
-price of that day. Return the buy day and sell day (indicies) that will yield
+price of that day. Return the buy day and sell day (indices) that will yield
 the most profit in an array.
 
 ### Project Euler Problem 1

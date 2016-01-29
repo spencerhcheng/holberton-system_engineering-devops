@@ -28,26 +28,26 @@ We can group primitive data into composite forms, but that's another day.
 
 ### Declaring Variables
 
-In JavasScript, in order to use a variable, we must declare it. Variable
+In JavaScript, in order to use a variable, we must declare it. Variable
 declaration is the act of introducing the variable to the environment. When we declare
 a variable, we will often initialize it to a value.
 
 To declare a variable, use the `var` keyword, followed by a space and then the name of the variable.
 
-```
+```javascript
 var myVar;
 ```
 
 To initialize it to a value, simply assign the variable to a value when you
 declare it. Say, for instance, that we wanted `myVar` to equal the number 5:
 
-```
+```javascript
 var myVar = 5;
 ```
 
-Now it time to experiment. Open your Terminal/Command Prompt and type the following:
+Now it is time to experiment. Open your Terminal/Command Prompt and type the following:
 
-```
+```javascript
 $ node
 > myVar
 
@@ -88,8 +88,8 @@ undefined // Evaluates to undefined because we did not initialize myVar to any v
 * `<`
 * `>=`
 * `<=`
-* `==`
 * `===`
+* `!==`
 
 ### Logical Operators
 
@@ -120,13 +120,13 @@ We are able to create our own custom functions too. Let's say we wanted to creat
 The syntax for defining a function is as follows:
 
 ```
-function nameOfFunction(parameters){
+function nameOfFunction(param1, param2, param3, paramN){
   //function body...
 }
 
 OR
 
-var nameOfFunction = function(parameters){
+var nameOfFunction = function(param1, param2, param3, paramN){
   //function body...
 }
 ```
