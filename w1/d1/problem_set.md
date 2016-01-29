@@ -143,7 +143,7 @@ false
 
 #Boolean
 
-### is_Even
+### isEven
 **Input:** A Number.
 
 **Output:** A Boolean. `true` if the number is even, otherwise `false`
@@ -151,10 +151,10 @@ false
 **Condition:** Must be written in terms of `isOdd`
 
 ```
-> idEven(2)
+> isEven(2)
 true
 
-> idEven(5)
+> isEven(5)
 false
 ```
 

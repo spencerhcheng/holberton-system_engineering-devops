@@ -7,10 +7,10 @@ however, differ from arrays in two important ways:
 
 * Instead of indexing with numbers, objects are indexed with keys (strings).
 
-* Order is not guaranteed. When you iterate through the elements in an array,
+* Order is not guaranteed. When you iterate through the elements in an object,
 they may not be in the same order they were entered in.
 
-Objets are denoted by curly brackets `{}`. Open up the console and let's make
+Objets are defined by curly brackets `{}`. Open up the console and let's make
 some objects.
 
 ```

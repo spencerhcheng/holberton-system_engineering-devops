@@ -1,6 +1,6 @@
 /******************************************************************************
 ** Write a function #range(start, end) that returns an array that contains all
-** numbers between 'start' and 'end' in sequntial order
+** numbers between 'start' and 'end' in sequential order
 ** Example
 ** range(1,4) => [1,2,3,4]
 ** range(4,2) => []
@@ -12,7 +12,8 @@ function range(start, end){
 
 /******************************************************************************
 ** Write a function #unique(array) that returns an array where all the duplicates
-** of the input array have been removed
+** of the input array have been removed; in other words, every element remaining is
+** unique.
 ** Example
 ** unique([1, 1, 2, 3, 3]) => [1, 2, 3]
 */
@@ -22,7 +23,7 @@ function unique(array){
 }
 
 /******************************************************************************
-** Write a function #elementCount(array) that returns a hash. Each key
+** Write a function #elementCount(array) that returns a object. Each key
 ** corresponds to an element in the array and the value corresponds to how many
 ** times that element appears in the array
 ** Example

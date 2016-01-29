@@ -2,6 +2,8 @@
 
 ## Primitive Data Types
 
+## Functions
+
 ## Looping
 
 ## Conditionals
@@ -11,5 +13,3 @@
 ## Decomposition
 
 ## Abstraction
-
-## Know These Methods

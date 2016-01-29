@@ -2,7 +2,7 @@
 
 ### Debug The Programs
 
-```
+```javascript
 var cat = {
   sound : "Meowr",
   purr : function(){
@@ -13,7 +13,7 @@ var cat = {
 cat.purr() === "Meowr...Meowr";
 ```
 
-```
+```javascript
 function getPropsAndMethods(object){
   var propsAndMethods = { props : [], methods : [] };
 

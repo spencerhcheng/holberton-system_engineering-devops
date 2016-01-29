@@ -14,5 +14,3 @@ first `n` prime numbers.
 
 Using `firstNPrimes`, write a function `sumOfNPrimes(n)` that returns the sum of
 the first `n` prime numbers.
-
-## Rename the Variables
