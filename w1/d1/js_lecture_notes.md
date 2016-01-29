@@ -4,7 +4,7 @@
 
 JavaScript runs in 2 main environments: the browser and Node. Using the browser involves more than just understanding JavaScript, but also HTML, CSS, and familiarity with the browser environment. Running our code in the Node environment will allow us to focus purely on learning JavaScript.
 
-So what is Node exactly? The [website](node) has a pretty good description. But the gist is that it is a way of running JavaScript outside of the browser environment.
+So what is Node exactly? The [website](https://nodejs.org/en/) has a pretty good description. But the gist is that it is a way of running JavaScript outside of the browser environment.
 
 Go to the website and download Node if you haven't already. After you've downloaded it, open your terminal/command prompt and type:
 
@@ -140,5 +140,3 @@ function addThree(number1, number2, number3){
 ```
 
 The `return` keyword is used to actually return a value from the function. If a function doesn't return anything explicitly, then it implicitly returns `undefined`.
-
-[node]: https://nodejs.org/en/
