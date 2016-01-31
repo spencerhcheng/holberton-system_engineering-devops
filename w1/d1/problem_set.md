@@ -159,12 +159,12 @@ false
 ```
 
 ### Truth Table
-|   A   |   B   | A && B  | A &#124;&#124; B |
-| --------------|---------|------------------|
-| True  | True  |         |                  |
-| True  | False |         |                  |
-| False | True  |         |                  |
-| False | False |         |                  | |
+|   A   |   B   | A && B  | A &#124;&#124; B
+| --------------|---------|------------------
+| True  | True  |         |                  
+| True  | False |         |                  
+| False | True  |         |                  
+| False | False |         |                  
 
 ### Truthy or Falsey
 Will these expressions evaluate to true or false. Check your work in the console.
@@ -173,5 +173,3 @@ Will these expressions evaluate to true or false. Check your work in the console
 * `true && (false || true)`
 * `(true || false) && (false || false)`
 * `(true || false) || (false || false)`
-* `(false || false || true) && (true && true && false)`
-* `(false || false) && (false && false) || (true && false) || (false && true)`

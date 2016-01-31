@@ -8,10 +8,8 @@ So what is Node exactly? The [website](https://nodejs.org/en/) has a pretty good
 
 Go to the website and download Node if you haven't already. After you've downloaded it, open your terminal/command prompt and type:
 
-```
-current/directory $node
-> console.log("Hello World");
-```
+![terminal](./terminal.png)
+
 If it prints `Hello World`, then congratulations. Time to learn JavaScript.
 
 ## JavaScript Data Types
@@ -49,23 +47,31 @@ Now it is time to experiment. Open your Terminal/Command Prompt and type the fol
 
 ```javascript
 $ node
-> myVar
+> myVar;
+```
 
-//since we have not declared myVar, you'll see an error message
+Since we have not declared myVar, you'll see an error message.
 
+```javascript
 > var myVar;
 undefined
 
-> myVar // We can use myVar without error because we declared it.
+> myVar; // We can use myVar without error because we declared it.
 undefined // Evaluates to undefined because we did not initialize myVar to any value.
 
 > myVar = 5;
 5
 
-> myVar + 2 // What will this evaluate to?
+> myVar + 2; // What will this evaluate to?
+```
 
-// We can also declare and initialize a variable on the same line.
+Notice that when I declare or initialize a variable, node prints out something
+underneath it. That is the return value. Everything is javascript has a return
+value, even declaration and initialization. `undefined` is the default return
+value.
 
+We can also declare and initialize a variable on the same line.
+```javascript
 > var myOtherVar = "Anthony";
 "Anthony"
 
@@ -104,22 +110,61 @@ undefined // Evaluates to undefined because we did not initialize myVar to any v
 * `String.prototype.indexOf`
 * `+`
 
-## Creating a Function
+*We will talk about this `prototype` later, but for now just now that a class's
+methods are defined on it*
 
-We are able to create our own custom functions too. Let's say we wanted to create a function called `addThree`. The specification of this function describes it as taking as an input any three numbers and returning as the output the sum of those numbers. For example:
+## Syntax
+
+### ;
+
+Every statement needs a semi-colon at the end. This is like a period for the
+computer. Although you may find that your programs will sometimes work without
+them **leaving out semi-colons is a very bad practice because it makes your code
+more error prone**.
+
+### ( )
+
+Parentheses are used when defining functions and calling functions. We will talk
+more about defining functions below. When calling a function, if you forget to add
+the parentheses, you'll see that it evaluates to `[Function]` - that is how node
+represents function object. To actually run the function, you must add parentheses.
+For an example, see below:
 
 ```
-> addThree(1, 1, 1)
+> "Happy".toUpperCase
+[Function]
+
+> "Happy".toUpperCase()
+"HAPPY"
+```
+
+### { }
+
+Curly brackets are used in several programming constructs - function definitions,
+loops, if-statements. They wrap around the block of code that belongs to that
+construct.
+
+Curly brackets also define `objects`, but more on that later :)
+
+## Creating a Function
+
+We are able to create our own custom functions too. Let's say we wanted to
+create a function called `addThree`. The specification of this function
+describes it as taking as an input any three numbers and returning as the output
+ the sum of those numbers. For example:
+
+```
+> addThree(1, 1, 1);
 3
-> addThree(0, 1, -15)
+> addThree(0, 1, -15);
 -14
-> addThree(5, 100, 30)
+> addThree(5, 100, 30);
 135
 ```
 
 The syntax for defining a function is as follows:
 
-```
+```javascript
 function nameOfFunction(param1, param2, param3, paramN){
   //function body...
 }
@@ -133,10 +178,27 @@ var nameOfFunction = function(param1, param2, param3, paramN){
 
 Let's see how we would define our `addThree` function.
 
-```
+```javascript
 function addThree(number1, number2, number3){
   return number1 + number2 + number3;
 }
 ```
 
-The `return` keyword is used to actually return a value from the function. If a function doesn't return anything explicitly, then it implicitly returns `undefined`.
+When you call a function, the order of your arguments are very important. They
+must correspond to the order of the parameters in the function definition.
+
+The `return` keyword is used to actually return a value from the function. If a
+function doesn't return anything explicitly, then it implicitly returns `undefined`.
+Another important thing to remember is that `return` hops out of a function. For example:
+
+```javascript
+function myFunc(){
+  return "Hello world!!!";
+  return "This line will never be hit".
+}
+
+myFunc() === "Hello world!!!"
+```
+
+You may be wondering, why would we ever put two `return` values in a single
+function. We'll find out tomorrow when we talk about conditionals.

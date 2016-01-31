@@ -11,6 +11,9 @@ complex problems. Which of the following statements are conditionals:
 *  `Do you want to go to the store?`
 *  `Why did the sun set?`
 
+A good way to know if something is a conditional or not is to ask yourself if you
+can respond to it with "yes" or "no".
+
 ### if statements
 Conditionals are primarily utilized within `if-then` statements. The basic
 structure is:
