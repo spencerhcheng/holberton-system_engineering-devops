@@ -17,35 +17,21 @@ true |false|false|                       |
 false|true |false|                       |
 false|false|false|                       |
 
-  x  | y   | z   | (x && y) &#124;&#124; z
------|-----|-----|------------------------
-true |true |true |
-true |true |false|
-true |false|true |
-true |false|false|
-false|true |true |
-false|true |false|
-false|false|true |
-false|false|false|
 
 ## logBetween
 
 Define a function `logBetween(lowNum, highNum)` that will print every number from
-`lowNum` to `highNum`, inclusive.
+`lowNum` to `highNum`, inclusive. Inclusive means that the the range that will
+be printed will include the `lowNum` and `highNum`.
 
-## magicNumbers
-3 and 13 are magic numbers. Define a function `magicNumbers(max)` that takes a
+## fizzBuzz
+3 and 5 are magic numbers. Define a function `fizzBuzz(max)` that takes a
 number and prints to the console every number from 0 to `max` that is divisible
 by either 3 or 13, but not both.
 
-## dynamicMagicNumbers
-Define a function `dynamicMagicNumbers(max, num1, num2)` that takes three numbers
-as arguments and prints to the console every number from 0 to `max` that is
-divisible by either `num1` or `num2`, but not both.
-
 ## What will these evaluate to?
 
-```
+```javascript
 function func1(num) {
   return num + 50;
 }
@@ -64,7 +50,7 @@ func3(5);
 
 -----------------
 
-```
+```javascript
 var foo = function(name) {
   return "Dance " + name + ", dance! "
 }
@@ -83,31 +69,6 @@ var bar = function() {
 }
 
 bar();
-```
-
------------------
-
-```
-var rickyBobbyJr = function(num) {
-  if(num < -5) {
-    return "Bobby";
-  } else if(num < 5) {
-    return "Ricky";
-  } else {
-    return "Junior";
-  }
-};
-
-var makeNum = function(num) {
-  return (num * 2) - (num * num);
-};
-
-var sayHi = function(n) {
-  var x = makeNum(n);
-  return "Hey now, " + rickyBobbyJr(x);
-}
-
-sayHi(3);
 ```
 
 ## isFactorOf
