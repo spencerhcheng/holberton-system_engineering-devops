@@ -15,21 +15,21 @@ var d = "d";
 
 But this becomes cumbersome and unmanageable quickly. The Array is a data
 structure that solves this problem. Arrays are defined by `[]` and store their
-elements in sequential order.
+elements in sequential order. We can put elements into the array, replace elements
+in the array, and remove elements from the array. If
 
 ```javascript
 var alphabet = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o",  "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
 ```
 
-If we want to get the nth-element in the array, we have to 'index' into the array:
+If we want to get the nth-element in the array, we have to 'index' into the
+array. **Arrays start at the 0 index, not 1**. This is the convention in
+programming.
 
-As you can see, **arrays start at the 0 index, not 1**. This is the convention among the vast majority of programming languages.
-
-```
-alphabet[0] === "a"
-alphabet[9] === "j"
-alphabet[alphabet.length - 1] === "z"
-
+```javascript
+alphabet[0] === "a";
+alphabet[9] === "j";
+alphabet[alphabet.length - 1] === "z";
 ```
 
 By packaging groups of related data in an array, we gain the added benefit of
@@ -145,10 +145,12 @@ function myMadeUpSequence(base, n){
 
 #### Abstraction
 
-Abstraction is the process of hiding details. The human mind is limited. The
-less it has to focus on, the more energy it can give to what it is focusing on.
-The act of hiding details allows our minds to focus on other aspects of the
-program that need attention. Decomposition is a technique that uses abstraction
-because it hides details. Go back and look at the two `myMadeUpSequence`
-functions. The decomposed one exposed less implementation details and is easier
-to reason about.
+Abstraction is the process of hiding details. The human brain is relatively bad
+at reasoning through complexity. As you will see, computer programs become pretty
+complex rather quickly and it is hard for the human brain to keep up. The job of
+a programmer is to manage the complexity by keeping the program modular and
+hiding details. The act of hiding details allows our minds to focus on other
+aspects of the program that need attention. Decomposition is a technique that
+uses abstraction because it hides details. Go back and look at the two
+`myMadeUpSequence` functions. The decomposed one exposed less implementation
+details and is easier to reason about.
