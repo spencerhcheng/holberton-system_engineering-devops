@@ -2,13 +2,16 @@
 
 ## What is an Object?
 
-An object a data structure that stores other data, like an array. Objects,
+An object a data structure that stores other data, like an array. Objects
+associate keys with values. The keys are always strings. The value can be any
+data type (numbers, strings, functions, arrays, objects, anything).Objects,
 however, differ from arrays in two important ways:
 
 * Instead of indexing with numbers, objects are indexed with keys (strings).
 
 * Order is not guaranteed. When you iterate through the elements in an object,
-they may not be in the same order they were entered in.
+they may not be in the same order they were entered in. Like arrays, the only
+way to access the value in an object is through
 
 Objets are defined by curly brackets `{}`. Open up the console and let's make
 some objects.
@@ -19,34 +22,56 @@ undefined
 
 > dog
 {}
+```
 
+We can create new key-value pairs using bracket notation `[]`:
+
+```
 > dog["name"] = "Rover";
 'Rover'
 
 > dog["type"] = "Husky";
 'Husky'
 
+> dog["name"]
+'Rover'
+
+> dog["type"]
+'Husky'
+```
+
+We can also use what's called dot notation `.` to set up our key-value pairs:
+
+```
 > dog.bark = "Bowowowo";
 'Bowowowowo'
 
+> dog.bark
+'Bowowowo'
 
 > dog
 { name: 'Rover', type: 'Husky', bark: 'Bowowowowo' }
 
 > dog.name
 "Rover"
+```
 
+You need quotation marks when using bracket notation:
+
+```
 > dog[name]
-Error messages...
+Error message...
 
 > dog["name"]
 "Rover"
 
 > name
 Error Messages...
+```
 
-/* We can also create the entire object in a single statement. */
+We can also create the entire object in a single statement.
 
+```
 > var dog2 = {
 ... name : "Silver Fang",
 ... type : "Wolf",
@@ -57,10 +82,21 @@ undefined
 > dog2
 { name: 'Silver Fang', type: 'Wolf', bark: 'Rawrrrr' }
 
+> dog2.name
+'Silver Fang'
+
+> dog2["type"]
+'Wolf'
 ```
 
-Objects associate keys with values. The keys are always strings. The value can
-be any data type (numbers, strings, functions, arrays, objects, anything).
+### method vs function
+
+A method is essentially a function that belongs to an object. It is referred to
+as a method of that object.
+
+`myObject.myFunc` - `myFunc` is a method of `myObject`
+
+`myFunc` - `myFunc` is a function
 
 ### this
 
@@ -111,3 +147,4 @@ correctness of our programs.
 * `Object.prototype.keys()`
 * `Object.prototype.values()`
 * `for x in object ...` (loop)
+* `typeof`
