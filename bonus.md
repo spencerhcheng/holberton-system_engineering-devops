@@ -66,3 +66,31 @@ you only stop at every 3rd dog (#3, #6, #9, #12, etc.). You continue this
 process until the 100th round (i.e. you only visit the 100th dog).
 
 Write a program that prints which dogs have bones at the end.
+
+## Debug the Program
+
+```javascript
+function getPropsAndMethods(object){
+  var propsAndMethods = { props : [], methods : [] };
+
+  for(var x in object){
+    if(typeof x === 'function'){
+      propsAndMethods.methods.push(x);
+    } else {
+      propsAndMethods.props.push(x);
+    }
+  }
+
+  return propsAndMethods;
+}
+
+var cat = {
+  name : "Kitty",
+  age : 7,
+  purr : function(){
+    return ("The " + this.age +" year old kitty purrs...");
+  }
+};
+
+getPropsAndMethods(cat) //should evaluate to => { props : ["name", "age"], methods : ["purr"] }
+```

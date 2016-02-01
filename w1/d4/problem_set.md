@@ -13,34 +13,32 @@ var cat = {
 cat.purr() === "Meowr...Meowr";
 ```
 
-```javascript
-function getPropsAndMethods(object){
-  var propsAndMethods = { props : [], methods : [] };
+### Predict The Output
 
-  for(var x in object){
-    if(typeof x === 'function'){
-      propsAndMethods.methods.push(x);
+```javascript
+var dog1 = { name: 'Rover', age: 2 };
+var dog2 = { name: 'Curie', age: 7 };
+var dog3 = { name: 'Maxie', age: 15 };
+
+var dogs = [dog1, dog2, dog3];
+
+function howOld(array) {
+  var result = [];
+
+  for(var i = 0; i < array.length; i += 1){
+    var element = array[i];
+
+    if(element.age < 7){
+      sentence = element.name + " is " + element.age + " years young.";
     } else {
-      propsAndMethods.props.push(x);
+      sentence = element.name + " is " + element.age + " years old.";
     }
+
+    result.push(sentence);
   }
 
-  return propsAndMethods;
+  return result.
 }
 
-var cat = {
-  name : "Kitty",
-  age : 7,
-  purr : function(){
-    return ("The " + this.age +" year old kitty purrs...");
-  }
-};
-
-getPropsAndMethods(cat) === { props : ["name", "age"], methods : ["purr"] }
+howOld(dogs);
 ```
-
-```
-
-```
-
-### Predict The Output
