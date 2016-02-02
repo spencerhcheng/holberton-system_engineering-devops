@@ -104,7 +104,7 @@ Evaluate each expression. Check your answer in the console.
 "...hey anthony..."
 
 > whisper("YEA! that was fun")
-"...yea that was fun..."
+"...yea! that was fun..."
 ```
 
 ### isSubstring
