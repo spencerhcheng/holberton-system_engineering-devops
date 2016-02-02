@@ -46,7 +46,8 @@ function pairZero(array) {
 There are a few issues with this solution though:
 
 * We end up adding every element to itself. If the array contains a 0, then we
-will add the same pair of indices into the array.
+will add the same pair of indices into the array. (i.e. If the array is
+  `[4, 1, 0]`, we will get back `[ [2, 2] ]`)
 
 * Our answer will contain a bunch on inverse pairs. (i.e If the array is
   `[1,2,-1]`, we will get back `[ [0,1], [1,0] ]` instead of `[ [0,1] ]`.
