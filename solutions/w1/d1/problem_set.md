@@ -6,13 +6,13 @@
 **Output:** A Boolean. `true` if the number is odd, otherwise `false`
 
 ```
-> idOdd(2)
+> isOdd(2)
 false
 
-> idOdd(5)
+> isOdd(5)
 true
 
-> idOdd(-17)
+> isOdd(-17)
 true
 ```
 
@@ -132,7 +132,7 @@ false
 
 ```
 > echo("Mom!")
-"MOM! ... Mom! .. mom!"
+"MOM! ... Mom! ... mom!"
 
 > echo("hey")
 "HEY ... hey ... hey"
@@ -143,7 +143,7 @@ false
 
 #Boolean
 
-### is_Even
+### isEven
 **Input:** A Number.
 
 **Output:** A Boolean. `true` if the number is even, otherwise `false`
@@ -151,20 +151,20 @@ false
 **Condition:** Must be written in terms of `isOdd`
 
 ```
-> idEven(2)
+> isEven(2)
 true
 
-> idEven(5)
+> isEven(5)
 false
 ```
 
 ### Truth Table
-|   A   |   B   | A && B  | A &#124;&#124; B |
-| --------------|---------|------------------|
-| True  | True  |         |                  |
-| True  | False |         |                  |
-| False | True  |         |                  |
-| False | False |         |                  | |
+|   A   |   B   | A && B  | A &#124;&#124; B
+| --------------|---------|------------------
+| True  | True  |         |                  
+| True  | False |         |                  
+| False | True  |         |                  
+| False | False |         |                  
 
 ### Truthy or Falsey
 Will these expressions evaluate to true or false. Check your work in the console.
@@ -173,5 +173,3 @@ Will these expressions evaluate to true or false. Check your work in the console
 * `true && (false || true)`
 * `(true || false) && (false || false)`
 * `(true || false) || (false || false)`
-* `(false || false || true) && (true && true && false)`
-* `(false || false) && (false && false) || (true && false) || (false && true)`

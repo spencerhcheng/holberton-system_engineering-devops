@@ -6,13 +6,13 @@
 **Output:** A Boolean. `true` if the number is odd, otherwise `false`
 
 ```
-> idOdd(2)
+> isOdd(2)
 false
 
-> idOdd(5)
+> isOdd(5)
 true
 
-> idOdd(-17)
+> isOdd(-17)
 true
 ```
 
@@ -103,7 +103,7 @@ Evaluate each expression. Check your answer in the console.
 > whisper("Hey Anthony")
 "...hey anthony..."
 
-> whisper("YEA that was fun")
+> whisper("YEA! that was fun")
 "...yea that was fun..."
 ```
 
@@ -132,7 +132,7 @@ false
 
 ```
 > echo("Mom!")
-"MOM! ... Mom! .. mom!"
+"MOM! ... Mom! ... mom!"
 
 > echo("hey")
 "HEY ... hey ... hey"

@@ -1,0 +1,19 @@
+## Arithmetic
+
+* [Math Workout Android](https://play.google.com/store/apps/details?id=com.akbur.mathsworkout&hl=en)
+
+* [Math Workout Apple](https://itunes.apple.com/us/app/math-workout/id497620537?mt=8)
+
+* [Khan Academy](https://www.khanacademy.org/math/algebra)
+
+## Typing
+
+* [Type Fu](http://type-fu.com/) - Great for beginners
+
+* [Type Racer](http://play.typeracer.com/) - Good for increasing raw wpm
+
+* [Proto Typist](http://www.proto-typist.xyz) - App Academy Student Project
+
+## Terminal
+
+* [Code Academy](https://www.codecademy.com/learn/learn-the-command-line)
