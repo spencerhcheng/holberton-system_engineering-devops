@@ -17,3 +17,7 @@
 ## Terminal
 
 * [Code Academy](https://www.codecademy.com/learn/learn-the-command-line)
+
+## Talks
+
+* [Good API Design](https://www.youtube.com/watch?v=aAb7hSCtvGw)
