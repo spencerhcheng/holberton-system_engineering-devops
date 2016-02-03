@@ -12,7 +12,7 @@ NaN
 
 ## Falsey vs Truthy
 
-Zeros, empty strings, `undefined`, `null`, and `NaN` are all considered 
+Zeros, empty strings, `undefined`, `null`, and `NaN` are all considered
 falsey values.
 
 Everything else is true;
@@ -192,12 +192,12 @@ function printNSkip5(n) {
   var i = 0;
 
   while(i < n) {
+    console.log(i);
+    i += 1;
+    
     if(i % 5 === 0) {
       continue;
     }
-
-    console.log(i);
-    i += 1;
   }
 }
 ```
