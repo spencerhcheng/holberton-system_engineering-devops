@@ -22,6 +22,19 @@ in the array, and remove elements from the array. If
 var alphabet = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o",  "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
 ```
 
+I can also structure this array to be more readable:
+
+```javascript
+var alphabet = [
+  "a", "b", "c", "d", "e",
+  "f", "g", "h", "i", "j",
+  "k", "l", "m", "n", "o",  
+  "p", "q", "r", "s", "t",
+  "u", "v", "w", "x", "y",
+  "z"
+];
+```
+
 If we want to get the nth-element in the array, we have to 'index' into the
 array. **Arrays start at the 0 index, not 1**. This is the convention in
 programming.
@@ -38,7 +51,10 @@ appreciate how useful the Array is as a tool for managing complexity... ah.
 
 #### Useful methods
 
-Arrays have a bunch of useful properties and methods, such as `Array.prototype.length` (which returns the number of elements in the array). Take a look at the [documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array), but these are the ones you should commit to memory:
+Arrays have a bunch of useful properties and methods, such as
+`Array.prototype.length` (which returns the number of elements in the array).
+Take a look at the [documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array),
+but these are the ones you should commit to memory:
 
 * `Array.prototype.indexOf(element)`
 * `Array.prototype.unshift(element)`
@@ -52,59 +68,73 @@ Arrays have a bunch of useful properties and methods, such as `Array.prototype.l
 
 ### Controlling Complexity
 
-Uncontrolled complexity is the arch-nemesis of a programmer. If we do not understand our programs, we will inevitably introduce bugs. Today I want to introduce two ideas that will help you in your quest to master the complexity of your programs: Decomposition and Abstraction.
+Uncontrolled complexity is the arch-nemesis of a programmer. If we do not
+understand our programs, we will inevitably introduce bugs. Today I want to
+introduce two ideas that will help you in your quest to master the complexity of
+your programs: Decomposition and Abstraction.
 
 #### Decomposition
 
-Decomposition is the process of breaking down a larger problem into it's smaller sub problems. Let's look at an example:
+Decomposition is the process of breaking down a larger problem into it's smaller
+sub problems. Let's look at an example:
 
-I want to write a function called `myMadeUpSequence(base, n)`. Return an array where every element is the product of the element before it and the largest prime number smaller than that element. The sequence starts with `base` and its length is `n`. For example:
+###### laligatSequence(base, n)
+
+A number's laligat sum is the the sum of all the prime numbers less than or equal
+to that number.
+
+For example, the laligat sum of 10 is: 2 + 3 + 5 + 7 = 17
+
+We can use the laligat sum to define a special sequence, called the laligat
+sequence. The laligat sequence of a number begins with the number itself. The
+second number in the sequence is the first number's laligat sum, the third
+number is the second number's laligat sum, and so on.
+
+For example, the first 4 numbers in the laligat sequence of 10 are: 10, 17, 58, 381.
 
 ```
-myMadeUpSequence(10, 4) == [10, 70, 4690, 21944510]
-myMadeUpSequence(5, 5) == [5, 15, 195, 37635, 1416317955]
+> laligatSequence(10, 4)
+[ 10, 17, 58, 381 ]
+
+>laligatSequence(5, 2)
+[ 5, 10 ]
 ```
 
 We could try to write the whole thing in a single function:
 
 ```
-function myMadeUpSequence(base, n){
+function laligatSequence(base, n){
   var sequence = [base];
 
   while(sequence.length < n){
       var prevElement = sequence[sequence.length - 1];
-      var largestPrime = 2;
 
-      while(true){
-          var oldLargest = largestPrime;
-          var prime;
+      var laligatSum = 0;
 
-          while(true){
-            prime = true;
-            largestPrime += 1;
-            for(var i = 2; i < largestPrime; i += 1){
-              if(largestPrime % i === 0){
-                prime = false;
-              }
-            }
+      for(var i = 2; i <= prevElement; i += 1){
+        var prime = true;
 
-            if(prime){ break; }
+        for(var j = 2; j < i; j += 1){
+          if(i % j === 0){
+            prime = false;
           }
+        }
 
-          if(largestPrime >= prevElement){
-            largestPrime = oldLargest;
-            break;
-          }
+        if(prime){
+          laligatSum += i;
+        }
       }
 
-      sequence.push(prevElement * largestPrime);
+      sequence.push(laligatSum);
   }
 
   return sequence;
 }
 ```
 
-But, as you can see, this function is very hard to read and reason about. What if this code contained a bug? How noticeable would it be? If there was an issue with how prime numbers are found, would you know where to look?
+But, as you can see, this function is very hard to read and reason about. What
+if this code contained a bug? How noticeable would it be? If there was an issue
+with how prime numbers are found, would you know where to look?
 
 Let's decompose this method into a bunch of smaller methods:
 
@@ -118,25 +148,25 @@ function isPrime(n){
   return true;
 }
 
-function largestPrimeUnderN(n){
-  largestPrime = 2;
+function sumOfPrimesUpToN(n){
+  sum = 0;
 
-  for(var i = 2; i < n; i += 1){
+  for(var i = 2; i <= n; i += 1){
     if(isPrime(i)){
-      largestPrime = i;
+      sum += i;
     }
   }
 
-  return largestPrime;
+  return sum;
 }
 
-function myMadeUpSequence(base, n){
+function laligatSequence(base, n){
   var seq = [base];
 
   while(seq.length < n){
     var prevElement = seq[seq.length - 1];
-    var largestPrime = largestPrimeUnderN(prevElement);
-    seq.push(prevElement * largestPrime);
+    var nextElement = sumOfPrimesUpToN(prevElement);
+    seq.push(nextElement);
   }
 
   return seq;
@@ -152,5 +182,5 @@ a programmer is to manage the complexity by keeping the program modular and
 hiding details. The act of hiding details allows our minds to focus on other
 aspects of the program that need attention. Decomposition is a technique that
 uses abstraction because it hides details. Go back and look at the two
-`myMadeUpSequence` functions. The decomposed one exposed less implementation
+`laligatSequence` functions. The decomposed one exposed less implementation
 details and is easier to reason about.
