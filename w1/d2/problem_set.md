@@ -24,10 +24,28 @@ Define a function `logBetween(lowNum, highNum)` that will print every number fro
 `lowNum` to `highNum`, inclusive. Inclusive means that the the range that will
 be printed will include the `lowNum` and `highNum`.
 
+```javascript
+> logBetween(-1, 2)
+-1
+0
+1
+2
+
+>logBetween(14, 6)
+// nothing gets printed
+
+> logBetween(4,6)
+4
+5
+6
+```
+
 ## fizzBuzz
 3 and 5 are magic numbers. Define a function `fizzBuzz(max)` that takes a
 number and prints to the console every number from 0 to `max` that is divisible
 by either 3 or 13, but not both.
+
+TEST: fizzBuzz(20) should print numbers 3, 5, 6, 9, 10, 12, and 18
 
 ## What will these evaluate to?
 
@@ -76,10 +94,35 @@ bar();
 Define a function `isFactorOf(number, factor)` that returns `true` if `factor`
 is a factor of `number`. Otherwise, false.
 
+```
+> isFactorOf(6,2)
+true
+
+> isFactorOf(-6, 2)
+true
+
+> isFactorOf(5,0)
+false
+```
+
 ## isPrime
 
 Define a function `isPrime(number)` that returns `true` if `number` is prime.
-Otherwise, false.
+Otherwise, false. Assume `number` is a positive integer.
+
+```
+> isPrime(2)
+true
+
+> isPrime(10)
+false
+
+> isPrime(15485863)
+true
+
+> isPrime(3548563)
+false
+```
 
 ## Debug The Program
 

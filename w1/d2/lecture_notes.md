@@ -1,5 +1,22 @@
 # Lecture Notes 2
 
+## NaN
+
+`NaN` stands for "not a number". This is the result of any illegal numerical
+operations. Type the below in your console:
+
+```
+> 20 * "happy"
+NaN
+```
+
+## Falsey vs Truthy
+
+Zeros, empty strings, `undefined`, `null`, and `NaN` are all considered 
+falsey values.
+
+Everything else is true;
+
 ## Conditionals
 
 A conditional is a statement that evaluates to either `true` or `false`. We can
@@ -15,6 +32,7 @@ A good way to know if something is a conditional or not is to ask yourself if yo
 can respond to it with "yes" or "no".
 
 ### if statements
+
 Conditionals are primarily utilized within `if-then` statements. The basic
 structure is:
 
