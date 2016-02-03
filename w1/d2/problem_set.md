@@ -43,7 +43,7 @@ be printed will include the `lowNum` and `highNum`.
 ## fizzBuzz
 3 and 5 are magic numbers. Define a function `fizzBuzz(max)` that takes a
 number and prints to the console every number from 0 to `max` that is divisible
-by either 3 or 13, but not both.
+by either 3 or 5, but not both.
 
 TEST: fizzBuzz(20) should print numbers 3, 5, 6, 9, 10, 12, and 18
 
