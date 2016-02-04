@@ -63,7 +63,6 @@ but these are the ones you should commit to memory:
 * `Array.prototype.pop()`
 * `Array.prototype.concat(other_array)`
 * `Array.prototype.slice(index, length)`
-* `Array.prototype.splice(index, length)`
 * `Array.prototype.length` (property)
 
 ### Controlling Complexity
@@ -102,7 +101,7 @@ For example, the first 4 numbers in the laligat sequence of 10 are: 10, 17, 58, 
 
 We could try to write the whole thing in a single function:
 
-```
+```javascript
 function laligatSequence(base, n){
   var sequence = [base];
 
@@ -111,17 +110,17 @@ function laligatSequence(base, n){
 
       var laligatSum = 0;
 
-      for(var i = 2; i <= prevElement; i += 1){
+      for(var maybePrime = 2; maybePrime <= prevElement; maybePrime += 1){
         var prime = true;
 
-        for(var j = 2; j < i; j += 1){
-          if(i % j === 0){
+        for(var i = 2; i < maybePrime; i += 1){
+          if(maybePrime % i === 0){
             prime = false;
           }
         }
 
         if(prime){
-          laligatSum += i;
+          laligatSum += maybePrime;
         }
       }
 
@@ -138,7 +137,7 @@ with how prime numbers are found, would you know where to look?
 
 Let's decompose this method into a bunch of smaller methods:
 
-```
+```javascript
 function isPrime(n){
   for(var i = 2; i  < n; i += 1){
     if(n % i === 0){
