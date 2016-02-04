@@ -192,12 +192,13 @@ function printNSkip5(n) {
   var i = 0;
 
   while(i < n) {
-    console.log(i);
-    i += 1;
-    
     if(i % 5 === 0) {
+      i += 1;
       continue;
     }
+
+    console.log(i);
+    i += 1;
   }
 }
 ```
@@ -210,7 +211,7 @@ function printNStop5(n) {
   var i = 0;
 
   while(i < n) {
-    if(i % 5 === 0) {
+    if(i % 5 === 0 && i !== 0) {
       break;
     }
 
