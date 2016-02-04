@@ -39,6 +39,10 @@ function isFactorOf(number, factor) {
 
 
 function isPrime(number){
+  if(number < 2) {
+    return false;
+  }
+
   var prime = true;
 
   for(var i = 2; i < number; i += 1) {
@@ -51,6 +55,10 @@ function isPrime(number){
 }
 
 function isPrimeOptimized(number){
+  if(number < 2) {
+    return false;
+  }
+  
   for(var i = 2; i < number; i += 1) {
     if(number % i === 0) {
       return false;

@@ -16,7 +16,7 @@ true
 false
 
 > isPrime(303212)
-true
+false
 ```
 
 ## firstNPrimes

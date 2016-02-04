@@ -29,7 +29,7 @@ var cookieMonster = {
     return score;
   },
 
-  ifAlrightMeal : function(food){
+  isAlrightMeal : function(food){
     var score = this.eat(food);
 
     if(score >= -1 && score <= 1){
