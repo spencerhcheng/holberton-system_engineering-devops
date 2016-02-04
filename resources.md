@@ -21,3 +21,5 @@
 ## Talks
 
 * [Good API Design](https://www.youtube.com/watch?v=aAb7hSCtvGw)
+
+* [SICP](https://www.youtube.com/watch?v=2Op3QLzMgSY&list=PLE18841CABEA24090)
