@@ -144,7 +144,5 @@ correctness of our programs.
 
 ## Useful Methods
 
-* `Object.prototype.keys()`
-* `Object.prototype.values()`
 * `for x in object ...` (loop)
 * `typeof`
