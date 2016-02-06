@@ -14,7 +14,9 @@ var cookieMonster = {
   eat : function(food){
     var score = 0;
 
-    food.forEach(function(food_item){
+    for(var i = 0; i < food.length; i += 1){
+      var food_item = food[i];
+
       if(this.favorite_foods.indexOf(food_item.toLowerCase()) !== -1){
         score += 2;
       } else if(this.good_foods.indexOf(food_item.toLowerCase()) !== -1){
@@ -24,7 +26,7 @@ var cookieMonster = {
       } else if(this.hated_foods.indexOf(food_item.toLowerCase()) !== -1){
         score -= 2;
       }
-    }.bind(this));
+    }
 
     return score;
   },
