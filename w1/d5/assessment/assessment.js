@@ -35,6 +35,11 @@ function elementCount(array){
 }
 
 /******************************************************************************
+** Write a function #reverseSentence(sentence) that return a string where all the
+** words in the input sentence are reversed
+** Example
+** reverseSentence("Go to the store") => "store the to Go"
+** reverseSentence("Jump, jump for joy") => "joy for jump, Jump"
 */
 function reverseSentence(sentence){
   // your code here...
