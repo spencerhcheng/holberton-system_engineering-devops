@@ -10,24 +10,32 @@ function range(start, end){
 function unique(array){
   // your code here...
   var uniqueA = [];
-  array.forEach(function(ele){
+
+  for(var i = 0; i < array.length; i += 1){
+    var ele = array[i];
+
     if(uniqueA.indexOf(ele) === -1){
       uniqueA.push(ele);
     }
-  });
+  }
+
   return uniqueA;
 }
 
 function elementCount(array){
   // your code here...
   var count = {};
-  array.forEach(function(ele){
+
+  for(var i = 0; i < array.length; i += 1){
+    var ele = array[i];
+
     if(count[ele] === undefined){
       count[ele] = 1;
     } else {
       count[ele] += 1;
     }
-  });
+  }
+
   return count;
 }
 
