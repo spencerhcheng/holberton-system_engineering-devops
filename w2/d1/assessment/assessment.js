@@ -1,43 +1,20 @@
 /******************************************************************************
-** Write a function #range(start, end) that returns an array that contains all
-** numbers between 'start' and 'end' in sequential order
+** Write a function #royalWe(sentence) that returns an string where every 'I'
+** is replaced with 'we', every 'mine' is replaced with 'ours', every 'my' is replaced with 'our',
+** and every 'me' is replaced with "us"
 ** Example
-** range(1,4) => [1,2,3,4]
-** range(4,2) => []
+** royalWe("I want to go to the store.") => "we want to go to the store."
+** royalWe("This is my house and you will respect me!") => "This is our house and you will respect us!"
+** royalWe("This is mine...") => "This is ours..."
+** royalWe("Jump for my love") => "Jump for our love"
 */
 
-function range(start, end){
+function royalWe(sentence){
   // your code here...
-  var rangeArray = [];
-
-  for(var i = start; i <= end; i += 1){
-    rangeArray.push(i)
-  }
-
-  return rangeArray;
-}
-
-/******************************************************************************
-** Write a function #unique(array) that returns an array where all the duplicates
-** of the input array have been removed; in other words, every element remaining is
-** unique.
-** Example
-** unique([1, 1, 2, 3, 3]) => [1, 2, 3]
-*/
-
-function unique(array){
-  // your code here...
-  var uniqueArray = [];
-
-  for(var i = 0; i < array.length; i += 1){
-    var ele = array[i];
-
-    if(uniqueArray.indexOf(ele) === -1){
-      uniqueArray.push(ele);
-    }
-  }
-
-  return uniqueArray;
+  var weSentence = sentence.split("I").join("we");
+  var oursSentence = weSentence.split("mine").join("ours");
+  var ourSentence = oursSentence.split("my").join("our");
+  return ourSentence.split("me").join("us");
 }
 
 /******************************************************************************
@@ -66,6 +43,25 @@ function elementCount(array){
 }
 
 /******************************************************************************
+** Write a function #range(start, end) that returns an array that contains all
+** numbers between 'start' and 'end' (exclusive) in reverse-sequential order
+** Example
+** range(2,7) => [6, 5, 4, 3]
+** range(4,2) => []
+*/
+
+function range(start, end){
+  // your code here...
+  var rangeArray = [];
+
+  for(var i = start+1; i < end; i += 1){
+    rangeArray.unshift(i);
+  }
+
+  return rangeArray;
+}
+
+/******************************************************************************
 ** Write a function #reverseSentence(sentence) that return a string where all the
 ** words in the input sentence are reversed
 ** Example
@@ -87,29 +83,31 @@ function reverseSentence(sentence){
 }
 
 /******************************************************************************
-** Write a function that #fizzBuzz(max) that returns an array of numbers under
+** Write a function that #magicNumbers(max) that returns an array of numbers up to
 ** the max. Each number should be either divisible by 3 or 5, BUT NOT BOTH.
 ** Example
-** fizzBuzz(20) => [3, 5, 6, 9, 10, 12, 18, 20]
+** magicNumbers(20) => [4, 6, 8, 16, 18, 20]
 */
-function fizzBuzz(max){
+function magicNumbers(max){
   // your code here...
-  var fbArray = [];
+  var magicArray = [];
 
   for(var i = 1; i <= max; i += 1){
-    if((i % 3 === 0 || i % 5 === 0) && (i % 15 !== 0)){
-      fbArray.push(i);
+    if(i % 4 === 0 && i % 6 !== 0){
+      magicArray.push(i);
+    } else if (i % 6 === 0 && i % 4 !== 0) {
+      magicArray.push(i);
     }
   }
 
-  return fbArray;
+  return magicArray;
 }
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*************************/
 module.exports = {
   range : range,
-  unique : unique,
+  royalWe : royalWe,
   elementCount : elementCount,
   reverseSentence : reverseSentence,
-  fizzBuzz : fizzBuzz
+  magicNumbers : magicNumbers
 };
