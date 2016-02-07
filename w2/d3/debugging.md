@@ -1,6 +1,62 @@
 ### Debug These Programs
 
 ```javascript
+function unique(array){
+  var uniqueArray = [];
+
+  for(var i = 0, i <= array.length, i += 1){
+    var ele = array[i];
+
+    if(uniqueArray.indexOf(ele) === -1){
+      uniqueArray.push(ele);
+    }
+  }
+}
+
+unique([1,23,2,4,5,1,23]) === [1, 23, 2, 4, 5];
+```
+
+```javascript
+function isHappy(person){
+  if(person.happiness > 5){
+    return true;
+  }
+  return false;
+}
+
+function isHappyGroup(group){
+  var amount = 0;
+
+  for(var i = 0; i < group.length; i += 1){
+    var person = group[i];
+
+    if(isHappy[person]){
+      amount += 1;
+    }
+  }
+
+  if(amount > 5){
+    return true;
+  }
+
+  return false;
+}
+
+var people = [
+  { happiness : 5},
+  { happiness : 13},
+  { happiness : 3},
+  { happiness : 20},
+  { happiness : 3},
+  { happiness : 7},
+  { happiness : 17},
+  { happiness : 1}
+];
+
+isHappyGroup(people) === false;
+```
+
+```javascript
 var magicify = function(number) {
   console.log(number - 34);
 }
