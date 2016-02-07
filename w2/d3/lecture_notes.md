@@ -1,5 +1,7 @@
 #Lecture Notes 8
 
+## like Array, like String
+
 ## Why is style important?
 
 Your code will be read by the computer, the programmer, and often times other people

@@ -1,5 +1,11 @@
 # Lecture Notes 9
 
-## Scope
+## The Global Scope
+
+## Importance of `var`
+
+## Function Scope
+
+## The scope of this
 
 ## Common JS Gotchas
