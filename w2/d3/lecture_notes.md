@@ -2,6 +2,17 @@
 
 ## like Array, like String
 
+Arrays and String have more in common than you may think. Several earlier (and
+lower level) programming languages implemented Strings as Arrays, where each
+character is an element in the Array. While this doesn't directly apply to
+JavaScript in the same way (i.e. this is no Character data type), it does provide
+an explanation as to why Arrays and Strings share many of the same methods:
+
+* indexOf
+* concat
+* slice
+* [] indexing
+
 ## Why is style important?
 
 Your code will be read by the computer, the programmer, and often times other people
@@ -42,3 +53,14 @@ common, and those I expect you to follow during the remainder of the course:
   - Accidental `undefined` or `Nan`
   - Check the scope of your variables
 * If you can't figure it out, refactor your code. Make it more readable. Decompose your methods.
+* Logic Errors
+  - use console.log
+  - Ask questions about state
+  - Test your assumptions
+
+## Common JS Errors
+
+* RangeError: Maximum call stack size exceeded
+* ReferenceError: `x` is not defined
+* TypeError: Cannot read property `x` of `object`
+* SyntaxError: Unexpected token `x`

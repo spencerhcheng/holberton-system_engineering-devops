@@ -1,3 +1,0 @@
-### merger
-
-## hailstone_sequence

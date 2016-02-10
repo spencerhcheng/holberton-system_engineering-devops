@@ -43,18 +43,18 @@ function elementCount(array){
 }
 
 /******************************************************************************
-** Write a function #range(start, end) that returns an array that contains all
+** Write a function #reverseRange(start, end) that returns an array that contains all
 ** numbers between 'start' and 'end' (exclusive) in reverse-sequential order
 ** Example
 ** range(2,7) => [6, 5, 4, 3]
 ** range(4,2) => []
 */
 
-function range(start, end){
+function reverseRange(start, end){
   // your code here...
   var rangeArray = [];
 
-  for(var i = start+1; i < end; i += 1){
+  for(var i = start + 1; i < end; i += 1){
     rangeArray.unshift(i);
   }
 
@@ -84,7 +84,7 @@ function reverseSentence(sentence){
 
 /******************************************************************************
 ** Write a function that #magicNumbers(max) that returns an array of numbers up to
-** the max. Each number should be either divisible by 3 or 5, BUT NOT BOTH.
+** the max. Each number should be either divisible by 4 or 6, BUT NOT BOTH.
 ** Example
 ** magicNumbers(20) => [4, 6, 8, 16, 18, 20]
 */
@@ -105,7 +105,7 @@ function magicNumbers(max){
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*************************/
 module.exports = {
-  range : range,
+  reverseRange : reverseRange,
   royalWe : royalWe,
   elementCount : elementCount,
   reverseSentence : reverseSentence,
