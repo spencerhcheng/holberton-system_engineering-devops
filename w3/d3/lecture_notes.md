@@ -1,3 +1,7 @@
 # Lecture Notes 13
 
-## Callback Review
+## More on Callbacks and `this`
+
+## Synchronous vs Asynchronous
+
+## Node I/O - Readline

@@ -1,6 +1,6 @@
 var assert = require('assert');
 
-var range = require('../assessment.js').range,
+var reverseRange = require('../assessment.js').reverseRange,
     royalWe = require('../assessment.js').royalWe,
     elementCount = require('../assessment.js').elementCount,
     reverseSentence = require('../assessment.js').reverseSentence,
@@ -54,16 +54,16 @@ describe('#elementCount()', function () {
 });
 
 
-describe('#range()', function () {
+describe('#reverseRange()', function () {
   it('should return array of numbers between "start" and "end" in reverse order', function () {
-    var result = range(1, 5);
+    var result = reverseRange(1, 5);
     var expected = [4, 3, 2];
 
     assert.deepEqual(result, expected);
   });
 
   it('should return empty array if "start" > "end"', function () {
-    assert.equal(range(5, 1).length, 0);
+    assert.equal(reverseRange(5, 1).length, 0);
   });
 });
 

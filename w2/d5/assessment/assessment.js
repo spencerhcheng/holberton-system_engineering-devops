@@ -11,10 +11,6 @@
 
 function royalWe(sentence){
   // your code here...
-  var weSentence = sentence.split("I").join("we");
-  var oursSentence = weSentence.split("mine").join("ours");
-  var ourSentence = oursSentence.split("my").join("our");
-  return ourSentence.split("me").join("us");
 }
 
 /******************************************************************************
@@ -27,19 +23,6 @@ function royalWe(sentence){
 
 function elementCount(array){
   // your code here...
-  var count = {};
-
-  for(var i = 0; i < array.length; i += 1){
-    var ele = array[i];
-
-    if(count[ele] === undefined){
-      count[ele] = 1;
-    } else {
-      count[ele] += 1;
-    }
-  }
-
-  return count;
 }
 
 /******************************************************************************
@@ -52,13 +35,6 @@ function elementCount(array){
 
 function range(start, end){
   // your code here...
-  var rangeArray = [];
-
-  for(var i = start+1; i < end; i += 1){
-    rangeArray.unshift(i);
-  }
-
-  return rangeArray;
 }
 
 /******************************************************************************
@@ -70,16 +46,6 @@ function range(start, end){
 */
 function reverseSentence(sentence){
   // your code here...
-  var reversed = [];
-  var split = sentence.split(" ");
-
-  for(var i = 0; i < split.length; i+= 1){
-    var word = split[i];
-
-    reversed.unshift(word);
-  }
-
-  return reversed.join(" ");
 }
 
 /******************************************************************************
@@ -90,17 +56,6 @@ function reverseSentence(sentence){
 */
 function dynamicFizzBuzz(max, num1, num2){
   // your code here...
-  var magicArray = [];
-
-  for(var i = 1; i <= max; i += 1){
-    if(i % 4 === 0 && i % 6 !== 0){
-      magicArray.push(i);
-    } else if (i % 6 === 0 && i % 4 !== 0) {
-      magicArray.push(i);
-    }
-  }
-
-  return magicArray;
 }
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*************************/

@@ -1,9 +1,7 @@
 # Lecture Notes 12
 
-## Synchronous vs Asynchronous
+## Math module
+
+## setTimeout and setInterval
 
 ## What is a Callback?
-
-## Timers and Events
-
-## Node I/O - Readline
