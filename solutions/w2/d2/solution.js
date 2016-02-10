@@ -2,7 +2,7 @@ function divisibleByThreePairSum(array){
   var pairs = [];
 
   for(var i = 0; i < array.length; i += 1){
-    for(var j = i; j < array.length; j += 1){
+    for(var j = i + 1; j < array.length; j += 1){
       var sum = array[i] + array[j];
 
       if(sum % 3 === 0){
@@ -17,9 +17,7 @@ function divisibleByThreePairSum(array){
 /******************************************************************************/
 
 
-function isValidEmail(email){
-  var emailParts = email.split("@");
-
+function isAlpha(char){
   var alphabet = [
     "a","b","c","d","e",
     "f","g","h","i","j",
@@ -28,6 +26,22 @@ function isValidEmail(email){
     "u","v","w","x","y",
     "z"
   ];
+
+  return (alphabet.indexOf(char) !== -1);
+}
+
+function isNumeric(char){
+  var numbers = [ "1","2","3","4","5","6","7","8","9","0" ];
+
+  return (numbers.indexOf(char) !== -1);
+}
+
+function isAlphanumeric(char){
+  return (isAlpha(char) || isNumeric(char);
+}
+
+function isValidEmail(email){
+  var emailParts = email.split("@");
 
   if(emailParts.length !== 2){
     return false;
@@ -51,7 +65,7 @@ function isValidEmail(email){
   for(var i = 0; i < secondPart.length; i += 1){
     var char = secondPart[i];
 
-    if(alphabet.indexOf(char) === -1 && char !== "."){
+    if(!isAlpha(char) && char !== "."){
       return false;
     }
   }
@@ -59,15 +73,7 @@ function isValidEmail(email){
   return true;
 }
 
-function isAlphanumeric(char, alphabet){
-  var numbers = [ "1","2","3","4","5","6","7","8","9","0" ];
 
-  if(alphabet.indexOf(char) === -1 && numbers.indexOf(char) === -1){
-    return false;
-  }
-
-  return true;
-}
 
 /******************************************************************************/
 
