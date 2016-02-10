@@ -63,7 +63,7 @@ false
 Write a function `peakFinder(array)` that takes in an array of numbers. It should
 return an array containing the indices of all the peaks. A peak is an element
 that is greater than both of its neighbors. If it is the first or last element,
-if it s peak if it is greater than its one neighbor. Assume the array has a length
+it is a peak if it is greater than its one neighbor. Assume the array has a length
 of at least 2.
 
 ```
