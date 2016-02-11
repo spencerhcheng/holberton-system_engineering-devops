@@ -24,7 +24,7 @@ When we are talking about larger scale programs, you will often have to write co
 can be read by other people. The readability of your code will directly effect your
 ability to get into a bootcamp and a job.
 
-The style conventions of a language are called it's idioms. You always want to follow
+The style conventions of a language are called its idioms. You always want to follow
 the idioms of a language you're working in because (1) they are often motivated by the
 making the resulting code less error prone and (2) they are industry standards and will
 make your code more readable for other developers (and yourself).
