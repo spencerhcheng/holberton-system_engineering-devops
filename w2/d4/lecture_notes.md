@@ -2,6 +2,16 @@
 
 ## What is Scope?
 
+A scope is a section in your program where a name binding is considered valid. A
+name binding is when a variable (a name) evaluates to a certain value (the name
+and the value are bound together). If I declare `var myName = 20;`, this binding
+will only be valid in the scope where I declared it.
+
+New scopes can be created inside of other scopes. An inner scope has access to
+bindings that were declared in the outer scope, but the outer scope *does not*
+have access to the bindings declared in its inner scopes. If this sounds confusing,
+read the next three sections, then come back to this section.
+
 ## The Global Scope
 
 In both of the main JavaScript environments (browser and node), everything exists
@@ -87,11 +97,94 @@ function func2(){
 }
 ```
 
-It also means that is a variable name in a function is the same name as a
+It also means that if a variable name in a function is the same name as a
 variable in an outer scope, the variable in the outer scope won't be overwritten.
 
+```javascript
+var myVar = 20;
 
+function foo(){
+  var myVar = 2;
+  return myVar + 5;
+}
+
+console.log(foo());
+console.log(myVar);
+```
+
+However, if we neglect to use `var`, we will overwrite the variable in the outer
+scope.
+
+```javascript
+var myVar = 20;
+
+function foo(){
+  myVar = 2;
+  return myVar + 5;
+}
+
+console.log(foo());
+console.log(myVar);
+```
+
+## Polluting The Global Namespace
+
+If we don't have any global variables (which we should avoid as much as possible),
+you may be asking yourself if using `var` in functions are still necessary, it still
+is. JavaScript has a single global scope, which means all of the files of your
+projects and any libraries you use will be sharing the same scope. Every time a
+variable is declared on the global scope, the chance of a name collision increases.
+
+We often don't know all of the code that goes into a library, so our job is to
+limit the number of globally declared variables as much as possible.
+
+* If we don't use `var` in our functions, we are *polluting* the global namespace.
+* Every time we declare a function globally, we are *polluting* the global namespace.
 
 ## The scope of this
 
-## Common JS Gotchas
+Functions and methods are objects, which means they of can be passed around without
+being called. This feature has implications for how we think about `this`. What
+will the following program do?
+
+```javascript
+var myObj = {
+  name : "Markov",
+  sayHi : function(){
+    console.log(this.name + " says Hi.");
+  }
+};
+
+var myFunc = myObj.sayHi //not calling it
+
+myFunc();
+```
+
+If you run this code, you'll see that it prints `undefined says Hi.`. Why is
+that? Let's remember what `this` evaluates to: the object that is calling the
+function. When we assign the function object to a variable, we detach it from the
+object; therefore, when we call the function and it evaluates `this`, it no longer
+references that function, so what does it reference...
+
+* A function/method (`myFunc`) that is called like `someObj.myFunc()`, the `this`
+will reference `someObj`.
+
+* A function/method (`myFunc`) that is called like `myFunc()`, the `this` will
+reference the global object.
+
+Let's attach a `name` to the global object and try to run the earlier code again
+
+```javascript
+var myObj = {
+  name : "Markov",
+  sayHi : function(){
+    console.log(this.name + " says Hi.");
+  }
+};
+
+var myFunc = myObj.sayHi //not calling it
+
+var name = "Bill";
+
+myFunc();
+```
