@@ -15,7 +15,7 @@ read the next three sections, then come back to this section.
 ## The Global Scope
 
 In both of the main JavaScript environments (browser and node), everything exists
-in whats called 'the global object'. To understand this, let's think about a plain
+in what's called 'the global object'. To understand this, let's think about a plain
 old object:
 
 ```
@@ -32,9 +32,9 @@ scope.myFunc = function(){
 };
 ```
 
-Now is I write `scope.myFunc = 1;`, I have clearly overwritten the function I
+Now if I write `scope.myFunc = 1;`, I have clearly overwritten the function I
 created before. The global scope works similarly. *Every variable that is
-declared outside of a function/method becomes a method on the global object.*
+declared outside of a function/method becomes a property on the global object.*
 Let's see an example of this. Open up your node console and type `global`. This
 keyword evaluates to the global object. (In the browser environment, the global
 object is called `window`). Let's see how things become attached to the global
@@ -130,22 +130,26 @@ console.log(myVar);
 ## Polluting The Global Namespace
 
 If we don't have any global variables (which we should avoid as much as possible),
-you may be asking yourself if using `var` in functions are still necessary, it still
+you may be asking yourself if using `var` in functions are still necessary: it still
 is. JavaScript has a single global scope, which means all of the files of your
 projects and any libraries you use will be sharing the same scope. Every time a
 variable is declared on the global scope, the chance of a name collision increases.
 
 We often don't know all of the code that goes into a library, so our job is to
-limit the number of globally declared variables as much as possible.
+limit the number of globally declared in our code variables as much as possible,
+to avoid accidental collisions.
 
 * If we don't use `var` in our functions, we are *polluting* the global namespace.
 * Every time we declare a function globally, we are *polluting* the global namespace.
 
+We'll talk about some techniques to mitigate this later in the course, but for
+now it is enough to know about this risk.
+
 ## The scope of this
 
 Functions and methods are objects, which means they of can be passed around without
-being called. This feature has implications for how we think about `this`. What
-will the following program do?
+being called. This feature of JavaScript has implications for how we think about
+`this`. What will the following program do?
 
 ```javascript
 var myObj = {
@@ -162,14 +166,14 @@ myFunc();
 
 If you run this code, you'll see that it prints `undefined says Hi.`. Why is
 that? Let's remember what `this` evaluates to: the object that is calling the
-function. When we assign the function object to a variable, we detach it from the
-object; therefore, when we call the function and it evaluates `this`, it no longer
-references that function, so what does it reference...
+function. When we assign the method to a variable, we detach it from the
+object; therefore, when we call it and it evaluates `this`, it no longer
+references its original object, so what does it reference...
 
 * A function/method (`myFunc`) that is called like `someObj.myFunc()`, the `this`
 will reference `someObj`.
 
-* A function/method (`myFunc`) that is called like `myFunc()`, the `this` will
+* A function (`myFunc`) that is called like `myFunc()`, the `this` will
 reference the global object.
 
 Let's attach a `name` to the global object and try to run the earlier code again
