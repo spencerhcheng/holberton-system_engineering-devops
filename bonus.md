@@ -69,6 +69,51 @@ process until the 100th round (i.e. you only visit the 100th dog).
 
 Write a program that prints which dogs have bones at the end.
 
+# Week 2
+
+### collisionDetected
+
+A `block` is object that looks like this:
+
+```
+{
+  x : 0,
+  y : 0,
+  width : 10,
+  height : 10
+}
+```
+
+Write a function `collisionDetected(block1, block2)` that returns `true` if the
+two `block`s are intersecting.
+
+```javascript
+var blockA = {
+  x : 2,
+  y : 2,
+  width : 3,
+  height : 3
+};
+
+var blockB = {
+  x : 3,
+  y : -4,
+  width : 13,
+  height : 6
+};
+
+var blockC = {
+  x : 0,
+  y : -5,
+  width : 8,
+  height : 2
+};
+
+collisionDetected(blockA, blockB) === true;
+collisionDetected(blockA, blockC) === false;
+collisionDetected(blockC, blockB) === true;
+```
+
 ## Debug the Program
 
 ```javascript
@@ -94,5 +139,59 @@ var cat = {
   }
 };
 
-getPropsAndMethods(cat) //should evaluate to => { props : ["name", "age"], methods : ["purr"] }
+getPropsAndMethods(cat); //==> { props : ["name", "age"], methods : ["purr"] }
 ```
+
+```javascript
+function isLucky(runner){
+  if(runner.luck > 10){
+    return true;
+  }
+
+  return false;
+}
+
+function race(){
+  var winner = null;
+
+  for(var i = 0; i <= runners.length; i += 1){
+    var runner = runners[i];
+    var speed = runner.runinngSpeed;
+
+    if(isLucky(runner)){
+      speed += 5;
+    }
+
+    if(speed > winner.runningSpeed){
+      winner = runner;
+    }
+  }
+
+  return winner.name;
+}
+
+var runners = [
+  {
+    name : "Jon",
+    runningSpeed : 12,
+    luck: 15
+  },{
+    name : "Anthony",
+    runningSpeed : 5,
+    luck : 26
+  },{
+    name : "Carl",
+    runningSpeed : 13,
+    luck : 8
+  },
+];
+
+race(runners); //==> "Jon"
+```
+
+
+## deepIndexOf
+
+Write a function `deepIndexOf(array, val)` that takes a 2-dimensional `array`
+and `val` as its parameters. Return the pair of indices that can represent the
+location of `val` in `array`. If the element does not exist, return `[-1, -1]`
