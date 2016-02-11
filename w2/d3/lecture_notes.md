@@ -38,7 +38,7 @@ common, and those I expect you to follow during the remainder of the course:
 
 * Always use semi-colons
 * Use camelCase for variable naming
-* Use == , not ===
+* Use === , not ==
 * Always use `var`
 * Be consistent
 

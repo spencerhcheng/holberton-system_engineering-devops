@@ -1,5 +1,7 @@
 ## Debug These Programs
 
+-----------------------------------------------------
+
 ```javascript
 function unique(array){
   var uniqueArray = [];
@@ -15,6 +17,8 @@ function unique(array){
 
 unique([1,23,2,4,5,1,23]) === [1, 23, 2, 4, 5];
 ```
+
+-----------------------------------------------------
 
 ```javascript
 function isHappy(person){
@@ -56,6 +60,8 @@ var people = [
 isHappyGroup(people) //==> true;
 ```
 
+-----------------------------------------------------
+
 ```javascript
 var magicify = function(number) {
   console.log(number - 34);
@@ -75,6 +81,8 @@ isMagicNumer(26) === true;
 isMagicNumer(50) === false;
 ```
 
+-----------------------------------------------------
+
 ```javascript
 function howHigh(height){
   return (height + " feet high!");
@@ -87,6 +95,8 @@ function jump(height){
 jump(5) === "I'm jumping 5 feet high!";
 jump(12) === "I'm jumping 12 feet high!";
 ```
+
+-----------------------------------------------------
 
 ```javascript
 function fizzBuzz(max){
@@ -130,7 +140,9 @@ not work in all cases. See the third example.
   - Remember `Array.prototype.slice`? If not, look at the documentation and play
   in the console.
 
-```javascript
+-----------------------------------------------------
+``
+`javascript
 var punctuation = [";", "!", ".", "?", ",", "-"];
 ```
 
