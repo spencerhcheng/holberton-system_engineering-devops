@@ -15,10 +15,10 @@ an explanation as to why Arrays and Strings share many of the same methods:
 
 ## Why is style important?
 
-Your code will be read by the computer, the programmer, and often times other people
-who will maintain your code. Good code style promotes correctness and reasonability
-of our programs. The more readable our program is, the higher the chance that it will
-be properly executed by the computer.
+Your code will be read by the computer, you (the programmer), and often times
+other people who will maintain your code. Good code style promotes correctness
+and reasonability of our programs. The more readable our program is, the higher
+the chance that it will be properly executed by the computer.
 
 When we are talking about larger scale programs, you will often have to write code that
 can be read by other people. The readability of your code will directly effect your
@@ -38,6 +38,9 @@ common, and those I expect you to follow during the remainder of the course:
 
 * Always use semi-colons
 * Use camelCase for variable naming
+* Use == , not ===
+* Always use `var`
+* Be consistent
 
 ## The Art of Debugging
 
