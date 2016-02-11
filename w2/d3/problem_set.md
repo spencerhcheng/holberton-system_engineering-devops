@@ -141,12 +141,11 @@ not work in all cases. See the third example.
   in the console.
 
 -----------------------------------------------------
-``
-`javascript
+```javascript
 var punctuation = [";", "!", ".", "?", ",", "-"];
 ```
 
-```
+```javascript
 >titleize("forest gump, the runner", ["the"])
 "Forest Gump, the Runner"
 
