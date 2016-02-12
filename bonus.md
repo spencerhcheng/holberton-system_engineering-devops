@@ -195,3 +195,12 @@ race(runners); //==> "Jon"
 Write a function `deepIndexOf(array, val)` that takes a 2-dimensional `array`
 and `val` as its parameters. Return the pair of indices that can represent the
 location of `val` in `array`. If the element does not exist, return `[-1, -1]`
+
+# Week 3
+
+## lengthOfHypotenuse
+
+Write a method `lengthOfHypotenuse(sideA, sideB)` that takes in two numbers.
+These numbers represent the sides of a right triangle that are adjacent to the right angle. This method should return the length of the hypotenuse of the triangle.
+
+*Hint:* To find the length of a hypotenuse, we can use the Pythagorean Theorem (a^2 + b^2 = c^), where c is the length of the hypotenuse.
