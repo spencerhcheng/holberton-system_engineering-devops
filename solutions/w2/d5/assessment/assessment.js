@@ -3,11 +3,26 @@
 ** It should return an array of all the pairs of indices whose sum is a multiple of five.
 ** Example
 ** divisibleByFivePairSum([1, 5, 2, 0, 4]) => [ [ 0, 4 ], [ 1, 3 ] ]
-** divisibleByFivePairSum([13, 22, 8, -3, 12]) => [[0, 1], [0, 3], [0, 4], [1, 2], [2, 3], [2, 4]]
+** divisibleByFivePairSum([13, 22, 8, -3, 12]) => [[ 0, 1 ], [ 0, 3 ], [ 0, 4 ], [ 1, 2 ], [ 2, 3 ], [ 2, 4 ]]
 */
 
 function divisibleByFivePairSum(array){
   // your code here...
+  var pairs = [];
+
+  for (var i = 0; i < array.length; i++) {
+    var num1 = array[i];
+
+    for (var j = i + 1; j < array.length; j++) {
+      var num2 = array[j];
+
+      if((num1 + num2) % 5 === 0){
+        pairs.push([i, j]);
+      }
+    }
+  }
+
+  return pairs;
 }
 
 /******************************************************************************
@@ -22,6 +37,13 @@ function divisibleByFivePairSum(array){
 
 function myIndexOf(array, ele){
   // your code here...
+  for (var i = 0; i < array.length; i++) {
+    if(array[i] === ele){
+      return i;
+    }
+  }
+
+  return -1;
 }
 
 /******************************************************************************
@@ -37,6 +59,15 @@ function myIndexOf(array, ele){
 
 function magicCipher(sentence, cipher){
   // your code here...
+  var decoded = "";
+
+  for (var i = 0; i < sentence.length; i++) {
+    var char = sentence[i];
+    var decodedChar = cipher[char] || char;
+    decoded += decodedChar;
+  }
+
+  return decoded;
 }
 
 /******************************************************************************
@@ -50,6 +81,20 @@ function magicCipher(sentence, cipher){
 */
 function minMaxDifference(array){
   // your code here...
+  var min = array[0];
+  var max = array[0];
+
+  for (var i = 0; i < array.length; i++) {
+    var num = array[i];
+
+    if(!min || min > num){
+      min = num;
+    } else if(!max || max < num){
+      max = num;
+    }
+  }
+
+  return max-min;
 }
 
 /******************************************************************************
@@ -62,6 +107,17 @@ function minMaxDifference(array){
 */
 function dynamicFizzBuzz(max, num1, num2){
   // your code here...
+  var nums = [];
+
+  for (var i = 0; i < max; i++) {
+    if(i % num1 === 0 && i % num2 !== 0){
+      nums.push(i);
+    } else if(i % num2 === 0 && i % num1 !== 0){
+      nums.push(i);
+    }
+  }
+
+  return nums;
 }
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*************************/
