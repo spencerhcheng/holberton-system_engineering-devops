@@ -1,6 +1,7 @@
 ### divisibleByThreePairSum
 
-Write a function `divisibleByThreePairSum(array)` that takes an array of numbers. It should return an array of all the pairs of indices whose sum is a multiple of three.
+Write a function `divisibleByThreePairSum(array)` that takes an array of numbers.
+It should return an array of all the pairs of indices whose sum is a multiple of three.
 
 ```
 > divisibleByThreePairSum([1, 6, 3, 4, 2, 0]);

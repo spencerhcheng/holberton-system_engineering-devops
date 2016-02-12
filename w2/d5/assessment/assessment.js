@@ -1,58 +1,62 @@
 /******************************************************************************
-** Write a function #pairDivisibleBy5(array) that returns an string where every 'I'
-** is replaced with 'we', every 'mine' is replaced with 'ours', every 'my' is replaced with 'our',
-** and every 'me' is replaced with "us"
+** Write a function #divisibleByFivePairSum(array), that takes an array of numbers.
+** It should return an array of all the pairs of indices whose sum is a multiple of five.
 ** Example
-** royalWe("I want to go to the store.") => "we want to go to the store."
-** royalWe("This is my house and you will respect me!") => "This is our house and you will respect us!"
-** royalWe("This is mine...") => "This is ours..."
-** royalWe("Jump for my love") => "Jump for our love"
+** divisibleByFivePairSum([1, 5, 2, 0, 4])
+** divisibleByFivePairSum([13, 22, 8, -3, 12])
 */
 
-function royalWe(sentence){
+function divisibleByFivePairSum(array){
   // your code here...
 }
 
 /******************************************************************************
-** Write a function #myIndex(array, ele) that returns a object. Each key
-** corresponds to an element in the array and the value corresponds to how many
-** times that element appears in the array
+** Write a function #myIndex(array, ele) that takes an array and an element.
+** Return the index of the element in the array, or -1 if it doesn't exist.
 ** Example
-** elementCount(["a", "a", "a", "b"]) => { "a" : 3, "b" : 1 }
+** myIndex([1,2,3,4,5], 5) => 4
+** myIndex(["a", "b", "c"], "a") => 0
+** myIndex(["a", "b", "c"], "d") => -1
 */
 
-function elementCount(array){
+function myIndex(array, ele){
   // your code here...
 }
 
 /******************************************************************************
-** Write a function #magicCipher(start, end) that returns an array that contains all
-** numbers between 'start' and 'end' (exclusive) in reverse-sequential order
+** Write a function #magicCipher(sentence, cipher) that takes in an string(sentence)
+** and an object(cipher). Return a string where every character is replaced with its
+** cooresponding value in the cipher. If the character doesn't exist in the
+** cipher, use the character.
 ** Example
-** range(2,7) => [6, 5, 4, 3]
-** range(4,2) => []
+** magicCipher("add me on facebook" , { a : "c", d : "q"}) => "cqq me on fccebook"
+** magicCipher("where are you?" , { v : "l", '?' : "!"}) => "where are you!"
+** magicCipher("twmce" , { m : "n", t : "d", a : "w"}) => "dance"
 */
 
-function range(start, end){
+function magicCipher(sentence, cipher){
   // your code here...
 }
 
 /******************************************************************************
-** Write a function #minMaxDifference(sentence) that return a string where all the
-** words in the input sentence are reversed
+** Write a function `minMaxDifference(array)` that return the difference between the
+** largest value and the smallest value in the array. Assume `array` is an array of
+** numbers.
 ** Example
-** reverseSentence("Go to the store") => "store the to Go"
-** reverseSentence("Jump, jump for joy") => "joy for jump Jump,"
+** minMaxDifference([1,2,3,4,5]) => 4
+** minMaxDifference([4,2,5,1,-5]) => 10
 */
-function reverseSentence(sentence){
+function minMaxDifference(array){
   // your code here...
 }
 
 /******************************************************************************
-** Write a function that #dynamicFizzBuzz(array) that returns an array of numbers up to
-** the max. Each number should be either divisible by 3 or 5, BUT NOT BOTH.
+** Write a function that #dynamicFizzBuzz(max, num1, num2) that returns an array
+** of numbers up to the max. Each number should be either divisible by num1 or num2,
+** BUT NOT BOTH.
 ** Example
-** magicNumbers(20) => [4, 6, 8, 16, 18, 20]
+** dynamicFizzBuzz(20, 5, 3) => [3, 5, 6, 9, 10, 12, 18]
+** dynamicFizzBuzz(20, 4, 6) => [4, 6, 8, 16, 18, 20]
 */
 function dynamicFizzBuzz(max, num1, num2){
   // your code here...
@@ -60,9 +64,9 @@ function dynamicFizzBuzz(max, num1, num2){
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*************************/
 module.exports = {
-  range : range,
-  royalWe : royalWe,
-  elementCount : elementCount,
-  reverseSentence : reverseSentence,
-  magicNumbers : magicNumbers
+  divisibleByFivePairSum : divisibleByFivePairSum,
+  myIndex : myIndex,
+  magicCipher : magicCipher,
+  minMaxDifference : minMaxDifference,
+  dynamicFizzBuzz : dynamicFizzBuzz
 };
