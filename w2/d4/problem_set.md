@@ -134,7 +134,7 @@ multiple of both inputs
 30
 
 >lcm(24, 26)
-324
+312
 ```
 
 # Hipsterfy
