@@ -1,3 +1,0 @@
-### Debug These Programs
-
-### think of some scope problems...
