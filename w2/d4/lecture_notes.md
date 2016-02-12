@@ -3,9 +3,9 @@
 ## What is Scope?
 
 A scope is a section in your program where a name binding is considered valid. A
-name binding is when a variable (a name) evaluates to a certain value (the name
-and the value are bound together). If I declare `var myName = 20;`, this binding
-will only be valid in the scope where I declared it.
+name binding is when a variable (a name) evaluates to a certain value. If I
+declare `var myName = 20;`, this binding will only be valid in the scope where
+I declared it.
 
 New scopes can be created inside of other scopes. An inner scope has access to
 bindings that were declared in the outer scope, but the outer scope *does not*
@@ -18,39 +18,51 @@ In both of the main JavaScript environments (browser and node), everything exist
 in what's called 'the global object'. To understand this, let's think about a plain
 old object:
 
-```
+```javascript
 var scope = {};
-{}
 ```
 
 I can create key-value pairs where the value is of any data-type. Let's create a
 function (method) in the object:
 
-```
+```javascript
 scope.myFunc = function(){
   console.log("This is my func");
 };
+
+scope.myFunc()
+// What does this output?
 ```
 
 Now if I write `scope.myFunc = 1;`, I have clearly overwritten the function I
-created before. The global scope works similarly. *Every variable that is
+created before.
+
+```javascript
+scope.myFunc = 1;
+
+scope.myFunc;
+// What does this output?
+```
+
+ The global scope works similarly. *Every variable that is
 declared outside of a function/method becomes a property on the global object.*
+
 Let's see an example of this. Open up your node console and type `global`. This
 keyword evaluates to the global object. (In the browser environment, the global
 object is called `window`). Let's see how things become attached to the global
 scope.
 
-```
+```javascript
 > global.myVar
 undefined
 
->var myVar = 12;
+> var myVar = 12;
 undefined
 
->myVar
+> myVar
 12
 
->global.myVar
+> global.myVar
 12
 ```
 
@@ -63,14 +75,14 @@ become properties of the global object.
 You may have noticed that the `var` keyword is optional. If not, go ahead and try
 to initialize a variable without using it.
 
-```
->myOtherVar = "no var";
+```javascript
+> myOtherVar = "no var";
 undefined
 
->myOtherVar;
+> myOtherVar;
 "no var"
 
->global.myOtherVar
+> global.myOtherVar
 "no var"
 ```
 
@@ -124,19 +136,22 @@ function foo(){
 }
 
 console.log(foo());
-console.log(myVar);
+console.log(myVar); // What does this output?
 ```
 
 ## Polluting The Global Namespace
 
 If we don't have any global variables (which we should avoid as much as possible),
-you may be asking yourself if using `var` in functions are still necessary: it still
-is. JavaScript has a single global scope, which means all of the files of your
+you may be asking yourself if using `var` in functions is still necessary?
+Yes, it still
+is.
+
+JavaScript has a single global scope, which means all of the files from your
 projects and any libraries you use will be sharing the same scope. Every time a
 variable is declared on the global scope, the chance of a name collision increases.
 
 We often don't know all of the code that goes into a library, so our job is to
-limit the number of globally declared in our code variables as much as possible,
+limit the number of globally declared variables in our code as much as possible,
 to avoid accidental collisions.
 
 * If we don't use `var` in our functions, we are *polluting* the global namespace.
@@ -145,9 +160,9 @@ to avoid accidental collisions.
 We'll talk about some techniques to mitigate this later in the course, but for
 now it is enough to know about this risk.
 
-## The scope of this
+## The Scope of `this`
 
-Functions and methods are objects, which means they of can be passed around without
+Functions and methods are objects, which means they can be passed around without
 being called. This feature of JavaScript has implications for how we think about
 `this`. What will the following program do?
 
@@ -159,7 +174,7 @@ var myObj = {
   }
 };
 
-var myFunc = myObj.sayHi //not calling it
+var myFunc = myObj.sayHi; // not calling sayHi
 
 myFunc();
 ```
@@ -167,8 +182,8 @@ myFunc();
 If you run this code, you'll see that it prints `undefined says Hi.`. Why is
 that? Let's remember what `this` evaluates to: the object that is calling the
 function. When we assign the method to a variable, we detach it from the
-object; therefore, when we call it and it evaluates `this`, it no longer
-references its original object, so what does it reference...
+object. Therefore, when we call it and it evaluates `this`, it no longer
+references its original object, so what does it reference...?
 
 * A function/method (`myFunc`) that is called like `someObj.myFunc()`, the `this`
 will reference `someObj`.
@@ -176,7 +191,7 @@ will reference `someObj`.
 * A function (`myFunc`) that is called like `myFunc()`, the `this` will
 reference the global object.
 
-Let's attach a `name` to the global object and try to run the earlier code again
+Let's attach a `name` to the global object and try to run the earlier code again.
 
 ```javascript
 var myObj = {
@@ -186,9 +201,9 @@ var myObj = {
   }
 };
 
-var myFunc = myObj.sayHi //not calling it
+var myFunc = myObj.sayHi // not calling sayHi
 
 var name = "Bill";
 
-myFunc();
+myFunc(); // What does this output?
 ```

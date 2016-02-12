@@ -15,7 +15,7 @@ function unique(array){
   }
 }
 
-unique([1,23,2,4,5,1,23]) === [1, 23, 2, 4, 5];
+unique([1,23,2,4,5,1,23]) //==> [1, 23, 2, 4, 5];
 ```
 
 -----------------------------------------------------
@@ -141,12 +141,11 @@ not work in all cases. See the third example.
   in the console.
 
 -----------------------------------------------------
-``
-`javascript
+```javascript
 var punctuation = [";", "!", ".", "?", ",", "-"];
 ```
 
-```
+```javascript
 >titleize("forest gump, the runner", ["the"])
 "Forest Gump, the Runner"
 
