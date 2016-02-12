@@ -38,7 +38,7 @@ describe('#myIndexOf()', function () {
 
 
 describe('#magicCipher()', function () {
-  it('should return array of numbers between "start" and "end" in reverse order', function () {
+  it('should return a string where every character is replaced with its cooresponding value in the cipher', function () {
     var result = magicCipher("add me on facebook" , { a : "c", d : "q"});
     var expected = "cqq me on fccebook";
     assert.equal(result, expected);
@@ -55,7 +55,7 @@ describe('#magicCipher()', function () {
 
 
 describe('#minMaxDifference()', function () {
-  it('should return the input string with the words reversed', function () {
+  it('should return the difference between the min and max value of the array.', function () {
     assert.equal(minMaxDifference([1,2,3,4,5]), 4);
     assert.equal(minMaxDifference([5,4,3,2,1]), 4);
     assert.equal(minMaxDifference([4,2,5,1,-5]), 10);
