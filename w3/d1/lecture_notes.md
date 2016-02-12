@@ -16,4 +16,6 @@
 
 ## Decomposition
 
+## Scope
+
 ## Review Interview Questions
