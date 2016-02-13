@@ -1,6 +1,6 @@
 # Lecture Notes 12
 
-## Math module
+## Math object
 
 `Math` is a built-in object that has properties and methods for mathematical
 constants and functions. Not a function object.
