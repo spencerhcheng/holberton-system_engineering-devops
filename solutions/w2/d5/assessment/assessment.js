@@ -87,9 +87,9 @@ function minMaxDifference(array){
   for (var i = 0; i < array.length; i++) {
     var num = array[i];
 
-    if(!min || min > num){
+    if(min > num){
       min = num;
-    } else if(!max || max < num){
+    } else if(max < num){
       max = num;
     }
   }
