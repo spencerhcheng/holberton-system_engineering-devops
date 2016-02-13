@@ -1,5 +1,0 @@
-### finish questioningChatBot
-
-### sentimentDetector
-
-### hangman

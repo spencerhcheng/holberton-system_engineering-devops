@@ -1,7 +1,9 @@
 # Lecture Notes 14
 
-## Many faces of a function
+## arguments
 
-## Constructors
+## Binding, Calling, and Applying
 
-## prototype
+## Constructor Function
+
+## Prototype
