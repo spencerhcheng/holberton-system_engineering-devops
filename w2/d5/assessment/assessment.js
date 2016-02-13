@@ -40,7 +40,7 @@ function magicCipher(sentence, cipher){
 }
 
 /******************************************************************************
-** Write a function `minMaxDifference(array)` that return the difference between the
+** Write a function `minMaxDifference(array)` that returns the difference between the
 ** largest value and the smallest value in the array. Assume `array` is an array of
 ** numbers. Assume an array of at least two numbers.
 ** Example
