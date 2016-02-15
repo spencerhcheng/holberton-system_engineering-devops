@@ -1,21 +1,17 @@
 # Lecture Notes 11
 
-## Primitives
+## Multi-Dimensional Array & Nested Looping
 
-## Operands
+## Slicing
 
-## Conditionals
+## Who looks at your code?
 
-## Functions, Arrays, and Objects
+## Why is style important?
 
-## Debugging
+## What is scope?
 
-## Style
+## Global Scope
 
-## Abstraction
+## How are new scopes created?
 
-## Decomposition
-
-## Scope
-
-## Review Interview Questions
+## this
