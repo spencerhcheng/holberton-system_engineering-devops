@@ -172,7 +172,7 @@ that function the `cat`...nope.
 
 How do we fix these issues? In both cases we loose our original context for `this`.
 The answer is that we must `bind` the correct `this` to the function. What the
-hell does that mean though? In other words, we must explicity tell JavaScript what
+hell does that mean though? In other words, we must explicitly tell JavaScript what
 value of `this` will be in those function. That is done with the `Function.prototype.bind(thisContext)`
 method. It is a method that exists on every function, and the argument we pass in
 as `thisContext` will be what `this` evaluates to when the function is called.
@@ -185,13 +185,13 @@ var cat = {
 
   annoyingTimeoutMeow : function(){
     console.log(this.name + " says meow");
-    setTimeout(this.annoyingTimeoutMeow.bind(cat), 1000);
+    setTimeout(this.annoyingTimeoutMeow, 1000);
   },
 
   annoyingIntervalMeow : function(){
     setInterval(function(){
       console.log(this.name + " says meow");
-    }.bind(cat), 1000);
+    }, 1000);
   }
 }
 ```
