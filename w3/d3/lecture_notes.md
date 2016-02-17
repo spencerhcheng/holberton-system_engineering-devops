@@ -2,7 +2,7 @@
 
 ## Callbacks
 
-A callback is a function that is passed as an argument to another function. The
+A _callback_ is a function that is passed as an argument to another function. The
 callback is called inside of the function to which it is passed. Let's look at
 an example:
 
@@ -34,7 +34,7 @@ bar(function(){
 }); //In what order will things be logged?
 ```
 
-Callbacks are just regular functions, and like any other function that can accept
+Callbacks are just regular functions, and like any other function they can accept
 arguments.
 
 ```javascript
@@ -56,18 +56,18 @@ var concatenate = function(str1, str2, cb){
   return cb(str);
 }
 
-add(1,2,logTheAnswer); // What will this return
-add(1,2,add5ToAnswer); // What will this return
+add(1,2,logTheAnswer); // What will this return?
+add(1,2,add5ToAnswer); // What will this return?
 
-concatenate(1,2,logTheAnswer); // What will this return
-concatenate(1,2,add5ToAnswer); // What will this return
+concatenate(1,2,logTheAnswer); // What will this return?
+concatenate(1,2,add5ToAnswer); // What will this return?
 ```
 
 ## Array.prototype.forEach
 
 So far, in order to iterate through an array, we've used the for-loop. Now that
 we know about callbacks, it's time to introduce another method that allows us
-to iterate through arrays: `Array.prototype.forEach`. This is method accepts a callback and an optional 'thisArg'.
+to iterate through arrays: `Array.prototype.forEach`. This method accepts a callback and an optional 'thisArg'.
 
 The callback will be passed three arguments:
 
