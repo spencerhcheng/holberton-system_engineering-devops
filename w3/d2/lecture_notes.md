@@ -185,13 +185,13 @@ var cat = {
 
   annoyingTimeoutMeow : function(){
     console.log(this.name + " says meow");
-    setTimeout(this.annoyingTimeoutMeow, 1000);
+    setTimeout(this.annoyingTimeoutMeow.bind(cat), 1000);
   },
 
   annoyingIntervalMeow : function(){
     setInterval(function(){
       console.log(this.name + " says meow");
-    }, 1000);
+    }.bind(cat), 1000);
   }
 }
 ```
