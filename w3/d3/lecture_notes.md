@@ -93,7 +93,7 @@ to the appropriate object.
 
 ```javascript
 var cookieMonster = {
-  favoriteFoods = ["apple", "cookie", "orange"],
+  favoriteFoods: ["apple", "cookie", "orange"],
 
   logFavFoods: function(){
     this.favoriteFoods(function(food){
