@@ -65,6 +65,44 @@ concatenate(1,2,add5ToAnswer); // What will this return
 
 ## Array.prototype.forEach
 
+So far, in order to iterate through an array, we've used the for-loop. Now that
+we know about callbacks, it's time to introduce another method that allows us
+to iterate through arrays: `Array.prototype.forEach`. This is method accepts a callback and an optional 'thisArg'.
+
+The callback will be passed three arguments:
+
+* The current element
+* The index of that element
+* The array itself that we are iterating over
+
+Let's look at an example:
+
+```javascript
+var array = ["a", "b", "c", "d", "e"];
+
+array.forEach(function(ele, idx, arr){
+  console.log("Current ele is: " + ele);
+  console.log("Current idx is: " + idx);
+  console.log("Current array is: " + arr);
+  console.log("------------------------");
+});
+```
+
+If the the callback function utilizes the `this` keyword, we'll need to bind it
+to the appropriate object.
+
+```javascript
+var cookieMonster = {
+  favoriteFoods = ["apple", "cookie", "orange"],
+
+  logFavFoods: function(){
+    this.favoriteFoods(function(food){
+      console.log(food);
+    });
+  }
+}
+```
+
 ## Synchronous vs Asynchronous
 
 ## Node I/O - Readline and File modules
