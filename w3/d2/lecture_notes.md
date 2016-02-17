@@ -5,7 +5,7 @@
 `Math` is a built-in object that has properties and methods for mathematical
 constants and functions. Not a function object.
 
-```
+```javascript
 >Math
 {}
 ```
@@ -21,11 +21,11 @@ functionality that we can use in our programs:
 * `Math.random()` - Return a (pseudo) random number between 0 and 1
 * `Math.sqrt(number)` - Returns the square root of the `number`
 
-Never reassign the `Math` object. You will never be able to access it's
-functionality again, and can break any libraries that are depending on it's
+Never reassign the `Math` object. You will never be able to access its
+functionality again, and can break any libraries that are depending on its
 functionality.
 
-```
+```javascript
 >Math = "me";
 undefined
 
@@ -34,7 +34,7 @@ undefined
 ```
 ## setTimeout and setInterval
 
-Computers are very fast, and when the interpreter hit a function invocation, it
+Computers are very fast, and when the interpreter hits a function invocation, it
 typically executes the code immediately. Sometimes, however, we may not want
 execute that function immediately. JavaScript has a built-in method to accommodate
 this requirement. It's called `setTimeout(fn, ms)`. It takes as its parameters a
@@ -53,7 +53,7 @@ function delayedHelloWorld(ms){
 
 If we run this in node:
 
-```
+```javascript
 >delayedHelloWorld(1000)
 undefined
 
@@ -67,7 +67,7 @@ undefined
 >Hello World
 ```
 
-`setTimeout` is what's called an asynchronous function. This means that it will
+`setTimeout` is what's called an _asynchronous function_. This means that it will
 not block the execution of the thread. We will discuss asynchronous behavior in-depth
 tomorrow, but for now, it is good enough to know that if there is code after a
 `setTimeout`, it will go ahead and run that code, instead of waiting until after
@@ -83,7 +83,7 @@ function delayedHelloWorld(ms){
 
 Run it in node:
 
-```
+```javascript
 >delayedHelloWorld(1000);
 I will be logged first
 undefined
@@ -96,7 +96,7 @@ undefined
 >delayedHelloWorld(-1); //What about this?
 ```
 
-Let's say I wanted to call a function over an over again:
+Let's say I wanted to call a function over and over again:
 
 ```javascript
 function annoyingMeow(){
@@ -106,7 +106,7 @@ function annoyingMeow(){
 ```
 
 Run this code. Does the behavior make sense? `"meow"` will be logged every second
-because annoyingMeow is recursively setting a timeout on itself.
+because `annoyingMeow` is recursively setting a timeout on itself.
 
 There is an alternative way to call a function over and over again, and that is
 with `setInterval(fn, ms)`:
@@ -122,11 +122,11 @@ function annoyingMeow(){
 We've done a couple of new things in this function:
 
 * The first argument to `setInterval`, the `fn` argument, we passed in what's called
-an anonymous function. An anonymous function is a function that doesn't have a name.
-Get used to seeing these because they are every popular in JavaScript.
+an anonymous function. An _anonymous function_ is a function that doesn't have a name.
+Get used to seeing these because they are very popular in JavaScript.
 * `setInterval` will call the function (`fn`) over and over again every certain
 number of milliseconds, specified by the `ms` argument.
-* Can you determine why be couldn't have just passed in the console.log method itself as such:
+* Can you determine why we couldn't have just passed in the `console.log` method itself as such:
 
 ```javascript
 function annoyingMeow(){
@@ -140,8 +140,8 @@ Run this code and look at the error message if you are having trouble. This is a
 ## binding `this`
 
 Let's look at an example of using `setTimeout` / `setInterval` where the `this`
-may become dereferenced from it's original object. This is a very common danger
-when using asynchronous method:
+may become dereferenced from its original object. This is a very common danger
+when using an asynchronous method:
 
 ```javascript
 var cat = {
@@ -163,14 +163,14 @@ var cat = {
 * The `cat.annoyingTimeoutMeow` stops working because when I try to recursively
 call `this.annoyingTimeoutMeow`, the `this` is no longer the `cat` object,
 causing `annoyingTimeoutMeow` to evaluate to `undefined`. If we pass `undefined`
-to `setTimeout`, we will see that is doesn't run.
+to `setTimeout`, we will see that it doesn't run.
 
 * The `cat.annoyingIntervalMeow` keeps running, but we get `undefined says meow`.
 This, again, is because the `this` is no longer the `cat` object. Why is that? Notice
 that when we call `this.name`, we are inside the anonymous function. IS the object
 that function the `cat`...nope.
 
-How do we fix these issues? In both cases we loose our original context for `this`.
+How do we fix these issues? In both cases we lose our original context for `this`.
 The answer is that we must `bind` the correct `this` to the function. What the
 hell does that mean though? In other words, we must explicitly tell JavaScript what
 value of `this` will be in those function. That is done with the `Function.prototype.bind(thisContext)`
