@@ -5,24 +5,22 @@ var dog = {
   age : 5,
 
   live : function(){
-    this.age += 1;
-
-    if(this.age < 15){
-      console.log("Dog lives another dat at age " + this.age);
-    } else {
-      console.log("Dog has been dead for " + this.age - 15 + " years");
-    }
-
     setInterval(function(){
-      this.live();
-    }, 1000);
+      this.age += 1;
+
+      if(this.age < 15){
+        console.log("Dog lives another dat at age " + this.age);
+      } else {
+        console.log("Dog has been dead for " + (this.age - 15) + " years");
+      }
+    }.bind(dog), 1000);
   }
 }
 
 //What will happen when we run this? Make a prediction, then test.
 //Call over an instructor if you need help understanding what happened
 //Now fix it.
-dog.live()
+dog.live();
 ```
 ---------------------------------------------------------------------------
 ```javascript
