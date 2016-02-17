@@ -88,7 +88,7 @@ array.forEach(function(ele, idx, arr){
 });
 ```
 
-If the the callback function utilizes the `this` keyword, we'll need to bind it
+If the callback function utilizes the `this` keyword, we'll need to bind it
 to the appropriate object.
 
 ```javascript
