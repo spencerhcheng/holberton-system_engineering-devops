@@ -13,7 +13,7 @@ var dog = {
       } else {
         console.log("Dog has been dead for " + (this.age - 15) + " years");
       }
-    }.bind(dog), 1000);
+    }, 1000);
   }
 }
 
@@ -39,7 +39,7 @@ var annoyingDancer = {
       this.currentFav = 0;
     }
 
-    setTimeout(this.askQuestion 1000);
+    setTimeout(this.askQuestion, 1000);
   }
 }
 
