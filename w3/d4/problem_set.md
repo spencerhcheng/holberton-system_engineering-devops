@@ -1,7 +1,3 @@
-### All The Dogs
+# Finish Clock and Sentiment Detector Exercise
 
-### myBasicBind
-
-### collidingCircles
-
-### myBind
+(look at bonuses if you finish)
