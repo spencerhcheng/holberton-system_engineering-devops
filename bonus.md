@@ -200,7 +200,20 @@ location of `val` in `array`. If the element does not exist, return `[-1, -1]`
 
 ## lengthOfHypotenuse
 
-Write a method `lengthOfHypotenuse(sideA, sideB)` that takes in two numbers.
-These numbers represent the sides of a right triangle that are adjacent to the right angle. This method should return the length of the hypotenuse of the triangle.
+Write a function `lengthOfHypotenuse(sideA, sideB)` that takes in two numbers.
+These numbers represent the sides of a right triangle that are adjacent to the right angle. This function should return the length of the hypotenuse of the triangle.
 
 *Hint:* To find the length of a hypotenuse, we can use the Pythagorean Theorem (a^2 + b^2 = c^), where c is the length of the hypotenuse.
+
+## collidingCircles
+
+A circle is represented as the x-coordinate position, the y-coordinate position, and a radius : `{ x: 0, y: 0, radius: 1 }`. The coordinates represent the center position.
+
+Write a function `collidingCircles(circle1, circle2)` that takes in two circle objects as input and returns `true` is the circles are colliding, otherwise `false`.
+
+*Hint1:* The `lengthOfHypotenuse` function may be useful here.
+*Hint2:* Finding the difference between the two circle's coordinate position will give you the length of two sides of a right triangle.
+
+## Diagonal Walk
+
+Write a function `diagonalWalk(path)` that takes a string (`path`) of characters as its input. These characters will be either `u`, `d`, `l`, or `r`, representing if we should move "up", "down", "left", or "right" respectively. The function should return `true` if we are along the diagnoal axis of our starting position. Assume each step moves us the same distance.
