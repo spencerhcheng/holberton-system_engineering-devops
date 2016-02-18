@@ -134,9 +134,9 @@ The key thing to realize is that **every time we enter into a new function, the 
 
 ## Synchronous vs Asynchronous
 
-Javascript, and many other languages, evaluate code from in a single thread. Single-threaded programming languages can only evaluate one thing at a time. Synchronous code is run in the order it is written (although to evaluate functions the program may jump all over the space of the program) and **blocks the thread** from running anything else. Let's see an example of this:
+Javascript, and many other languages, evaluate code in a single thread. Single-threaded programming languages can only evaluate one thing at a time. _Synchronous_ code is run in the order it is written (although to evaluate functions the program it may jump all over the space of the program) and **blocks the thread** from running anything else. Let's see an example of this:
 
-```Javascript
+```javascript
 function foo(){
   console.log("start");
 
@@ -149,15 +149,15 @@ function foo(){
 foo();
 ```
 
-There is a noticable delay between `start` being logged and `done` being logged. This is because the nearly 100 billion iteration must be completed before moving on to the next subsequent line in the code. This is a prime example of synchronous code.
+There is a noticeable delay between `start` being logged and `done` being logged. This is because the nearly 100 billion iterations must be completed before moving on to the next subsequent line in the code. This is a prime example of synchronous code.
 
-Asynchronous code, on the other hand, is code that will start or setup some process that usually takes some time to complete (i.e. asking a user for input, waiting for a keypress, waiting for a milli-second count, etc), but it will not block the thread while it waits. Asynchronous will usually run some function in response to the completion of the process it was waiting for - let me give you a few examples in words:
+_Asynchronous_ code, on the other hand, is code that will start or setup some process that usually takes some time to complete (e.g. asking a user for input, waiting for a keypress, waiting for a milli-second count, etc), but it will not block the thread while it waits. Asynchronous code will usually run some function in response to the completion of the process it was waiting for - let me give you a few examples in words:
 
-* If you were programming a Javascript video game, you'd want to tell the program to do something when the player presses a button. You wouldn't want this to be synchronous because if it was I'd pause the execution of the rest of the code until the user pressed a button. Instead, we'd prefer to let the game loop keep running and whenever the user pressed a button, our program would run the functionality we assigned to the key press.
+* If you were programming a Javascript video game, you'd want to tell the program to do something when the player presses a button. You wouldn't want this to be synchronous because if it was, the execution of the rest of the code would be paused until the player pressed a button. Instead, we'd prefer to let the game loop keep running, and whenever the player pressed a button our program would run the functionality we assigned to the key press.
 
 * `setTimeout` and `setInterval` are asynchronous functions. While they wait for the milli-second countdown to reach 0, the JS interpreter keeps reading the rest of the code.
 
-So the question now becomes: How do I tell JavaScript to run some functionality when the asynchronous function is finished. Putting the code after the asynchronous function won't work because asynchronous code isn't thread-blocking:
+So the question now becomes: How do I tell JavaScript to run some functionality when the asynchronous function is finished? Putting the code after the asynchronous function won't work because asynchronous code isn't thread-blocking:
 
 ```javascript
 function foo(){
@@ -198,11 +198,11 @@ var foo = require('nameOfModule');
 
 All of the functionality of the module will exist in the variable you put it in. In the case above, that would be `foo`.
 
-The File System module will allow us to read the contents of a file. In order to import it, we use the name `"fs"`. The module has a method on in called `readFile`, which we can use to...well, read the file.
+The File System module will allow us to read the contents of a file. In order to import it, we use the name `"fs"`. The module has a method on in called `readFile`, which we can use to... well, read the file.
 
 Let's say we have a text file that looks like this:
 
-```
+```javascript
 // data.txt
 john 5
 anthony 7
@@ -250,7 +250,7 @@ Opps! This isn't what we want at all. It's probably best that we **read the docu
   - If we use a callback as the second argument, the function will read the data it byte form. Since all data types are represented as bytes under the hood, the function doesn't make any assumptions about what type of data it's reading. If we want to tell it to interpret these bytes as strings, we have to tell it to so.
   - When the second argument is a string, that indicates to the File System function how it should interpret the bytes. In order to get bytes read as strings, we tell it to interpret them as `"utf8"`
 * If the second argument is a string, then we can pass in the callback as the third argument.
-* Regardless of wether the callback was passed as the second or third argument, the `readFile` method will pass it:
+* Regardless of whether the callback was passed as the second or third argument, the `readFile` method will pass it:
   - `err`: an error object (if there was an error)
   - `data`: the file data (defaults to raw byte data or encoded as specified in the second argument).
 
@@ -314,7 +314,7 @@ function mostCoolFromFile(filename){
 
   records.forEach(function(record){
     var name = record.split(" ")[0];
-    var rating = parseInt(record.split(" ")[1];
+    var rating = parseInt(record.split(" "))[1];
 
     if(rating > coolestRating){
       coolest = name;
@@ -335,7 +335,7 @@ records.forEach(function(record){
 TypeError: Cannot read property 'forEach' of undefined...
 ```
 
-Wait, what happened. `readFile` is an asynchronous function. That means that it'll keep runningg the code causing our `getRecordsFromFile` function to return `undefined`. In order to get around this, we'll need to use a callback. I'll pass a callback to `getRecordsFromFile` that will be called whenever the records have been made:
+Wait, what happened? `readFile` is an asynchronous function. That means that it'll keep running the code causing our `getRecordsFromFile` function to return `undefined`. In order to get around this, we'll need to use a callback. I'll pass a callback to `getRecordsFromFile` that will be called whenever the records have been made:
 
 ```javascript
 // myFile.js
@@ -353,7 +353,7 @@ function getRecordsFromFile(filename, cb){
     var records = data.split("\n");
 
     cb(records);
-  })
+  });
 }
 
 function mostCoolFromFile(filename){
@@ -363,7 +363,7 @@ function mostCoolFromFile(filename){
 
     records.forEach(function(record){
       var name = record.split(" ")[0];
-      var rating = parseInt(record.split(" ")[1];
+      var rating = parseInt(record.split(" "))[1];
 
       if(rating > coolestRating){
         coolest = name;
@@ -395,7 +395,7 @@ function getRecordsFromFile(filename, cb){
     var records = data.split("\n");
 
     cb(records);
-  })
+  });
 }
 
 function mostCoolFromFile(filename, cb){
