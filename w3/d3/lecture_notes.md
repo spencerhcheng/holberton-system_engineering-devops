@@ -59,8 +59,8 @@ var concatenate = function(str1, str2, cb){
 add(1,2,logTheAnswer); // What will this return?
 add(1,2,add5ToAnswer); // What will this return?
 
-concatenate(1,2,logTheAnswer); // What will this return?
-concatenate(1,2,add5ToAnswer); // What will this return?
+concatenate("1","2",logTheAnswer); // What will this return?
+concatenate("1","2",add5ToAnswer); // What will this return?
 ```
 
 ## Array.prototype.forEach
