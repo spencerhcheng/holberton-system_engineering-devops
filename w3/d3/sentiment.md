@@ -36,7 +36,7 @@ detectSentiment("sentimentDict.txt", sentence, function(sentence, score){
 });
 ```
 
-When run in node should output:
+When run in node it should output:
 
 ```
 $ node yourSentimentDetectorFile.js
@@ -54,13 +54,13 @@ $ node yourSentimentDetectorFile.js
 
 ### Hints (feel free to try it without the hints first)
 
-* Start with the `getRecordsFromFile` function that we built in class. This will pass the callback you give it all the lines in the file as element (strings) in an array.
+* Start with the `getRecordsFromFile` function that we built in class. This will pass the callback you give it all the lines in the file as elements (strings) in an array.
 
-**In the callback that being passed= to `getRecordsFromFile`**:
+**In the callback that is being passed to `getRecordsFromFile`**:
 
 * Initialize the score to 0.
 
-* Split the sentence into words. Sure, we could just use `String.prototype.indexOf`, but doing so would cause potential confusion between words that are similar but have different sentiments (i.e. "love" and "loveless")
+* Split the sentence into words. Sure, we could just use `String.prototype.indexOf`, but doing so would cause potential confusion between words that are similar but have different sentiments (e.g. "love" and "loveless")
 
 * Iterate over the records. For each record (which corresponds to a single line in the text file), you'll need to get the word and it's associated sentiment. Look at the text file. How can you parse this string to get the data you're looking for. Use decomposition to keep your code readable.
 
