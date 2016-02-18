@@ -141,6 +141,7 @@ var cat = {
 
 getPropsAndMethods(cat); //==> { props : ["name", "age"], methods : ["purr"] }
 ```
+---------------------------------------------------------------------------
 
 ```javascript
 function isLucky(runner){
@@ -209,11 +210,21 @@ These numbers represent the sides of a right triangle that are adjacent to the r
 
 A circle is represented as the x-coordinate position, the y-coordinate position, and a radius : `{ x: 0, y: 0, radius: 1 }`. The coordinates represent the center position.
 
-Write a function `collidingCircles(circle1, circle2)` that takes in two circle objects as input and returns `true` is the circles are colliding, otherwise `false`.
+Write a function `collidingCircles(circle1, circle2)` that takes in two circle objects as input and returns `true` if the circles are colliding, otherwise `false`.
 
-*Hint1:* The `lengthOfHypotenuse` function may be useful here.
-*Hint2:* Finding the difference between the two circle's coordinate position will give you the length of two sides of a right triangle.
+*Hints:*
+- The `lengthOfHypotenuse` function may be useful here.
+- Finding the difference between the two circle's coordinate positions will give you the length of two sides of a right triangle.
 
 ## Diagonal Walk
 
-Write a function `diagonalWalk(path)` that takes a string (`path`) of characters as its input. These characters will be either `u`, `d`, `l`, or `r`, representing if we should move "up", "down", "left", or "right" respectively. The function should return `true` if we are along the diagnoal axis of our starting position. Assume each step moves us the same distance.
+Write a function `diagonalWalk(path)` that takes a string (`path`) of characters as its input. These characters will be either `u`, `d`, `l`, or `r`, representing moves "up", "down", "left", or "right", respectively. The function should return `true` if we are along the diagonal axis of our starting position. Assume each step moves us the same distance.
+
+```javascript
+> diagonalWalk("urdl");
+true
+> diagonalWalk("urdldldl");
+true
+> diagonalWalk("urdlll");
+false
+```
