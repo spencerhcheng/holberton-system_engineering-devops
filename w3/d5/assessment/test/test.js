@@ -3,8 +3,6 @@ var assert = require('assert');
 var laligatSequence = require('../assessment.js').laligatSequence,
     inPigLatin = require('../assessment.js').inPigLatin;
 
-
-
 describe('#inPigLatin()', function () {
   it('should return the product of the min and max value of the array.', function () {
     var result = inPigLatin("Shmanthony is the best teacher");
