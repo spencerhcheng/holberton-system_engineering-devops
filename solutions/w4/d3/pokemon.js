@@ -94,7 +94,9 @@ pikachu.call();
 bulbasaur.call();
 onyx.call();
 
-pikachu.availableMoves();
+console.log(pikachu.availableMoves());
+console.log(bulbasaur.availableMoves());
+console.log(onyx.availableMoves());
 
 pikachu.attack(bulbasaur, "Thunder Shock");
 pikachu.attack(onyx);
