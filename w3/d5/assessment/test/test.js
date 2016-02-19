@@ -6,15 +6,15 @@ var laligatSequence = require('../assessment.js').laligatSequence,
 describe('#inPigLatin()', function () {
   it('should return the product of the min and max value of the array.', function () {
     var result = inPigLatin("Shmanthony is the best teacher");
-    var expected = "Anthonyshmyay isay eth estbyay eachertyay";
+    var expected = "Anthonyshmay isyay ethay estbay eachertay";
     assert.equal(result, expected);
 
     result = inPigLatin("let us Dance");
-    expected = "etlyay usay Ancedyay";
+    expected = "etlay usyay Anceday";
     assert.equal(result, expected);
 
     result = inPigLatin("this is the time of my life");
-    expected = "histyay isay ethyay imetyay foyay myay ifelyay";
+    expected = "isthay isyay ethay imetay ofyay myay ifelay";
     assert.equal(result, expected);
   });
 });

@@ -17,17 +17,17 @@ vowel are placed at the end of the word sequence. Then, "ay" is added to the end
 
 !!! Words that were originally caplitailzed must remained caplitailzed
 !!! Assume no punctuation
-!!! 'y' is not a vowl
+!!! 'y' is not a vowel
 
 Examples:
 > inPigLatin("Shmanthony is the best teacher")
-Anthonyshmyay isay eth estbyay eachertyay
+Anthonyshmay isyay ethay estbay eachertay
 
 >inPigLatin("let us Dance")
-etlyay usay Ancedyay
+etlay usyay Anceday
 
 >inPigLatin("this is the time of my life")
-histyay isay ethyay imetyay foyay myay ifelyay
+isthay isyay ethay imetay ofyay myay ifelay
 *******************************************************************************/
 function inPigLatin(sentence){
   // your code here...
@@ -65,5 +65,6 @@ function laligatSequence(base, n){
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*************************/
 module.exports = {
+  inPigLatin : inPigLatin,
   laligatSequence : laligatSequence
 };
