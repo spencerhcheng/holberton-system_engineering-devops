@@ -43,7 +43,7 @@ false
 > pikachu.levelUp()
 { name: 'PIKACHU', type: 'Electric', level: 11, hp: 24 }
 ```
-NB: How will leveling up affect a pokemon's hp...?
+NB: How will leveling up affect a pokemon's `hp`...?
 
 Add a method `Pokemon#call` which should return a pokemon's "nickname" repeated twice. A pokemon's nickname comes from taking its name up to the second vowel. If there are no second vowels, it is its full name. _Hint:_ a global variable `VOWELS` might be helpful with this.
 
@@ -58,7 +58,7 @@ ONYX-ONYX
 
 ### Phase 3
 
-Change your constructor so you can pass in an array of `moves` (i.e. `Pokemon(name, type, moves, level)`). `moves` is an array of all possible moves for a type of pokemon, ordered from weakest to strongest.
+Change your constructor so you can pass in an array of `moves` (i.e. `Pokemon(name, type, moves, level)`). A move has a `name` and `damage` (see below), and `moves` is an array of all possible moves for a type of pokemon, ordered from weakest to strongest.
 
 ```javascript
 > var electricTypeMoves = [ {name: "Tackle", damage: 3}, {name: "Thunder Shock", damage: 4}, {name: "Charge Beam", damage: 5}, {name: "Thunder Wave", damage: 5}, {name: "Spark", damage: 7}, {name: "Thunder Punch", damage: 8}, {name: "Shock Wave", damage: 10}, {name: "Thunder Bolt", damage: 15 }, {name: "Thunder", damage: 20}, {name: "Zap Cannon", damage: 30}, {name: "Electric Beam", damage: 35} ];
@@ -108,9 +108,9 @@ A pokemon can't have 0 moves. At a minimum, it always has its first possible mov
 
 Next let's use these moves! Write a `Pokemon#attack(opponent, move)` method. This method should take:
 - a Pokemon argument for `opponent`
-- a string argument `move` that should correspond to an available move's name (optional)
+- a string argument `move` that should correspond to an available move's `name` (optional)
 
-The opponent pokemon's `hp` should reflect the damage of the attack. If no available move is found that matches or no move is passed in, attack with a pokemon's strongest available attack. An attack message and stats output would probably be nice. Use `Array.prototype.forEach()`.
+The opponent pokemon's `hp` should reflect the `damage` of the attack. If no available move is found that matches or no move is passed in, attack with a pokemon's strongest available attack. An attack message and stats output would probably be nice. Use `Array.prototype.forEach()`.
 
 ```javascript
 > pikachu.attack(bulbasaur, "Thunder Shock");
