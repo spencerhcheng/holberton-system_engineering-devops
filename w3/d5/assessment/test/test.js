@@ -4,7 +4,7 @@ var laligatSequence = require('../assessment.js').laligatSequence,
     inPigLatin = require('../assessment.js').inPigLatin;
 
 describe('#inPigLatin()', function () {
-  it('should return the product of the min and max value of the array.', function () {
+  it('should translates a sentence into pig latin.', function () {
     var result = inPigLatin("Shmanthony is the best teacher");
     var expected = "Anthonyshmay isyay ethay estbay eachertay";
     assert.equal(result, expected);
@@ -20,7 +20,7 @@ describe('#inPigLatin()', function () {
 });
 
 describe('#laligatSequence()', function () {
-  it('should return the index of the element in the array', function () {
+  it('should return the laligat sequence starting with base and of length n', function () {
     var result = laligatSequence(10, 4);
     var expected = [ 10, 17, 58, 381 ];
     assert.deepEqual(result, expected);
