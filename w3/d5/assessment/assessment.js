@@ -23,10 +23,10 @@ Examples:
 > inPigLatin("Shmanthony is the best teacher")
 Anthonyshmay isyay ethay estbay eachertay
 
->inPigLatin("let us Dance")
+> inPigLatin("let us Dance")
 etlay usyay Anceday
 
->inPigLatin("this is the time of my life")
+> inPigLatin("this is the time of my life")
 isthay isyay ethay imetay ofyay myay ifelay
 *******************************************************************************/
 function inPigLatin(sentence){
@@ -55,7 +55,7 @@ Examples:
 > laligatSequence(10, 4)
 [ 10, 17, 58, 381 ]
 
->laligatSequence(5, 2)
+> laligatSequence(5, 2)
 [ 5, 10 ]
 *******************************************************************************/
 function laligatSequence(base, n){
