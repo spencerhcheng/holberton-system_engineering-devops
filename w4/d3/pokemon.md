@@ -23,7 +23,7 @@ A pokemon's `hp` is 2.25 times its level, but because this must be a whole numbe
 > onyx;
 { name: 'ONYX', type: 'Rock', level: 5, hp: 11 }
 ```
-NB: A pokemon's `name` is uppercased and `type` is capitalized.
+**NB**: A pokemon's `name` is uppercased and `type` is capitalized.
 
 ### Phase 2
 
@@ -43,9 +43,9 @@ false
 > pikachu.levelUp()
 { name: 'PIKACHU', type: 'Electric', level: 11, hp: 24 }
 ```
-NB: How will leveling up affect a pokemon's `hp`...?
+**NB**: How does leveling up affect a pokemon's `hp`...?
 
-Add a method `Pokemon#call` which should return a pokemon's "nickname" repeated twice. A pokemon's nickname comes from taking its name up to the second vowel. If there are no second vowels, it is its full name. _Hint:_ a global variable `VOWELS` might be helpful with this.
+`Pokemon#call` should return a pokemon's "nickname" repeated twice. A pokemon's nickname comes from taking its name up to the second vowel. If there are no second vowels, it's nickname is its full name. _Hint:_ a global variable `VOWELS` might be helpful with this.
 
 ```javascript
 > pikachu.call()
@@ -69,9 +69,9 @@ Change your constructor so you can pass in an array of `moves` (i.e. `Pokemon(na
 > bulbasaur = new Pokemon('bulbasaur', 'leaf', leafTypeMoves, 11);
 > onyx = new Pokemon('onyx', 'rock', rockTypeMoves);
 ```
-NB: `level` is still an optional argument.
+**NB**: `level` is still an optional argument.
 
-A pokemon only has access to a fraction of its moves depending on its level. The percentage of moves it has access to is equal to the fraction of its level to its max level, which is 50 for all pokemon. Thus, if a pokemon level ups enough, it'll gain access to new moves.
+A pokemon only has access to a fraction of its moves depending on its level. The percentage of moves it has access to is equal to the fraction of its level to its max level, which is 50 for all pokemon. Thus, when a pokemon level ups enough, it gains access to new moves.
 
 Write a method `Pokemon#availableMoves` that returns a list of available moves. For example:
 
@@ -88,25 +88,31 @@ Write a method `Pokemon#availableMoves` that returns a list of available moves. 
   { name: 'Thunder', damage: 12 },
   { name: 'Zap Cannon', damage: 20 },
   { name: 'Electric Beam', damage: 20 } ]
+  
 > pikachu.level / 50; // fraction of level to max level
 0.2
+
 > pikachu.availableMoves(); // returns first 20% of its total moves
 [ { name: 'Tackle', damage: 3 },
   { name: 'Thunder Shock', damage: 4 } ]
+  
+  
+> bulbasaua.availableMoves(); 
+[ { name: 'Absorb', damage: 2 }, { name: 'Tackle', damage: 3 } ]
+> onyx.availableMoves();
+[]
 ```
-NB: The order of availableMoves mirrors the order of allMoves.
+**NB**: The order of availableMoves mirrors the order of allMoves.
 
-
-A pokemon can't have 0 moves. At a minimum, it always has its first possible move. Change `#availableMoves` to do this.
+Wait! A pokemon can't have 0 moves. At a minimum, it always has its first possible move. Change `#availableMoves` to fix this.
 
 ```javascript
-> onyx.level;
-5
 > onyx.availableMoves();
 [ { name: 'Tackle', damage: 3 } ]
 ```
 
 Next let's use these moves! Write a `Pokemon#attack(opponent, move)` method. This method should take:
+
 - a Pokemon argument for `opponent`
 - a string argument `move` that should correspond to an available move's `name` (optional)
 
@@ -126,6 +132,8 @@ PIKACHU hp: 24
 ONYX hp: 7
 ```
 
+Congrats you now have a `Pokemon` class!
+
 ### Bonus
 
-Hmmm is there a way to store a pokemon's available moves instead of calculating for them every attack? Fix your `Pokemon` class.
+Hmmm is there a way to store a pokemon's available moves instead of calculating for them every attack? Change your `Pokemon` class to fix this.
