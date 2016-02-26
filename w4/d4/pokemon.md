@@ -34,7 +34,7 @@ Let's add some methods to our `Pokemon` class! Write methods:
 * `Pokemon#faint`: should return `true` if a pokemon's `hp` is less than or equal to 0, `false` otherwise
 * `Pokemon#revive`: should reset a pokemon's `hp` and return the Pokemon
 * `Pokemon#call`: should return a pokemon's "nickname", repeated twice.
-  - A pokemon's nickname comes from taking its name up to the second vowel. If there are no second vowels, it's nickname is its full name. _Hint:_ a global variable `VOWELS` might be helpful with this.
+  - A pokemon's nickname comes from taking its name up to the second vowel. If there are no second vowels, its nickname is its full name. _Hint:_ a global variable `VOWELS` might be helpful with this.
 
 ```javascript
 > pikachu.hp -= 5; // Pikachu got attacked!
@@ -59,7 +59,7 @@ false
 
 ### Phase 3
 
-Change your constructor so you can pass in an array of `moves` (i.e. `Pokemon(name, type, moves, level)`). A move has a `name` and `damage` (see below), and `moves` is an array of all possible moves for a type of pokemon, ordered from weakest to strongest.
+Change your constructor so you can pass in an array of `moves` (i.e. `Pokemon(name, type, moves, level)`). A move has a `name` and `damage` (see below), and `moves` is an array of all possible moves for a type of pokemon, ordered from weakest to strongest damage.
 
 ```javascript
 > var electricTypeMoves = [ {name: "Tackle", damage: 3}, {name: "Thunder Shock", damage: 4}, {name: "Charge Beam", damage: 5}, {name: "Thunder Wave", damage: 5}, {name: "Spark", damage: 7}, {name: "Thunder Punch", damage: 8}, {name: "Shock Wave", damage: 10}, {name: "Thunder Bolt", damage: 15 }, {name: "Thunder", damage: 20}, {name: "Zap Cannon", damage: 30}, {name: "Electric Beam", damage: 35} ];
@@ -105,7 +105,7 @@ Write a method `Pokemon#availableMoves` that returns a list of available moves. 
 ```
 **NB**: The order of availableMoves mirrors the order of allMoves.
 
-Wait! A pokemon can't have 0 moves. At a minimum, it always has its first possible move. Change `#availableMoves` to fix this.
+Don't forget pokemon can't have 0 moves. At a minimum, it always has its first possible move. Change `#availableMoves` if you need to fix this.
 
 ```javascript
 > onyx.availableMoves();
