@@ -1,6 +1,6 @@
 # Lecture Notes 19
 
-## What is a Class
+## What is a Class?
 
 We have created several object before during this course (usually cats). Let's created
 three cats:
