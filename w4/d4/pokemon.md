@@ -2,9 +2,10 @@
 
 ### Phase 1
 
-Write a `Pokemon` class. It should have instance variables: `name`, `type`, `level`, and `hp`.
+* Write a `Pokemon` class.
+* Give it the instance variables: `name`, `type`, `level`, and `hp`.
 
-The constructor should take:
+The constructor should take as an argument:
 - a string argument for `name`
 - a string argument for `type`
 - an integer argument for `level` (optional)
@@ -27,10 +28,16 @@ A pokemon's `hp` is 2.25 times its level, but because this must be a whole numbe
 
 ### Phase 2
 
-Let's add some methods to our `Pokemon` class! Write methods `Pokemon#levelUp`, `Pokemon#faint`, `Pokemon#revive`, and `Pokemon#call`:
+Let's add some methods to our `Pokemon` class! Write methods:
 
-- `#faint` should return `true` if a pokemon's `hp` is less than or equal to 0, `false` otherwise
-- `#revive` should reset a pokemon's `hp` and return the Pokemon
+* `Pokemon#levelUp`: should increase a pokemon's `level` by 1 and return the Pokemon. Don't forget to recalcuate the `hp`
+* `Pokemon#faint`: should return `true` if a pokemon's `hp` is less than or equal to 0, `false` otherwise
+* `Pokemon#revive`: should reset a pokemon's `hp` and return the Pokemon
+* `Pokemon#call`: should return a pokemon's "nickname", repeated twice.
+  - A pokemon's nickname comes from taking its name up to the second vowel. If there are no second vowels, it's nickname is its full name. _Hint:_ a global variable `VOWELS` might be helpful with this.
+
+- `#faint`
+- `#revive`
 - `#levelUp` should increase a pokemon's `level` by 1 and return the Pokemon
 
 ```javascript
@@ -43,17 +50,15 @@ false
 > pikachu.levelUp()
 { name: 'PIKACHU', type: 'Electric', level: 11, hp: 24 }
 ```
-**NB**: How does leveling up affect a pokemon's `hp`...?
 
-`Pokemon#call` should return a pokemon's "nickname" repeated twice. A pokemon's nickname comes from taking its name up to the second vowel. If there are no second vowels, it's nickname is its full name. _Hint:_ a global variable `VOWELS` might be helpful with this.
 
 ```javascript
 > pikachu.call()
-PIKA-PIKA
+"PIKA-PIKA"
 > bulbasaur.call()
-BULBA-BULBA
+"BULBA-BULBA"
 > onyx.call()
-ONYX-ONYX
+"ONYX-ONYX"
 ```
 
 ### Phase 3
@@ -88,16 +93,16 @@ Write a method `Pokemon#availableMoves` that returns a list of available moves. 
   { name: 'Thunder', damage: 12 },
   { name: 'Zap Cannon', damage: 20 },
   { name: 'Electric Beam', damage: 20 } ]
-  
+
 > pikachu.level / 50; // fraction of level to max level
 0.2
 
 > pikachu.availableMoves(); // returns first 20% of its total moves
 [ { name: 'Tackle', damage: 3 },
   { name: 'Thunder Shock', damage: 4 } ]
-  
-  
-> bulbasaua.availableMoves(); 
+
+
+> bulbasaua.availableMoves();
 [ { name: 'Absorb', damage: 2 }, { name: 'Tackle', damage: 3 } ]
 > onyx.availableMoves();
 []
