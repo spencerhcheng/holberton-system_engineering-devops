@@ -2,7 +2,7 @@
 
 ## What is a Class?
 
-We have created several object before during this course (usually cats). Let's created
+We have created several objects before during this course (usually cats). Let's create
 three cats:
 
 ```javascript
