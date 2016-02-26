@@ -5,7 +5,7 @@
 * Write a `Pokemon` class.
 * Give it the instance variables: `name`, `type`, `level`, and `hp`.
 
-The constructor should take as an argument:
+The constructor should take as arguments:
 - a string argument for `name`
 - a string argument for `type`
 - an integer argument for `level` (optional)
@@ -30,11 +30,12 @@ A pokemon's `hp` is 2.25 times its level, but because this must be a whole numbe
 
 Let's add some methods to our `Pokemon` class! Write methods:
 
-* `Pokemon#levelUp`: should increase a pokemon's `level` by 1 and return the Pokemon. Don't forget to recalcuate the `hp`
-* `Pokemon#faint`: should return `true` if a pokemon's `hp` is less than or equal to 0, `false` otherwise
-* `Pokemon#revive`: should reset a pokemon's `hp` and return the Pokemon
+* `Pokemon#levelUp`: should increase a pokemon's `level` by 1 and return the Pokemon. Don't forget to recalcuate its `hp`.
+* `Pokemon#faint`: should return `true` if a pokemon's `hp` is less than or equal to 0, `false` otherwise.
+* `Pokemon#revive`: should reset a pokemon's `hp` and return the Pokemon.
 * `Pokemon#call`: should return a pokemon's "nickname", repeated twice.
-  - A pokemon's nickname comes from taking its name up to the second vowel. If there are no second vowels, it's nickname is its full name. _Hint:_ a global variable `VOWELS` might be helpful with this.
+
+  - A pokemon's nickname comes from taking its name up to the second vowel. If there are no second vowels, its nickname is its full name. _Hint:_ a global variable `VOWELS` might be helpful with this.
 
 ```javascript
 > pikachu.hp -= 5; // Pikachu got attacked!
@@ -65,6 +66,7 @@ false
   - `moves` is an array of all possible moves for a type of pokemon, ordered from
   weakest to strongest.
   - A move has a `name` and `damage` key (`{name: nameOfAttack, damage: 3}`),
+
 
 ```javascript
 var electricTypeMoves = [
@@ -151,6 +153,7 @@ gains access to new moves.
 
 Don't forget that a pokemon can't have 0 moves! At a minimum, it always has its
 first possible move. Change `#availableMoves` to fix this.
+
 
 ```javascript
 > onyx.availableMoves();
