@@ -37,7 +37,7 @@ right now, I'd have to find everywhere in my code where I created a cat and chan
 the method. Or what if I needed to create 1000 cat objects? To create each object
 by hand would be very error prone. So how can we solve this? **Classes**.
 
-This of a class as a blueprint for an object. If we create a `Cat` class, we can use
+Think of a class as a blueprint for an object. If we create a `Cat` class, we can use
 it to create as many cat objects as we need. We will specify all of the properties
 and methods that are common to all cats on the class, DRYing up our code considerably.
 We can then create new cat objects on the fly with out `Cat` class.
@@ -47,11 +47,11 @@ class.
 
 ## Creating New Classes
 
-Functions have many roles is javascript: creating new abstraction layers, creating
+Functions have many roles in javascript: creating new abstraction layers, creating
 new scopes, etc.. Functions are also the way we create new classes in JavaScript.
 
 *It is technically incorrect to say that a function is how we create a new class. The
-construct we are introducing to you is technically called a Constructor. For our purposes
+construct we are introducing to you is technically called a* **Constructor**. *For our purposes,
 a Class and a Constructor are synonymous. If you are interested in the distinction, see the resources page for more reading*
 
 Let's create the `Cat` class:
@@ -75,9 +75,9 @@ create three cats. Now, these cats are essentially empty objects that were
 created from an empty class, but there are two things we can learn about Javascript
 classes from this example:
 
-* They start, by convention, with a capital letter
-* Use the `new` keyword to create an object (also called an instance) from the
-constructor
+* A Javascript class starts, by convention, with a capital letter
+* The `new` keyword is used to create an object (also called an *instance*) from the
+Constructor
 
 
 ## Creating Instance Variables
@@ -109,7 +109,7 @@ The `this` keyword, when used inside of a constructor function, evaluates to the
 that will be created when the constructor is used with the `new` keyword. In other
 words, when the constructor is run with the `new` keyword, the function body is evaluated, and `this` is the object that is being created.
 
-An instance variable is a property exists on each object. In this case, `name`,
+An **instance variable** is a property that exists on each object. In this case, `name`,
 `age`, and `color` are instance variables. The canonical way to set up instance
 variables is to pass in the values as arguments.
 
@@ -132,8 +132,8 @@ If you run this code, you will see that it'll behave as expected. **BUT IT IS WR
 Why, you ask? Because is will create a new function object that represents that
 method every time we create a new cat. This is unnecessary and not optimal because
 `meow` will to the same thing for every cat. What we want to do is define the
-method once and have all instance refer to that definition when they call the method.
-We achieve this by defining the method on the `prototype` property of the `constructor`:
+method once and have all instances refer to that definition when they call the method.
+We achieve this by defining the method on the `prototype` property of the `Constructor`:
 
 ```javascript
 function Cat(name, age, color){
