@@ -30,7 +30,7 @@ A pokemon's `hp` is 2.25 times its level, but because this must be a whole numbe
 
 Let's add some methods to our `Pokemon` class! Write methods:
 
-* `Pokemon#levelUp`: should increase a pokemon's `level` by 1 and return its new level. Don't forget to recalcuate its `hp`.
+* `Pokemon#levelUp`: should increase a pokemon's `level` by 1 and return the Pokemon. Don't forget to recalcuate its `hp`.
 * `Pokemon#faint`: should return `true` if a pokemon's `hp` is less than or equal to 0, `false` otherwise.
 * `Pokemon#revive`: should reset a pokemon's `hp` and return the Pokemon.
 * `Pokemon#call`: should return a pokemon's "nickname", repeated twice.
