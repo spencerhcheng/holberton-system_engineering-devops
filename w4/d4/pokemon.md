@@ -5,7 +5,7 @@
 * Write a `Pokemon` class.
 * Give it the instance variables: `name`, `type`, `level`, and `hp`.
 
-The constructor should take as an argument:
+The constructor should take as arguments:
 - a string argument for `name`
 - a string argument for `type`
 - an integer argument for `level` (optional)
