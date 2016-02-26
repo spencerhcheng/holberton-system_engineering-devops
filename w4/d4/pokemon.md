@@ -36,49 +36,91 @@ Let's add some methods to our `Pokemon` class! Write methods:
 * `Pokemon#call`: should return a pokemon's "nickname", repeated twice.
   - A pokemon's nickname comes from taking its name up to the second vowel. If there are no second vowels, it's nickname is its full name. _Hint:_ a global variable `VOWELS` might be helpful with this.
 
-- `#faint`
-- `#revive`
-- `#levelUp` should increase a pokemon's `level` by 1 and return the Pokemon
-
 ```javascript
 > pikachu.hp -= 5; // Pikachu got attacked!
 
 > pikachu.faint()
 false
+
 > pikachu.revive()
 { name: 'PIKACHU', type: 'Electric', level: 10, hp: 22 }
+
 > pikachu.levelUp()
 { name: 'PIKACHU', type: 'Electric', level: 11, hp: 24 }
-```
 
-
-```javascript
 > pikachu.call()
 "PIKA-PIKA"
+
 > bulbasaur.call()
 "BULBA-BULBA"
+
 > onyx.call()
 "ONYX-ONYX"
 ```
 
 ### Phase 3
 
-Change your constructor so you can pass in an array of `moves` (i.e. `Pokemon(name, type, moves, level)`). A move has a `name` and `damage` (see below), and `moves` is an array of all possible moves for a type of pokemon, ordered from weakest to strongest.
+* Change your constructor so you can pass in an array of `moves`
+  - (i.e. `Pokemon(name, type, moves, level)`).
+  - `moves` is an array of all possible moves for a type of pokemon, ordered from
+  weakest to strongest.
+  - A move has a `name` and `damage` key (`{name: nameOfAttack, damage: 3}`),
 
 ```javascript
-> var electricTypeMoves = [ {name: "Tackle", damage: 3}, {name: "Thunder Shock", damage: 4}, {name: "Charge Beam", damage: 5}, {name: "Thunder Wave", damage: 5}, {name: "Spark", damage: 7}, {name: "Thunder Punch", damage: 8}, {name: "Shock Wave", damage: 10}, {name: "Thunder Bolt", damage: 15 }, {name: "Thunder", damage: 20}, {name: "Zap Cannon", damage: 30}, {name: "Electric Beam", damage: 35} ];
-> var leafTypeMoves = [ {name: "Absorb", damage: 2}, {name: "Tackle", damage: 3}, {name: "Bullet Seed", damage: 4}, {name: "Mega Drain", damage: 6}, {name: "Vine Whip", damage: 8}, {name: "Razor Leaf", damage: 15}, {name: "Giga Drain", damage: 18 }, {name: "Seed Bomb", damage: 22}, {name: "Petal Dance", damage: 25}, {name: "Solar Beam", damage: 35} ];
-> var rockTypeMoves = [ {name: "Tackle", damage: 3}, {name: "Rollout", damage: 6}, {name: "Rock Blast", damage: 4}, {name: "Smack Down", damage: 10}, {name: "Rock Throw", damage: 20}, {name: "Rock Slide", damage: 30}, {name: "Head Smash", damage: 40}, {name: "Rock Wrecker", damage: 50 } ];
+var electricTypeMoves = [
+  { name: "Tackle", damage: 3 },
+  { name: "Thunder Shock", damage: 4 },
+  { name: "Charge Beam", damage: 5 },
+  { name: "Thunder Wave", damage: 5 },
+  { name: "Spark", damage: 7 },
+  { name: "Thunder Punch", damage: 8 },
+  { name: "Shock Wave", damage: 10 },
+  { name: "Thunder Bolt", damage: 15  },
+  { name: "Thunder", damage: 20 },
+  { name: "Zap Cannon", damage: 30 },
+  { name: "Electric Beam", damage: 35}
+];
 
-> pikachu = new Pokemon('PIKACHU', 'Electric', electricTypeMoves, 10);
-> bulbasaur = new Pokemon('bulbasaur', 'leaf', leafTypeMoves, 11);
-> onyx = new Pokemon('onyx', 'rock', rockTypeMoves);
+var leafTypeMoves = [
+  { name: "Absorb", damage: 2 },
+  { name: "Tackle", damage: 3 },
+  { name: "Bullet Seed", damage: 4 },
+  { name: "Mega Drain", damage: 6 },
+  { name: "Vine Whip", damage: 8 },
+  { name: "Razor Leaf", damage: 15 },
+  { name: "Giga Drain", damage: 18  },
+  { name: "Seed Bomb", damage: 22 },
+  { name: "Petal Dance", damage: 25 },
+  { name: "Solar Beam", damage: 35}
+];
+
+var rockTypeMoves = [
+  { name: "Tackle", damage: 3 },
+  { name: "Rollout", damage: 6 },
+  { name: "Rock Blast", damage: 4 },
+  { name: "Smack Down", damage: 10 },
+  { name: "Rock Throw", damage: 20 },
+  { name: "Rock Slide", damage: 30 },
+  { name: "Head Smash", damage: 40 },
+  { name: "Rock Wrecker", damage: 50 }
+];
+
+pikachu = new Pokemon('PIKACHU', 'Electric', electricTypeMoves, 10);
+bulbasaur = new Pokemon('bulbasaur', 'leaf', leafTypeMoves, 11);
+onyx = new Pokemon('onyx', 'rock', rockTypeMoves);
 ```
 **NB**: `level` is still an optional argument.
 
-A pokemon only has access to a fraction of its moves depending on its level. The percentage of moves it has access to is equal to the fraction of its level to its max level, which is 50 for all pokemon. Thus, when a pokemon level ups enough, it gains access to new moves.
+A pokemon only has access to a fraction of its moves depending on its level. The
+percentage of moves it has access to is equal to the fraction of its level to its
+max level, which is 50 for all pokemon. Thus, when a pokemon level ups enough, it
+gains access to new moves.
 
-Write a method `Pokemon#availableMoves` that returns a list of available moves. For example:
+* Write a method `Pokemon#availableMoves` that returns a list of available moves.
+  - Divide a pokemon's level by the Max Level of any pokemon: 50;
+  - The resulting fraction is the proportion of your moves you have access to
+  - A pokemon, regardless of its level, will always have access to its first move
+  - See the example below
 
 ```javascript
 > pikachu.moves // 11 total moves
@@ -98,18 +140,17 @@ Write a method `Pokemon#availableMoves` that returns a list of available moves. 
 0.2
 
 > pikachu.availableMoves(); // returns first 20% of its total moves
-[ { name: 'Tackle', damage: 3 },
-  { name: 'Thunder Shock', damage: 4 } ]
+[ { name: 'Tackle', damage: 3 }, { name: 'Thunder Shock', damage: 4 } ]
 
 
 > bulbasaua.availableMoves();
 [ { name: 'Absorb', damage: 2 }, { name: 'Tackle', damage: 3 } ]
-> onyx.availableMoves();
-[]
+
 ```
 **NB**: The order of availableMoves mirrors the order of allMoves.
 
-Wait! A pokemon can't have 0 moves. At a minimum, it always has its first possible move. Change `#availableMoves` to fix this.
+Don't forget that a pokemon can't have 0 moves! At a minimum, it always has its
+first possible move. Change `#availableMoves` to fix this.
 
 ```javascript
 > onyx.availableMoves();
