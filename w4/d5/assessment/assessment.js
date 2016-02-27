@@ -39,7 +39,7 @@ vowel are placed at the end of the word sequence. Then, "ay" is added to the end
   "banana" → "ananabay"
   "trash" → "ashtray
 
-2) For words that begin with vowels, just adds "yay" to the end
+2) For words that begin with vowels, just add "yay" to the end
   Examples
   "eat" → "eatyay"
   "omelet" → "omeletyay"
