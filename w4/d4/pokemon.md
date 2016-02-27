@@ -160,12 +160,12 @@ first possible move. Change `#availableMoves` to fix this.
 [ { name: 'Tackle', damage: 3 } ]
 ```
 
-Next let's use these moves! Write a `Pokemon#attack(opponent, move)` method. This method should take:
+Next let's use these moves! Write a `Pokemon#attack(opponent, moveName)` method. This method should take:
 
 - a Pokemon argument for `opponent`
-- a string argument `move` that should correspond to an available move's `name` (optional)
+- a string argument `moveName` that should correspond to an available move's `name` (optional)
 
-The opponent pokemon's `hp` should reflect the `damage` of the attack. If no available move is found that matches or no move is passed in, attack with a pokemon's strongest available attack. An attack message and stats output would probably be nice. Use `Array.prototype.forEach()`.
+The opponent pokemon's `hp` should reflect the `damage` of the move. If no available move is found that matches or no move is passed in, attack with a pokemon's strongest available attack. An attack message and stats output would probably be nice. Use `Array.prototype.forEach()`.
 
 ```javascript
 > pikachu.attack(bulbasaur, "Thunder Shock");
