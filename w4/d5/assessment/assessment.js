@@ -1,6 +1,6 @@
 /******************************************************************************
 Write a function divisibleBy7Sort(array) that takes in an array of numbers. It
-should return an array where all the number that are divisible by 7 are at the
+should return an array where all the numbers that are divisible by 7 are at the
 end and all of the other numbers are in the front (in their original order).
 
 Example
@@ -13,11 +13,11 @@ function divisibleBy7Sort(array){
 
 /******************************************************************************
 Write a function longestLetterStreak(str, searchLetters) that takes in 2 arguments:
- - str: a string of uppercase characters.
- - searchLetters: An array of single-character strings (i.e ["A", "F", "K"])
+ - str: A string of uppercase characters.
+ - searchLetters: An array of uppercase single-character strings (i.e ["A", "F", "K"])
 
-The function should return a the longest streak of letters in the `str` that are
-in the `searchLetters`.
+The function should return the length of the longest streak of letters in the `str`
+that are in the `searchLetters`.
 
 Example
 longestLetterStreak("ACCA", ["C"]) => 2
@@ -32,20 +32,20 @@ function longestLetterStreak(str, searchLetters){
 Write a function inPigLatin(sentence) that translates a sentence into its pig
 latin equivalent. The rules for the translation are as follows:
 
-1) For words that begin with consonant sounds, all letters before the initial
+1) For words that begin with consonants, all letters before the initial
 vowel are placed at the end of the word sequence. Then, "ay" is added to the end.
   Examples
   "pig" → "igpay"
   "banana" → "ananabay"
   "trash" → "ashtray
 
-2) For words that begin with vowel sounds, just adds "yay" to the end
+2) For words that begin with vowels, just adds "yay" to the end
   Examples
   "eat" → "eatyay"
   "omelet" → "omeletyay"
   "are" → "areyay"
 
-!!! Words that were originally caplitailzed must remained caplitailzed
+!!! Words that were originally caplitalized must remained caplitalized
 !!! Assume no punctuation
 !!! 'y' is not a vowel
 
