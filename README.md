@@ -11,6 +11,6 @@
   + Functions
 
 + [Problem Set 1][pset-1]
-[w1d1-lecture-notes]:.w1/d1/lecture_notes.md
-[w1d1-js-lecture-notes]:.w1/d1/js_lecture_notes.md
+[w1d1-lecture-notes]:./w1/d1/lecture_notes.md
+[w1d1-js-lecture-notes]:./w1/d1/js_lecture_notes.md
 [pset-1]:Bootcamp-Prep-Curriculum/w1/d1/problem_set.md
