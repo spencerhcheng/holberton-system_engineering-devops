@@ -232,4 +232,4 @@ false
 ### Pokemon Project
 
 * [Part 1](./w4/d4/pokemon/class.md): Create a Pokemon class.
-* [Part 2](./w4/d4/pokemon/class.md): Battle your Pokemon.
+* [Part 2](./w4/d4/pokemon/battle.md): Battle your Pokemon.
