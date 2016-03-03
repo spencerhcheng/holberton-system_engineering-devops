@@ -1,4 +1,4 @@
-### Finish Clock project!
+### Finish [Clock](../d2/clock.md) Project!
 
 ### Predict The Output and Determine the value of `this`
 
