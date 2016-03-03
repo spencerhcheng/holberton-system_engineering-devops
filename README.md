@@ -191,7 +191,7 @@ Welcome to Bootcamp Prep!
 + [Project Euler](https://projecteuler.net/archives)
 + [Problem Set][w4d2-pset]
 
-[w4d2-pset]:./w4/d3/problem_set.md
+[w4d2-pset]:./w4/d2/problem_set.md
 
 ### w4d3
 Interview Prep
