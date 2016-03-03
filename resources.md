@@ -16,7 +16,7 @@
 
 ## Terminal
 
-* [Code Academy](https://www.codecademy.com/learn/learn-the-command-line)
+* [Codecademy](https://www.codecademy.com/learn/learn-the-command-line)
 
 ## Regular Expressions
 
