@@ -31,7 +31,7 @@
 + [Pokemon Project][pokemon]
 
 [w4d4-lecture-notes]:./d4/lecture_notes.md
-[pokemon]:./d4/pokemon.md
+[pokemon]:./d4/pokemon/class.md
 
 ### w4d5
 + **Assessment 4**

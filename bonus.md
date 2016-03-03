@@ -1,12 +1,12 @@
 # Week 1
 
-## Truthy or Falsey
-Will these expressions evaluate to true or false. Check your work in the console.
+### Truthy or Falsey
+Will these expressions evaluate to true or false? Check your work in the console.
 
 * `(false || false || true) && (true && true && false)`
 * `(false || false) && (false && false) || (true && false) || (false && true)`
 
-## Truth Table
+### Truth Table
 
 x  | y   | z   | (x && y) &#124;&#124; z
 -----|-----|-----|------------------------
@@ -19,13 +19,13 @@ false|true |false|
 false|false|true |
 false|false|false|
 
-## dynamicFizzBuzz
+### dynamicFizzBuzz
 
 Define a function `dynamicfizzBuzz(max, num1, num2)` that takes three numbers
 as arguments and prints to the console every number from 0 to `max` that is
 divisible by either `num1` or `num2`, but not both.
 
-## What will these evaluate to?
+### What will this program evaluate to?
 
 ```javascript
 var rickyBobbyJr = function(num) {
@@ -50,13 +50,13 @@ var sayHi = function(n) {
 sayHi(3);
 ```
 
-## minMaxDifference
+### minMaxDifference
 
 Write a function `minMaxDifference(array)` that return the difference between the
 largest value and the smallest value in the array. Assume `array` is an array of
 numbers.
 
-## Dogs And Bones
+### dogsAndBones
 
 You have 100 dogs (soo many dogs!). You have arranged all your dogs in a line.
 Initially, none of your dogs have any bones. You take 100 rounds walking around
@@ -67,7 +67,7 @@ round, you only stop at every 2nd dog (#2, #4, #6, #8, etc.). The third round,
 you only stop at every 3rd dog (#3, #6, #9, #12, etc.). You continue this
 process until the 100th round (i.e. you only visit the 100th dog).
 
-Write a program that prints which dogs have bones at the end.
+Write a program `dogsAndBones()` that prints which dogs have bones at the end.
 
 # Week 2
 
@@ -84,8 +84,7 @@ A `block` is object that looks like this:
 }
 ```
 
-Write a function `collisionDetected(block1, block2)` that returns `true` if the
-two `block`s are intersecting.
+Write a function `collisionDetected(block1, block2)` that returns `true` if `block1` and `block2` intersect, `false` otherwise.
 
 ```javascript
 var blockA = {
@@ -114,7 +113,7 @@ collisionDetected(blockA, blockC) === false;
 collisionDetected(blockC, blockB) === true;
 ```
 
-## Debug the Program
+### Debug the Programs
 
 ```javascript
 function getPropsAndMethods(object){
@@ -139,7 +138,7 @@ var cat = {
   }
 };
 
-getPropsAndMethods(cat); //==> { props : ["name", "age"], methods : ["purr"] }
+getPropsAndMethods(cat); // ==> { props : ["name", "age"], methods : ["purr"] }
 ```
 ---------------------------------------------------------------------------
 
@@ -187,38 +186,37 @@ var runners = [
   },
 ];
 
-race(runners); //==> "Jon"
+race(runners); // ==> "Jon"
 ```
 
-
-## deepIndexOf
+### deepIndexOf
 
 Write a function `deepIndexOf(array, val)` that takes a 2-dimensional `array`
-and `val` as its parameters. Return the pair of indices that can represent the
-location of `val` in `array`. If the element does not exist, return `[-1, -1]`
+and `val` as its parameters. It returns the pair of indices that represents the
+location of `val` in `array`. If the element does not exist, return `[-1, -1]`.
 
 # Week 3
 
-## lengthOfHypotenuse
+### lengthOfHypotenuse
 
 Write a function `lengthOfHypotenuse(sideA, sideB)` that takes in two numbers.
-These numbers represent the sides of a right triangle that are adjacent to the right angle. This function should return the length of the hypotenuse of the triangle.
+These numbers represent the sides of a right triangle that are adjacent to the right angle. This function returns the length of the hypotenuse of the triangle.
 
-*Hint:* To find the length of a hypotenuse, we can use the Pythagorean Theorem (a^2 + b^2 = c^), where c is the length of the hypotenuse.
+*Hint:* To find the length of a hypotenuse, we can use the Pythagorean Theorem (a^2 + b^2 = c^2), where c is the length of the hypotenuse, and a and b are the lengths of the remaining sides.
 
-## collidingCircles
+### collidingCircles
 
-A circle is represented as the x-coordinate position, the y-coordinate position, and a radius : `{ x: 0, y: 0, radius: 1 }`. The coordinates represent the center position.
+A circle is represented by a x-coordinate position, y-coordinate position, and radius (e.g. `{ x: 0, y: 0, radius: 1 }`). The x-y coordinates represent the position of its center.
 
 Write a function `collidingCircles(circle1, circle2)` that takes in two circle objects as input and returns `true` if the circles are colliding, otherwise `false`.
 
 *Hints:*
 - The `lengthOfHypotenuse` function may be useful here.
-- Finding the difference between the two circle's coordinate positions will give you the length of two sides of a right triangle.
+- Finding the difference between the two circles' coordinate positions will give you the length of two sides of a right triangle.
 
-## Diagonal Walk
+### diagonalWalk
 
-Write a function `diagonalWalk(path)` that takes a string (`path`) of characters as its input. These characters will be either `u`, `d`, `l`, or `r`, representing moves "up", "down", "left", or "right", respectively. The function should return `true` if we are along the diagonal axis of our starting position. Assume each step moves us the same distance.
+Write a function `diagonalWalk(path)` that takes a string (`path`) of characters as its input. These characters will be either `u`, `d`, `l`, or `r`, representing moves "up", "down", "left", or "right", respectively. The function returns `true` if we are along the diagonal axis of our starting position, `false` otherwise. Assume each step moves us the same distance.
 
 ```javascript
 > diagonalWalk("urdl");
@@ -228,3 +226,10 @@ true
 > diagonalWalk("urdlll");
 false
 ```
+
+# Week 4
+
+### Pokemon Project
+
+* [Part 1](./w4/d4/pokemon/class.md): Create a Pokemon class.
+* [Part 2](./w4/d4/pokemon/class.md): Battle your Pokemon.
