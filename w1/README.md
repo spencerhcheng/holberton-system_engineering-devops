@@ -4,7 +4,7 @@
 
 ### w1d1
 Welcome to Bootcamp Prep!
-+ [Programming Notes][w1d1-lecture-notes]
++ [Introduction to Programming][w1d1-lecture-notes]
 + [Lecture Notes][w1d1-js-lecture-notes]
   + JavaScript Environment
   + JavaScript Data Types

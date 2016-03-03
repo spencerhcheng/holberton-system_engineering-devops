@@ -18,13 +18,13 @@ Before the 1st Day of Class
   + [Week 3](./w3/README.md)
   + [Week 4](./w4/README.md)
   + [Bonus Problems](./bonus.md)
-  + [Additional Resources](./rescources.md)
+  + [Additional Resources](./resources.md)
 
 ## Week 1
 
 ### w1d1
 Welcome to Bootcamp Prep!
-+ [Programming Notes][w1d1-lecture-notes]
++ [Introduction to Programming][w1d1-lecture-notes]
 + [Lecture Notes][w1d1-js-lecture-notes]
   + JavaScript Environment
   + JavaScript Data Types
