@@ -202,7 +202,7 @@ Welcome to Bootcamp Prep!
 + [Pokemon Project][pokemon]
 
 [w4d4-lecture-notes]:./w4/d4/lecture_notes.md
-[pokemon]:./w4/d4/pokemon.md
+[pokemon]:./w4/d4/pokemon/class.md
 
 ### w4d5
 + **Assessment 4**
