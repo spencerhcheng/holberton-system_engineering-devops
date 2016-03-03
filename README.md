@@ -174,3 +174,39 @@ Welcome to Bootcamp Prep!
 ### w3d5
 + **Assessment 3**
 + Review
+
+## Week 4
+
+### w4d1
++ **Assessment 3**
++ [Review][w4d1-lecture-notes]
+  + Common Gotchas
+  + Asynchronous Programming
+  + Callbacks
++ Coding Bootcamps
+
+[w4d1-lecture-notes]:./w4/d1/lecture_notes.md
+
+### w4d2
++ [Project Euler](https://projecteuler.net/archives)
++ [Problem Set][w4d2-pset]
+
+[w4d2-pset]:./w4/d3/problem_set.md
+
+### w4d3
+Interview Prep
+
+### w4d4
++ [Lecture Notes][w4d4-lecture-notes]
+  + JavaScript Class
+    + Creating New Classes
+    + Creating Instance Variables
+    + Creating Methods on Classes
++ [Pokemon Project][pokemon]
+
+[w4d4-lecture-notes]:./w4/d4/lecture_notes.md
+[pokemon]:./w4/d4/pokemon.md
+
+### w4d5
++ **Assessment 4**
++ Review
