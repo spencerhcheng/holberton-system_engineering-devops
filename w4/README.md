@@ -19,7 +19,8 @@
 [w4d2-pset]:./d2/problem_set.md
 
 ### w4d3
-Interview Prep
+* **Interview Prep**
+* [Coderbyte](https://coderbyte.com/challenges/)
 
 ### w4d4
 + [Lecture Notes][w4d4-lecture-notes]
