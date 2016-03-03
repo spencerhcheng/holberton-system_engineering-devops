@@ -12,6 +12,12 @@ Before the 1st Day of Class
 [github]:https://github.com/
 [codecademy]:https://www.codecademy.com/learn/javascript
 
+### Quick Links
+  + [Week 1](./##Week1)
+  + [Week 2](./##Week2)
+  + [Week 3](./##Week3)
+  + [Week 4](./##Week4)
+
 ## Week 1
 
 ### w1d1
