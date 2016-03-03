@@ -34,12 +34,10 @@
   + Node I/O - File System
 + [Problem Set][w3d3-pset]
 + [Sentiment Detector Project][sentiment-detector]
-  + [Instructions][sentiment-detector-instructions]
 
 [w3d3-lecture-notes]:./d3/lecture_notes.md
 [w3d3-pset]:./d3/problem_set.md
 [sentiment-detector]:./d3/sentiment_detector
-[sentiment-detector-instructions]:./d3/sentiment_detector/sentiment.md
 
 ### w3d4
 + Finish [Clock][clock] and [Sentiment Detector][sentiment-detector]

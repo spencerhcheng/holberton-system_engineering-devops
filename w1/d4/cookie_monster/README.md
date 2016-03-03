@@ -3,10 +3,8 @@
 * For this project, we are going to make a `cookieMonster` object.
   * Type `mocha` in the command prompt/terminal to see all the failing tests. Your job will be to make them all pass.
 
-
 * Look at the first failing test. It is expecting `cookieMonster` to have a property called `name` that evaluates to `Fred`. In `cookieMonster.js`, add the property `name` and set it to `Fred`.
   * Run `mocha` again. Yay! The spec has passed.
-
 
 * Now fix all the "initial properties" specs.
 
