@@ -66,12 +66,10 @@ Welcome to Bootcamp Prep!
   + `this`
 + [Problem Set][w1d4-pset]
 + [Cookie Monster Project][cookie-monster]
-  + Instructions [here][cookie-monster-instructions]
 
 [w1d4-lecture-notes]:./w1/d4/lecture_notes.md
 [w1d4-pset]:./w1/d4/problem_set.md
 [cookie-monster]:./w1/d4/cookie_monster
-[cookie-monster-instructions]:./w1/d4/cookie_monster/README.md
 
 ### w1d5
 + **Assessment 1**
@@ -160,12 +158,10 @@ Welcome to Bootcamp Prep!
   + Node I/O - File System
 + [Problem Set][w3d3-pset]
 + [Sentiment Detector Project][sentiment-detector]
-  + [Instructions][sentiment-detector-instructions]
 
 [w3d3-lecture-notes]:./w3/d3/lecture_notes.md
 [w3d3-pset]:./w3/d3/problem_set.md
 [sentiment-detector]:./w3/d3/sentiment_detector
-[sentiment-detector-instructions]:./w3/d3/sentiment_detector/sentiment.md
 
 ### w3d4
 + Finish [Clock][clock] and [Sentiment Detector][sentiment-detector]
