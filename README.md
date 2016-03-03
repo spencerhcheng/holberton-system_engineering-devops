@@ -5,7 +5,7 @@ Before the 1st Day of Class
   + Download the current stable version (v5.7.0) for your operating system. The installation is very user-friendly. If you run into any problems, email me describing it and plan on coming in about 15 minutes early on the first day.
 + Create a [GitHub][github] account
   + Please email me your username so I can give you access to the course material.
-+ Finish [Codecademy JavaScript][codecademy] course Unit 1.
++ Finish [Codecademy JavaScript][codecademy] course Unit 1
 
 
 [node]:https://nodejs.org/en/download/stable/
@@ -22,7 +22,6 @@ Welcome to Bootcamp Prep!
   + JavaScript Data Types
   + Syntax
   + Introduction to Functions
-
 + [Problem Set][w1d1-pset]
 
 [w1d1-lecture-notes]:./w1/d1/lecture_notes.md
@@ -67,4 +66,58 @@ Welcome to Bootcamp Prep!
 [cookie-monster-instructions]:./w1/d4/cookie_monster/instructions.md
 
 ### w1d5
-**Assessment**
++ **Assessment 1**
++ Review
+
+## Week 2
+
+### w2d1
++ **Assessment 1**
++ [Review][w2d1-lecture-notes]
+  + Primitive Data Types
+  + Functions
+  + Looping
+  + Conditionals
+  + Objects and Arrays
+  + Decomposition
+  + Abstraction
+
+[w2d1-lecture-notes]:./w2/d1/lecture_notes.md
+
+### w2d2
++ [Lecture Notes][w2d2-lecture-notes]
+  + Multi-Dimensional Arrays
+  + Nested Loops
++ [Problem Set][w2d2-pset]
+
+[w2d2-lecture-notes]:./w2/d2/lecture_notes.md
+[w2d2-pset]:./w2/d2/problem_set.md
+
+### w2d3
++ [Lecture Notes][w2d3-lecture-notes]
+  + String methods
+  + Style
+  + Debugging
++ [Problem Set][w2d3-pset]
+
+[w2d3-lecture-notes]:./w2/d3/lecture_notes.md
+[w2d3-pset]:./w2/d3/problem_set.md
+
+### w2d4
++ [Lecture Notes][w2d4-lecture-notes]
+  + Scope
+    + The Global Scope
+    + Function Scope
+    + Scope of `this`
++ [Problem Set][w2d4-pset]
+
+[w2d4-lecture-notes]:./w2/d4/lecture_notes.md
+[w2d4-pset]:./w2/d4/problem_set.md
+
+### w2d5
++ **Assessment 2**
++ Review
+
+## Additional Resources ([here][additional-resources])
+
+[additional-resources]:./rescources.md
