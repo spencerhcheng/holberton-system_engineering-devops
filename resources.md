@@ -18,11 +18,11 @@
 
 * [Codecademy](https://www.codecademy.com/learn/learn-the-command-line)
 
-* [Shortcuts](./keyboard_shortcuts.md)
+* [Shortcuts](./commandline_shortcuts.md)
 
 ## Atom
 
-* [Shortcuts](./keyboard_shortcuts.md)
+* [Shortcuts](./atom_shortcuts.md)
 
 ## Regular Expressions
 
