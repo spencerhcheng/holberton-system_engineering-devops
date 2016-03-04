@@ -5,11 +5,13 @@ Before the 1st Day of Class
   + Download the current stable version (v5.7.0) for your operating system. The installation is very user-friendly. If you run into any problems, email me describing it and plan on coming in about 15 minutes early on the first day.
 + Create a [GitHub][github] account
   + Please email me your username so I can give you access to the course material.
++ Install [Atom][atom]. It's going to be our text editor of choice during this course.
 + Finish [Codecademy JavaScript][codecademy] course Unit 1
 
 
 [node]:https://nodejs.org/en/download/stable/
 [github]:https://github.com/
+[atom]:https://atom.io/
 [codecademy]:https://www.codecademy.com/learn/javascript
 
 ## Quick Links
