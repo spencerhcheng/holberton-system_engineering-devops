@@ -1,6 +1,6 @@
-# OSX Keybaord Shortcuts
+# OSX Keyboard Shortcuts
 
-## Command Line
+## Commandline
 
 Shortcut                        | Command
 --------------------------------|-----------------------------------------
