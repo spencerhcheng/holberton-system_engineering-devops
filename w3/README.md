@@ -41,7 +41,7 @@
 
 ### w3d4
 + Finish [Clock][clock] and [Sentiment Detector][sentiment-detector]
-+ [Bonus Problems](./bonus.md)
++ [Bonus Problems](../bonus.md)
 
 ### w3d5
 + **Assessment 3**
