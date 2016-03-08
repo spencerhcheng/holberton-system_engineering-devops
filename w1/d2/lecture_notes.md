@@ -203,7 +203,7 @@ function printNSkip5(n) {
 }
 ```
 
-If we wanted to change our `printN` function so that it stopped as soon as it hit
+If we wanted to change our `printN` function so that it stopa as soon as it hita
 a multiple of 5, we could write:
 
 ```javascript
