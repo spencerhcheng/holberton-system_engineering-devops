@@ -2,7 +2,7 @@
 
 ## What is an Object?
 
-An object a data structure that stores other data, like an array. Objects
+An object is a data structure that stores other data, like an array. Objects
 associate keys with values. The keys are always strings. The value can be any
 data type (numbers, strings, functions, arrays, objects, anything).Objects,
 however, differ from arrays in two important ways:
