@@ -11,7 +11,7 @@ however, differ from arrays in two important ways:
 
 * Order is not guaranteed. When you iterate through the elements in an object,
 they may not be in the same order they were entered in. Like arrays, the only
-way to access the value in an object is through
+way to access the value in an object is through indexing.
 
 Objets are defined by curly brackets `{}`. Open up the console and let's make
 some objects.
