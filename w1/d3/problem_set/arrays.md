@@ -2,7 +2,7 @@
 
 ### logEach
 
-Write a function `logEach(array)` that prints every element of the array and it's
+Write a function `logEach(array)` that prints every element of the array and its
 index to the console . Example:
 
 ```
