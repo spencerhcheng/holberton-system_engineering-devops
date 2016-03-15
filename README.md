@@ -92,7 +92,7 @@ Welcome to Bootcamp Prep!
   + Decomposition
   + Abstraction
 
-[w1d5-assessment]:./w2/d1/assessment
+[w2d1-assessment]:./w2/d1/assessment
 [w2d1-lecture-notes]:./w2/d1/lecture_notes.md
 
 ### w2d2
