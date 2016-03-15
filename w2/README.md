@@ -3,7 +3,7 @@
 ## Week 2
 
 ### w2d1
-+ **Assessment 1**
++ **Assessment 1** ([here][w2d1-assessment])
 + [Review][w2d1-lecture-notes]
   + Primitive Data Types
   + Functions
@@ -14,6 +14,7 @@
   + Abstraction
 
 [w2d1-lecture-notes]:./d1/lecture_notes.md
+[w2d1-assessment]:./d1/assessment
 
 ### w2d2
 + [Lecture Notes][w2d2-lecture-notes]

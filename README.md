@@ -74,13 +74,15 @@ Welcome to Bootcamp Prep!
 [cookie-monster]:./w1/d4/cookie_monster
 
 ### w1d5
-+ **Assessment 1**
++ **Assessment 1** ([here][w2d1-assessment])
 + Review
+
+[w1d5-assessment]:./w1/w5/assessment
 
 ## Week 2
 
 ### w2d1
-+ **Assessment 1**
++ **Assessment 1** ([here][w2d1-assessment])
 + [Review][w2d1-lecture-notes]
   + Primitive Data Types
   + Functions
@@ -90,6 +92,7 @@ Welcome to Bootcamp Prep!
   + Decomposition
   + Abstraction
 
+[w1d5-assessment]:./w2/d1/assessment
 [w2d1-lecture-notes]:./w2/d1/lecture_notes.md
 
 ### w2d2
