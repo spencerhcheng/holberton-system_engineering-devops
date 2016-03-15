@@ -65,6 +65,60 @@ but these are the ones you should commit to memory:
 * `Array.prototype.slice(index, length)`
 * `Array.prototype.length` (property)
 
+#### `String.prototype.split(separator)` and `Array.prototype.join(separator)`
+
+`String.prototype.split(separator)` is a very helpful string method that splits a string into an array of substrings on the separator and returns the new array. It does not change the original string.
+
+```js
+> str = "Hey, whats up? Hello"
+'Hey, whats up? Hello'
+
+> splitStr = str.split(" ")
+[ 'Hey,', 'whats', 'up?', 'Hello' ]
+
+> splitStr
+[ 'Hey,', 'whats', 'up?', 'Hello' ]
+
+> str
+'Hey, whats up? Hello'
+```
+
+The opposite of that is `Array.prototype.join(separator)`. This string method joins an array into a string where array elements are joined by the `separator`. If no separator is specified, array elements are joined by a comma. If an element is undefined or null, it is converted to an empty string. Like `split()`, `join()` does not change the original string.
+
+Try it out in your terminal/command prompt!
+
+```js
+> splitStr
+[ 'Hey,', 'whats', 'up?', 'Hello' ]
+
+> joinStr = splitStr.join(" ")
+'Hey, whats up? Hello'
+
+> joinStr
+'Hey, whats up? Hello'
+
+> splitStr.join()
+'Hey,,whats,up?,Hello'
+```
+
+One side effect of `split()` and `join()` is that when used in conjunction they are very useful for replacing characters or words in a string. Let's say I wanted to replace the word "Hey" with "Hi" in my string above. Or replace all e's with the letter o.
+
+Check it out!
+
+```js
+> var replaceHey = str.split("Hey")
+[ '', ', whats up? Hello' ]
+
+> replaceHey.join("Hi") // all the Hey's got replaced with Hi's!
+'Hi, whats up? Hello'
+
+> var replaceE = str.split("e")
+[ 'H', 'y, whats up? H', 'llo' ]
+
+> replaceE.join("o") // all the e's got replaced with e's!
+'Hoy, whats up? Hollo'
+```
+
 ### Controlling Complexity
 
 Uncontrolled complexity is the arch-nemesis of a programmer. If we do not
