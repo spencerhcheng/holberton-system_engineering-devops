@@ -74,10 +74,10 @@ Welcome to Bootcamp Prep!
 [cookie-monster]:./w1/d4/cookie_monster
 
 ### w1d5
-+ **Assessment 1** ([here][w2d1-assessment])
++ **Assessment 1** ([here][w1d5-assessment])
 + Review
 
-[w1d5-assessment]:./w1/w5/assessment
+[w1d5-assessment]:/w1/d5/assessment
 
 ## Week 2
 
