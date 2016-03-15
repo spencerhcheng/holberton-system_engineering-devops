@@ -52,5 +52,7 @@ Welcome to Bootcamp Prep!
 [cookie-monster]:./d4/cookie_monster
 
 ### w1d5
-+ **Assessment 1**
++ **Assessment 1** ([here][w1d5-assessment])
 + Review
+
+[w1d5-assessment]:./d5/assessment
