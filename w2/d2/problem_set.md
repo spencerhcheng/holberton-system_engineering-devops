@@ -7,7 +7,7 @@ Write a function `divisibleByThreePairSum(array)` that takes an array of numbers
 [[0, 4], [1, 2], [1, 5], [2, 5], [3, 4]]
 
 > divisibleByThreePairSum([8, 3, 5, 9, 2]);
-[[1, 1], [1, 3], [3, 3]]
+[[1, 3]]
 ```
 
 ### isValidEmail
