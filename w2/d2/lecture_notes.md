@@ -50,6 +50,19 @@ will add the same pair of indices into the array. (i.e. If the array is
   `[4, 1, 0]`, we will get back `[ [2, 2] ]`)
 
 * Our answer will contain a bunch on inverse pairs. (i.e If the array is
-  `[1,2,-1]`, we will get back `[ [0,1], [1,0] ]` instead of `[ [0,1] ]`).
+  `[1, 2, -1]`, we will get back `[ [0,1], [1,0] ]` instead of `[ [0,1] ]`).
 
-How can you fix these issues?
+How can you fix these issues? We want our output to `pairZero` to look like this: 
+
+```js
+> pairZero([4, 1, 0,])
+[ ]
+
+> pairZero([1, 2, -1])
+[ [0, 1] ]
+
+> pairZero([0, 2, 5, -2, 0])
+[ [0, 4], [1, 3] ]
+```
+
+Note: the order of the indices matters
