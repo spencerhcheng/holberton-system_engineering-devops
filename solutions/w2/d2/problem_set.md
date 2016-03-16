@@ -3,14 +3,13 @@
 Write a function `divisibleByThreePairSum(array)` that takes an array of numbers.
 It should return an array of all the pairs of indices whose sum is a multiple of three.
 
-```
+```js
 > divisibleByThreePairSum([1, 6, 3, 4, 2, 0]);
-[[0, 4], [1, 1], [1, 2], [1, 5], [2, 2], [2, 5], [3, 4], [5, 5]]
+[[0, 4], [1, 2], [1, 5], [2, 5], [3, 4]]
 
 > divisibleByThreePairSum([8, 3, 5, 9, 2]);
-[[1, 1], [1, 3], [3, 3]]
+[[1, 3]]
 ```
-
 ### isValidEmail
 
 Write a function `isValidEmail(email)` that takes an email string. Return `true`
