@@ -2,7 +2,7 @@
 
 ## like Array, like String
 
-Arrays and String have more in common than you may think. Several earlier (and
+Arrays and Strings have more in common than you may think. Several earlier (and
 lower level) programming languages implemented Strings as Arrays, where each
 character is an element in the Array. While this doesn't directly apply to
 JavaScript in the same way (i.e. this is no Character data type), it does provide
