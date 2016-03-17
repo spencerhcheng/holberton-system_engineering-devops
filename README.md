@@ -20,7 +20,7 @@ Before the 1st Day of Class
   + [Week 3](./w3/README.md)
   + [Week 4](./w4/README.md)
   + [Notes](./notes)
-  + [Bonus Problems](./bonus.md)
+  + [Bonus Problems](./bonuses)
   + [Additional Resources](./resources.md)
 
 ## Week 1
