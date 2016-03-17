@@ -53,7 +53,7 @@ function isValidEmail(email){
   for(var i = 0; i < firstPart.length; i += 1){
     var char = firstPart[i];
 
-    if(!isAlphanumeric(char, alphabet) && char !== "_" && char !== "."){
+    if(!isAlphanumeric(char) && char !== "_" && char !== "."){
       return false;
     }
   }
