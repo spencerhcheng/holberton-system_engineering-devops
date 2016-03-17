@@ -3,7 +3,7 @@
 ## Week 4
 
 ### w4d1
-+ **Assessment 3**
++ **Assessment 6**
 + [Review][w4d1-lecture-notes]
   + Common Gotchas
   + Asynchronous Programming
@@ -34,6 +34,6 @@
 [pokemon]:./d4/pokemon/class.md
 
 ### w4d5
-+ **Assessment 4**
++ **Assessment 7**
 + Review
 + :joy_cat: **Graduation** :joy_cat:

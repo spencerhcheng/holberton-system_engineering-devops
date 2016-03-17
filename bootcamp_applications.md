@@ -13,6 +13,7 @@ Here's a blog [post][haseeb_post] called 'Cracking the Coding Bootcamp – The D
 Best of luck!
 
 [haseeb_post]:http://haseebq.com/cracking-the-coding-bootcamp-the-definitive-guide/
+
 ### FLATIRON SCHOOL  
 ### DEV BOOTCAMP  
 ### TURING SCHOOL  
