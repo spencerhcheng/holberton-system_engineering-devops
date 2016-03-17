@@ -22,6 +22,7 @@ Before the 1st Day of Class
   + [Notes](./notes)
   + [Bonus Problems](./bonuses)
   + [Additional Resources](./resources.md)
+  + [What's Next?](./bootcamp_applications.md)
 
 ## Week 1
 
@@ -214,3 +215,6 @@ Welcome to Bootcamp Prep!
 + **Assessment 4**
 + Review
 + :joy_cat: **Graduation** :joy_cat:
+
+## What's Next?
+  + [Applying to Bootcamps](./bootcamp_applications.md)
