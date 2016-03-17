@@ -192,8 +192,80 @@ race(runners); // ==> "Jon"
 ### deepIndexOf
 
 Write a function `deepIndexOf(array, val)` that takes a 2-dimensional `array`
-and `val` as its parameters. It returns the pair of indices that represents the
-location of `val` in `array`. If the element does not exist, return `[-1, -1]`.
+and `val` as its parameters. It returns an array containing the pairs of indices that represents the
+location of `val` in `array`. If the element does not exist, return `[ [-1, -1] ]`.
+
+```javascript
+var ary = [
+  [0, 2, 4],
+  [1, 3, 9],
+];
+
+deepIndexOf(ary, 3); // => [ [1, 1] ]
+
+var ary2 = [
+  ["a", "b", "c"],
+  [5, 0, 5, 0],
+  [0, 1, 2]
+];
+
+deepIndexOf(ary2, 0); // => [ [1, 1], [1, 3], [2, 0] ]
+```
+
+### Tic-Tac-Toe Project
+
+Assume you have a 3 x 3 array:
+```js
+[ [ , , ],
+  [ , , ],
+  [ , , ] ]
+```
+
+It represents a tic-tac-toe grid! Spaces filled by `"-"` represent empty spots and spaces can be filled by either `"X"` or `"O"`. For example,
+```js
+ var grid1 = [
+   ["-","X","O"],
+   ["O","X","O"],
+   ["-","X","-"] ];
+
+ var grid2 = [
+   ["-","X","O"],
+   ["O","X","X"],
+   ["X","O","O"] ];
+```
+
+#### Part 1
+
+Write a function `tttWon(grid)` which takes a 3 x 3 `grid` array and returns `true` if there's a tic-tac-toe winner and `false` otherwise. You can assume that `grid` is a 2D array filled with single character `"-"`, `"X"`, and `"O"`'s. This is a great time to practice *decomposition* (i.e. write helper functions). If you're not sure about how to play tic-tac-toe, click [here][ttt-overview].
+
+```js
+> tttWon(grid1)
+true
+
+> tttWon(grid2)
+false
+```
+
+If you get stuck, below are a few hints.
+
+**Hints:**
+- Write `tttHorizontal(grid)` which takes `grid` and returns `true` if there's three in a row and `false` otherwise.
+- Write `tttVertical(grid)` which takes `grid` and returns `true` if there's three in a column and `false` otherwise.
+- Write `tttDiagonal(grid)` which takes `grid` and returns `true` if there's three in a diagonal and `false` otherwise.
+
+[ttt-overview]:https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=tic%20tac%20toe%20rules
+
+#### Part 2
+
+Write a function `tttWinner(grid)` so that it returns the mark of the winner if there is a winner or `"no winner!"` otherwise. You have the majority of the logic for this already; you just wrote it! Modify your `tttWon(grid)` and your helper functions to solve for the winner.
+
+```js
+> tttWinner(grid1)
+"X"
+
+> tttWinner(grid2)
+"no winner!"
+```
 
 # Week 3
 
