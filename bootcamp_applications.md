@@ -4,7 +4,7 @@ First off, congratulations Bootcamp Prep graduate!
 
 Now you're probably asking what are the next steps. Bootcamp Prep guarantees acceptance into at least one bootcamp or your money back. So let's apply!
 
-But before you start applying, ask yourself how comfortable you feel with the course's material. Bootcamp Prep is fundamentally about using programming to solve problems. The goal is that by the end of the course you have the skills to solve relatively complex problems, have an intermediate understanding of JavaScript and the confidence to explore new topics on your own. A good way to gauge if you've met this goal, is to try and successfully solve each of the problems presented in the course in problem sets and on assessments. Do them without looking at the solutions. Then do them timed. How'd you do?
+But before you start applying, ask yourself how comfortable you feel with the course's material. Bootcamp Prep is fundamentally about using programming to solve problems. The goal is that by the end of the course you have the skills to solve relatively complex problems, have an intermediate understanding of JavaScript and the confidence to explore new topics on your own. A good way to gauge if you've met this goal is to try and successfully solve each of the problems presented in the course in problem sets and on assessments. Do them without looking at the solutions. Then do them timed. How'd you do?
 
 If you're not feeling very confident, then remember, practice makes perfect! Identify what is wrong with your solution. Double check your syntax. Practice talking about what you're doing (your logical approach and your code) aloud. Do it again! If you're feeling good (and you should!), then take a look at the list below.
 
