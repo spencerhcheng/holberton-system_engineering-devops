@@ -84,7 +84,7 @@ Welcome to Bootcamp Prep!
 ## Week 2
 
 ### w2d1
-+ **Assessment 1** ([here][w2d1-assessment])
++ **Assessment 2** ([here][w2d1-assessment])
 + [Review][w2d1-lecture-notes]
   + Primitive Data Types
   + Functions
@@ -128,13 +128,13 @@ Welcome to Bootcamp Prep!
 [w2d4-pset]:./w2/d4/problem_set.md
 
 ### w2d5
-+ **Assessment 2**
++ **Assessment 3**
 + Review
 
 ## Week 3
 
 ### w3d1
-+ **Assessment 2**
++ **Assessment 4**
 + [Review][w3d1-lecture-notes]
   + Multi-Dimensional Arrays
   + Nested Loops
@@ -175,13 +175,13 @@ Welcome to Bootcamp Prep!
 + [Bonus Problems](./bonus.md)
 
 ### w3d5
-+ **Assessment 3**
++ **Assessment 5**
 + Review
 
 ## Week 4
 
 ### w4d1
-+ **Assessment 3**
++ **Assessment 6**
 + [Review][w4d1-lecture-notes]
   + Common Gotchas
   + Asynchronous Programming
@@ -212,7 +212,7 @@ Welcome to Bootcamp Prep!
 [pokemon]:./w4/d4/pokemon/class.md
 
 ### w4d5
-+ **Assessment 4**
++ **Assessment 7**
 + Review
 + :joy_cat: **Graduation** :joy_cat:
 

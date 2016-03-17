@@ -3,7 +3,7 @@
 ## Week 2
 
 ### w2d1
-+ **Assessment 1** ([here][w2d1-assessment])
++ **Assessment 2** ([here][w2d1-assessment])
 + [Review][w2d1-lecture-notes]
   + Primitive Data Types
   + Functions
@@ -47,5 +47,5 @@
 [w2d4-pset]:./d4/problem_set.md
 
 ### w2d5
-+ **Assessment 2**
++ **Assessment 3**
 + Review

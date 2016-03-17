@@ -3,7 +3,7 @@
 ## Week 3
 
 ### w3d1
-+ **Assessment 2**
++ **Assessment 4**
 + [Review][w3d1-lecture-notes]
   + Multi-Dimensional Arrays
   + Nested Loops
@@ -44,5 +44,5 @@
 + [Bonus Problems](../bonus.md)
 
 ### w3d5
-+ **Assessment 3**
++ **Assessment 5**
 + Review
