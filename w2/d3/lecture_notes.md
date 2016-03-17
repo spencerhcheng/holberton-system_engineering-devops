@@ -63,7 +63,6 @@ common, and those I expect you to follow during the remainder of the course:
 
 ## Common JS Errors
 
-* RangeError: Maximum call stack size exceeded
 * ReferenceError: `x` is not defined
 * TypeError: Cannot read property `x` of `object`
 * SyntaxError: Unexpected token `x`
