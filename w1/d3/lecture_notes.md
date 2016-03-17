@@ -62,7 +62,7 @@ but these are the ones you should commit to memory:
 * `Array.prototype.push(element)`
 * `Array.prototype.pop()`
 * `Array.prototype.concat(other_array)`
-* `Array.prototype.slice(index, length)`
+* `Array.prototype.slice(startIndex, endIndex)`
 * `Array.prototype.length` (property)
 
 #### `String.prototype.split(separator)` and `Array.prototype.join(separator)`
