@@ -8,7 +8,6 @@ Before the 1st Day of Class
 + Install [Atom][atom]. It's going to be our text editor of choice during this course.
 + Finish [Codecademy JavaScript][codecademy] course Unit 1
 
-
 [node]:https://nodejs.org/en/download/stable/
 [github]:https://github.com/
 [atom]:https://atom.io/

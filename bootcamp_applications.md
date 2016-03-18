@@ -8,7 +8,7 @@ But before you start applying, ask yourself how comfortable you feel with the co
 
 If you're not feeling very confident, then remember, practice makes perfect! Identify what is wrong with your solution. Double check your syntax. Practice talking about what you're doing (your logical approach and your code) aloud. Do it again! If you're feeling good (and you should!), then take a look at the list below.
 
-Here's a blog [post][haseeb_post] called 'Cracking the Coding Bootcamp – The Definitive Guide' written by an App Academy graduate outlining his process and thoughts about applying to bootcamps which might be helpful to read first.
+Here's a blog [post][haseeb_post] called 'Cracking the Coding Bootcamp – The Definitive Guide' written by an App Academy graduate outlining his process and thoughts about applying to bootcamps which might also be helpful to read first.
 
 Best of luck!
 
