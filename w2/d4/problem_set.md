@@ -80,9 +80,9 @@ console.log("4: " + bar); //4: What will bar be on this line?
 ## Factorial
 
 Write a function `factorial(n)`, that returns the factorial of the number `n`.
-Example: factorial(4) => 4 * 3 * 2 * 1 => 24
+Example: `factorial(4) => 4 * 3 * 2 * 1 => 24`
 
-```
+```js
 > factorial(1)
 1
 
@@ -101,7 +101,7 @@ Example: factorial(4) => 4 * 3 * 2 * 1 => 24
 Write a function `longWordCount(string)` that takes in a string and returns the
 number of words longer than 7 characters.
 
-```
+```js
 >longWordCount("")
 0
 
@@ -124,9 +124,9 @@ number of words longer than 7 characters.
 # Least Common Multiple
 
 Write a function `lcm(num1, num2)` that returns the lowest number which is a
-multiple of both inputs
+multiple of both inputs.
 
-```
+```js
 >lcm(2, 3)
 6
 
@@ -139,9 +139,9 @@ multiple of both inputs
 
 # Hipsterfy
 Write a function `hipsterfy(sentence)` that takes takes a string containing
-several words as input. Remove the last vowel from each word. 'y' is not a vowel.
+several words as input. Remove the last vowel from each word. `'y'` is not a vowel.
 
-```
+```js
 >hipsterfy("proper")
 "propr"
 

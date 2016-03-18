@@ -2,8 +2,8 @@
 
 ## What is Scope?
 
-A scope is a section in your program where a name binding is considered valid. A
-name binding is when a variable (a name) evaluates to a certain value. If I
+A **scope** is a section in your program where a name binding is considered valid. A
+*name binding* is when a variable (a name) evaluates to a certain value. If I
 declare `var myName = 20;`, this binding will only be valid in the scope where
 I declared it.
 
@@ -44,7 +44,7 @@ scope.myFunc;
 // What does this output?
 ```
 
- The global scope works similarly. *Every variable that is
+The global scope works similarly. *Every variable that is
 declared outside of a function/method becomes a property on the global object.*
 
 Let's see an example of this. Open up your node console and type `global`. This
@@ -107,6 +107,9 @@ function func2(){
   var name = "Bammsie";
   console.log("Hello, " + name);
 }
+
+func1(); // What does this output?
+func2(); // And what does this output?
 ```
 
 It also means that if a variable name in a function is the same name as a
@@ -176,7 +179,7 @@ var myObj = {
 
 var myFunc = myObj.sayHi; // not calling sayHi
 
-myFunc();
+myFunc(); // What does this output?
 ```
 
 If you run this code, you'll see that it prints `undefined says Hi.`. Why is
