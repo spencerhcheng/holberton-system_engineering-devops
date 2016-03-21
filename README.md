@@ -127,8 +127,10 @@ Welcome to Bootcamp Prep!
 [w2d4-pset]:./w2/d4/problem_set.md
 
 ### w2d5
-+ **Assessment 3**
++ **Assessment 3** ([here][w2d5-assessment])
 + Review
+
+[w2d5-assessment]:./w2/d5/assessment
 
 ## Week 3
 
