@@ -185,30 +185,32 @@ Welcome to Bootcamp Prep!
   + Common Gotchas
   + Asynchronous Programming
   + Callbacks
-+ Coding Bootcamps
++ Additional Practice Problems
+  + [Project Euler](https://projecteuler.net/archives)
+  + [Coderbyte](https://coderbyte.com/challenges/)
+  + [Bonus Problems](./bonuses)
 
 [w4d1-lecture-notes]:./w4/d1/lecture_notes.md
 
 ### w4d2
-+ [Project Euler](https://projecteuler.net/archives)
-+ [Problem Set][w4d2-pset]
-
-[w4d2-pset]:./w4/d2/problem_set.md
-
-### w4d3
- * **Interview Prep**
- * [Coderbyte](https://coderbyte.com/challenges/)
-
-### w4d4
 + [Lecture Notes][w4d4-lecture-notes]
   + JavaScript Class
-    + Creating New Classes
-    + Creating Instance Variables
-    + Creating Methods on Classes
-+ [Pokemon Project][pokemon]
+  + Creating New Classes
+  + Creating Instance Variables
+  + Creating Methods on Classes
++ [Pokemon Project Part 1][pokemon_1]
+
+### w4d3
++ [Callback Review][w3d3-lecture-notes]
++ [Pokemon Project Part 2][pokemon_2]
+
+### w4d4
++ Coding Bootcamps
++ **Interview Prep**
 
 [w4d4-lecture-notes]:./w4/d4/lecture_notes.md
-[pokemon]:./w4/d4/pokemon/class.md
+[pokemon_1]:./w4/pokemon/class.md
+[pokemon_2]:./w4/pokemon/battle.md
 
 ### w4d5
 + **Assessment 7**
