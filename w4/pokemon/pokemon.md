@@ -2,7 +2,8 @@
 
 ### Phase 1
 
-* Write a `Pokemon` class.
+* Create a new file called `pokemon.js`.
+* Create a `Pokemon` class.
 * Give it the instance variables: `name`, `type`, `level`, and `hp`.
 
 The constructor should take as arguments:

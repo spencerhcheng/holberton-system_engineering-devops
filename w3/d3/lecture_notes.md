@@ -17,10 +17,10 @@ var bar = function(cb){
   console.log("after the callback");
 }
 
-bar(foo); //In what order will things be logged?
+bar(foo); // In what order will things be logged?
 ```
 
-We can also pass anonymous functions as callbacks:
+We can also pass *anonymous functions* as callbacks:
 
 ```javascript
 var bar = function(cb){
@@ -31,7 +31,7 @@ var bar = function(cb){
 
 bar(function(){
   console.log("the callback function");
-}); //In what order will things be logged?
+}); // In what order will things be logged?
 ```
 
 Callbacks are just regular functions, and like any other function they can accept
