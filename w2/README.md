@@ -13,8 +13,8 @@
   + Decomposition
   + Abstraction
 
-[w2d1-lecture-notes]:./d1/lecture_notes.md
 [w2d1-assessment]:./d1/assessment
+[w2d1-lecture-notes]:./d1/lecture_notes.md
 
 ### w2d2
 + [Lecture Notes][w2d2-lecture-notes]
@@ -47,5 +47,7 @@
 [w2d4-pset]:./d4/problem_set.md
 
 ### w2d5
-+ **Assessment 3**
++ **Assessment 3** ([here][w2d5-assessment])
 + Review
+
+[w2d5-assessment]:./d5/assessment
