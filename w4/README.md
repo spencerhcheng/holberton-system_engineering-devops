@@ -32,7 +32,7 @@
 + **Interview Prep**
 
 [w4d4-lecture-notes]:./d4/lecture_notes.md
-[pokemon_1]:./pokemon/class.md
+[pokemon_1]:./pokemon/pokemon.md
 [pokemon_2]:./pokemon/battle.md
 
 ### w4d5
