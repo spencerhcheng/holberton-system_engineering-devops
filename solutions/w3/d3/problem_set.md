@@ -93,11 +93,11 @@ Write a function `myForEach(arr, cb)` that accepts an array and a callback. It s
 
 ```
 > myForEach([1,2,3], function(ele, i, arr){
-..  console.log(ele + " is at position " + i + " in array " + arr);
+..  console.log(ele + " is at position " + i + " in array [" + arr + "]");
 ..});
-1 is at position 0 in array [1,2,3]
-2 is at position 1 in array [1,2,3]
-3 is at position 2 in array [1,2,3]
+1 is at position 0 in array 1,2,3
+2 is at position 1 in array 1,2,3
+3 is at position 2 in array 1,2,3
 ```
 --------------------------------------------------------------------------
 Write a function `mySelect(arr, cb)` that accepts an array and a callback. It should pass each element, it's corresponding index, and the array itself to the callback. It should return a new array of all the elements in the input array `arr` where the callback `cb` return true.
