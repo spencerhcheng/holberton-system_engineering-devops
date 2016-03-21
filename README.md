@@ -211,7 +211,7 @@ Welcome to Bootcamp Prep!
 + **Interview Prep**
 
 [w4d4-lecture-notes]:./w4/d4/lecture_notes.md
-[pokemon_1]:./w4/pokemon/class.md
+[pokemon_1]:./w4/pokemon/pokemon.md
 [pokemon_2]:./w4/pokemon/battle.md
 
 ### w4d5
