@@ -10,22 +10,22 @@ var Pokemon = function(name, type, moves, level) {
   this.level = level || 5;
   this.hp = Math.floor(this.level * 2.25);
   this.moves = moves;
-};
+}
 
 Pokemon.prototype.levelUp = function() {
   this.level += 1;
   this.revive();
   return this;
-};
+}
 
 Pokemon.prototype.revive = function() {
-  this.hp = Math.floor(this.level * 2.25);
+  this.hp = Math.floor(this.level * 2.5);
   return this;
-};
+}
 
 Pokemon.prototype.faint = function() {
   return this.level <= 0;
-};
+}
 
 Pokemon.prototype.call = function() {
   var char = this.name.split('');
@@ -43,7 +43,7 @@ Pokemon.prototype.call = function() {
   }
 
   return this.name + '-' + this.name;
-};
+}
 
 Pokemon.prototype.availableMoves = function() {
   var availableMoves = this.moves.slice(0, this.level / 50 * this.moves.length);
@@ -52,29 +52,7 @@ Pokemon.prototype.availableMoves = function() {
   } else {
     return availableMoves;
   }
-};
-
-Pokemon.prototype.printStats = function(opponent, move) {
-  console.log(this.name + " attacked with " + move.name + "!");
-  console.log("Damage to " + opponent.name + ": -" + move.damage);
-  console.log(this.name + " hp: " + this.hp);
-  console.log(opponent.name + " hp: " + opponent.hp);
-};
-
-Pokemon.prototype.attack = function(opponent, move) {
-  var availableMoves = this.availableMoves();
-
-  if (typeof move === "undefined") {
-    move = availableMoves[availableMoves.length - 1].name;
-  }
-
-  availableMoves.forEach(function(avaMove) {
-    if (avaMove.name === move) {
-      opponent.hp -= avaMove.damage;
-      this.printStats(opponent, avaMove);
-    }
-  }.bind(this));
-};
+}
 
 var pikachu = new Pokemon('PIKACHU', 'Electric', electricTypeMoves, 10);
 var bulbasaur = new Pokemon('bulbasaur', 'leaf', leafTypeMoves, 11);
@@ -94,9 +72,4 @@ pikachu.call();
 bulbasaur.call();
 onyx.call();
 
-console.log(pikachu.availableMoves());
-console.log(bulbasaur.availableMoves());
-console.log(onyx.availableMoves());
-
-pikachu.attack(bulbasaur, "Thunder Shock");
-pikachu.attack(onyx);
+pikachu.availableMoves();
