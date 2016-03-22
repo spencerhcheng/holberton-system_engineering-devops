@@ -1,6 +1,6 @@
 # Pokemon Part 2
 
-Now that we have our Pokemon class, let's create a Battle class and battle our pokemon!
+Now that we have our `Pokemon` class, let's create a Battle class and battle our pokemon!
 
 #### Modules
 
@@ -68,15 +68,14 @@ module.exports = Pokemon;
 ```
 
 ```js
+// battle.js
 var Pokemon = require("./pokemon");
 
 var electricTypeMoves = [ {name: "Tackle", damage: 3}, {name: "Thunder Shock", damage: 4}, {name: "Charge Beam", damage: 5}, {name: "Thunder Wave", damage: 5}, {name: "Spark", damage: 7}, {name: "Thunder Punch", damage: 8}, {name: "Shock Wave", damage: 10}, {name: "Thunder Bolt", damage: 15 }, {name: "Thunder", damage: 20}, {name: "Zap Cannon", damage: 30}, {name: "Electric Beam", damage: 35} ];
 var leafTypeMoves = [ {name: "Absorb", damage: 2}, {name: "Tackle", damage: 3}, {name: "Bullet Seed", damage: 4}, {name: "Mega Drain", damage: 6}, {name: "Vine Whip", damage: 8}, {name: "Razor Leaf", damage: 15}, {name: "Giga Drain", damage: 18 }, {name: "Seed Bomb", damage: 22}, {name: "Petal Dance", damage: 25}, {name: "Solar Beam", damage: 35} ];
-var rockTypeMoves = [ {name: "Tackle", damage: 3}, {name: "Rollout", damage: 6}, {name: "Rock Blast", damage: 4}, {name: "Smack Down", damage: 10}, {name: "Rock Throw", damage: 20}, {name: "Rock Slide", damage: 30}, {name: "Head Smash", damage: 40}, {name: "Rock Wrecker", damage: 50 } ];
 
 var pikachu = new Pokemon('pikachu', 'Electric', electricTypeMoves, 10);
 var bulbasaur = new Pokemon('bulbasaur', 'leaf', leafTypeMoves, 11);
-var onyx = new Pokemon('onyx', 'rock', rockTypeMoves, 9);
 ```
 
 **NB**: If you have any code used for testing in your Pokemon class file, comment it out. Remember, when a file is `require`d, Node loads and executes its code.
@@ -84,3 +83,26 @@ var onyx = new Pokemon('onyx', 'rock', rockTypeMoves, 9);
 ### Phase 1
 
 * Create a `Battle` class.
+* Give it the instance variables: `pokemon1` and `pokemon2` and `turn`.
+
+The constructor takes as arguments:
+ + a `Pokemon` argument for `pokemon1`
+ + a `Pokemon` argument for `pokemon2`
+
+Initialize `turn` to `true`. It is a Boolean which we'll use to indicate whose turn it is. If it is `true`, it's `pokemon1`'s turn and if it is `false`, it's `pokemon2`'s turn.
+
+```js
+var battle = new Battle(pikachu, bulbasaur);
+```
+
+### Phase 2
+
+Our `Battle` class is going to contain all of the logic involved in a simplified pokemon battle, including user input.
+
+Let's write a method `Battle#fight`.
+  - If `turn` is `true`, `pokemon1` attacks `pokemon2`.
+  - If `turn` is `false`, `pokemon2` attacks `pokemon1`.
+
+Use the `Pokemon#attack(opponent, moveName)` method that you wrote. For now, just pass in the appropriate argument for `opponent` and nothing for `moveName`. Remember, if no move is passed in, the pokemon attacks with its strongest attack.
+
+Next write a method `Battle#won`. Return `true` if either or both pokemon have fainted, and `false` otherwise. Check to see if a pokemon has fainted using your `Pokemon#faint` method.
