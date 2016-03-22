@@ -1,93 +1,6 @@
 ### Finish [Clock](../d2/clock.md) Project!
 
-### Predict The Output and Determine the value of `this`
-
-```javascript
-function foo(){
-  console.log(this.name);
-}
-
-var cat = {
-  name : "whiskers"
-}
-
-var dog = {
-  name : "rover"
-}
-
-foo(); //<=
-foo.bind(cat)(); //<=
-dog.foo(); //<=
-```
----------------------------------------------------------------------------
-```javascript
-var cat = {
-  name : "whiskers",
-
-  foo : function(){
-    console.log(this.name);
-  }
-}
-
-var dog = {
-  name : "rover"
-}
-
-var bar = cat.foo.bind(dog);
-
-bar() //<=
-```
----------------------------------------------------------------------------
-```javascript
-var cat = {
-  name : "whiskers",
-
-  foo : function(){
-    console.log(this.name);
-  }
-}
-
-setTimeout(cat.foo, 1000);
-//When the timeout callback runs, predict output of that function and the value of `this`
-```
---------------------------------------------------------------------------------
-```javascript
-global.name = "currie";
-
-var cat = {
-  name : "whiskers",
-
-  foo : function(){
-    console.log(this.name);
-  }
-};
-
-var dog = {
-  name : "rover"
-};
-
-
-setTimeout(cat.foo.bind(this), 1000);
-//When the timeout callback runs, predict output of that function and the value of `this`
-```
---------------------------------------------------------------------------------
-```javascript
-var cat = {
-  name : "whiskers",
-
-  foo : function(){
-    console.log(this.name);
-  }
-}
-
-var dog = {
-  name : "rover"
-}
-
-setTimeout(cat.foo.bind(dog), 1000);
-```
-
-## myEnumerables
+### Higher-Order Functions
 
 Write a function `myForEach(arr, cb)` that accepts an array and a callback. It should pass each element, it's corresponding index, and the array itself to the callback. Do not use the built in Array.prototype.forEach method. The return value is irrelevant.
 
@@ -99,7 +12,7 @@ Write a function `myForEach(arr, cb)` that accepts an array and a callback. It s
 2 is at position 1 in array [1,2,3]
 3 is at position 2 in array [1,2,3]
 ```
---------------------------------------------------------------------------
+--------------------------------------------------------------------------------
 Write a function `mySelect(arr, cb)` that accepts an array and a callback. It should pass each element, it's corresponding index, and the array itself to the callback. It should return a new array of all the elements in the input array `arr` where the callback `cb` return true.
 
 ```
@@ -113,7 +26,7 @@ Write a function `mySelect(arr, cb)` that accepts an array and a callback. It sh
 ..});
 [1,3,5]
 ```
---------------------------------------------------------------------------
+--------------------------------------------------------------------------------
 Write a function `myReject(arr, cb)` that accepts an array and a callback. It should pass each element, it's corresponding index, and the array itself to the callback. It should return a new array of all the elements in the input array `arr` where the callback `cb` return false.
 
 ```
@@ -127,7 +40,7 @@ Write a function `myReject(arr, cb)` that accepts an array and a callback. It sh
 ..});
 [2,4,6]
 ```
---------------------------------------------------------------------------
+--------------------------------------------------------------------------------
 Write a function `myMap(arr, cb)` that accepts an array and a callback. It should pass each element, it's corresponding index, and the array itself to the callback. Do not use the built in Array.prototype.map method. It should return an array where each element is the return value of the callback given the element in the corresponding position. See examples if this is confusing.
 
 ```
@@ -145,4 +58,31 @@ Write a function `myMap(arr, cb)` that accepts an array and a callback. It shoul
 ..  return ele + i;
 ..});
 ["A0", "B1", "C2"]
+```
+--------------------------------------------------------------------------------
+Write a function `createExpFunc(num)` that accepts a positive integer. It returns
+a function which will raise its input to the power specified by `num` and return
+the value.
+
+```
+> var powerTwo = createExpFunc(2);
+>powerTwo(2);
+4
+
+>powerTwo(6);
+36
+
+>var powerThree = createExpFunc(3);
+>powerTwo(2);
+8
+
+>powerTwo(6);
+216
+
+>var powerTen = createExpFunc(10);
+>powerTen(2);
+1024
+
+>powerTen(6);
+60466176
 ```
