@@ -163,6 +163,7 @@ Welcome to Bootcamp Prep!
   + Callbacks
   + `Array.prototype.forEach()`
   + Synchronous vs. Asynchronous
+  + Higher-Order Functions
   + Node I/O - File System
 + [Problem Set][w3d3-pset]
 + [Sentiment Detector Project][sentiment-detector]
