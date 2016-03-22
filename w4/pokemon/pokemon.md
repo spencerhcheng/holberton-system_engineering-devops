@@ -1,5 +1,7 @@
 # Pokemon Part 1
 
+Let's practice creating a JavaScript class.
+
 ### Phase 1
 
 * Create a new file called `pokemon.js`.

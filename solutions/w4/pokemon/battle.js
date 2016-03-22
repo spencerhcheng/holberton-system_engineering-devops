@@ -6,71 +6,72 @@ var rockTypeMoves = [ {name: "Tackle", damage: 3}, {name: "Rollout", damage: 6},
 
 var pikachu = new Pokemon('PIKACHU', 'Electric', electricTypeMoves, 10);
 var bulbasaur = new Pokemon('bulbasaur', 'leaf', leafTypeMoves, 11);
-var onyx = new Pokemon('onyx', 'rock', rockTypeMoves);
 
-// var pokemonBattle = {
-// 	attack: function(pokemon1, pokemon2) {
-// 		pokemon2.hp -= pokemon1.attack;
-// 		console.log(pokemon1.name + " attacked!");
-// 	},
+var Battle = function(pokemon1, pokemon2) {
+  this.pokemon1 = pokemon1;
+  this.pokemon2 = pokemon2;
+  this.turn = true;
+};
+
+Battle.prototype.fight = function() {
+  if (this.turn) {
+    this.pokemon1.attack(this.pokemon2);
+  } else {
+    this.pokemon2.attack(this.pokemon1);
+  }
+};
+
 //
-// 	potion: function(pokemon) {
-// 		pokemon.hp += 5
-// 		console.log("used potion on " + pokemon.name + "!");
-// 	},
 //
-// 	run: function(pokemon) {
-// 		pokemon.hp = 0;
-// 	},
+Battle.prototype.stats = function() {
+	console.log("---")
+	console.log(this.pokemon1.name + " hp: " + this.pokemon1.hp);
+	console.log(this.pokemon2.name + " hp: " + this.pokemon2.hp);
+	console.log("---")
+};
 //
-// 	stats: function(pokemon1, pokemon2) {
-// 		console.log("---")
-// 		console.log(pokemon1.name + " hp: " + pokemon1.hp);
-// 		console.log(pokemon2.name + " hp: " + pokemon2.hp);
-// 		console.log("---")
-// 	},
-//
-// 	results: function(pokemon1, pokemon2) {
-// 		if (pokemon1.hp > 0) {
-// 			console.log(pokemon1.name + " won!");
-// 		} else {
-// 			console.log(pokemon2.name + " won!");
-// 		}
-// 		console.log("battle over!");
-// 		reader.close();
-// 	},
-//
-// 	promptUser: function(myPokemon, oppPokemon, playMove) {
-// 		console.log("What should " + myPokemon.name + " do?");
-// 		reader.question("Select 'a' for attack, 'p' for potion', 'r' for run: ", function (userInput) {
-// 			playMove(userInput, myPokemon, oppPokemon);
-// 		});
-// 	},
-//
-// 	makeMove: function(choice, myPokemon, oppPokemon) {
-// 		if (choice === "a") {
-// 			this.attack(myPokemon, oppPokemon);
-// 			this.attack(oppPokemon, myPokemon);
-// 			this.stats(myPokemon, oppPokemon);
-// 		} else if (choice === "p") {
-// 			this.potion(myPokemon);
-// 			this.attack(oppPokemon, myPokemon);
-// 			this.stats(myPokemon, oppPokemon);
-// 		} else if (choice === "r") {
-// 			this.run(oppPokemon);
-// 		}
-//
-// 		if (myPokemon.hp > 0 && oppPokemon.hp > 0) {
-// 			this.play(myPokemon, oppPokemon);
-// 		} else {
-// 			this.results(myPokemon, oppPokemon);
-// 		}
-// 	},
-//
-// 	play: function(myPokemon, oppPokemon) {
-// 		this.promptUser(myPokemon, oppPokemon, this.makeMove.bind(this));
+// results: function(pokemon1, pokemon2) {
+// 	if (pokemon1.hp > 0) {
+// 		console.log(pokemon1.name + " won!");
+// 	} else {
+// 		console.log(pokemon2.name + " won!");
 // 	}
-// };
+// 	console.log("battle over!");
+// 	reader.close();
+// },
 //
+// promptUser: function(myPokemon, oppPokemon, playMove) {
+// 	console.log("What should " + myPokemon.name + " do?");
+// 	reader.question("Select 'a' for attack, 'p' for potion', 'r' for run: ", function (userInput) {
+// 		playMove(userInput, myPokemon, oppPokemon);
+// 	});
+// },
 //
-// pokemonBattle.play(pikachu, squirtle);
+// makeMove: function(choice, myPokemon, oppPokemon) {
+// 	if (choice === "a") {
+// 		this.attack(myPokemon, oppPokemon);
+// 		this.attack(oppPokemon, myPokemon);
+// 		this.stats(myPokemon, oppPokemon);
+// 	} else if (choice === "p") {
+// 		this.potion(myPokemon);
+// 		this.attack(oppPokemon, myPokemon);
+// 		this.stats(myPokemon, oppPokemon);
+// 	} else if (choice === "r") {
+// 		this.run(oppPokemon);
+// 	}
+//
+// 	if (myPokemon.hp > 0 && oppPokemon.hp > 0) {
+// 		this.play(myPokemon, oppPokemon);
+// 	} else {
+// 		this.results(myPokemon, oppPokemon);
+// 	}
+// },
+//
+// Battle.prototype.play = function(myPokemon, oppPokemon) {
+// 	this.promptUser(myPokemon, oppPokemon, this.makeMove.bind(this));
+// }
+
+var battle = new Battle(pikachu, bulbasaur);
+battle.stats();
+battle.fight();
+// Battle.play(pikachu, squirtle);
