@@ -164,17 +164,18 @@ Welcome to Bootcamp Prep!
   + `Array.prototype.forEach()`
   + Synchronous vs. Asynchronous
   + Higher-Order Functions
-  + Node I/O - File System
 + [Problem Set][w3d3-pset]
-+ [Sentiment Detector Project][sentiment-detector]
 
 [w3d3-lecture-notes]:./w3/d3/lecture_notes.md
 [w3d3-pset]:./w3/d3/problem_set.md
-[sentiment-detector]:./w3/d3/sentiment_detector
 
 ### w3d4
++ Node I/O - File System
 + Finish [Clock][clock] and [Sentiment Detector][sentiment-detector]
++ [Sentiment Detector Project][sentiment-detector]
 + [Bonus Problems](./bonus.md)
+
+[sentiment-detector]:./w3/d3/sentiment_detector
 
 ### w3d5
 + **Assessment 5**
