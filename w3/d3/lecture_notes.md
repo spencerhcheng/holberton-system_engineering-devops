@@ -63,11 +63,11 @@ concatenate("1","2",logTheAnswer); // What will this return?
 concatenate("1","2",add5ToAnswer); // What will this return?
 ```
 
-## Array.prototype.forEach
+## `Array.prototype.forEach`
 
 So far, in order to iterate through an array, we've used the for-loop. Now that
 we know about callbacks, it's time to introduce another method that allows us
-to iterate through arrays: `Array.prototype.forEach`. This method accepts a callback and an optional 'thisArg'.
+to iterate through arrays: `Array.prototype.forEach`. This method accepts a callback and an optional `thisArg`.
 
 The callback will be passed three arguments:
 
@@ -113,7 +113,7 @@ var cookieMonster = {
   logFavFoods2 : function(){
     this.favoriteFoods.forEach(function(food){
       console.log(this.name + " loves " + food + "!");
-    },cookieMonster);
+    }, cookieMonster);
   },
 
   logFavFoods3 : function(){
@@ -135,19 +135,19 @@ The key thing to realize is that **every time we enter into a new function, the 
 ## Higher-Order Functions
 
 A higher-order function is one that either (1) accepts a function as an argument
-or (2) return a function as the return value. **Every function that takes a callback
+or (2) returns a function as the return value. **Every function that takes a callback
 is a higher-order function**. We've seen several higher-order functions that accept
 callbacks:
 
-  * Array.prototype.forEach
-  * setTimeout
-  * setInterval
+  * `Array.prototype.forEach`
+  * `setTimeout`
+  * `setInterval`
 
 We have not yet seen any higher-order functions that fall into the 2nd category,
-that is, one that return a function as an argument. Let's write one!
+that is, ones that return functions. Let's write one!
 
 We will write a function `createAdder(num)`, which will accept a number as an
-argument. It will return a **function** (we'll call it `f`). `f` will accept a
+argument. It will return a function (we'll call it `f`). Function `f` will accept a
 number as an argument and return the sum of that number and the `num` that was
 passed to `createAdder`. Le's see an example:
 
@@ -172,13 +172,12 @@ function createAdder(num) {
 ```
 
 Notice that I am returning an anonymous function. It has access to the `num` that
-belonged to the scope of the outer function. Higher-order functions allow you to
+belonged to the scope of the outer function `createAdder`. Higher-order functions allow you to
 dynamically create functions that behave differently based on some input.
-
 
 ## Synchronous vs Asynchronous
 
-Javascript, and many other languages, evaluate code in a single thread. Single-threaded programming languages can only evaluate one thing at a time. _Synchronous_ code is run in the order it is written (although to evaluate functions the program it may jump all over the space of the program) and **blocks the thread** from running anything else. Let's see an example of this:
+Javascript, and many other languages, evaluate code in a single thread. Single-threaded programming languages can only evaluate one thing at a time. **Synchronous** code is run in the order it is written (although to evaluate functions the program may jump all over the space of the program) and *blocks the thread* from running anything else. Let's see an example of this:
 
 ```javascript
 function foo(){
@@ -195,7 +194,7 @@ foo();
 
 There is a noticeable delay between `start` being logged and `done` being logged. This is because the nearly 100 billion iterations must be completed before moving on to the next subsequent line in the code. This is a prime example of synchronous code.
 
-_Asynchronous_ code, on the other hand, is code that will start or setup some process that usually takes some time to complete (e.g. asking a user for input, waiting for a keypress, waiting for a milli-second count, etc), but it will not block the thread while it waits. Asynchronous code will usually run some function in response to the completion of the process it was waiting for - let me give you a few examples in words:
+**Asynchronous** code, on the other hand, is code that will start or setup some process that usually takes some time to complete (e.g. asking a user for input, waiting for a keypress, waiting for a milli-second count, etc), but it will not block the thread while it waits. Asynchronous code will usually run some function in response to the completion of the process it was waiting for - let me give you a few examples in words:
 
 * If you were programming a Javascript video game, you'd want to tell the program to do something when the player presses a button. You wouldn't want this to be synchronous because if it was, the execution of the rest of the code would be paused until the player pressed a button. Instead, we'd prefer to let the game loop keep running, and whenever the player pressed a button our program would run the functionality we assigned to the key press.
 
