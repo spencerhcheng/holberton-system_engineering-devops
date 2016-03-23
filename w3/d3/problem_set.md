@@ -2,9 +2,9 @@
 
 ### Higher-Order Functions
 
-Write a function `myForEach(arr, cb)` that accepts an array and a callback. It should pass each element, it's corresponding index, and the array itself to the callback. Do not use the built in Array.prototype.forEach method. The return value is irrelevant.
+Write a function `myForEach(arr, cb)` that accepts an array and a callback. It should pass each element, its corresponding index, and the array itself to the callback. Do not use the built-in `Array.prototype.forEach` method. The return value is irrelevant.
 
-```
+```js
 > myForEach([1,2,3], function(ele, i, arr){
 ..  console.log(ele + " is at position " + i + " in array " + arr);
 ..});
@@ -13,9 +13,9 @@ Write a function `myForEach(arr, cb)` that accepts an array and a callback. It s
 3 is at position 2 in array [1,2,3]
 ```
 --------------------------------------------------------------------------------
-Write a function `mySelect(arr, cb)` that accepts an array and a callback. It should pass each element, it's corresponding index, and the array itself to the callback. It should return a new array of all the elements in the input array `arr` where the callback `cb` return true.
+Write a function `mySelect(arr, cb)` that accepts an array and a callback. It should pass each element, its corresponding index, and the array itself to the callback. It should return a new array of all the elements in the input array `arr` where the callback `cb` returns true.
 
-```
+```js
 > mySelect([1,2,3,4,5,6], function(ele, i, arr){
 ..  return (ele % 2 === 0);
 ..});
@@ -27,9 +27,9 @@ Write a function `mySelect(arr, cb)` that accepts an array and a callback. It sh
 [1,3,5]
 ```
 --------------------------------------------------------------------------------
-Write a function `myReject(arr, cb)` that accepts an array and a callback. It should pass each element, it's corresponding index, and the array itself to the callback. It should return a new array of all the elements in the input array `arr` where the callback `cb` return false.
+Write a function `myReject(arr, cb)` that accepts an array and a callback. It should pass each element, its corresponding index, and the array itself to the callback. It should return a new array of all the elements in the input array `arr` where the callback `cb` returns false.
 
-```
+```js
 > myReject([1,2,3,4,5,6], function(ele, i, arr){
 ..  return (ele % 2 === 0);
 ..});
@@ -41,9 +41,9 @@ Write a function `myReject(arr, cb)` that accepts an array and a callback. It sh
 [2,4,6]
 ```
 --------------------------------------------------------------------------------
-Write a function `myMap(arr, cb)` that accepts an array and a callback. It should pass each element, it's corresponding index, and the array itself to the callback. Do not use the built in Array.prototype.map method. It should return an array where each element is the return value of the callback given the element in the corresponding position. See examples if this is confusing.
+Write a function `myMap(arr, cb)` that accepts an array and a callback. It should pass each element, its corresponding index, and the array itself to the callback. Do not use the built in `Array.prototype.map` method. It should return an array where each element is the return value of the callback given the element in the corresponding position. See the examples if this is confusing.
 
-```
+```js
 > myMap([1,2,3], function(ele, i, arr){
 ..  return ele * 2;
 ..});
@@ -61,28 +61,28 @@ Write a function `myMap(arr, cb)` that accepts an array and a callback. It shoul
 ```
 --------------------------------------------------------------------------------
 Write a function `createExpFunc(num)` that accepts a positive integer. It returns
-a function which will raise its input to the power specified by `num` and return
+a function which will raise its input to the power specified by `num` and returns
 the value.
 
-```
+```js
 > var powerTwo = createExpFunc(2);
->powerTwo(2);
+> powerTwo(2);
 4
 
->powerTwo(6);
+> powerTwo(6);
 36
 
->var powerThree = createExpFunc(3);
->powerTwo(2);
+> var powerThree = createExpFunc(3);
+> powerTwo(2);
 8
 
->powerTwo(6);
+> powerTwo(6);
 216
 
->var powerTen = createExpFunc(10);
->powerTen(2);
+> var powerTen = createExpFunc(10);
+> powerTen(2);
 1024
 
->powerTen(6);
+> powerTen(6);
 60466176
 ```
