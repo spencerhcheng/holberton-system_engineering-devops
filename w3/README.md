@@ -30,6 +30,7 @@
 + [Lecture Notes][w3d3-lecture-notes]
   + Callbacks
   + `Array.prototype.forEach()`
+  + Higher-Order Functions
   + Synchronous vs. Asynchronous
 + [Problem Set][w3d3-pset]
 
