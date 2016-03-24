@@ -39,7 +39,7 @@
 
 ### w3d4
 + Node I/O - File System
-+ Finish [Clock][clock]
++ Finish [Clock Project][clock]
 + [Sentiment Detector Project][sentiment-detector]
 + [Bonus Problems](../bonuses)
 
