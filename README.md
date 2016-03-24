@@ -162,8 +162,8 @@ Welcome to Bootcamp Prep!
 + [Lecture Notes][w3d3-lecture-notes]
   + Callbacks
   + `Array.prototype.forEach()`
-  + Synchronous vs. Asynchronous
   + Higher-Order Functions
+  + Synchronous vs. Asynchronous
 + [Problem Set][w3d3-pset]
 
 [w3d3-lecture-notes]:./w3/d3/lecture_notes.md
