@@ -171,11 +171,11 @@ Welcome to Bootcamp Prep!
 
 ### w3d4
 + Node I/O - File System
-+ Finish [Clock][clock] and [Sentiment Detector][sentiment-detector]
++ Finish [Clock][clock]
 + [Sentiment Detector Project][sentiment-detector]
-+ [Bonus Problems](./bonus.md)
++ [Bonus Problems](../bonuses)
 
-[sentiment-detector]:./w3/d3/sentiment_detector
+[sentiment-detector]:./w3/d4/sentiment_detector
 
 ### w3d5
 + **Assessment 5**
