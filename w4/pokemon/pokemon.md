@@ -38,7 +38,7 @@ Let's add some methods to our `Pokemon` class! Write methods:
 * `Pokemon#revive`: should reset a pokemon's `hp` and return the Pokemon.
 * `Pokemon#call`: should return a pokemon's "nickname", repeated twice.
 
-  - A pokemon's nickname comes from taking its name up to the second vowel. If there are no second vowels, its nickname is its full name. _Hint:_ a global variable `VOWELS` might be helpful with this.
+  - A pokemon's nickname comes from taking its name up to the second vowel. If there are no second vowels, its nickname is its full name. _Hint:_ a variable `VOWELS` might be helpful with this.
 
 ```javascript
 > pikachu.hp -= 5; // Pikachu got attacked!
