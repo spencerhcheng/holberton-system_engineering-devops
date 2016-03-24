@@ -74,11 +74,15 @@ var Pokemon = require("./pokemon");
 var electricTypeMoves = [ {name: "Tackle", damage: 3}, {name: "Thunder Shock", damage: 4}, {name: "Charge Beam", damage: 5}, {name: "Thunder Wave", damage: 5}, {name: "Spark", damage: 7}, {name: "Thunder Punch", damage: 8}, {name: "Shock Wave", damage: 10}, {name: "Thunder Bolt", damage: 15 }, {name: "Thunder", damage: 20}, {name: "Zap Cannon", damage: 30}, {name: "Electric Beam", damage: 35} ];
 var leafTypeMoves = [ {name: "Absorb", damage: 2}, {name: "Tackle", damage: 3}, {name: "Bullet Seed", damage: 4}, {name: "Mega Drain", damage: 6}, {name: "Vine Whip", damage: 8}, {name: "Razor Leaf", damage: 15}, {name: "Giga Drain", damage: 18 }, {name: "Seed Bomb", damage: 22}, {name: "Petal Dance", damage: 25}, {name: "Solar Beam", damage: 35} ];
 
+// for testing
 var pikachu = new Pokemon('pikachu', 'Electric', electricTypeMoves, 10);
 var bulbasaur = new Pokemon('bulbasaur', 'leaf', leafTypeMoves, 11);
+
+console.log(pikachu);
+console.log(bulbasaur);
 ```
 
-**NB**: If you have any code used for testing in your Pokemon class file, comment it out. Remember, when a file is `require`d, Node loads and executes its code.
+**NB**: If you have any code used for testing in your Pokemon class file, comment it out because when a file is `require`d, Node loads and executes its code.
 
 ### Phase 1
 
@@ -99,10 +103,61 @@ var battle = new Battle(pikachu, bulbasaur);
 
 Our `Battle` class is going to contain all of the logic involved in a simplified pokemon battle, including user input.
 
-Let's write a method `Battle#fight`.
-  - If `turn` is `true`, `pokemon1` attacks `pokemon2`.
+Let's write the methods:
+- `Battle.prototype.fight`
+- `Battle.prototype.potion`
+- `Battle.prototype.run`
+- `Battle.prototype.won`
+- `Battle.prototype.results`
+
+#### `Battle#fight`
+  - If `turn` is `true`, it is `pokemon1`'s turn and it attacks `pokemon2`.
   - If `turn` is `false`, `pokemon2` attacks `pokemon1`.
 
 Use the `Pokemon#attack(opponent, moveName)` method that you wrote. For now, just pass in the appropriate argument for `opponent` and nothing for `moveName`. Remember, if no move is passed in, the pokemon attacks with its strongest attack.
 
+```js
+> battle.fight();
+PIKACHU attacked with Thunder Shock!
+Damage to BULBASAUR: -4
+PIKACHU hp: 22
+BULBASAUR hp: 20
+```
+#### `Battle#potion`
+
+`Battle#potion` increases the current pokemon's `hp` by `10`. Print to screen a message.
+
+```js
+> battle.potion();
+Used potion on PIKACHU ( hp: 32 )!
+```
+
+#### `Battle#run`
+
+Write a method `Battle#run` in which the current pokemon forfeits the battle by setting its `hp` to `0`. Print to screen a message.
+
+```js
+> battle.run();
+PIKACHU ran ( hp: 0 )!
+```
+
+#### `Battle#won`
 Next write a method `Battle#won`. Return `true` if either or both pokemon have fainted, and `false` otherwise. Check to see if a pokemon has fainted using your `Pokemon#faint` method.
+
+```js
+> battle.won();
+true
+```
+
+#### `Battle#results`
+Write a method `Battle#results`. It prints to the screen the name of the winning pokemon (the pokemon with the higher hp) and its call.
+
+```js
+> battle.results();
+Winner: BULBASAUR
+BULBA-BULBA
+```
+
+### Phase 3
+
+Let's import a library in order to get user input.
