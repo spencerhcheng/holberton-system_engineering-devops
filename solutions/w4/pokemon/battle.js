@@ -1,5 +1,4 @@
 var Pokemon = require("./pokemon");
-
 var readline = require("readline");
 
 var reader = readline.createInterface({
@@ -70,7 +69,7 @@ Battle.prototype.promptUser = function() {
   }
 
 	console.log("What should " + currentPokemon.name + " do?");
-	reader.question("Select 'a' for attack, 'r' for run: ", function (userInput) {
+	reader.question("Select 'a' for attack, 'p' for potion, 'r' for run: ", function (userInput) {
 		this.makeMove(userInput);
 	}.bind(this));
 };
@@ -94,7 +93,7 @@ Battle.prototype.makeMove = function(choice) {
 
 };
 
-Battle.prototype.play = function(choice) {
+Battle.prototype.play = function() {
   this.promptUser();
 };
 
@@ -108,5 +107,3 @@ var bulbasaur = new Pokemon('bulbasaur', 'leaf', leafTypeMoves, 11);
 
 var battle = new Battle(pikachu, bulbasaur);
 battle.play();
-// battle.fight();
-// Battle.play(pikachu, squirtle);

@@ -160,4 +160,101 @@ BULBA-BULBA
 
 ### Phase 3
 
-Let's import a library in order to get user input.
+#### `readline` Library
+
+Ok now that we have our battle functionality done, let's get some user input! We'll do this but using the `readline` library. Here's the [documentation](https://nodejs.org/api/readline.html) and here's an example:
+
+```js
+// test.js
+var readline = require('readline');
+
+var reader = readline.createInterface({
+  // it's okay if this part is magic; it just says that we want to
+  // 1. output the prompt to the standard output (console)
+  // 2. read input from the standard input (again, console)
+
+  input: process.stdin,
+  output: process.stdout
+});
+
+reader.question("What's your name?", function (answer) {
+  console.log("Hello " + answer + "!");
+});
+
+console.log("Last program line");
+```
+
+The `question` method takes a prompt (`"What is your name?"`) and a callback. It will print the prompt, and then ask Node to read a line from stdin. `question` is asynchronous; it will not wait for the input to be read and will return immediately. When Node has received the input from the user, then it will call the callback we passed to `reader.question`.
+
+Let's see it in action:
+```
+~/Desktop$ node test.js
+What is your name?
+Last program line
+Anthony
+Hello Anthony!
+```
+
+Notice that because `reader.question` returns immediately and does not wait, it prints `"Last program line"` before I get a chance to write anything. Notice also that I don't try to save or use the return value of `reader.question`: that's because this method does not return anything. `reader.question` cannot return the input, because the function returns before I have actually typed in any input. _Asynchronous functions do not return meaningful values: we give them a callback so that the result of the async operation can be communicated back to us._
+
+Lastly, note that our program didn't end when it hits the end of the code. It patiently waited for our input. That's because Node understands that there is an outstanding request for user input. Node knows that the program may not be done yet: anything could happen in response to that input. So for that reason, Node doesn't terminate the program just because we hit the end of the source file. If we want to stop accepting input, we have to explicitly call `reader.close()`. Let's fix our example so that it does this:
+
+```js
+var readline = require('readline');
+
+var reader = readline.createInterface({
+  input: process.stdin,
+  output: process.stdout
+});
+
+reader.question("What is your name?", function (answer) {
+  console.log("Hello " + answer + "!");
+
+  // Close the reader, which will allow the program to end
+  // because it's no longer waiting for any events.
+  reader.close();
+});
+
+console.log("Last program line");
+```
+
+#### `Battle#promptUser`
+
+Require `readline` and define `reader` like we did in the example above.
+
+Next write a method `promptUser` which calls `reader.question`. Pass it the prompt `"Select 'a' for attack, 'p' for potion, 'r' for run: "` and a callback function. The callback takes an argument `userInput` and calls the method `Battle#makeMove` passing it the `userInput` as an argument.
+
+#### `Battle#makeMove`
+
+This method is going to interpret what a user types to the console, in other words it'll interpret the argument passed in. If the argument is `'a'` call your `Battle#fight method`, `'p'` call `Battle#potion` and `'r'` call `Battle#run`. Next check if anyone has won using your `Battle#won`. If someone has, print out the results and close the reader. Otherwise, update turn and call `Battle#promptUser`.
+
+### Phase 4
+
+Write a method `Battle#play` which calls `Battle#promptUser`. Let's start battling!
+
+Create an instance of battle, passing it two pokemon and call play!
+
+```js
+// battle.js
+var battle = new Battle(pikachu, bulbasaur);
+battle.play();
+```
+
+```
+~/Desktop$ node test.js$ node battle.js
+What should PIKACHU do?
+Select 'a' for attack, 'p' for potion, 'r' for run: a
+PIKACHU attacked with Thunder Shock!
+Damage to BULBASAUR: -4
+PIKACHU hp: 22
+BULBASAUR hp: 20
+What should BULBASAUR do?
+Select 'a' for attack, 'p' for potion, 'r' for run: a
+BULBASAUR attacked with Tackle!
+Damage to PIKACHU: -3
+BULBASAUR hp: 20
+PIKACHU hp: 19
+What should PIKACHU do?
+Select 'a' for attack, 'p' for potion, 'r' for run: p
+Used potion on PIKACHU ( hp: 29 )!
+```
