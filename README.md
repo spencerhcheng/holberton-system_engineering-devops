@@ -194,6 +194,7 @@ Welcome to Bootcamp Prep!
   + Asynchronous Programming
   + Callbacks
 + Additional Practice Problems
+  + [Project Euler](./pe.md)
   + [Coderbyte](https://coderbyte.com/challenges/)
   + [Bonus Problems](./bonuses)
 
@@ -218,7 +219,7 @@ Welcome to Bootcamp Prep!
 + **Mini Assessment 3**
 + **Interview Prep/Mock Interviews**
 + Additional Practice Problems
-  + [ReactiveX](http://reactivex.io/learnrx/)
+  + [ReactiveX](http://reactivex.io/learnrx/) (up to problem 20)
 
 [w4d4-lecture-notes]:./w4/d4/lecture_notes.md
 [pokemon_1]:./w4/pokemon/pokemon.md

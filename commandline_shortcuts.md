@@ -1,4 +1,4 @@
-# OSX Keyboard Shortcuts
+# Mac Keyboard Shortcuts
 
 ## Command Line
 
