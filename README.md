@@ -7,11 +7,15 @@ Before the 1st Day of Class
   + Please email me your username so I can give you access to the course material.
 + Install [Atom][atom]. It's going to be our text editor of choice during this course.
 + Finish [Codecademy JavaScript][codecademy] course Unit 1
++ Read [course introduction][coure_intro].
++ Learn how to navigate the command line. Read [this][cli] and prepare any questions you may have.
 
 [node]:https://nodejs.org/en/download/stable/
 [github]:https://github.com/
 [atom]:https://atom.io/
 [codecademy]:https://www.codecademy.com/learn/javascript
+[this]:./cli.md
+[course_intro]:./intro.md
 
 ## Quick Links
   + [Week 1](./w1/README.md)
