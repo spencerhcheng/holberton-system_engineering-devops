@@ -4,8 +4,7 @@
 
 ### w1d1
 Welcome to Bootcamp Prep!
-+ [Introduction to Programming][w1d1-lecture-notes]
-+ [Lecture Notes][w1d1-js-lecture-notes]
++ [Lecture Notes][w1d1-lecture-notes]
   + JavaScript Environment
   + JavaScript Data Types
   + Syntax
@@ -13,13 +12,11 @@ Welcome to Bootcamp Prep!
 + [Problem Set][w1d1-pset]
 
 [w1d1-lecture-notes]:./d1/lecture_notes.md
-[w1d1-js-lecture-notes]:./d1/js_lecture_notes.md
 [w1d1-pset]:./d1/problem_set.md
 
 ### w1d2
 + [Lecture Notes][w1d2-lecture-notes]
-  + NaN
-  + Falsey vs Truthy
+  + Terminal/Command Prompt
   + Conditionals
   + Looping
   + Importance of Naming
