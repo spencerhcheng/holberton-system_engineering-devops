@@ -24,7 +24,7 @@ Pokemon.prototype.revive = function() {
 };
 
 Pokemon.prototype.faint = function() {
-  return this.level <= 0;
+  return this.hp <= 0;
 };
 
 Pokemon.prototype.call = function() {
