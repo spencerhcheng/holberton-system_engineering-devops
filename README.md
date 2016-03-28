@@ -79,7 +79,7 @@ Welcome to Bootcamp Prep!
 [cookie-monster]:./w1/d4/cookie_monster
 
 ### w1d5
-+ **Assessment 1** ([here][w1d5-assessment])
++ **Assessment 1**
 + Review
 
 [w1d5-assessment]:/w1/d5/assessment
@@ -87,7 +87,7 @@ Welcome to Bootcamp Prep!
 ## Week 2
 
 ### w2d1
-+ **Assessment 2** ([here][w2d1-assessment])
++ **Assessment 2**
 + [Review][w2d1-lecture-notes]
   + Primitive Data Types
   + Functions
@@ -131,7 +131,7 @@ Welcome to Bootcamp Prep!
 [w2d4-pset]:./w2/d4/problem_set.md
 
 ### w2d5
-+ **Assessment 3** ([here][w2d5-assessment])
++ **Assessment 3**
 + Review
 
 [w2d5-assessment]:./w2/d5/assessment
@@ -194,8 +194,8 @@ Welcome to Bootcamp Prep!
   + Asynchronous Programming
   + Callbacks
 + Additional Practice Problems
-  + [Project Euler](./pe.md)
-  + [Coderbyte](https://coderbyte.com/challenges/)
+  + [Selected Project Euler Problems](./pe.md)
+  + [Easy Coderbyte Problems](https://coderbyte.com/challenges/)
   + [Bonus Problems](./bonuses)
 
 [w4d1-lecture-notes]:./w4/d1/lecture_notes.md

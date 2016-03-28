@@ -1,19 +1,3 @@
-## Arithmetic
-
-* [Math Workout Android](https://play.google.com/store/apps/details?id=com.akbur.mathsworkout&hl=en)
-
-* [Math Workout Apple](https://itunes.apple.com/us/app/math-workout/id497620537?mt=8)
-
-* [Khan Academy](https://www.khanacademy.org/math/algebra)
-
-## Typing
-
-* [Type Fu](http://type-fu.com/) - Great for beginners
-
-* [Type Racer](http://play.typeracer.com/) - Good for increasing raw wpm
-
-* [Proto Typist](http://www.proto-typist.xyz) - App Academy Student Project
-
 ## Terminal
 
 * [Codecademy](https://www.codecademy.com/learn/learn-the-command-line)
@@ -24,6 +8,15 @@
 
 * [Shortcuts](./atom_shortcuts.md)
 
+
+## Additional Practice Problems
+
+* [Selected Project Euler Problems](./pe.md)
+
+* [Easy Coderbyte Problems](https://coderbyte.com/challenges/)
+
++ [ReactiveX](http://reactivex.io/learnrx/) (up to problem 20)
+
 ## Regular Expressions
 
 * [RegEx](http://regexone.com/)
@@ -33,9 +26,3 @@
 * [Good API Design](https://www.youtube.com/watch?v=aAb7hSCtvGw)
 
 * [SICP](https://www.youtube.com/watch?v=2Op3QLzMgSY&list=PLE18841CABEA24090)
-
-## Practice Problems
-
-* [Project Euler](https://projecteuler.net/archives)
-
-* [Coderbyte](https://coderbyte.com/challenges/)
