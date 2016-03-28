@@ -12,7 +12,7 @@ Node is a tool that we use from the command line. As such, being able to effecti
 C:\>
 ```
 
-Your CLI may or may not look exactly like this. Everything before the `$` (for Mac) or `>` (for Windows) symbol is the current directory. CLIs typically start at the root directory. After the prompt symbol, you can type in commands.
+Your CLI may or may not look exactly like this. Everything before the `$` (for Macs) or `>` (for Windows) symbol is the current directory. CLIs typically start at the root directory. After the prompt symbol, you can type in commands.
 
 Commands typically operate in the current directory. For example, the `ls` command for Macs/`dir` command for Windows list all the files in the current directory. The output of this command will be different depending on which directory you are in. Learning how to navigate between directories is a vital for using your CLI effectively.
 
