@@ -182,7 +182,7 @@ Welcome to Bootcamp Prep!
 [sentiment-detector]:./w3/d4/sentiment_detector
 
 ### w3d5
-+ **Assessment 5**
++ **Assessment 5** ([here](./w3/d5/assessment))
 + Review
 
 ## Week 4
