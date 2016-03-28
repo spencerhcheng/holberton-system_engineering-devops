@@ -162,8 +162,8 @@ Welcome to Bootcamp Prep!
 + [Lecture Notes][w3d3-lecture-notes]
   + Callbacks
   + `Array.prototype.forEach()`
-  + Synchronous vs. Asynchronous
   + Higher-Order Functions
+  + Synchronous vs. Asynchronous
 + [Problem Set][w3d3-pset]
 
 [w3d3-lecture-notes]:./w3/d3/lecture_notes.md
@@ -171,11 +171,11 @@ Welcome to Bootcamp Prep!
 
 ### w3d4
 + Node I/O - File System
-+ Finish [Clock][clock] and [Sentiment Detector][sentiment-detector]
++ Finish [Clock Project][clock]
 + [Sentiment Detector Project][sentiment-detector]
-+ [Bonus Problems](./bonus.md)
++ [Bonus Problems](../bonuses)
 
-[sentiment-detector]:./w3/d3/sentiment_detector
+[sentiment-detector]:./w3/d4/sentiment_detector
 
 ### w3d5
 + **Assessment 5**
@@ -190,27 +190,31 @@ Welcome to Bootcamp Prep!
   + Asynchronous Programming
   + Callbacks
 + Additional Practice Problems
-  + [Project Euler](https://projecteuler.net/archives)
   + [Coderbyte](https://coderbyte.com/challenges/)
   + [Bonus Problems](./bonuses)
 
 [w4d1-lecture-notes]:./w4/d1/lecture_notes.md
 
 ### w4d2
++ **Mini Assessment 1**
 + [Lecture Notes][w4d4-lecture-notes]
   + JavaScript Class
   + Creating New Classes
   + Creating Instance Variables
   + Creating Methods on Classes
+  + Pair Programming
 + [Pokemon Project Part 1][pokemon_1]
 
 ### w4d3
++ **Mini Assessment 2**
 + [Callback Review][w3d3-lecture-notes]
 + [Pokemon Project Part 2][pokemon_2]
 
 ### w4d4
-+ Coding Bootcamps
-+ **Interview Prep**
++ **Mini Assessment 3**
++ **Interview Prep/Mock Interviews**
++ Additional Practice Problems
+  + [ReactiveX](http://reactivex.io/learnrx/)
 
 [w4d4-lecture-notes]:./w4/d4/lecture_notes.md
 [pokemon_1]:./w4/pokemon/pokemon.md
@@ -218,8 +222,5 @@ Welcome to Bootcamp Prep!
 
 ### w4d5
 + **Assessment 7**
-+ Review
++ What's Next? [Applying to Bootcamps](./bootcamp_applications.md)
 + :joy_cat: **Graduation** :joy_cat:
-
-## What's Next?
-  + [Applying to Bootcamps](./bootcamp_applications.md)

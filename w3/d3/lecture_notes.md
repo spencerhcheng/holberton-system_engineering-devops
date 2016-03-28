@@ -88,14 +88,14 @@ array.forEach(function(ele, idx, arr){
 });
 ```
 
+## `bind(this)`
 If the callback function utilizes the `this` keyword, we'll need to bind it
 to the appropriate object. To do this, we can use `Function.prototype.bind` or simply
 pass in the `thisArg`. Below, I've created four different ways of accomplishing the correct binding (and an example of the incorrect way):
 
 ```javascript
 var cookieMonster = {
-  name : "Cooskie",
-
+  name : "Cookie",
   favoriteFoods : ["apple", "cookie", "orange"],
 
   badLogFavFoods: function(){
@@ -177,7 +177,9 @@ dynamically create functions that behave differently based on some input.
 
 ## Synchronous vs Asynchronous
 
-Javascript, and many other languages, evaluate code in a single thread. Single-threaded programming languages can only evaluate one thing at a time. **Synchronous** code is run in the order it is written (although to evaluate functions the program may jump all over the space of the program) and *blocks the thread* from running anything else. Let's see an example of this:
+Javascript, and many other languages, evaluate code in a single thread. Single-threaded programming languages can only evaluate one thing at a time.
+
+**Synchronous** code is run in the order it is written (although to evaluate functions the program may jump all over the space of the program) and *blocks the thread* from running anything else. Let's see an example of this:
 
 ```javascript
 function foo(){

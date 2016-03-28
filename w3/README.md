@@ -30,6 +30,7 @@
 + [Lecture Notes][w3d3-lecture-notes]
   + Callbacks
   + `Array.prototype.forEach()`
+  + Higher-Order Functions
   + Synchronous vs. Asynchronous
 + [Problem Set][w3d3-pset]
 
@@ -38,11 +39,11 @@
 
 ### w3d4
 + Node I/O - File System
-+ Finish [Clock][clock] and [Sentiment Detector][sentiment-detector]
++ Finish [Clock Project][clock]
 + [Sentiment Detector Project][sentiment-detector]
-+ [Bonus Problems](../bonus.md)
++ [Bonus Problems](../bonuses)
 
-[sentiment-detector]:./d3/sentiment_detector
+[sentiment-detector]:./d4/sentiment_detector
 
 ### w3d5
 + **Assessment 5**
