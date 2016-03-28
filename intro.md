@@ -10,7 +10,7 @@ In this course, we will be using JavaScript, and the first couple of days will b
 
 ## The Skill of Programming
 
-In order to be a great software engineer, there are certain tangental skills that must be cultivated:
+In order to be a great software engineer, there are certain tangential skills that must be cultivated:
 
 1. Logical Reasoning
 2. Numerical Reasoning
@@ -18,7 +18,7 @@ In order to be a great software engineer, there are certain tangental skills tha
 4. Curiosity
 5. Debugging
 
-One of the primary goals of the course is to provide you with the a foundation and resources to develop these skills.
+One of the primary goals of the course is to provide you with the foundation and resources to develop these skills.
 
 ## The Complexity of Programming
 

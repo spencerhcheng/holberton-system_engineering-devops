@@ -7,14 +7,14 @@ Before the 1st Day of Class
   + Please email me your username so I can give you access to the course material.
 + Install [Atom][atom]. It's going to be our text editor of choice during this course.
 + Finish [Codecademy JavaScript][codecademy] course Unit 1
-+ Read [course introduction][coure_intro].
++ Read [course introduction][course_intro].
 + Learn how to navigate the command line. Read [this][cli] and prepare any questions you may have.
 
 [node]:https://nodejs.org/en/download/stable/
 [github]:https://github.com/
 [atom]:https://atom.io/
 [codecademy]:https://www.codecademy.com/learn/javascript
-[this]:./cli.md
+[cli]:./cli.md
 [course_intro]:./intro.md
 
 ## Quick Links
@@ -182,7 +182,7 @@ Welcome to Bootcamp Prep!
 [sentiment-detector]:./w3/d4/sentiment_detector
 
 ### w3d5
-+ **Assessment 5**
++ **Assessment 5** ([here](./w3/d5/assessment))
 + Review
 
 ## Week 4
