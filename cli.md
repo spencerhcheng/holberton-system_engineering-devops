@@ -1,6 +1,6 @@
 ## Terminal/Command Prompt
 
-Node is a tool that we use from the command line. As such, being able to effectively use the command line will be an essential skill. Both the terminal and command prompt are command line interfaces (CLI). Open your CLI.
+Node is a tool that we use from the command line. As such, being able to effectively use the command line will be an essential skill. Both the terminal and command prompt are command line interfaces (CLI). Open your CLI (Terminal for Macs and Command Prompt for PCs).
 
 ```
 #terminal
@@ -12,16 +12,21 @@ Node is a tool that we use from the command line. As such, being able to effecti
 C:\>
 ```
 
-Your CLI may or may not look exactly like this. Everything before the `$` (for Mac) or `>` (for Windows) symbol is the current directory. CLI typically start at the root directory. After the prompt symbol, you can type in commands.
+Your CLI may or may not look exactly like this. Everything before the `$` (for Mac) or `>` (for Windows) symbol is the current directory. CLIs typically start at the root directory. After the prompt symbol, you can type in commands.
 
-Commands typically operate in the current directory. For example, the `ls` command list all the files in the current directory. The output of this command will be different depending on the directory you are in. Learning how to navigate between directories is a vital for using your CLI effectively.
+Commands typically operate in the current directory. For example, the `ls` command for Macs/`dir` command for Windows list all the files in the current directory. The output of this command will be different depending on which directory you are in. Learning how to navigate between directories is a vital for using your CLI effectively.
 
-#### Commands
+#### MAC Commands
 * `ls` - lists all the files in the current directory
 * `pwd` - returns the present working directory
 * `cd [path]` - changes the current directory to the directory specified by the `path` argument
 
-So if I want to navigate from my root directory to my desktop:
+#### PC Commands
+* `dir` - lists all the files in the current directory
+* `cd` - returns the present working directory
+* `cd [path]` - changes the current directory to the directory specified by the `path` argument
+
+So if I want to navigate from my root directory to my desktop using a Mac:
 
 ```
 ~ $ pwd
@@ -35,17 +40,17 @@ Music				   Pictures
 Desktop $		
 ```
 
-Notice, after we navigated to the desktop, the current path changed to reflect that.
+Notice, after we navigated to the desktop, the current path changed to reflect that. Test this out on your CLI.
 
 ### Node
 
-Let's run some code. We will write a very simple program that will print the text "Hello World" onto the screen. There are two ways we can do this. I can write the program directly in the Node REPL or I can write a file.
+Let's run some code. We will write a very simple program that will print the text `"Hello World"` onto the screen. There are two ways we can do this. I can write the program directly in the Node REPL or I can write a file.
 
 **1. Node REPL**
 
 We can run our program in the Node REPL. To do this, please open up your CLI. Type `node` in the window that opens up and press `Enter`. This opens up the Node REPL (which stands for Read, Evaluate, Print Loop). Everything that we type into the CLI now will be evaluated and executed by the JavaScript interpreter. We can write and run any valid JavaScript code inside of the REPL. It’s particularly useful for testing short snippets of your code or built-in functions.
 
-Ok enough talk, let’s try it. Type `console.log(“Hello, World!”);` into the Node REPL and hit `Enter`. You should see the text Hello World printed to the screen. If you don’t check to make sure you typed everything correctly. Are you missing quotes? Or a semicolon? Try again.
+Ok enough talk, let’s try it. Type `console.log(“Hello, World!”);` into the Node REPL and hit `Enter`. You should see the text `"Hello World"` printed to the screen. If you don’t check to make sure you typed everything correctly. Are you missing quotes? Or a semicolon? Try again.
 
 **2. JavaScript File**
 
