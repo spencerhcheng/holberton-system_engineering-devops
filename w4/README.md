@@ -2,14 +2,14 @@
 
 ### w4d1
 + **Assessment 6**
-+ [Review][w4d1-lecture-notes]
++ Review
   + Common Gotchas
   + Asynchronous Programming
   + Callbacks
 + Additional Practice Problems
-  + [Selected Project Euler Problems](./pe.md)
+  + [Selected Project Euler Problems](../pe.md)
   + [Easy Coderbyte Problems](https://coderbyte.com/challenges/)
-  + [Bonus Problems](./bonuses)
+  + [Bonus Problems](../bonuses)
 
 [w4d1-lecture-notes]:./d1/lecture_notes.md
 
