@@ -13,6 +13,7 @@ For quick references, here are **brief summaries** of the contracts you signed u
     - Launch Academy
     - App Academy
   - You must maintain and document all of your bootcamp applications and keep us updated with your application processes.
+
 ### Refund Eligibility
   - App Academy guarantees admission into at least one of the bootcamps listed above.
   - Upon admission to a recognized bootcamp, you lose your eligibility for a refund.
