@@ -45,8 +45,6 @@ Welcome to Bootcamp Prep!
 
 ### w1d2
 + [Lecture Notes][w1d2-lecture-notes]
-  + NaN
-  + Falsey vs Truthy
   + Conditionals
   + Looping
   + Importance of Naming
@@ -102,6 +100,7 @@ Welcome to Bootcamp Prep!
 
 ### w2d2
 + [Lecture Notes][w2d2-lecture-notes]
+  + Data Modeling
   + Multi-Dimensional Arrays
   + Nested Loops
 + [Problem Set][w2d2-pset]
