@@ -1,7 +1,7 @@
 For quick references, here are **brief summaries** of the contracts you signed upon enrolling in App Academy's Bootcamp Prep program.
 
 ## Bootcamp Application Agreement Summary
-  - You agree to make a reasonable, good-faith effort to apply and be accepted at a programming bootcamp in the **3 months** following the completion of Bootcamp Prep.
+  - You agree to make a reasonable, good-faith effort to apply to programming bootcamps in the **2 months** following your completion of Bootcamp Prep.
   - Unless you've been admitted to a bootcamp, you must apply to all of the following bootcamps:
     - General Assembly
     - Galvanize
@@ -25,7 +25,7 @@ For quick references, here are **brief summaries** of the contracts you signed u
   - You fee is forfeited if you are dismissed.
 
 ### Program Rules
-Many of our program rules are enforced through a system of **strikes**. Students who earn **4** strikes or more will lose their eligibility for a refund. However, they are more than encouraged to continue coming to class.
+Many of our program rules are enforced through a system of **strikes**. Students who earn **4** strikes or more will lose their eligibility for a refund, and be dismissed.
 
 #### Earning Strikes:
 - **Attendance and Tardiness**
