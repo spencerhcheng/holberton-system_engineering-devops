@@ -215,7 +215,7 @@ Welcome to Bootcamp Prep!
 [w4d2-lecture-notes]:./w4/d2/lecture-notes.md
 
 ### w4d3
-+ **Mini Assessment** ([here](./w4/d3/mini_assessment.md))
++ **Mini Assessment** ([here](./w4/d3/mini_assessment.js))
 + Lecture Notes
   + Monkey-Patching
 + [Callback Review][w3d3-lecture-notes]
