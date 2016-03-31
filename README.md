@@ -201,8 +201,7 @@ Welcome to Bootcamp Prep!
 [w4d1-lecture-notes]:./w4/d1/lecture_notes.md
 
 ### w4d2
-+ **Mini Assessment 1**
-+ [Lecture Notes][w4d4-lecture-notes]
++ [Lecture Notes][w4d2-lecture-notes]
   + JavaScript Class
   + Creating New Classes
   + Creating Instance Variables
@@ -211,17 +210,18 @@ Welcome to Bootcamp Prep!
 + [Pokemon Project Part 1][pokemon_1]
 
 ### w4d3
-+ **Mini Assessment 2**
++ **Mini Assessment]** ([here](./w4/d3/mini_assessment.md))
++ Lecture Notes
+  + Monkey-Patching
 + [Callback Review][w3d3-lecture-notes]
 + [Pokemon Project Part 2][pokemon_2]
 
 ### w4d4
-+ **Mini Assessment 3**
 + **Interview Prep/Mock Interviews**
 + Additional Practice Problems
   + [ReactiveX](http://reactivex.io/learnrx/) (up to problem 20)
 
-[w4d4-lecture-notes]:./w4/d4/lecture_notes.md
+[w4d4-lecture-notes]:./w4/d2/lecture_notes.md
 [pokemon_1]:./w4/pokemon/pokemon.md
 [pokemon_2]:./w4/pokemon/battle.md
 
