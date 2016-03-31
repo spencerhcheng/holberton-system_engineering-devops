@@ -189,9 +189,10 @@ Welcome to Bootcamp Prep!
 ### w4d1
 + **Assessment 6**
 + [Review][w4d1-lecture-notes]
-  + Common Gotchas
-  + Asynchronous Programming
   + Callbacks
+  + Higher-Order Functions
+  + Asynchronous Programming
+  + Data Modeling
 + Additional Practice Problems
   + [Selected Project Euler Problems](./pe.md)
   + [Easy Coderbyte Problems](https://coderbyte.com/challenges/)
@@ -208,8 +209,10 @@ Welcome to Bootcamp Prep!
   + Pair Programming
 + [Pokemon Project Part 1][pokemon_1]
 
+[w4d2-lecture-notes]:./w4/d2/lecture-notes.md
+
 ### w4d3
-+ **Mini Assessment]** ([here](./w4/d3/mini_assessment.md))
++ **Mini Assessment** ([here](./w4/d3/mini_assessment.md))
 + Lecture Notes
   + Monkey-Patching
 + [Callback Review][w3d3-lecture-notes]
