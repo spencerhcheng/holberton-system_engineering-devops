@@ -6,7 +6,6 @@ var students1 = [
 ];
 
 //Write a function that will print the name of all the students
-// Use Array#forEach
 //Example
 // printNames(stduents1)
 // Anthony
@@ -28,7 +27,6 @@ var students2 = [
 ];
 
 //Write a function that will print the name and id of all the stuents
-// Use Array#forEach
 //Example
 // printStudents(students2)
 // Anthony is student #0
@@ -54,7 +52,6 @@ var students3 = [
 ];
 
 //Write a function that will print the name of the student and their highest test score
-// Use Array#forEach
 //Example
 // printBestGrade(students3)
 // Anthony 84
@@ -64,7 +61,6 @@ var students3 = [
 
 
 //Write a function that will print the name of the student and their highest test score
-// Use Array#forEach
 //Example
 // printAverageGrade(students3)
 // Anthony 61.333333333333336
