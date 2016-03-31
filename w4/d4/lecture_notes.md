@@ -40,7 +40,7 @@ by hand would be very error prone. So how can we solve this? **Classes**.
 Think of a class as a blueprint for an object. If we create a `Cat` class, we can use
 it to create as many cat objects as we need. We will specify all of the properties
 and methods that are common to all cats on the class, DRYing up our code considerably.
-We can then create new cat objects on the fly with out `Cat` class.
+We can then create new cat objects on the fly with our `Cat` class.
 
 The next three sections will go over the full process needed to create our `Cat`
 class.
