@@ -69,22 +69,7 @@ Example:
 [ 'Kush', 'Ned' ] //return value
 ******************************************************************************/
 function passingStudents(array) {
-  var results = [];
-
-  array.forEach(function(student) {
-    var sum = 0;
-    student.grades.forEach(function(grade) {
-      sum += grade["score"];
-    })
-
-    var average = sum / student.grades.length;
-
-    if (average >= 70) {
-      results.push(student.name);
-    }
-  });
-
-  return results;
+  // your code here...
 }
 /******************************************************************************
 Write a function laligatSequence(base, n)

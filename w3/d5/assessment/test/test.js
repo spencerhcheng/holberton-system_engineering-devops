@@ -1,7 +1,65 @@
 var assert = require('assert');
 
-var laligatSequence = require('../assessment.js').laligatSequence,
+var myForEach = require('../assessment.js').myForEach,
+    mySelect = require('../assessment.js').mySelect,
     inPigLatin = require('../assessment.js').inPigLatin;
+
+describe('#myForEach()', function () {
+  var elements = [1,2,3];
+
+  it('should pass the callback each element', function () {
+    var expected = [1,2,3];
+    var test = [];
+
+    myForEach(elements, function(ele){
+      test.push(ele);
+    });
+
+    assert.deepEqual(test, expected);
+  });
+
+  it('should pass the callback each index', function () {
+    var expected = [0,1,2];
+    var test = [];
+
+    myForEach(elements, function(ele, i){
+      test.push(i);
+    });
+
+    assert.deepEqual(test, expected);
+  });
+
+  it('should pass the callback the array', function () {
+    var expected = [[1,2,3],[1,2,3],[1,2,3]];
+    var test = [];
+
+    myForEach(elements, function(ele,i,arr){
+      test.push(arr);
+    });
+
+    assert.deepEqual(test, expected);
+  });
+});
+
+describe('#mySelect()', function () {
+  it('return array of all elements that evaluated to true', function () {
+    var expected = [true, 1, "happy"];
+    var result = mySelect([true, false, 1, 0, "", "happy"], function(ele){
+      return ele;
+    });
+
+    assert.deepEqual(result, expected);
+  });
+
+  it('should pass in the index and the array to the callback', function () {
+    var expected = [5, -22];
+    var result = mySelect([5,12,-22,-3], function(ele, i, arr){
+      return i % 2 === 0;
+    });
+
+    assert.deepEqual(result, expected);
+  });
+});
 
 describe('#inPigLatin()', function () {
   it('should translate a sentence into pig latin.', function () {
@@ -16,21 +74,5 @@ describe('#inPigLatin()', function () {
     result = inPigLatin("this is the time of my life");
     expected = "isthay isyay ethay imetay ofyay myay ifelay";
     assert.equal(result, expected);
-  });
-});
-
-describe('#laligatSequence()', function () {
-  it('should return the laligat sequence starting with base and of length n.', function () {
-    var result = laligatSequence(10, 4);
-    var expected = [ 10, 17, 58, 381 ];
-    assert.deepEqual(result, expected);
-
-    result = laligatSequence(5, 2);
-    expected = [ 5, 10 ];
-    assert.deepEqual(result, expected);
-
-    result = laligatSequence(5, 0);
-    expected = [];
-    assert.deepEqual(result, expected);
   });
 });
