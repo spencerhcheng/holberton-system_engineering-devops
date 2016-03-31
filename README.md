@@ -14,8 +14,8 @@ Before the 1st Day of Class
 [github]:https://github.com/
 [atom]:https://atom.io/
 [codecademy]:https://www.codecademy.com/learn/javascript
-[cli]:./cli.md
-[course_intro]:./intro.md
+[cli]:./other/cli.md
+[course_intro]:./other/intro.md
 
 ## Quick Links
   + [Week 1](./w1/README.md)
@@ -23,9 +23,9 @@ Before the 1st Day of Class
   + [Week 3](./w3/README.md)
   + [Week 4](./w4/README.md)
   + [Notes](./notes)
-  + [Bonus Problems](./bonuses)
-  + [Additional Resources](./resources.md)
-  + [What's Next?](./bootcamp_applications.md)
+  + [Bonus Problems](./bonus_problems)
+  + [Additional Resources](./other/resources.md)
+  + [What's Next?](./other/bootcamp_applications.md)
 
 ## Week 1
 
@@ -80,7 +80,7 @@ Welcome to Bootcamp Prep!
 + **Assessment 1**
 + Review
 
-[w1d5-assessment]:/w1/d5/assessment
+[w1d5-assessment]:./w1/d5/assessment
 
 ## Week 2
 
@@ -147,6 +147,7 @@ Welcome to Bootcamp Prep!
   + Scope
   + `this`
 
+[w3d1-assessment]:./w3/d1/assessment
 [w3d1-lecture-notes]:./w3/d1/lecture_notes.md
 
 ### w3d2
@@ -176,28 +177,30 @@ Welcome to Bootcamp Prep!
 + Node I/O - File System
 + Finish [Clock Project][clock]
 + [Sentiment Detector Project][sentiment-detector]
-+ [Bonus Problems](../bonuses)
++ [Bonus Problems](./bonus_problems)
 
 [sentiment-detector]:./w3/d4/sentiment_detector
 
 ### w3d5
-+ **Assessment 5** ([here](./w3/d5/assessment))
++ **Assessment 5** ([here][w3d5-assessment])
 + Review
 
+[w3d5-assessment]:./w3/d5/assessment
 ## Week 4
 
 ### w4d1
-+ **Assessment 6**
++ **Assessment 6** ([here][w4d1-assessment]
 + [Review][w4d1-lecture-notes]
   + Callbacks
   + Higher-Order Functions
   + Asynchronous Programming
   + Data Modeling
 + Additional Practice Problems
-  + [Selected Project Euler Problems](./pe.md)
+  + [Selected Project Euler Problems](./other/pe.md)
   + [Easy Coderbyte Problems](https://coderbyte.com/challenges/)
-  + [Bonus Problems](./bonuses)
+  + [Bonus Problems](./other/bonus_problems)
 
+[w4d1-assessment]:./w4/d1/assessment
 [w4d1-lecture-notes]:./w4/d1/lecture_notes.md
 
 ### w4d2
@@ -223,11 +226,10 @@ Welcome to Bootcamp Prep!
 + Additional Practice Problems
   + [ReactiveX](http://reactivex.io/learnrx/) (up to problem 20)
 
-[w4d4-lecture-notes]:./w4/d2/lecture_notes.md
 [pokemon_1]:./w4/pokemon/pokemon.md
 [pokemon_2]:./w4/pokemon/battle.md
 
 ### w4d5
 + **Assessment 7**
-+ What's Next? [Applying to Bootcamps](./bootcamp_applications.md)
++ What's Next? [Applying to Bootcamps](./other/bootcamp_applications.md)
 + :joy_cat: **Graduation** :joy_cat:
