@@ -52,7 +52,7 @@ will add the same pair of indices into the array. (i.e. If the array is
 * Our answer will contain a bunch on inverse pairs. (i.e If the array is
   `[1, 2, -1]`, we will get back `[ [0,1], [1,0] ]` instead of `[ [0,1] ]`).
 
-How can you fix these issues? We want our output to `pairZero` to look like this: 
+How can you fix these issues? We want our output to `pairZero` to look like this:
 
 ```js
 > pairZero([4, 1, 0,])
@@ -66,3 +66,44 @@ How can you fix these issues? We want our output to `pairZero` to look like this
 ```
 
 Note: the order of the indices matters
+
+## Data Modeling
+
+Data modeling is the art of structuring your data in ways that make sense for your application. The same idea can be structured in different way and can affect the complexity of your program. Let's look at an example:
+
+Say we have to write a function where we are given an array of items and it has to return how many times each item appeared in the array. There are many ways to model the notion of a count.
+
+I could represent the count as a multi-dimensional array:
+
+```
+> var myArray = ["a", "b", "a", "c", "a", "b", "d"]
+> getCount(myArray)
+[["a", 3], ["b", 2], ["c", 1], ["d", 1]]
+```
+
+I could also represent the count as an object:
+
+```
+> var myArray = ["a", "b", "a", "c", "a", "b", "d"]
+> getCount(myArray)
+{ a : 3, b : 2, c : 1, d , 1 }
+```
+
+So which one is better? The answer is that there is no "right" answer. It depends upon the requirements of your system. If the order of the count has to reflect the order of the elements in the input array, it probably makes sense to use the array representation because arrays are meant for ordered collections. However, the object representation is much more succinct and would definitely be easier to write.
+
+#### Data Modeling Scenarios
+
+*  The function should return pairs (or triplets, or quadruplets, etc) of things, it probably makes sense to use a 2D array. The outer array to hold all of the pairs. The inner arrays to hold each pair.
+
+* You have to write a function that asks you to keep track of a robot's location on a 2D plane. How do we represent that data (robot's location)? We can use 2D arrays to represent a cartesian plane, but that may be an overkill. We can also initialize two variables (`x` and `y`) to zero. When the robot moves in the positive direction, increment (or decrement) the counter associated with that axis. No we have a succinct representation of location without the weight and complexity of a 2D array.
+
+* Your employer ask you to create a data model of a car. What data structure would you use? If you thought `Object`, you are correct. Objects are great for modeling complex data structures.
+
+```
+var car = {
+  type : "Tesla",
+  mpg : 1000,
+  engines: ["Rev4", "Mark22"]
+  //etc...
+}
+```
