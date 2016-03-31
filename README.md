@@ -189,7 +189,7 @@ Welcome to Bootcamp Prep!
 ## Week 4
 
 ### w4d1
-+ **Assessment 6** ([here][w4d1-assessment]
++ **Assessment 6** ([here][w4d1-assessment])
 + [Review][w4d1-lecture-notes]
   + Callbacks
   + Higher-Order Functions
