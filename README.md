@@ -231,7 +231,7 @@ w4/d3/mini_assessment.js
 
 [pokemon_1]:./w4/pokemon/pokemon.md
 [pokemon_2]:./w4/pokemon/battle.md
-[interview_prompts]:./w4/d4/interview_prompts.md
+[interview_prompts]:./w4/d4/interview_prompts.js
 
 ### w4d5
 + **Assessment 7**
