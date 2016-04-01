@@ -189,7 +189,7 @@ Welcome to Bootcamp Prep!
 ## Week 4
 
 ### w4d1
-+ **Assessment 6** ([here][w4d1-assessment]
++ **Assessment 6** ([here][w4d1-assessment])
 + [Review][w4d1-lecture-notes]
   + Callbacks
   + Higher-Order Functions
@@ -215,7 +215,7 @@ Welcome to Bootcamp Prep!
 [w4d2-lecture-notes]:./w4/d2/lecture-notes.md
 
 ### w4d3
-+ **Mini Assessment** ([here](./w4/d3/mini_assessment.md))
++ **Mini Assessment** ([here](./w4/d3/mini_assessment.js))
 + Lecture Notes
   + Monkey-Patching
 + [Callback Review][w3d3-lecture-notes]
