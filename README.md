@@ -221,13 +221,17 @@ Welcome to Bootcamp Prep!
 + [Callback Review][w3d3-lecture-notes]
 + [Pokemon Project Part 2][pokemon_2]
 
+w4/d3/mini_assessment.js
+
 ### w4d4
 + **Interview Prep/Mock Interviews**
++ Mock Interview [Prompts][interview_prompts]
 + Additional Practice Problems
   + [ReactiveX](http://reactivex.io/learnrx/) (up to problem 20)
 
 [pokemon_1]:./w4/pokemon/pokemon.md
 [pokemon_2]:./w4/pokemon/battle.md
+[interview_prompts]:./w4/d4/interview_prompts.md
 
 ### w4d5
 + **Assessment 7**
