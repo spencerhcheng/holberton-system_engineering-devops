@@ -39,11 +39,12 @@ Welcome to Bootcamp Prep!
   + Introduction to Functions
 + [Problem Set][w1d1-pset]
 
+[other-intro]:./other/intro.md
 [w1d1-lecture-notes]:./w1/d1/lecture_notes.md
 [w1d1-js-lecture-notes]:./w1/d1/js_lecture_notes.md
 [w1d1-pset]:./w1/d1/problem_set.md
 
-### w1d2]
+### w1d2
 + [Lecture Notes][w1d2-lecture-notes]
   + Conditionals
   + Looping
