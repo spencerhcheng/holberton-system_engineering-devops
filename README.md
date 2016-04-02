@@ -18,11 +18,11 @@ Before the 1st Day of Class
 [course_intro]:./other/intro.md
 
 ## Quick Links
-  + [Week 1](./w1/README.md)
-  + [Week 2](./w2/README.md)
-  + [Week 3](./w3/README.md)
-  + [Week 4](./w4/README.md)
-  + [Notes](./notes)
+  + [Week 1](./w1)
+  + [Week 2](./w2)
+  + [Week 3](./w3)
+  + [Week 4](./w4)
+  + [Lecture Notes](./lecture_notes)
   + [Bonus Problems](./bonus_problems)
   + [Additional Resources](./other/resources.md)
   + [What's Next?](./other/bootcamp_applications.md)
