@@ -31,6 +31,7 @@ Before the 1st Day of Class
 
 ### w1d1
 Welcome to Bootcamp Prep!
++ [Introduction to Programming][other-intro]
 + [Lecture Notes][w1d1-lecture-notes]
   + JavaScript Environment
   + JavaScript Data Types
@@ -42,7 +43,7 @@ Welcome to Bootcamp Prep!
 [w1d1-js-lecture-notes]:./w1/d1/js_lecture_notes.md
 [w1d1-pset]:./w1/d1/problem_set.md
 
-### w1d2
+### w1d2]
 + [Lecture Notes][w1d2-lecture-notes]
   + Conditionals
   + Looping
