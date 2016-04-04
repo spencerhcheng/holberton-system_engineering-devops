@@ -183,14 +183,14 @@ Welcome to Bootcamp Prep!
 [sentiment-detector]:./w3/d4/sentiment_detector
 
 ### w3d5
-+ **Assessment 5** ([here][w3d5-assessment])
++ **Assessment 5** <!-- ([here][w3d5-assessment]) -->
 + Review
 
 [w3d5-assessment]:./w3/d5/assessment
 ## Week 4
 
 ### w4d1
-+ **Assessment 6** ([here][w4d1-assessment])
++ **Assessment 6** <!-- ([here][w4d1-assessment]) -->
 + [Review][w4d1-lecture-notes]
   + Callbacks
   + Higher-Order Functions
@@ -198,7 +198,7 @@ Welcome to Bootcamp Prep!
   + Data Modeling
 + Additional Practice Problems
   + [Selected Project Euler Problems](./other/pe.md)
-  + [Easy Coderbyte Problems](https://coderbyte.com/challenges/)
+  + [Free Coderbyte Problems](https://coderbyte.com/challenges/)
   + [Bonus Problems](./other/bonus_problems)
 
 [w4d1-assessment]:./w4/d1/assessment
@@ -210,23 +210,20 @@ Welcome to Bootcamp Prep!
   + Creating New Classes
   + Creating Instance Variables
   + Creating Methods on Classes
-  + Pair Programming
 + [Pokemon Project Part 1][pokemon_1]
 
 [w4d2-lecture-notes]:./w4/d2/lecture-notes.md
 
 ### w4d3
-+ **Mini Assessment** ([here](./w4/d3/mini_assessment.js))
++ **Mini Assessment** <!-- ([here](./w4/d3/mini_assessment.js)) -->
 + Lecture Notes
   + Monkey-Patching
 + [Callback Review][w3d3-lecture-notes]
 + [Pokemon Project Part 2][pokemon_2]
 
-w4/d3/mini_assessment.js
-
 ### w4d4
 + **Interview Prep/Mock Interviews**
-+ Mock Interview [Prompts][interview_prompts]
+<!-- + Mock Interview [Prompts][interview_prompts] -->
 + Additional Practice Problems
   + [ReactiveX](http://reactivex.io/learnrx/) (up to problem 20)
 
