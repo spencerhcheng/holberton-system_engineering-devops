@@ -6,7 +6,7 @@ JavaScript runs in 2 main environments: the browser and Node. Using the browser 
 
 So what is Node exactly? The [website](https://nodejs.org/en/) has a pretty good description. But the gist is that it is a way of running JavaScript outside of the browser environment.
 
-Go to the website and download Node if you haven't already. After you've downloaded it, open your terminal/command prompt and type:
+Go to the website and download Node if you haven't already. After you've downloaded it, open your Terminal/Command Prompt and type:
 
 ![terminal](./terminal.png)
 
