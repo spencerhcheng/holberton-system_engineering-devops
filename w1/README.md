@@ -10,7 +10,7 @@ Welcome to Bootcamp Prep!
   + Introduction to Functions
 + [Problem Set][w1d1-pset]
 
-[other-intro]:./other/intro.md
+[other-intro]:../other/intro.md
 [w1d1-lecture-notes]:./d1/lecture_notes.md
 [w1d1-js-lecture-notes]:./d1/js_lecture_notes.md
 [w1d1-pset]:./d1/problem_set.md
