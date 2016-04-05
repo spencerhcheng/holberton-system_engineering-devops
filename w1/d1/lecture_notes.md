@@ -130,39 +130,6 @@ We can also declare and initialize a variable on the same line.
 *We will talk about this `prototype` later, but for now just now that a class's
 methods are defined on it*
 
-## Syntax
-
-### ;
-
-Every statement needs a semi-colon at the end. This is like a period for the
-computer. Although you may find that your programs will sometimes work without
-them **leaving out semi-colons is a very bad practice because it makes your code
-more error prone**.
-
-### ( )
-
-Parentheses are used when defining functions and calling functions. We will talk
-more about defining functions below. When calling a function, if you forget to add
-the parentheses, you'll see that it evaluates to `[Function]` - that is how node
-represents function object. To actually run the function, you must add parentheses.
-For an example, see below:
-
-```
-> "Happy".toUpperCase
-[Function]
-
-> "Happy".toUpperCase()
-"HAPPY"
-```
-
-### { }
-
-Curly brackets are used in several programming constructs - function definitions,
-loops, if-statements. They wrap around the block of code that belongs to that
-construct.
-
-Curly brackets also define `objects`, but more on that later :)
-
 ## Creating a Function
 
 We are able to create our own custom functions too. Let's say we wanted to
@@ -219,3 +186,36 @@ myFunc() === "Hello world!!!"
 
 You may be wondering, why would we ever put two `return` values in a single
 function. We'll find out tomorrow when we talk about conditionals.
+
+## Syntax
+
+### ;
+
+Every statement needs a semi-colon at the end. This is like a period for the
+computer. Although you may find that your programs will sometimes work without
+them **leaving out semi-colons is a very bad practice because it makes your code
+more error prone**.
+
+### ( )
+
+Parentheses are used when defining functions and calling functions. We will talk
+more about defining functions below. When calling a function, if you forget to add
+the parentheses, you'll see that it evaluates to `[Function]` - that is how node
+represents function object. To actually run the function, you must add parentheses.
+For an example, see below:
+
+```
+> "Happy".toUpperCase
+[Function]
+
+> "Happy".toUpperCase()
+"HAPPY"
+```
+
+### { }
+
+Curly brackets are used in several programming constructs - function definitions,
+loops, if-statements. They wrap around the block of code that belongs to that
+construct.
+
+Curly brackets also define `objects`, but more on that later :)
