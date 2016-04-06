@@ -19,8 +19,8 @@ can respond to it with "yes" or "no".
 Conditionals are primarily utilized within `if-then` statements. The basic
 structure is:
 
-```
-if(condition) {
+```js
+if (condition) {
   //do something...
 } else {
   //do something else...
@@ -30,19 +30,19 @@ if(condition) {
 We can also use `else if` if there are several conditions that lead to many
 different branches of logic:
 
-```
-if(condition1) {
+```js
+if (condition1) {
   //do something...
-} else if(condition2) {
+} else if (condition2) {
   //do something else...
-} else if(condition3){
+} else if (condition3){
   //do this if no conditions are true...
 }
 ```
 
 What will the program below print to the console:
-```
-if(1 + 2 === 3) {
+```js
+if (1 + 2 === 3) {
   console.log("Branch 1");
 } else {
   console.log("Branch 2");
@@ -55,7 +55,7 @@ A common maneuver in programming is to do a task over and over again. Say, for
 instance, our program is printing a range of numbers onto the screen. We could
 write code that looks like this:
 
-```
+```js
 function print10() {
   console.log(0);
   console.log(1);
@@ -79,11 +79,11 @@ stop. **Failure to terminate a loop will result in the deadly infinite loop.**
 
 Loops come in several flavors. The most common in JavaScript are the `for` loop and `while` loop.
 
-### for loop
+### `for` loop
 
 The structure of a `for` loop is as follows:
 
-```
+```js
 for ([initialization]; [condition]; [incrementer]) {
   //do something...
 }
@@ -104,7 +104,7 @@ to a `[conditional]` that evaluates to false**
 
 Which loops will lead to an infinite loop:
 
-```
+```js
 A)
 for (var i = 0; i < 200; i -= 1) {
   //some code...
@@ -127,9 +127,9 @@ for (var i = 1; i == 20; i += 2) {
 }
 ```
 
-### while loop
+### `while` loop
 
-```
+```js
 while([conditional]) {
   //do something...
 }
