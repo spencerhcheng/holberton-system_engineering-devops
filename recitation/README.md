@@ -4,6 +4,7 @@
 
 ## Introduction To Recitation (Complete Me First!)
 
+* The password all videos: **go_bootcamp_go**
 * [Mini-Lecture][intro]
 * [Exercise][exer]
   * [Code From Exercise][code]
