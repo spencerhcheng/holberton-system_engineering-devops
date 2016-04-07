@@ -1,5 +1,7 @@
 # Recitation
 
+**rec·i·ta·tion**: the act something aloud from memory
+
 ## Introduction To Recitation (Complete Me First!)
 
 * [Mini-Lecture][intro]
