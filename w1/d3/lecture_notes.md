@@ -202,7 +202,7 @@ function isPrime(n){
 }
 
 function sumOfPrimesUpToN(n){
-  sum = 0;
+  var sum = 0;
 
   for(var i = 2; i <= n; i += 1){
     if(isPrime(i)){
