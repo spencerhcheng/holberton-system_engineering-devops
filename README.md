@@ -61,6 +61,7 @@ Welcome to Bootcamp Prep!
 + Problem Set
   + [Arrays][w1d3-pset-arrays]
   + [Functions][w1d3-pset-functions]
++ [Lecture Video](https://vimeo.com/162008795)
 
 [w1d3-lecture-notes]:./w1/d3/lecture_notes.md
 [w1d3-pset-arrays]:./w1/d3/problem_set/arrays.md
