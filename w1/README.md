@@ -42,8 +42,8 @@ Welcome to Bootcamp Prep!
   + JavaScript Objects
   + `this`
 + [Problem Set][w1d4-pset]
-+ Install [mocha](https://www.npmjs.com/package/mocha)
 + [Cookie Monster Project][cookie-monster]
+    + Install [mocha](https://www.npmjs.com/package/mocha)
 
 [w1d4-lecture-notes]:./d4/lecture_notes.md
 [w1d4-pset]:./d4/problem_set.md
