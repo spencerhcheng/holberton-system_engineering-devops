@@ -1,15 +1,15 @@
-# Lecture Notes 6 REVIEW DAY
+# Review
 
-## Primitive Data Types
+### Primitive Data Types
 
-## Functions
+### Functions
 
-## Looping
+### Looping
 
-## Conditionals
+### Conditionals
 
-## Objects and Arrays
+### Objects and Arrays
 
-## Decomposition
+### Decomposition
 
-## Abstraction
+### Abstraction

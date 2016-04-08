@@ -22,7 +22,7 @@ Before the 1st Day of Class
   + [Week 2](./w2)
   + [Week 3](./w3)
   + [Week 4](./w4)
-  + [Lecture Notes](./lecture_notes)
+  + [Solutions](./solutions)
   + [Bonus Problems](./bonus_problems)
   + [Additional Resources](./other/resources.md)
   + [What's Next?](./other/bootcamp_applications.md)
@@ -73,6 +73,7 @@ Welcome to Bootcamp Prep!
   + `this`
 + [Problem Set][w1d4-pset]
 + [Cookie Monster Project][cookie-monster]
+  + Install [mocha](https://www.npmjs.com/package/mocha)
 
 [w1d4-lecture-notes]:./w1/d4/lecture_notes.md
 [w1d4-pset]:./w1/d4/problem_set.md
@@ -80,14 +81,6 @@ Welcome to Bootcamp Prep!
 
 ### w1d5
 + **Assessment 1**
-+ Review
-
-[w1d5-assessment]:./w1/d5/assessment
-
-## Week 2
-
-### w2d1
-+ **Assessment 2**
 + [Review][w2d1-lecture-notes]
   + Primitive Data Types
   + Functions
@@ -96,6 +89,14 @@ Welcome to Bootcamp Prep!
   + Objects and Arrays
   + Decomposition
   + Abstraction
+
+[w1d5-assessment]:./w1/d5/assessment
+
+## Week 2
+
+### w2d1
++ **Assessment 2**
++ [Review][w2d1-lecture-notes]
 
 [w2d1-assessment]:./w2/d1/assessment
 [w2d1-lecture-notes]:./w2/d1/lecture_notes.md
