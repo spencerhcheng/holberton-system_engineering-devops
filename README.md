@@ -22,7 +22,7 @@ Before the 1st Day of Class
   + [Week 2](./w2)
   + [Week 3](./w3)
   + [Week 4](./w4)
-  + [Lecture Notes](./lecture_notes)
+  + [Class Notes](./lecture_notes)
   + [Solutions](./solutions)
   + [Bonus Problems](./bonus_problems)
   + [Additional Resources](./other/resources.md)
@@ -227,7 +227,6 @@ Welcome to Bootcamp Prep!
 
 ### w4d4
 + **Interview Prep/Mock Interviews**
-<!-- + Mock Interview [Prompts][interview_prompts] -->
 + Additional Practice Problems
   + [ReactiveX](http://reactivex.io/learnrx/) (up to problem 20)
 
