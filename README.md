@@ -26,8 +26,9 @@ Before the 1st Day of Class
 
 #### Other
   + [Class Notes](./class_notes)
-  + [Solutions](./solutions)
   + [Bonus Problems](./bonus_problems)
+  + [Solutions](./solutions)
+  + [Recitations](./recitations)
   + [Additional Resources](./other/resources.md)
   + [What's Next?](./other/bootcamp_applications.md)
 
