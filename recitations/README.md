@@ -24,7 +24,7 @@
   * [Code From Exercise][prim_code]
 * [Exercise 2][prim_exer2]
   * [Code From Exercise][prim_code]
-* [Survey](http://goo.gl/forms/nHE0NIU2Rr)
+* [Survey](http://goo.gl/forms/Xqfjx0K055)
 
 [prim_intro]:https://vimeo.com/162310764
 [prim_example1]:https://vimeo.com/162310763
