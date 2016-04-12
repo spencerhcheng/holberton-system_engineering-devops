@@ -2,7 +2,7 @@
 
 ## Multi-Dimensional Arrays
 
-A multi-dimensional array is an array that has other arrays as it's elements.
+A multi-dimensional array is an array that has other arrays as its elements.
 
 ```javascript
 var multiArray = [

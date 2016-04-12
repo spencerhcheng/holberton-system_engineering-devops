@@ -16,6 +16,8 @@ function printNames(students) {
     //your code here...
 }
 
+// printNames(students1); // uncomment when ready to test
+
 // ~~~~~~ 2
 var students2 = [
   {
@@ -40,6 +42,8 @@ var students2 = [
 function printStudents(students) {
   //your code here...
 }
+
+// printStudents(students2); // uncomment when ready to test
 
 //~~~~~3
 var students3 = [
@@ -69,6 +73,8 @@ function printBestGrade(students) {
   //your code here...
 }
 
+// printBestGrade(student3); // uncomment when ready to test
+
 
 //Write a function that will print the name of the student and their highest test score
 //Example
@@ -82,6 +88,8 @@ function printAverageGrade(students) {
   //your code here...
 }
 
+// printAverageGrade(students3); // uncomment when ready to test
+
 //~~~~BONUS
 
 //Write a function that will print the id of each test and the name of the student
@@ -91,3 +99,9 @@ function printAverageGrade(students) {
 // Test 0: Anthony
 // Test 1: Padwandeep
 // Test 2: Winnie
+
+function printBestStudent(students) {
+  //your code here...
+}
+
+// printBestStudent(student3); // uncomment when ready to test
