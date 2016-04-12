@@ -155,6 +155,7 @@ Welcome to Bootcamp Prep!
 
 ### w3d1
 + **Assessment 4**
++ [Review][w3d1-lecture-notes]
 
 [w3d1-assessment]:./w3/d1/assessment
 [w3d1-lecture-notes]:./w3/d1/lecture_notes.md
