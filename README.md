@@ -25,9 +25,10 @@ Before the 1st Day of Class
   + [Week 4](./w4)
 
 #### Other
-  + [Class Notes](./class_notes)
-  + [Bonus Problems](./bonus_problems)
   + [Solutions](./solutions)
+  + [Class Conduct](./other/agreement_summaries.md)
+  + [In-Class Notes](./class_notes)
+  + [Bonus Problems](./bonus_problems)
   + [Recitations](./recitations)
   + [Additional Resources](./other/resources.md)
   + [What's Next?](./other/bootcamp_applications.md)
@@ -139,7 +140,13 @@ Welcome to Bootcamp Prep!
 
 ### w2d5
 + **Assessment 3**
-+ Review
++ [Review][w3d1-lecture-notes]
+  + Multi-Dimensional Arrays
+  + Nested Loops
+  + `Array.prototype.slice()`
+  + Style
+  + Scope
+  + `this`
 
 [w2d5-assessment]:./w2/d5/assessment
 
@@ -148,12 +155,6 @@ Welcome to Bootcamp Prep!
 ### w3d1
 + **Assessment 4**
 + [Review][w3d1-lecture-notes]
-  + Multi-Dimensional Arrays
-  + Nested Loops
-  + `Array.prototype.slice()`
-  + Style
-  + Scope
-  + `this`
 
 [w3d1-assessment]:./w3/d1/assessment
 [w3d1-lecture-notes]:./w3/d1/lecture_notes.md
@@ -190,7 +191,7 @@ Welcome to Bootcamp Prep!
 [sentiment-detector]:./w3/d4/sentiment_detector
 
 ### w3d5
-+ **Assessment 5** <!-- ([here][w3d5-assessment]) -->
++ **Assessment 5**
 + Review
 
 [w3d5-assessment]:./w3/d5/assessment
@@ -198,7 +199,7 @@ Welcome to Bootcamp Prep!
 ## Week 4
 
 ### w4d1
-+ **Assessment 6** <!-- ([here][w4d1-assessment]) -->
++ **Assessment 6**
 + [Review][w4d1-lecture-notes]
   + Callbacks
   + Higher-Order Functions
@@ -223,7 +224,7 @@ Welcome to Bootcamp Prep!
 [w4d2-lecture-notes]:./w4/d2/lecture-notes.md
 
 ### w4d3
-+ **Mini Assessment** <!-- ([here](./w4/d3/mini_assessment.js)) -->
++ **Mini Assessment**
 + Lecture Notes
   + Monkey-Patching
 + [Callback Review][w3d3-lecture-notes]

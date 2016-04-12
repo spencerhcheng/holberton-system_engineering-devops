@@ -1,17 +1,17 @@
-# Lecture Notes 11
+# Review
 
-## Multi-Dimensional Array & Nested Looping
+### Multi-Dimensional Array & Nested Looping
 
-## Slicing
+### Slicing
 
-## Who looks at your code?
+### Who looks at your code?
 
-## Why is style important?
+### Why is style important?
 
-## What is scope?
+### What is scope?
 
-## Global Scope
+### Global Scope
 
-## How are new scopes created?
+### How are new scopes created?
 
-## this
+### `this`
