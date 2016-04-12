@@ -147,7 +147,6 @@ Welcome to Bootcamp Prep!
   + Style
   + Scope
   + `this`
-+ Review
 
 [w2d5-assessment]:./w2/d5/assessment
 
