@@ -1,21 +1,6 @@
 # Bootcamp Prep
 
-Before the 1st Day of Class
-+ Read our [course introduction][course_intro].
-+ Install [Node.js][node]
-  + Download the current stable version (v5.7.0) for your operating system. The installation is very user-friendly. If you run into any problems, email me describing it and plan on coming in about 15 minutes early on the first day.
-+ Create a [GitHub][github] account
-  + Please email us your username so we can give you access to the course material.
-+ Install [Atom][atom]. It's going to be our text editor of choice during this course.
-+ Finish [Codecademy JavaScript][codecademy] course Unit 1
-+ Learn how to navigate the command line. Read [this][cli] and prepare any questions you may have.
-
-[node]:https://nodejs.org/en/download/stable/
-[github]:https://github.com/
-[atom]:https://atom.io/
-[codecademy]:https://www.codecademy.com/learn/javascript
-[cli]:./other/cli.md
-[course_intro]:./other/intro.md
+Before the 1st Day of Class please follow these [instructions](./other/first_day.md)!
 
 ## Quick Links
 #### Curriculum
@@ -26,10 +11,10 @@ Before the 1st Day of Class
 
 #### Other
   + [Solutions](./solutions)
-  + [Class Conduct](./other/agreement_summaries.md)
   + [In-Class Notes](./class_notes)
   + [Bonus Problems](./bonus_problems)
   + [Recitations](./recitations)
+  + [Class Conduct/Contract Summaries](./other/agreement_summaries.md)
   + [Additional Resources](./other/resources.md)
   + [What's Next?](./other/bootcamp_applications.md)
 
