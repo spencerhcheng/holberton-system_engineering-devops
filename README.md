@@ -109,9 +109,11 @@ Welcome to Bootcamp Prep!
 
 ### w2d2
 + [Lecture Notes][w2d2-lecture-notes]
-  + Data Modeling
   + Multi-Dimensional Arrays
   + Nested Loops
+  + Data Modeling
+    + [Exercise 1](./w2/d2/data_model1.js)
+    + [Exercise 2](./w2/d2/data_model2.js)
 + [Problem Set][w2d2-pset]
 
 [w2d2-lecture-notes]:./w2/d2/lecture_notes.md
