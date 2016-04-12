@@ -7,7 +7,7 @@ var students1 = [
 
 //Write a function that will print the name of all the students
 //Example
-// printNames(stduents1)
+// printNames(students1)
 // Anthony
 // Winnie
 // Arjun
