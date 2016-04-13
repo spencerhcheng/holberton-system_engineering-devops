@@ -1,8 +1,8 @@
 // ~~~~~~ 1
 var students1 = [
   { name : "Anthony" },
-  { name : "Winne" },
-  { name : "Padwandeep" }
+  { name : "Winnie" },
+  { name : "Pawandeep" }
 ];
 
 //Write a function that will print the name of all the students
@@ -10,7 +10,7 @@ var students1 = [
 // printNames(students1)
 // Anthony
 // Winnie
-// Padwandeep
+// Pawandeep
 
 function printNames(students) {
     //your code here...
@@ -24,10 +24,10 @@ var students2 = [
     name : "Anthony",
     id : 0
   }, {
-    name : "Winne",
+    name : "Winnie",
     id : 1
   }, {
-    name : "Padwandeep",
+    name : "Pawandeep",
     id : 2
   }
 ];
@@ -37,7 +37,7 @@ var students2 = [
 // printStudents(students2)
 // Anthony is student #0
 // Winnie is student #1
-// Padwandeep is student #2
+// Pawandeep is student #2
 
 function printStudents(students) {
   //your code here...
@@ -52,11 +52,11 @@ var students3 = [
     id : 0,
     grades : [{ id : 0, score : 84},{ id : 1, score : 20},{ id : 2, score : 80}]
   }, {
-    name : "Winne",
+    name : "Winnie",
     id : 1,
     grades : [{ id : 0, score : 62},{ id : 1, score : 56},{ id : 2, score : 100}]
   }, {
-    name : "Padwandeep",
+    name : "Pawandeep",
     id : 2,
     grades : [{ id : 0, score : 79},{ id : 1, score : 92},{ id : 2, score : 49}]
   }
@@ -67,7 +67,7 @@ var students3 = [
 // printBestGrade(students3)
 // Anthony 84
 // Winnie 100
-// Padwandeep 92
+// Pawandeep 92
 
 function printBestGrade(students) {
   //your code here...
@@ -80,8 +80,8 @@ function printBestGrade(students) {
 //Example
 // printAverageGrade(students3)
 // Anthony 61.333333333333336
-// Winne 72.66666666666667
-// Padwandeep 73.33333333333333
+// Winnie 72.66666666666667
+// Pawandeep 73.33333333333333
 
 
 function printAverageGrade(students) {
@@ -97,7 +97,7 @@ function printAverageGrade(students) {
 //Example
 // printBestStudent(students3)
 // Test 0: Anthony
-// Test 1: Padwandeep
+// Test 1: Pawandeep
 // Test 2: Winnie
 
 function printBestStudent(students) {
