@@ -16,7 +16,7 @@ var users1 = //your code here;
 function printUsers (users) {
   for (var i = 0; i < users.length; i++) {
     var user = users[i];
-    console.log(user.id + ": " user.username);
+    console.log(user.id + ": " + user.username);
   }
 }
 
@@ -93,7 +93,7 @@ function printUsersWebsitesInfo (users) {
       console.log("  -" + site.url);
       console.log("    -load:" + site.load);
       console.log("    -# of users:" + site.userCount);
-      console.log("    -popularity" + site.pop);
+      console.log("    -popularity score:" + site.pop);
     }
   }
 }
