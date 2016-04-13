@@ -73,7 +73,7 @@ function printBestGrade(students) {
   //your code here...
 }
 
-// printBestGrade(student3); // uncomment when ready to test
+// printBestGrade(students3); // uncomment when ready to test
 
 
 //Write a function that will print the name of the student and their average test score
@@ -104,4 +104,4 @@ function printBestStudent(students) {
   //your code here...
 }
 
-// printBestStudent(student3); // uncomment when ready to test
+// printBestStudent(students3); // uncomment when ready to test
