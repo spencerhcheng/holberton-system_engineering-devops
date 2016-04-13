@@ -1,6 +1,6 @@
 # Recitation
 
-**rec·i·ta·tion**: the act something aloud from memory
+**rec·i·ta·tion**: the act of repeating something aloud from memory
 
 
 ## Introduction To Recitation (Complete Me First!)
