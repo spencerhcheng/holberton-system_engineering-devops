@@ -76,7 +76,7 @@ function printBestGrade(students) {
 // printBestGrade(student3); // uncomment when ready to test
 
 
-//Write a function that will print the name of the student and their highest test score
+//Write a function that will print the name of the student and their average test score
 //Example
 // printAverageGrade(students3)
 // Anthony 61.333333333333336
