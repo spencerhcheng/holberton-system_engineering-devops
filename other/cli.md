@@ -1,6 +1,6 @@
 ## Terminal/Command Prompt
 
-Node is a tool that we use from the command line. As such, being able to effectively use the command line will be an essential skill. Both the terminal and command prompt are command line interfaces (CLI). Open your CLI (Terminal for Macs and Command Prompt for PCs).
+Node is a tool that we use from the command line. As such, being able to effectively use the command line will be an essential skill. Both the terminal and command prompt are command line interfaces (CLI). Macs use the Terminal and PCs use the Command Prompt. use Open your CLI.
 
 ```
 #terminal
