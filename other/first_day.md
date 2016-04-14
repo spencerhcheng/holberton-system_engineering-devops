@@ -15,4 +15,4 @@ Before the first day of class, please:
 [github]:https://github.com/
 [atom]:https://atom.io/
 [codecademy]:https://www.codecademy.com/learn/javascript
-[cli]:../cli.md
+[cli]:./cli.md
