@@ -120,6 +120,7 @@ Welcome to Bootcamp Prep!
     + The Global Scope
     + Function Scope
     + Scope of `this`
+  + Closures
 + [Problem Set][w2d4-pset]
 
 [w2d4-lecture-notes]:./w2/d4/lecture_notes.md
