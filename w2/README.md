@@ -50,6 +50,13 @@
 
 ### w2d5
 + **Assessment 3**
-+ Review
++ [Review][w3d1-lecture-notes]
+  + Multi-Dimensional Arrays
+  + Nested Loops
+  + `Array.prototype.slice()`
+  + Style
+  + Scope
+  + `this`
 
+[w3d1-lecture-notes]:../d3/d1/lecture_notes.md
 [w2d5-assessment]:./d5/assessment
