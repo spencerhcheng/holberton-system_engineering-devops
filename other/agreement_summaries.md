@@ -43,6 +43,10 @@ Many of our program rules are enforced through a system of **strikes**. Students
     - Sleeping is disrespectful, and not permitted.
   - Breaking any of these rules will earn you a strike.
 
+- **Post-Course**
+  - Failing to respond to an email from App Academy in 48 hours will earn you a strike.
+  - Every additional 2 days that you do not respond will earn you an additional strike.
+
 #### Zero Tolerance for Harassment
 
 App Academy is a respectful and welcoming environment for all. We have a zero-tolerance policy toward discrimination and all forms of harassment, including but not limited to discrimination based on gender, sexual orientation, race or religious affiliation.
