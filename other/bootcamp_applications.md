@@ -14,8 +14,11 @@ Best of luck!
 
 [haseeb_post]:http://haseebq.com/cracking-the-coding-bootcamp-the-definitive-guide/
 
-### DEV BOOTCAMP
-[Apply here.](http://devbootcamp.com/)
+<!-- ### DEV BOOTCAMP -->
+<!-- [Apply here.](http://devbootcamp.com/) -->
+
+### GALVANIZE - SF
+[Apply here.](http://www.galvanize.com/)
 
 Things to know well:
   - Week 1
@@ -32,13 +35,6 @@ Things to know well:
     + Style
     + Scope
 
-### GALVANIZE - SF
-[Apply here.](http://www.galvanize.com/)
-
-Things to know well:
-  - Week 1
-  - Week 2
-
 ### GENERAL ASSEMBLY - SF
 [Apply here.](https://generalassemb.ly/)
 ### TURING SCHOOL - DENVER
@@ -49,9 +45,23 @@ Things to know well:
 [Apply here.](https://www.launchacademy.com/)
 ### FLATIRON SCHOOL - NY
 [Apply here.](http://flatironschool.com/)  
+
+### MAKER SCHOOL - SF/NY/LA/AUSTIN
+Things to know well:
+  1. Composing and writing functions.
+    - What arguments are provided to each function, and what are their types?
+    - What gets returned out of a function, if anything?
+    - How and when do you use anonymous functions?
+    - What does it mean to be a higher-order function, and how are they composed?
+
+  2. Using Callback functions in JavaScript
+    - Understand how to use both anonymous functions and functions stored in variables as callback arguments.
+
+  3. An applicant should also enthusiastically respond to new concepts and material, reasoning their thoughts out loud.
+
+[Apply here.](http://www.makersquare.com/)
 ### HACK REACTOR - SF
 
-[Apply here.](http://www.hackreactor.com/)
 
 Things to know well:
   - Week 3
@@ -59,6 +69,8 @@ Things to know well:
     - Callbacks
     - Higher-Order Functions
     - Closures
+
+[Apply here.](http://www.hackreactor.com/)
 
 ### APP ACADEMY - SF/NY
 If you're interested in applying to [App Academy][app_academy], here is the process.
@@ -69,8 +81,8 @@ If you're interested in applying to [App Academy][app_academy], here is the proc
 
  - **If you've applied to a/A already:**
 
-  App Academy will send you an email after you've completed the course with a link to prep work and a link to schedule your technical interview. 
-  
+  App Academy will send you an email after you've completed the course with a link to prep work and a link to schedule your technical interview.
+
 In either scenario, all you have to do is pass the technical interview to be accepted. There will be no coding challenges and no non-technical interview.
 
 [app_academy]:http://www.appacademy.io/
