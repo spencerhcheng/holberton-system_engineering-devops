@@ -110,6 +110,7 @@ Welcome to Bootcamp Prep!
   + Style
   + Debugging
 + [Problem Set][w2d3-pset]
++ [Lecture Video](https://vimeo.com/163014203)
 
 [w2d3-lecture-notes]:./w2/d3/lecture_notes.md
 [w2d3-pset]:./w2/d3/problem_set.md
