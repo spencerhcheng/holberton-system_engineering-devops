@@ -1,9 +1,7 @@
-# Lecture Notes 16
+# Review
 
-## JS Gotchas
-
-## Asynchronous Programming
-
-## Callbacks
-
-## Review of Bootcamps
+### Data Modeling
+### Closures
+### Callbacks
+### High-Order Functions
+### Asynchronous Programming

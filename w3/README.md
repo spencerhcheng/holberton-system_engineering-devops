@@ -45,7 +45,13 @@
 [sentiment-detector]:./d4/sentiment_detector
 
 ### w3d5
-+ **Assessment 5** <!-- ([here][w3d5-assessment]) -->
-+ Review
++ **Assessment 5**
++ [Review][w4d1-lecture-notes]
+  + Data Modeling
+  + Closures
+  + Callbacks
+  + Higher-Order Functions
+  + Asynchronous Programming
 
+[w4d1-lecture-notes]:../w4/d1/lecture_notes.md
 [w3d5-assessment]:./d5/assessment

@@ -180,7 +180,12 @@ Welcome to Bootcamp Prep!
 
 ### w3d5
 + **Assessment 5**
-+ Review
++ [Review][w4d1-lecture-notes]
+  + Data Modeling
+  + Closures
+  + Callbacks
+  + Higher-Order Functions
+  + Asynchronous Programming
 
 [w3d5-assessment]:./w3/d5/assessment
 
@@ -189,10 +194,6 @@ Welcome to Bootcamp Prep!
 ### w4d1
 + **Assessment 6**
 + [Review][w4d1-lecture-notes]
-  + Callbacks
-  + Higher-Order Functions
-  + Asynchronous Programming
-  + Data Modeling
 + Additional Practice Problems
   + [Selected Project Euler Problems](./other/pe.md)
   + [Free Coderbyte Problems](https://coderbyte.com/challenges/)

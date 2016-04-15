@@ -1,17 +1,11 @@
 # Review
 
-### Multi-Dimensional Array & Nested Looping
-
-### Slicing
-
-### Who looks at your code?
-
-### Why is style important?
-
+### Multi-Dimensional Array
+### Nested Looping
+### `String.prototype.slice`
+### Why is styling your code important?
 ### What is scope?
-
 ### Global Scope
-
 ### How are new scopes created?
-
+### Function Scope
 ### `this`
