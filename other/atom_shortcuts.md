@@ -1,4 +1,4 @@
-# Atom Cheatsheet
+## Atom Cheatsheet
 
 `ctrl` + `a` : Go to beginning of a line
 
@@ -44,7 +44,7 @@
 
 `ctrl` + `0` : Switch between tree view and text editor
 
-### In tree view:
+### Tree View
 
   `a` : Add a file to the current folder
 
@@ -52,13 +52,7 @@
 
   `m` : Rename/move a file
 
-### In a .html.erb file:
-
-  `-` then `tab` becomes `<%  %>`
-
-  `=` then `tab` becomes `<%=  %>`
-
-### bash
+## CLI Shortcuts
 
   `ctr` + `a` : Beginning of Line
 
