@@ -11,7 +11,7 @@ Before the 1st Day of Class please follow these [instructions](./other/first_day
 
 #### Other
   + [Solutions](./solutions)
-  + [In-Class Notes](./in_class_notes)
+  + [In-Class Notes](./class_notes)
   + [Bonus Problems](./bonus_problems)
   + [Recitations](./recitations)
   + [Class Conduct/Contract Summaries](./other/agreement_summaries.md)
