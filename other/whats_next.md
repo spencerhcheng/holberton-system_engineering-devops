@@ -11,7 +11,11 @@ If you're not feeling very confident, then remember, practice makes perfect! Red
 ## When you're feeling ready...
 If you're feeling good, then take a look at the list below.
 
-Here's a blog [post][haseeb_post] called 'Cracking the Coding Bootcamp – The Definitive Guide' written by an App Academy graduate outlining his process and thoughts about applying to bootcamps which might also be helpful to read first.
+A good strategy is to apply to *every* bootcamp in the city(s) you are considering. Even if you are dead-set on attending one particular coding bootcamp, going through multiple application processes will make for invaluable practice. Each application will force you to practice problem solving using programming, write code in a high-stress and timed environment, talk about your solution and sell yourself as an applicant. Start by applying to bootcamps that you don't care about or with less challenging application processes, and move your way up. Take every coding challenge and technical interview you receive seriously--remember, it's *invaluable practice*. Schedule technical interviews with bootcamps that you care about only when you truly feel ready.
+
+For extra practice and to further test to see if you are ready or not, we offer up to *two* mock interviews for each graduate. Please email us (`wngo@appacademy.io` or `aladson@appacademy.io`) if you are interested in scheduling one.
+
+Lastly, here's a blog [post][haseeb_post] called 'Cracking the Coding Bootcamp – The Definitive Guide' written by an App Academy graduate outlining his process and thoughts about applying to bootcamps which might also be helpful to read.
 
 Best of luck!
 
