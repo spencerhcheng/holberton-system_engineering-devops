@@ -11,12 +11,12 @@ Before the 1st Day of Class please follow these [instructions](./other/first_day
 
 #### Other
   + [Solutions](./solutions)
-  + [In-Class Notes](./class_notes)
+  + [In-Class Notes](./in_class_notes)
   + [Bonus Problems](./bonus_problems)
   + [Recitations](./recitations)
   + [Class Conduct/Contract Summaries](./other/agreement_summaries.md)
   + [Additional Resources](./other/resources.md)
-  + [What's Next?](./other/bootcamp_applications.md)
+  + [What's Next?](./other/whats_next.md)
 
 ## Week 1
 
@@ -30,7 +30,7 @@ Welcome to Bootcamp Prep!
   + Introduction to Functions
 + [Problem Set][w1d1-pset]
 
-[other-intro]:./other/intro.md
+[other-intro]:./other/programming_intro.md
 [w1d1-lecture-notes]:./w1/d1/lecture_notes.md
 [w1d1-js-lecture-notes]:./w1/d1/js_lecture_notes.md
 [w1d1-pset]:./w1/d1/problem_set.md
@@ -196,7 +196,7 @@ Welcome to Bootcamp Prep!
 + **Assessment 6**
 + [Review][w4d1-lecture-notes]
 + Additional Practice Problems
-  + [Selected Project Euler Problems](./other/pe.md)
+  + [Selected Project Euler Problems](./other/project_euler.md)
   + [Free Coderbyte Problems](https://coderbyte.com/challenges/)
   + [Bonus Problems](./other/bonus_problems)
 
@@ -231,5 +231,5 @@ Welcome to Bootcamp Prep!
 
 ### w4d5
 + **Assessment 7**
-+ What's Next? [Applying to Bootcamps](./other/bootcamp_applications.md)
++ What's Next? [Applying to Bootcamps](./other/whats_next.md)
 + :joy_cat: **Graduation** :joy_cat:

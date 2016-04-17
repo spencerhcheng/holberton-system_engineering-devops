@@ -8,7 +8,7 @@
   + Asynchronous Programming
   + Data Modeling
 + Additional Practice Problems
-  + [Selected Project Euler Problems](./other/pe.md)
+  + [Selected Project Euler Problems](./other/project_euler.md)
   + [Free Coderbyte Problems](https://coderbyte.com/challenges/)
   + [Bonus Problems](./other/bonus_problems)
 
@@ -44,5 +44,5 @@
 
 ### w4d5
 + **Assessment 7**
-+ What's Next? [Applying to Bootcamps](./other/bootcamp_applications.md)
++ What's Next? [Applying to Bootcamps](./other/whats_next.md)
 + :joy_cat: **Graduation** :joy_cat:
