@@ -1,7 +1,7 @@
 # Extra Resources
 ## Additional Practice Problems
 
-* [Selected Project Euler Problems](./pe.md)
+* [Selected Project Euler Problems](./project_euler.md)
 * [Easy Coderbyte Problems](https://coderbyte.com/challenges/)
 + [ReactiveX](http://reactivex.io/learnrx/) (up to problem 20)
 
