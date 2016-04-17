@@ -123,6 +123,7 @@ Welcome to Bootcamp Prep!
     + Scope of `this`
   + Closures
 + [Problem Set][w2d4-pset]
++ [Lecture Video](https://vimeo.com/163040194)
 
 [w2d4-lecture-notes]:./w2/d4/lecture_notes.md
 [w2d4-pset]:./w2/d4/problem_set.md
