@@ -30,6 +30,7 @@
   + Callbacks
   + `Array.prototype.forEach()`
   + Higher-Order Functions
+  + Closures
   + Synchronous vs. Asynchronous
 + [Problem Set][w3d3-pset]
 
