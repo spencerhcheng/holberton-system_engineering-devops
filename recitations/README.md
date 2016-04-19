@@ -33,6 +33,23 @@
 [prim_exer2]:https://vimeo.com/162306647
 [prim_code]:./primitive.js
 
+
+## Data Structures
+
+* [Mini-Lecture 1: Arrays][struct_intro1]
+* [Mini-Lecture 2: Objects][struct_intro2]
+* [Example 1: Cookie Monster Part 1][struct_example1]
+* [Example 2: Cookie Monster Part 2][struct_example2]
+* [Example 3: Cookie Monster Part 3][struct_example3]
+
+
+[struct_intro1]:https://vimeo.com/163279854
+[struct_intro2]:https://vimeo.com/163279855
+[struct_example1]:https://vimeo.com/162462498
+[struct_example2]:https://vimeo.com/162462499
+[struct_example3]:https://vimeo.com/162462500
+
+
 ## Callbacks
 
 * [Mini-Lecture][callbacks]
