@@ -71,3 +71,20 @@ function myMap2 (arr, cb) {
 
   return mapped;
 }
+
+function createExpFunc(power) {
+  return function (num) {
+    return Math.pow(num, power);
+  };
+}
+
+function createExpFunc2(power) {
+  return function (num) {
+    var result = num;
+
+    for (var x = 1; x < power; x++) {
+      result *= num;
+    }
+    return result;
+  };
+}

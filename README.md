@@ -156,6 +156,11 @@ Welcome to Bootcamp Prep!
   + Binding
 + [Problem Set][w3d2-pset]
 + [Clock Project][clock]
++ Lecture Video
+  + [Part 1](https://vimeo.com/163589956)
+  + [Part 2](https://vimeo.com/163589957)
+  + [Part 3](https://vimeo.com/163589954)
+  + [Part 4](https://vimeo.com/163589955)
 
 [w3d2-lecture-notes]:./w3/d2/lecture_notes.md
 [w3d2-pset]:./w3/d2/problem_set.md

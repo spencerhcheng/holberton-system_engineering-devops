@@ -73,10 +73,10 @@ the value.
 36
 
 > var powerThree = createExpFunc(3);
-> powerTwo(2);
+> powerThree(2);
 8
 
-> powerTwo(6);
+> powerThree(6);
 216
 
 > var powerTen = createExpFunc(10);
