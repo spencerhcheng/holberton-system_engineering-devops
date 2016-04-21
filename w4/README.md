@@ -29,7 +29,7 @@
 + **Mini Assessment**
 + Lecture Notes
   + Monkey-Patching
-+ [Callback Review](w3/d3/lecture_notes.md)
++ [Callback Review](./../w3/d3/lecture_notes.md)
 + [Pokemon Project Part 2][pokemon_2]
 
 ### w4d4
