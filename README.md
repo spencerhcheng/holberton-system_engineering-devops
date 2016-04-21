@@ -179,21 +179,24 @@ Welcome to Bootcamp Prep!
 [w3d3-pset]:./w3/d3/problem_set.md
 
 ### w3d4
-+ Node I/O - File System
++ [Lecture Notes][w3d4-lecture-notes]
+  + Closures
+  + Node I/O - File System
 + Finish [Clock Project][clock]
 + [Sentiment Detector Project][sentiment-detector]
 + [Bonus Problems](./bonus_problems)
 
 [sentiment-detector]:./w3/d4/sentiment_detector
+[w3d4-lecture-notes]:./w3/d4/lecture_notes.md
 
 ### w3d5
 + **Assessment 5**
 + [Review][w4d1-lecture-notes]
   + Data Modeling
-  + Closures
   + Callbacks
   + Higher-Order Functions
   + Asynchronous Programming
+  + Closures
 
 [w3d5-assessment]:./w3/d5/assessment
 

@@ -1,5 +1,7 @@
 # Lecture Notes 14
 
+## Closures
+
 ## Node I/O - File System
 
 Node has many built-in modules that do a wide variety of things, from getting user input to reading files. Today, we are going to learn how to read files and use their contents
