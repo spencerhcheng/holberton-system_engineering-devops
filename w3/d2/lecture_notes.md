@@ -5,8 +5,9 @@
 `Math` is a built-in object that has properties and methods for mathematical
 constants and functions. Not a function object.
 
-```javascript
->Math
+```
+// node REPL
+> Math
 {}
 ```
 
@@ -25,21 +26,22 @@ Never reassign the `Math` object. You will never be able to access its
 functionality again, and can break any libraries that are depending on its
 functionality.
 
-```javascript
->Math = "me";
+```
+// node REPL
+> Math = "me";
 undefined
 
->Math.PI;
+> Math.PI;
 undefined
 ```
-## setTimeout and setInterval
+## `setTimeout`
 
 Computers are very fast, and when the interpreter hits a function invocation, it
 typically executes the code immediately. Sometimes, however, we may not want
 execute that function immediately. JavaScript has a built-in method to accommodate
 this requirement. It's called `setTimeout(fn, ms)`. It takes as its parameters a
-function object (`fn`) and the number of milliseconds to wait before executing
-that function. Let's look at an small example:
+function object (`fn`) and the number of milliseconds (`ms`) to wait before executing
+that function. Let's look at an simple example:
 
 ```javascript
 function helloWorld(){
@@ -53,21 +55,21 @@ function delayedHelloWorld(ms){
 
 If we run this in node:
 
-```javascript
->delayedHelloWorld(1000)
+```
+> delayedHelloWorld(1000);
 undefined
 
 //one second later...
->Hello World
+> Hello World
 
->delayedHelloWorld(5000)
+> delayedHelloWorld(5000);
 undefined
 
 //five seconds later
->Hello World
+> Hello World
 ```
 
-`setTimeout` is what's called an _asynchronous function_. This means that it will
+`setTimeout` is what's called an **asynchronous function**. This means that it will
 not block the execution of the thread. We will discuss asynchronous behavior in-depth
 tomorrow, but for now, it is good enough to know that if there is code after a
 `setTimeout`, it will go ahead and run that code, instead of waiting until after
@@ -83,19 +85,26 @@ function delayedHelloWorld(ms){
 
 Run it in node:
 
-```javascript
->delayedHelloWorld(1000);
+```
+> delayedHelloWorld(1000);
 I will be logged first
 undefined
 
 //one second later...
->Hello World
-
->delayedHelloWorld(0); //How do you think this will behave?
-
->delayedHelloWorld(-1); //What about this?
+> Hello World
+```
+How do you think this will behave?
+```
+> delayedHelloWorld(0);
 ```
 
+What about this?
+```
+> delayedHelloWorld(-1);
+```
+Make sure you try it out in node!
+
+## `setInterval`
 Let's say I wanted to call a function over and over again:
 
 ```javascript
@@ -135,7 +144,7 @@ function annoyingMeow(){
 ```
 
 Run this code and look at the error message if you are having trouble. This is a
-*very* common beginner mistake when working with `setTimeout` and `setInterval`.
+*very* common beginner mistake when working with `setTimeout` and `setInterval`. 
 
 ## binding `this`
 
