@@ -1,7 +1,7 @@
 ## Week 4
 
 ### w4d1
-+ **Assessment 6** <!-- ([here][w4d1-assessment]) -->
++ **Assessment 6**
 + [Review][w4d1-lecture-notes]
   + Callbacks
   + Higher-Order Functions
@@ -26,7 +26,7 @@
 [w4d2-lecture-notes]:./d2/lecture-notes.md
 
 ### w4d3
-+ **Mini Assessment** <!-- ([here](./d3/mini_assessment.js)) -->
++ **Mini Assessment**
 + Lecture Notes
   + Monkey-Patching
 + [Callback Review][w3d3-lecture-notes]
@@ -34,7 +34,6 @@
 
 ### w4d4
 + **Interview Prep/Mock Interviews**
-<!-- + Mock Interview [Prompts][interview_prompts] -->
 + Additional Practice Problems
   + [ReactiveX](http://reactivex.io/learnrx/) (up to problem 20)
 
