@@ -10,7 +10,7 @@ Before the first day of class, please:
 + Finish [Codecademy JavaScript][codecademy] course Unit 1
 + Learn how to navigate the command line. Read [this][cli] and prepare any questions you may have.
 
-[course_intro]:../programming_intro.md
+[course_intro]:./programming_intro.md
 [node]:https://nodejs.org/en/download/stable/
 [github]:https://github.com/
 [atom]:https://atom.io/
