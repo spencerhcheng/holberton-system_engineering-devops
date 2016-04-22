@@ -1,6 +1,6 @@
 # Lecture Notes 9
 
-### Scope
+## Scope
 ### What is Scope?
 
 A **scope** is a section in your program where a name binding is considered valid. A
