@@ -2,7 +2,7 @@
 
 ## Closures
 
-## Function Scope
+### Function Scope
 Before we get into closures, make sure you are comfortable with scope in JavaScript. If you aren't, then revisit this [lecture](../../w2/d4/lecture_notes.md).
 
 For a quick recap: the **scope** of a function is the set of variables that are available for use within the function. The variables available when we call a function include:
@@ -85,8 +85,11 @@ Our code must be *asynchronous* (code that will start or setup some process that
 
 To write asynchronous code we rely on callbacks. Asynchronous functions execute callbacks in response to the completion of the process it was waiting for.
 
+**Functions, Callbacks, Closures:**
 + A function is a *callback* if it is passed into a function and executed inside of the function to which it is passed.
-+ A function is a *closure* is it refers to *free variables*, variables defined in outer or enclosing scopes. Not all functions are callbacks or closures. A function can be both a callback and a closure.
++ A function is a *closure* is it refers to *free variables*, variables defined in outer or enclosing scopes.
++ Not all functions are callbacks or closures.
++ A function can be both a callback and a closure.
 
 ## Node I/O - File System
 
