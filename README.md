@@ -220,7 +220,7 @@ Welcome to Bootcamp Prep!
   + Creating Methods on Classes
 + [Pokemon Project Part 1][pokemon_1]
 
-[w4d2-lecture-notes]:./w4/d2/lecture-notes.md
+[w4d2-lecture-notes]:./w4/d2/lecture_notes.md
 
 ### w4d3
 + **Mini Assessment**
