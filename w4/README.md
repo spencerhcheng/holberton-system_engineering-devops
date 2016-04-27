@@ -28,8 +28,8 @@
 + [Callback Review][w3d3-lecture-notes]
 + [Pokemon Project Part 2][pokemon_2]
 
-[w3d3-lecture-notes]:(../w3/d3/lecture_notes.md)
-[w4d3-lecture-notes]:(./d4/lecture_notes.md)
+[w3d3-lecture-notes]:../w3/d3/lecture_notes.md
+[w4d3-lecture-notes]:./d3/lecture_notes.md
 ### w4d4
 + **Mock Interviews**
   + [Interview Prep](./d4/interview_prep.md)
