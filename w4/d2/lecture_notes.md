@@ -129,9 +129,9 @@ function Cat(name, age, color){
 ```
 
 If you run this code, you will see that it'll behave as expected. **BUT IT IS WRONG**.
-Why, you ask? Because is will create a new function object that represents that
+Why, you ask? Because this will create a new function object that represents that
 method every time we create a new cat. This is unnecessary and not optimal because
-`meow` will to the same thing for every cat. What we want to do is define the
+`meow` will return the same thing for every cat. What we want to do is define the
 method once and have all instances refer to that definition when they call the method.
 We achieve this by defining the method on the `prototype` property of the `Constructor`:
 
