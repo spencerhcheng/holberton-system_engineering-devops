@@ -230,7 +230,8 @@ Welcome to Bootcamp Prep!
 + [Pokemon Project Part 2][pokemon_2]
 
 ### w4d4
-+ **Interview Prep/Mock Interviews**
++ **Mock Interviews**
+  + [Interview Prep](./w4/d4/interview_prep.md)
 + Additional Practice Problems
   + [ReactiveX](http://reactivex.io/learnrx/) (up to problem 20)
 
