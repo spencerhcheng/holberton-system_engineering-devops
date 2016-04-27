@@ -3,14 +3,10 @@
 ### w4d1
 + **Assessment 6**
 + [Review][w4d1-lecture-notes]
-  + Callbacks
-  + Higher-Order Functions
-  + Asynchronous Programming
-  + Data Modeling
 + Additional Practice Problems
-  + [Selected Project Euler Problems](./other/project_euler.md)
+  + [Selected Project Euler Problems](../other/project_euler.md)
   + [Free Coderbyte Problems](https://coderbyte.com/challenges/)
-  + [Bonus Problems](./other/bonus_problems)
+  + [Bonus Problems](../other/bonus_problems)
 
 [w4d1-assessment]:./d1/assessment
 [w4d1-lecture-notes]:./d1/lecture_notes.md
@@ -27,13 +23,16 @@
 
 ### w4d3
 + **Mini Assessment**
-+ Lecture Notes
++ [Lecture Notes][w4d3-lecture-notes]
   + Monkey-Patching
-+ [Callback Review](./../w3/d3/lecture_notes.md)
++ [Callback Review][w3d3-lecture-notes]
 + [Pokemon Project Part 2][pokemon_2]
 
+[w3d3-lecture-notes]:(../w3/d3/lecture_notes.md)
+[w4d3-lecture-notes]:(./d4/lecture_notes.md)
 ### w4d4
-+ **Interview Prep/Mock Interviews**
++ **Mock Interviews**
+  + [Interview Prep](./d4/interview_prep.md)
 + Additional Practice Problems
   + [ReactiveX](http://reactivex.io/learnrx/) (up to problem 20)
 
@@ -43,5 +42,5 @@
 
 ### w4d5
 + **Assessment 7**
-+ What's Next? [Applying to Bootcamps](./other/whats_next.md)
++ What's Next? [Applying to Bootcamps](../other/whats_next.md)
 + :joy_cat: **Graduation** :joy_cat:

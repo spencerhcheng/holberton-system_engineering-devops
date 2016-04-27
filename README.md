@@ -224,11 +224,12 @@ Welcome to Bootcamp Prep!
 
 ### w4d3
 + **Mini Assessment**
-+ Lecture Notes
++ [Lecture Notes][w4d3-lecture-notes]
   + Monkey-Patching
 + [Callback Review][w3d3-lecture-notes]
 + [Pokemon Project Part 2][pokemon_2]
 
+[w4d3-lecture-notes]:(./w4/d4/lecture_notes.md)
 ### w4d4
 + **Mock Interviews**
   + [Interview Prep](./w4/d4/interview_prep.md)
