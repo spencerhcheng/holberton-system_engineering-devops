@@ -26,6 +26,8 @@ On a scale from 1 to 3, how confident are you that you could implement the above
 
 ## Score
 
-[**1 - 1.7**](./schedule1.md)
-[**2 - 2.4**](./schedule2.md)
-[**2.6 - 3**](./schedule3.md)
+[**1 - 1.7**: Schedule 1](./schedule1.md)
+
+[**2 - 2.4**: Schedule 2](./schedule2.md)
+
+[**2.6 - 3**: Schedule 3](./schedule3.md)
