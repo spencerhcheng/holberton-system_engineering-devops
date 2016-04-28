@@ -7,7 +7,8 @@ How comfortable to do feel with the material?
 
 
 ```
-Write a function that takes in an array as input and returns all the pairs of indices that sum to the length of the array.
+Write a function that takes in an array as input and returns all the pairs of indices that 
+sum to the length of the array.
 ```
 On a scale from 1 to 3, how confident are you that you could implement the above function?
   * 1 - I have a good idea of how this could be done.
@@ -16,7 +17,10 @@ On a scale from 1 to 3, how confident are you that you could implement the above
 
 
 ```
-Write a higher-order function that expects a callback (CB) and an array of numbers (AoN) as input. The function should (1) sum all the numbers in AoN, (2) set a timeout that will call CB, (passing it the sum) after 5 seconds, and (3) return the sum divided by the length of AoN.
+Write a higher-order function that expects a callback (CB) and an array of numbers (AoN) 
+as input. The function should (1) sum all the numbers in AoN, (2) set a timeout that will 
+call CB, (passing it the sum) after 5 seconds, and (3) return the sum divided by the length 
+of AoN.
 ```
 On a scale from 1 to 3, how confident are you that you could implement the above function?
   * 1 - I have a good idea of how this could be done.
