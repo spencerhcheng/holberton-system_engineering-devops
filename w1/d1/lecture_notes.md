@@ -10,6 +10,8 @@ Go to the website and download Node if you haven't already. After you've downloa
 
 ![terminal](./terminal.png)
 
+**NB**: Macs: Terminal is an application on your computer so you'd access it the same way you would other applications (e.g. Chrome, App Store, Calendar, etc.). You can find it either via the Applications folder using Finder or via Spotlight Search (the magnifying glass in the upper-left corner of your screen)  and searching for Terminal. PCS: Similarly, Command Prompt is an application which you can access and use.
+
 If it prints `Hello World`, then congratulations. Time to learn JavaScript.
 
 ## JavaScript Data Types
