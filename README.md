@@ -1,6 +1,7 @@
 # Bootcamp Prep
 
-Before the 1st Day of Class please follow these [instructions](./other/first_day.md)!
++ Before the 1st day of class, please complete these [instructions](./other/first_day.md).
++ Review our [class conduct and contract summaries](./other/agreement_summaries.md).
 
 ## Quick Links
 #### Curriculum
@@ -10,11 +11,10 @@ Before the 1st Day of Class please follow these [instructions](./other/first_day
   + [Week 4](./w4)
 
 #### Other
+  + [Lecture Videos](./lecture_videos)
   + [Solutions](./solutions)
-  + [In-Class Notes](./class_notes)
   + [Bonus Problems](./bonus_problems)
   + [Recitations](./recitations)
-  + [Class Conduct/Contract Summaries](./other/agreement_summaries.md)
   + [Additional Resources](./other/resources.md)
   + [What's Next?](./other/whats_next.md)
 
