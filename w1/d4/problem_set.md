@@ -37,7 +37,7 @@ function howOld(array) {
     result.push(sentence);
   }
 
-  return result.
+  return result;
 }
 
 howOld(dogs);
