@@ -8,6 +8,8 @@ But before you start applying, ask yourself how comfortable you feel with the co
 
 If you're not feeling very confident, then remember, practice makes perfect! Redo problems introduced during class, and on assessments. Find new problems and try them out. Identify what is wrong with your solution. Double check your syntax. Practice talking about what you're doing (your logical approach and your code) aloud. Do it again!
 
+** We highly suggest following one of our directed post-course schedules. You can find them [here](../scheuldes)**.
+
 ## When you're feeling ready...
 If you're feeling good, then take a look at the list below.
 
