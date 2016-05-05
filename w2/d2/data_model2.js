@@ -11,7 +11,7 @@ parsed by specified functions.
 // 1: UserName2
 // ...and so forth, for all the users
 
-var users1 = //your code here;
+//var users1 = your code here;
 
 function printUsers (users) {
   for (var i = 0; i < users.length; i++) {
@@ -36,7 +36,7 @@ function printUsers (users) {
 //   -siteName5
 // ...and so forth, for all the users
 
-var users2 = //your code here;
+//var users2 = your code here;
 
 function printUsersWebsites (users) {
   for (var i = 0; i < users.length; i++) {
@@ -81,7 +81,7 @@ function printUsersWebsites (users) {
 //     -popularity score: 32
 // ...and so forth, for all the users
 
-var users3 = //your code here;
+//var users3 = your code here;
 
 function printUsersWebsitesInfo (users) {
   for (var i = 0; i < users.length; i++) {
