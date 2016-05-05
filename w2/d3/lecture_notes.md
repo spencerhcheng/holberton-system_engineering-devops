@@ -17,30 +17,31 @@ an explanation as to why Arrays and Strings share many of the same methods:
 
 Your code will be read by the computer, you (the programmer), and often times
 other people who will maintain your code. Good code style promotes correctness
-and readability of our programs. The more readable our program is, the higher
-the chance that it will be properly executed by the computer.
+and the readability of our programs. The more readable our program is, the higher
+the chance is that it will be properly executed by the computer. 
 
 When we are talking about larger scale programs, you will often have to write code that
 can be read by other people. The readability of your code will directly effect your
 ability to get into a bootcamp and a job.
 
 The style conventions of a language are called its idioms. You always want to follow
-the idioms of a language you're working in because (1) they are often motivated by the
-making the resulting code less error prone and (2) they are industry standards and will
-make your code more readable for other developers (and yourself).
+the idioms of a language you're working in because (1) will help you write less error-prone code and (2) they are industry standards and will make your code more readable for other developers (and yourself).
 
 Good code should almost read like English.
 
 ## JS Style Guidelines
 
-Every organization has their own set of style guidelines. Below are some of the most
-common, and those I expect you to follow during the remainder of the course:
+Below are some of the most common JavaScript style convetions. We expect you to follow them from now on..
 
-* Always use semi-colons
-* Use camelCase for variable naming
-* Use === , not ==
-* Always use `var`
-* Be consistent
+* Always use semi-colons.
+* Use camelCase for variable naming.
+* Use the strict equality operator `===`, not the equality operator `==`.
+* Always use `var` to declare a variable.
+* Indent blocks of code (i.e. lines of code wrapped by a pair of curly brackets, `{}`). 
+* Use blank lines to set off sections of code that are logically related.
+* Follow commas by a space (eg. `[0, 1, 2]` not `[0,1,2]`).
+* When calling a function, do not use a space to separate the function name and the pair of parenthesis (e.g. `foo()` not `foo ()`).
+* Be consistent.
 
 ## The Art of Debugging
 
