@@ -64,6 +64,7 @@ but these are the ones you should commit to memory:
 * `Array.prototype.concat(other_array)`
 * `Array.prototype.slice(startIndex, endIndex)`
 * `Array.prototype.length` (property)
+* `Array.isArray(obj)` 
 
 #### `String.prototype.split(separator)` and `Array.prototype.join(separator)`
 

@@ -37,23 +37,23 @@ function logEach(array){
 function maxValue(numbers){
   var largest = null;
 
-  for(var i = 0; i < numbers.length; i += 1){
-    var numb = numbers[i];
+  for (var i = 0; i < numbers.length; i += 1){
+    var num = numbers[i];
 
-    if(largest === null || numb > largest){
-      largest = numb;
+    if (largest === null || num > largest){
+      largest = num;
     }
   }
 
   return largest;
 }
 
-function printRange(low, high){
-  if(low > high){
+function printRange (start, end){
+  if (start > end) {
     return "Bad Range";
   }
 
-  for(var i = low; i <= high; i += 1){
+  for (var i = start; i <= end; i += 1){
     console.log(i);
   }
 }
