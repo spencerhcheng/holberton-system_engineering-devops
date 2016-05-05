@@ -91,9 +91,9 @@ function printUsersWebsitesInfo (users) {
     for (var j = 0; j < user.sites.length; j++) {
       var site = user.sites[j];
       console.log("  -" + site.url);
-      console.log("    -load:" + site.load);
-      console.log("    -# of users:" + site.userCount);
-      console.log("    -popularity score:" + site.pop);
+      console.log("    -load: " + site.load + "%");
+      console.log("    -# of users: " + site.userCount);
+      console.log("    -popularity score: " + site.pop);
     }
   }
 }
