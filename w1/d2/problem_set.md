@@ -20,21 +20,21 @@ false|false|false|                       |
 
 ## logBetween
 
-Define a function `logBetween(lowNum, highNum)` that will print every number from
-`lowNum` to `highNum`, inclusive. Inclusive means that the the range that will
-be printed will include the `lowNum` and `highNum`.
+Define a function logBetween(lowNum, highNum) that will print every number
+from lowNum to highNum, inclusive. Inclusive means that the range includes
+lowNum and highNum.
 
 ```javascript
-> logBetween(-1, 2)
+> logBetween(-1, 2);
 -1
 0
 1
 2
 
->logBetween(14, 6)
-// nothing gets printed
+> logBetween(14, 6);
 
-> logBetween(4,6)
+
+> logBetween(4,6);
 4
 5
 6
@@ -95,13 +95,13 @@ Define a function `isFactorOf(number, factor)` that returns `true` if `factor`
 is a factor of `number`. Otherwise, false.
 
 ```
-> isFactorOf(6,2)
+> isFactorOf(6,2);
 true
 
-> isFactorOf(-6, 2)
+> isFactorOf(-6, 2);
 true
 
-> isFactorOf(5,0)
+> isFactorOf(5,0);
 false
 ```
 
