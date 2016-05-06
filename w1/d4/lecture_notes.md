@@ -198,6 +198,4 @@ for (var key in obj) {
 "twenty-something"
 ```
 
-Why can't we use dot notation? For example, what would `obj.key` return? 
-
-#### **`typeof`**
+Why can't we use dot notation to iterate through the keys? For example, what would `obj.key` return? 
