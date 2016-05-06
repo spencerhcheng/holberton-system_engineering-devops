@@ -41,6 +41,7 @@ Welcome to Bootcamp Prep!
   + Looping
   + Importance of Naming
 + [Problem Set][w1d2-pset]
++ [Lecture Video](https://vimeo.com/165338384)
 
 [w1d2-lecture-notes]:./w1/d2/lecture_notes.md
 [w1d2-pset]:./w1/d2/problem_set.md
