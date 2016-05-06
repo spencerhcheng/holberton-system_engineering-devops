@@ -64,7 +64,7 @@ You need quotation marks when using bracket notation but not for dot notation:
 Error message...
 
 > name
-Error Messages...
+Error message...
 
 > dog["name"]
 "Rover"
@@ -101,9 +101,9 @@ undefined
 A **method** is essentially a function that belongs to an object. It is referred to
 as a method of that object.
 
-`myObject.myFunc` - `myFunc` is a method of the object `myObject`
-
-`myFunc` - `myFunc` is a function
++ `myFunc` is a function
++ `myObject.myFunc` is a method of the object `myObject`
++ `myObject["myFunc"]` is a method of the object `myObject`
 
 ### `this`
 
@@ -113,7 +113,7 @@ a method of that object.
 There will be times when you will want a method to refer to the object it belongs to. The keyword `this` exist in every function and it evaluates to the object that the method is being called on. If that sounds
 abstract, let's look at an example:
 
-```
+```js
 var spaceship = { fuel : 100 };
 
 // I want to write a function called 'fly', that will fly if there's enough fuel
@@ -150,6 +150,27 @@ With them, the structure of our data can match our semantic understanding of the
 
 ## Useful Methods
 
+#### **`Object.keys`**
+
+This method accepts an object as the argument and returns an array of all of its keys.
+
+#### **`Object.values`**
+
+This method accepts an object as the argument and returns an array of all of its values.
+
+```js
+var dog = {
+  name : 'Rover',
+  age : 12,
+  bark : function () {
+    console.log("woof woof woof");
+  }
+}
+
+Object.keys(dog); //=> ["name", "age", "bark"]
+Object.values(dog); //=> ["Rover", 12, [Function: bark]]
+```
+
 #### **`for (var key in object)`**
 
 Useful for looping through the keys and values of an object. For example:
@@ -177,6 +198,4 @@ for (var key in obj) {
 "twenty-something"
 ```
 
-Why can't we use dot notation? For example, what would `obj.key` return? 
-
-#### **`typeof`**
+Why can't we use dot notation to iterate through the keys? For example, what would `obj.key` return? 

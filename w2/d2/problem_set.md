@@ -35,7 +35,7 @@ var alphabet = [
 var numbers = [ "1","2","3","4","5","6","7","8","9","0" ];
 ```
 
-```
+```js
 >isValidEmail("junk@gmail.com");
 true
 
@@ -66,7 +66,7 @@ that is greater than both of its neighbors. If it is the first or last element,
 it is a peak if it is greater than its one neighbor. Assume the array has a length
 of at least 2.
 
-```
+```js
 >peakFinder([1,2,3,2,1])
 [2]
 

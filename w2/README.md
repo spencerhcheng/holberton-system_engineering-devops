@@ -16,9 +16,11 @@
 
 ### w2d2
 + [Lecture Notes][w2d2-lecture-notes]
-  + Data Modeling
   + Multi-Dimensional Arrays
   + Nested Loops
+  + Data Modeling
+    + [Exercise 1](./d2/data_model1.js)
+    + [Exercise 2](./d2/data_model2.js)
 + [Problem Set][w2d2-pset]
 
 [w2d2-lecture-notes]:./d2/lecture_notes.md
@@ -40,6 +42,7 @@
     + The Global Scope
     + Function Scope
     + Scope of `this`
+  + Closures
 + [Problem Set][w2d4-pset]
 
 [w2d4-lecture-notes]:./d4/lecture_notes.md
@@ -47,6 +50,13 @@
 
 ### w2d5
 + **Assessment 3**
-+ Review
++ [Review][w3d1-lecture-notes]
+  + Multi-Dimensional Arrays
+  + Nested Loops
+  + `Array.prototype.slice()`
+  + Style
+  + Scope
+  + `this`
 
+[w3d1-lecture-notes]:../d3/d1/lecture_notes.md
 [w2d5-assessment]:./d5/assessment
