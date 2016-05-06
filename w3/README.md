@@ -37,15 +37,24 @@
 [w3d3-pset]:./d3/problem_set.md
 
 ### w3d4
-+ Node I/O - File System
++ [Lecture Notes][w3d4-lecture-notes]
+  + Closures
+  + Node I/O - File System
 + Finish [Clock Project][clock]
 + [Sentiment Detector Project][sentiment-detector]
 + [Bonus Problems](./bonus_problems)
 
+[w3d4-lecture-notes]:./d4/lecture_notes.md
 [sentiment-detector]:./d4/sentiment_detector
 
 ### w3d5
-+ **Assessment 5** <!-- ([here][w3d5-assessment]) -->
-+ Review
++ **Assessment 5**
++ [Review][w4d1-lecture-notes]
+  + Data Modeling
+  + Callbacks
+  + Higher-Order Functions
+  + Asynchronous Programming
+  + Closures
 
+[w4d1-lecture-notes]:../w4/d1/lecture_notes.md
 [w3d5-assessment]:./d5/assessment

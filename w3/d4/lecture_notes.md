@@ -1,9 +1,95 @@
 # Lecture Notes 14
 
+## Closures
+
+### Function Scope
+Before we get into closures, make sure you are comfortable with scope in JavaScript. If you aren't, then revisit this [lecture](../../w2/d4/lecture_notes.md).
+
+For a quick recap: the **scope** of a function is the set of variables that are available for use within the function. The variables available when we call a function include:
+
+1. the function parameters
+2. any local variables declared inside the function
+3. *any variables that were declared when the function was first defined*
+
+Remember, *a new scope is created each time a function is* called. A function can refer to anything defined in its inner scope, and anything defined in an outer or enclosing scope. For example,
+
+```js
+// the outer scope
+var bar = 20;
+
+function foo(arg) {
+  // the inner scope
+  return arg + bar;
+}
+
+var result = foo(30);
+console.log(result); // what does this print? make sure you understand why!
+```
+
+### What is a Closure?
+
+In JavaScript, every function has access to the variables from outer and enclosing scopes. Functions that use these variables (also known as *free variables*) are called **closures**.
+
+**1.** Closures have access to the outer functions variables even after the outer or enclosing function returns. For example,
+
+```js
+function sayHelloFirstName(firstName) { // the outer function
+  var greeting = "Hello";
+
+  function sayHelloFirstNameLastName(lastName) { // the inner function
+    // inner functions have access to outer function variables including parameters
+    return greeting + " " + firstName + " " + lastName;
+  }
+
+  return sayHelloFirstNameLastName;
+
+}
+
+var helloAnthony = sayHelloFirstName("Anthony"); // what's the data type of helloAnthony?
+var helloAnthonyLadson = helloAnthony("Ladson"); // what's the data type of helloAnthonyLadson?
+console.log(helloAnthonyLadson); // what does does this print?
+```
+
+When functions in JavaScript execute (i.e. are called), they access the same scope that was in effect when they were defined. This means that even after the outer function has returned, the inner function still has access to scope in which is was defined. In other words, it maintains access to the variables from outer and enclosing scopes even after the outer function is called and exits. Therefore, you can call the inner function later in your program.
+
+**2.** Closures store references to variables from outer and enclosing scopes. In other words, if the value of a variable defined in an outer scope changes before a closure is called, the closure accesses the updated value of the variable. For example,
+
+```js
+function makeCounter() {
+  var count = 0;
+
+  var incrementCounter = function() {
+    count++;
+    console.log(count);
+  }
+
+  return incrementCounter;
+}
+
+var counter = makeCounter(); // returns function incrementCounter
+counter(); // what does this print out?
+counter(); // what does this print out?
+counter(); // what does this print out?
+```
+
+Why does calling the function `counter` increment `count`, which is initialized when we called the function `makeCounter`. Because of closures! The inner function `incrementCount` stores a reference to the variable `count`, which is defined in its outer scope. When we increment `count` in the function body by calling the function `counter`, we are accessing a reference to `count` and changing the value stored at that reference. Each successive call of the function accesses the updated value of `count` and increments it by 1.
+
+### Putting it All Together
+Much of the code we write in practical JavaScript is event-based — we define some behavior, then attach it to an event that is triggered by some other event happening. 
+
+To do this, we write *asynchronous code* (code that will start or setup some process that usually takes some time to complete but it will not block the thread while it waits to complete). 
+
+To write asynchronous code, we rely on callbacks. Asynchronous functions execute callbacks in response to the completion of the process it was waiting for.
+
+**Functions, Callbacks, Closures:**
++ A function is a *callback* if it is passed into a function and executed inside of the function to which it is passed.
++ A function is a *closure* is it refers to *free variables*, variables defined in outer or enclosing scopes.
++ Not all functions are callbacks or closures.
++ A function can be both a callback and a closure.
+
 ## Node I/O - File System
 
-Node has many built-in modules that do a wide variety of things, from getting user input to reading files. Today, we are going to learn how to read files and use their contents
-in our programs. But first, we have to learn how to import a module:
+Node has many built-in modules that do a wide variety of things, from getting user input to reading files. Today, we are going to learn how to read files and use their contents in our programs. But first, we have to learn how to import a module:
 
 ```javascript
 var foo = require('nameOfModule');

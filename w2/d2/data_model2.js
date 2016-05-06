@@ -11,16 +11,16 @@ parsed by specified functions.
 // 1: UserName2
 // ...and so forth, for all the users
 
-var users1 = //your code here;
+//var users1 = your code here;
 
 function printUsers (users) {
-  users.forEach(function (user) {
-    console.log(user.id + ": " user.username);
-  });
+  for (var i = 0; i < users.length; i++) {
+    var user = users[i];
+    console.log(user.id + ": " + user.username);
+  }
 }
 
-//Uncomment when ready to test
-//printUsers(users1);
+// printUsers(users1); // uncomment when ready to test
 
 
 //~~~~~~2
@@ -36,20 +36,21 @@ function printUsers (users) {
 //   -siteName5
 // ...and so forth, for all the users
 
-var users2 = //your code here;
+//var users2 = your code here;
 
 function printUsersWebsites (users) {
-  users.forEach(function (user) {
+  for (var i = 0; i < users.length; i++) {
+    var user = users[i];
     console.log("~~" + user.username + "~~");
 
-    user.sites.forEach(function (site) {
+    for (var j = 0; j < user.sites.length; j++) {
+      var site = user.sites[j];
       console.log("  -" + site.url);
-    });
-  });
+    }
+  }
 }
 
-//Uncomment when ready to test
-//printUsersWebsites(users2);
+//printUsersWebsites(users2); // uncomment when ready to test
 
 
 //~~~~~~3
@@ -80,20 +81,21 @@ function printUsersWebsites (users) {
 //     -popularity score: 32
 // ...and so forth, for all the users
 
-var users3 = //your code here;
+//var users3 = your code here;
 
 function printUsersWebsitesInfo (users) {
-  users.forEach(function (user) {
+  for (var i = 0; i < users.length; i++) {
+    var user = users[i];
     console.log("~~" + user.username + "~~");
 
-    user.sites.forEach(function (site) {
+    for (var j = 0; j < user.sites.length; j++) {
+      var site = user.sites[j];
       console.log("  -" + site.url);
-      console.log("    -load:" + site.load);
-      console.log("    -# of users:" + site.userCount);
-      console.log("    -popularity" + site.pop);
-    });
-  });
+      console.log("    -load: " + site.load + "%");
+      console.log("    -# of users: " + site.userCount);
+      console.log("    -popularity score: " + site.pop);
+    }
+  }
 }
 
-//Uncomment when ready to test
-//printUsersWebsitesInfo(users3);
+//printUsersWebsitesInfo(users3); // uncomment when ready to test

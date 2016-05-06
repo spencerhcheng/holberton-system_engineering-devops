@@ -1,6 +1,6 @@
 ## Terminal/Command Prompt
 
-Node is a tool that we use from the command line. As such, being able to effectively use the command line will be an essential skill. Both the terminal and command prompt are command line interfaces (CLI). Open your CLI (Terminal for Macs and Command Prompt for PCs).
+Node is a tool that we use from the command line. As such, being able to effectively use the command line will be an essential skill. Both the Terminal and Command Prompt are called command line interfaces (CLIs). Macs use the Terminal and PCs use the Command Prompt. Open up your CLI.
 
 ```
 #terminal
@@ -12,7 +12,7 @@ Node is a tool that we use from the command line. As such, being able to effecti
 C:\>
 ```
 
-Your CLI may or may not look exactly like this. Everything before the `$` (for Macs) or `>` (for Windows) symbol is the current directory. CLIs typically start at the root directory. After the prompt symbol, you can type in commands.
+Everything before the `$` for Macs is the current directory, and the `>` for PCs. CLIs typically start at the root directory. After the prompt symbol, you can type in commands.
 
 Commands typically operate in the current directory. For example, the `ls` command for Macs/`dir` command for Windows list all the files in the current directory. The output of this command will be different depending on which directory you are in. Learning how to navigate between directories is a vital for using your CLI effectively.
 

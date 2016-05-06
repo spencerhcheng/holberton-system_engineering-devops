@@ -10,6 +10,8 @@ Go to the website and download Node if you haven't already. After you've downloa
 
 ![terminal](./terminal.png)
 
+**NB**: Macs: Terminal is an application on your computer so you'd access it the same way you would other applications (e.g. Chrome, App Store, Calendar, etc.). You can find it either via the Applications folder using Finder or via Spotlight Search (the magnifying glass in the upper-left corner of your screen)  and searching for Terminal. PCS: Similarly, Command Prompt is an application which you can access and use.
+
 If it prints `Hello World`, then congratulations. Time to learn JavaScript.
 
 ## JavaScript Data Types
@@ -41,11 +43,14 @@ falsey values.
 
 Everything else is true
 
+## Variables
+**Variables** are used to store information to be referenced and manipulated in a computer program. They also provide a way of labeling data with a descriptive name, so our programs can be understood more clearly by the reader and ourselves. It is helpful to think of variables as containers that hold information. Their sole purpose is to label and store data in computer memory. This data can then be used and even changed throughout your program.
+
 ### Declaring Variables
 
-In JavaScript, in order to use a variable, we must declare it. Variable
-declaration is the act of introducing the variable to the environment. When we declare
-a variable, we will often initialize it to a value.
+In JavaScript, in order to use a variable, we must *declare* it. Variable
+**declaration** is the act of introducing the variable to the environment. When we declare
+a variable, we will often *initialize* it to a value.
 
 To declare a variable, use the `var` keyword, followed by a space and then the name of the variable.
 
@@ -53,8 +58,13 @@ To declare a variable, use the `var` keyword, followed by a space and then the n
 var myVar;
 ```
 
-To initialize it to a value, simply assign the variable to a value when you
-declare it. Say, for instance, that we wanted `myVar` to equal the number 5:
+### Variable Assignment and Initialization
+To initialize a variable to a value, simply assign the variable to a value when you
+declare it using the *assignment operator*, `=`. 
+
+*NB*: In programming, a equal sign is used to assign values to variables, not to indicate equality like it is in math.
+
+Let's initialize our variable `myVar` to the number `5`:
 
 ```javascript
 var myVar = 5;
@@ -64,7 +74,7 @@ Now it is time to experiment. Open your Terminal/Command Prompt and type the fol
 
 ```javascript
 $ node
-> myVar;
+> var myVar;
 ```
 
 Since we have not declared myVar, you'll see an error message.
@@ -76,7 +86,7 @@ undefined
 > myVar; // We can use myVar without error because we declared it.
 undefined // Evaluates to undefined because we did not initialize myVar to any value.
 
-> myVar = 5;
+> myVar = 5; // Assigning the value 5 to the variable myVar
 5
 
 > myVar + 2; // What will this evaluate to?
@@ -87,7 +97,7 @@ underneath it. That is the return value. Everything is javascript has a return
 value, even declaration and initialization. `undefined` is the default return
 value.
 
-We can also declare and initialize a variable on the same line.
+Let's look at another example:
 ```javascript
 > var myOtherVar = "Anthony";
 "Anthony"

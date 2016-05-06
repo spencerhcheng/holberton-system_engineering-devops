@@ -3,21 +3,21 @@ For quick references, here are **brief summaries** of the contracts you signed u
 ## Bootcamp Application Agreement Summary
   - You agree to make a reasonable, good-faith effort to apply to programming bootcamps in the **2 months** following your completion of Bootcamp Prep.
   - Unless you've been admitted to a bootcamp, you must apply to all of the following bootcamps:
-    - General Assembly
-    - Galvanize
     - Coding Dojo
-    - Dev Bootcamp
-    - Hack Reactor
-    - Flatiron School
+    - Galvanize
+    - General Assembly
     - Full Stack Academy
     - Launch Academy
+    - Flatiron School
+    - MakerSquare
+    - Hack Reactor
     - App Academy
-  - You must maintain and document all of your bootcamp applications and keep us updated with your application processes.
+  - You must maintain and document all of your bootcamp applications and keep us updated in a timely manner with your application processes.
 
 ### Refund Eligibility
   - App Academy guarantees admission into at least one of the bootcamps listed above.
   - Upon admission to a recognized bootcamp, you lose your eligibility for a refund.
-  - To secure your refund, you must send us rejections from all of recognized bootcamps.
+  - To secure your refund, you must send us rejections from all of the bootcamps listed above.
 
 ## Program Rules Agreement Summary
   - Bootcamp Prep program rules exist in order to maintain a productive and successful environment for students.
@@ -42,6 +42,19 @@ Many of our program rules are enforced through a system of **strikes**. Students
     - Use of cellphones and tablets are not allowed.
     - Sleeping is disrespectful, and not permitted.
   - Breaking any of these rules will earn you a strike.
+  
+- **Assessments**
+
+  - Assessments are administered every Monday and Friday.
+  - You are required to do take every assessment (even if you are absent)
+  - You must email your instructor a perfect Friday assessment before the next class on Monday
+    - Solution videos will be posted online for you to follow   
+    - You are only exempt from this if you recieved a perfect score on Friday's assessment
+  - Breaking any of these rules will earn you a strike.
+
+- **Post-Course**
+  - Failing to respond to an email from App Academy in 48 hours will earn you a strike.
+  - Every additional 2 days that you do not respond will earn you an additional strike.
 
 #### Zero Tolerance for Harassment
 

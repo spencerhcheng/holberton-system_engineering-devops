@@ -1,6 +1,7 @@
 # Lecture Notes 9
 
-## What is Scope?
+## Scope
+### What is Scope?
 
 A **scope** is a section in your program where a name binding is considered valid. A
 *name binding* is when a variable (a name) evaluates to a certain value. If I
@@ -12,7 +13,7 @@ bindings that were declared in the outer scope, but the outer scope *does not*
 have access to the bindings declared in its inner scopes. If this sounds confusing,
 read the next three sections, then come back to this section.
 
-## The Global Scope
+### The Global Scope
 
 In both of the main JavaScript environments (browser and node), everything exists
 in what's called 'the global object'. To understand this, let's think about a plain
@@ -70,7 +71,7 @@ When we declare variables outside of a function, aka in the global scope, they
 become properties of the global object.
 
 
-## Importance of `var`
+### Importance of `var`
 
 You may have noticed that the `var` keyword is optional. If not, go ahead and try
 to initialize a variable without using it.
@@ -90,7 +91,7 @@ So why would we ever use `var`? Because if we don't, the variable will look up
 the scope chain for the binding, or until it hits the global scope. The
 implications of this become much more apparent when we understand function scope.
 
-## Function Scope
+### Function Scope
 
 JavaScript has function scope, which means that every time we create a new
 function, we also create a new scope. I can create two functions and declare the
@@ -142,7 +143,7 @@ console.log(foo());
 console.log(myVar); // What does this output?
 ```
 
-## Polluting The Global Namespace
+### Polluting The Global Namespace
 
 If we don't have any global variables (which we should avoid as much as possible),
 you may be asking yourself if using `var` in functions is still necessary?
@@ -163,7 +164,7 @@ to avoid accidental collisions.
 We'll talk about some techniques to mitigate this later in the course, but for
 now it is enough to know about this risk.
 
-## The Scope of `this`
+### The Scope of `this`
 
 Functions and methods are objects, which means they can be passed around without
 being called. This feature of JavaScript has implications for how we think about

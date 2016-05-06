@@ -18,7 +18,7 @@ Write a function `maxValue(array)` that returns the largest value in the array.
 Assume `array` is an array of numbers.
 
 ```
-> maxValue([43, 12, 6, 2])
+> maxValue([12, 6, 43, 2])
 43
 
 > maxValue([])

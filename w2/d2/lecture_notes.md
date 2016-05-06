@@ -2,7 +2,7 @@
 
 ## Multi-Dimensional Arrays
 
-A multi-dimensional array is an array that has other arrays as it's elements.
+A multi-dimensional array is an array that has other arrays as its elements.
 
 ```javascript
 var multiArray = [
@@ -75,7 +75,7 @@ Say we have to write a function where we are given an array of items and it has 
 
 I could represent the count as a multi-dimensional array:
 
-```
+```js
 > var myArray = ["a", "b", "a", "c", "a", "b", "d"]
 > getCount(myArray)
 [["a", 3], ["b", 2], ["c", 1], ["d", 1]]
@@ -83,10 +83,10 @@ I could represent the count as a multi-dimensional array:
 
 I could also represent the count as an object:
 
-```
+```js
 > var myArray = ["a", "b", "a", "c", "a", "b", "d"]
 > getCount(myArray)
-{ a : 3, b : 2, c : 1, d , 1 }
+{ a : 3, b : 2, c : 1, d : 1 }
 ```
 
 So which one is better? The answer is that there is no "right" answer. It depends upon the requirements of your system. If the order of the count has to reflect the order of the elements in the input array, it probably makes sense to use the array representation because arrays are meant for ordered collections. However, the object representation is much more succinct and would definitely be easier to write.
@@ -99,7 +99,7 @@ So which one is better? The answer is that there is no "right" answer. It depend
 
 * Your employer ask you to create a data model of a car. What data structure would you use? If you thought `Object`, you are correct. Objects are great for modeling complex data structures.
 
-```
+```js
 var car = {
   type : "Tesla",
   mpg : 1000,
