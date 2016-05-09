@@ -8,7 +8,7 @@ var dog = {
     setInterval(function() {
       this.age += 1;
 
-      if(this.age < 15) {
+      if (this.age < 15) {
         console.log("Dog lives another dat at age " + this.age);
       } else {
         console.log("Dog has been dead for " + (this.age - 15) + " years");
@@ -35,7 +35,7 @@ var annoyingDancer = {
 
     this.currentFav += 1;
 
-    if(this.currentFav === this.favoriteDances.length) {
+    if (this.currentFav === this.favoriteDances.length) {
       this.currentFav = 0;
     }
 

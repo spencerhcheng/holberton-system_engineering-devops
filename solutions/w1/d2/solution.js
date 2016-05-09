@@ -8,9 +8,9 @@ function logBetween(lowNum, highNum) {
 function fizzBuzz1(max) {
   for(var i = 0; i < max; i += 1) {
 
-    if(i % 3 === 0 && i % 5 !== 0) {
+    if (i % 3 === 0 && i % 5 !== 0) {
       console.log(i);
-    } else if(i % 5 === 0 && i % 3 !== 0) {
+    } else if (i % 5 === 0 && i % 3 !== 0) {
       console.log(i);
     }
 
@@ -21,11 +21,11 @@ function fizzBuzz1(max) {
 function fizzBuzz2(max) {
   for(var i = 0; i < max; i += 1) {
 
-    if(i % 3 === 0) {
-      if(i % 5 !== 0) {
+    if (i % 3 === 0) {
+      if (i % 5 !== 0) {
         console.log(i);
       }
-    } else if(i % 5 === 0) {
+    } else if (i % 5 === 0) {
       console.log(i);
     }
 
@@ -39,14 +39,14 @@ function isFactorOf(number, factor) {
 
 
 function isPrime(number) {
-  if(number < 2) {
+  if (number < 2) {
     return false;
   }
 
   var prime = true;
 
   for(var i = 2; i < number; i += 1) {
-    if(number % i === 0) {
+    if (number % i === 0) {
       prime = false;
     }
   }
@@ -55,12 +55,12 @@ function isPrime(number) {
 }
 
 function isPrimeOptimized(number) {
-  if(number < 2) {
+  if (number < 2) {
     return false;
   }
 
   for(var i = 2; i < number; i += 1) {
-    if(number % i === 0) {
+    if (number % i === 0) {
       return false;
     }
   }

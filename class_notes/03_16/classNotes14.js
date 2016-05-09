@@ -2,7 +2,7 @@ var fs = require("fs");
 // console.log(fs);
 function getRecordsFromFile(filename, cb) {
   fs.readFile(filename, 'utf8', function(err, data) {
-    if(err) {
+    if (err) {
       console.log("---Error---");
       console.log(err);
       return;

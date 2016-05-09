@@ -65,7 +65,7 @@ unique([1,23,2,4,5,1,23]) //==> [1, 23, 2, 4, 5];
 /******************************************************************************/
 
 function isHappy(person) {
-  if(person.happiness > 5) {
+  if (person.happiness > 5) {
     return true;
   }
   return false;
@@ -111,7 +111,7 @@ var magicify = function(number) {
 var isMagicNumer = function(number) {
   var magicNumb = magicify(number);
 
-  if(magicNumb % 13 === 0 || magicNumb < 0) {
+  if (magicNumb % 13 === 0 || magicNumb < 0) {
     return true;
   }
 

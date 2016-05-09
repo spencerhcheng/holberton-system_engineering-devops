@@ -1,7 +1,7 @@
 function pe1() {
   var sum = 0;
   for(var i = 3; i <1000; i += 1) {
-    if(i%3===0 || i%5 === 0) {
+    if (i%3===0 || i%5 === 0) {
       sum += i;
     }
   }
@@ -15,7 +15,7 @@ function pe2() {
   var sum = 0;
 
   while(current <= 4000000) {
-    if(current % 2 === 0) {
+    if (current % 2 === 0) {
       sum += current;
     }
 
@@ -33,7 +33,7 @@ function pe3() {
   var i = 2;
 
   while(n > i) {
-    if(n % i === 0) {
+    if (n % i === 0) {
       n = n / i;
     }
     i += 1;
@@ -51,7 +51,7 @@ function pe4() {
       var product = (i * j) + "";
       var reversed = product.split("").reverse().join("");
 
-      if(product === reversed && parseInt(product) > largest) {
+      if (product === reversed && parseInt(product) > largest) {
         largest = parseInt(product);
       }
     }
@@ -68,13 +68,13 @@ function pe5() {
     var isDivisible = true;
 
     for (var i = 3; i <= 20; i++) {
-      if(number % i !== 0) {
+      if (number % i !== 0) {
         isDivisible = false;
         break;
       }
     }
 
-    if(isDivisible) {
+    if (isDivisible) {
       return number;
     }
 
@@ -98,7 +98,7 @@ function pe6() {
 //7
 function isPrime(primes, n) {
   for (var i = 0; i < primes.length; i++) {
-    if(n % primes[i] === 0) {
+    if (n % primes[i] === 0) {
       return false;
     }
   }
@@ -110,7 +110,7 @@ function nextPrime(primes) {
   var n = primes[primes.length - 1];
 
   while(true) {
-    if(isPrime(primes, n)) {
+    if (isPrime(primes, n)) {
       return n;
     }
 
@@ -135,7 +135,7 @@ var fs = require('fs');
 
 function getRecords(cb) {
   fs.readFile('pe8_data.txt', 'utf8', function(err, data) {
-    if(err) {
+    if (err) {
       console.log(err);
       return;
     }
@@ -154,7 +154,7 @@ function pe8(cb) {
         product *= parseInt(nums[i - j]);
       }
 
-      if(product > largestProduct) {
+      if (product > largestProduct) {
         largestProduct = product
       }
     }

@@ -2,7 +2,7 @@ var fs = require("fs");
 
 function getRecordsFromFile(filename, cb) {
   fs.readFile(filename, 'utf8', function(err, data) {
-    if(err) {
+    if (err) {
       console.log("---Error---");
       console.log(err);
       return;
@@ -30,17 +30,17 @@ function detectSentiment(filename, sentence, cb) {
     var splitSentence = sentence.toLowerCase().split(" ");
 
     records.forEach(function(record) {
-      if(!record) {
+      if (!record) {
         return;
       }
 
       var word = parseWord(record).toLowerCase();
       var sentiment = parseSentiment(record);
 
-      if(splitSentence.indexOf(word) !== -1) {
-        if(sentiment === "negative") {
+      if (splitSentence.indexOf(word) !== -1) {
+        if (sentiment === "negative") {
           score -= 1;
-        } else if(sentiment === "positive") {
+        } else if (sentiment === "positive") {
           score += 1;
         }
       }

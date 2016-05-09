@@ -5,7 +5,7 @@ function firstNPrimes(n) {
   var num = 2;
 
   while(primes.length < n) {
-    if(isPrime(num)) {
+    if (isPrime(num)) {
       primes.push(num);
     }
 
