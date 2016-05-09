@@ -27,11 +27,11 @@ I can create key-value pairs where the value is of any data-type. Let's create a
 function (method) in the object:
 
 ```javascript
-scope.myFunc = function(){
+scope.myFunc = function() {
   console.log("This is my func");
 };
 
-scope.myFunc()
+scope.myFunc();
 // What does this output?
 ```
 
@@ -54,16 +54,16 @@ object is called `window`). Let's see how things become attached to the global
 scope.
 
 ```javascript
-> global.myVar
+> global.myVar;
 undefined
 
 > var myVar = 12;
 undefined
 
-> myVar
+> myVar;
 12
 
-> global.myVar
+> global.myVar;
 12
 ```
 
@@ -83,7 +83,7 @@ undefined
 > myOtherVar;
 "no var"
 
-> global.myOtherVar
+> global.myOtherVar;
 "no var"
 ```
 
@@ -99,13 +99,13 @@ same variable names in them without worrying about overwriting one of the
 variables:
 
 ```javascript
-function func1(){
+function func1() {
   var name = "Anthony";
   console.log("Hello, " + name);
 }
 
-function func2(){
-  var name = "Bammsie";
+function func2() {
+  var name = "Fred";
   console.log("Hello, " + name);
 }
 
@@ -119,7 +119,7 @@ variable in an outer scope, the variable in the outer scope won't be overwritten
 ```javascript
 var myVar = 20;
 
-function foo(){
+function foo() {
   var myVar = 2;
   return myVar + 5;
 }
@@ -134,7 +134,7 @@ scope.
 ```javascript
 var myVar = 20;
 
-function foo(){
+function foo() {
   myVar = 2;
   return myVar + 5;
 }
@@ -173,7 +173,7 @@ being called. This feature of JavaScript has implications for how we think about
 ```javascript
 var myObj = {
   name : "Markov",
-  sayHi : function(){
+  sayHi : function() {
     console.log(this.name + " says Hi.");
   }
 };
@@ -200,12 +200,12 @@ Let's attach a `name` to the global object and try to run the earlier code again
 ```javascript
 var myObj = {
   name : "Markov",
-  sayHi : function(){
+  sayHi : function() {
     console.log(this.name + " says Hi.");
   }
 };
 
-var myFunc = myObj.sayHi // not calling sayHi
+var myFunc = myObj.sayHi; // not calling sayHi
 
 var name = "Bill";
 
