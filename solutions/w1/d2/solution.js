@@ -10,7 +10,7 @@ function fizzBuzz1(max) {
 
     if(i % 3 === 0 && i % 5 !== 0) {
       console.log(i);
-    } else if(i % 5 === 0 && i % 3 !== 0){
+    } else if(i % 5 === 0 && i % 3 !== 0) {
       console.log(i);
     }
 
@@ -22,10 +22,10 @@ function fizzBuzz2(max) {
   for(var i = 0; i < max; i += 1) {
 
     if(i % 3 === 0) {
-      if(i % 5 !== 0){
+      if(i % 5 !== 0) {
         console.log(i);
       }
-    } else if(i % 5 === 0){
+    } else if(i % 5 === 0) {
       console.log(i);
     }
 
@@ -38,7 +38,7 @@ function isFactorOf(number, factor) {
 }
 
 
-function isPrime(number){
+function isPrime(number) {
   if(number < 2) {
     return false;
   }
@@ -54,11 +54,11 @@ function isPrime(number){
   return prime;
 }
 
-function isPrimeOptimized(number){
+function isPrimeOptimized(number) {
   if(number < 2) {
     return false;
   }
-  
+
   for(var i = 2; i < number; i += 1) {
     if(number % i === 0) {
       return false;

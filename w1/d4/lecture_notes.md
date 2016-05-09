@@ -108,7 +108,7 @@ as a method of that object.
 ### `this`
 
 To recap: a function is the value of an object, it is typically referred to as
-a method of that object. 
+a method of that object.
 
 There will be times when you will want a method to refer to the object it belongs to. The keyword `this` exist in every function and it evaluates to the object that the method is being called on. If that sounds
 abstract, let's look at an example:
@@ -119,8 +119,8 @@ var spaceship = { fuel : 100 };
 // I want to write a function called 'fly', that will fly if there's enough fuel
 // or print an error message if there isn't
 
-spaceship.fly = function(){
-  if(this.fuel >= 50){
+spaceship.fly = function() {
+  if(this.fuel >= 50) {
     this.fuel -= 50;
     return "You have a calm flight...";
   } else {
@@ -134,7 +134,7 @@ var spaceship1 = {
   fuel : 100,
 
   fly  : function() {
-    if(this.fuel >= 50){
+    if(this.fuel >= 50) {
       this.fuel -= 50;
       return "You have a calm flight...";
     } else {
@@ -144,7 +144,7 @@ var spaceship1 = {
 }
 ```
 
-## Why are Objects useful? 
+## Why are Objects useful?
 
 With them, the structure of our data can match our semantic understanding of their relationships. This helps manage the complexity of keeping related data together and makes it easier to reason about the correctness of our programs.
 
@@ -186,7 +186,7 @@ for (var key in obj) {
 "age"
 ```
 
-This example prints all the keys found in `obj` to the screen. If we want to access the values, we would use bracket notation. 
+This example prints all the keys found in `obj` to the screen. If we want to access the values, we would use bracket notation.
 
 ```js
 for (var key in obj) {
@@ -198,4 +198,4 @@ for (var key in obj) {
 "twenty-something"
 ```
 
-Why can't we use dot notation to iterate through the keys? For example, what would `obj.key` return? 
+Why can't we use dot notation to iterate through the keys? For example, what would `obj.key` return?

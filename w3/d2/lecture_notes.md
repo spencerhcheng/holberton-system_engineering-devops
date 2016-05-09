@@ -44,11 +44,11 @@ function object (`fn`) and the number of milliseconds (`ms`) to wait before exec
 that function. Let's look at an simple example:
 
 ```javascript
-function helloWorld(){
+function helloWorld() {
   console.log("Hello World");
 }
 
-function delayedHelloWorld(ms){
+function delayedHelloWorld(ms) {
   setTimeout(helloWorld, ms);
 }
 ```
@@ -77,7 +77,7 @@ input function (`fn`) is run. Let's look at an example of this by modifying our
 `delayedHelloWorld` function:
 
 ```javascript
-function delayedHelloWorld(ms){
+function delayedHelloWorld(ms) {
   setTimeout(helloWorld, ms);
   console.log("I will be logged first");
 }
@@ -108,7 +108,7 @@ Make sure you try it out in node!
 Let's say I wanted to call a function over and over again:
 
 ```javascript
-function annoyingMeow(){
+function annoyingMeow() {
   setTimeout(annoyingMeow, 1000);
   console.log("meow");
 }
@@ -121,8 +121,8 @@ There is an alternative way to call a function over and over again, and that is
 with `setInterval(fn, ms)`:
 
 ```javascript
-function annoyingMeow(){
-  setInterval(function(){
+function annoyingMeow() {
+  setInterval(function() {
     console.log("meow");
   }, 1000);
 }
@@ -138,7 +138,7 @@ number of milliseconds, specified by the `ms` argument.
 * Can you determine why we couldn't have just passed in the `console.log` method itself as such:
 
 ```javascript
-function annoyingMeow(){
+function annoyingMeow() {
   setInterval(console.log("meow"), 1000);
 }
 ```
@@ -156,13 +156,13 @@ when using an asynchronous method:
 var cat = {
   name : "Curie",
 
-  annoyingTimeoutMeow : function(){
+  annoyingTimeoutMeow : function() {
     console.log(this.name + " says meow");
     setTimeout(this.annoyingTimeoutMeow, 1000);
   },
 
-  annoyingIntervalMeow : function(){
-    setInterval(function(){
+  annoyingIntervalMeow : function() {
+    setInterval(function() {
       console.log(this.name + " says meow");
     }, 1000);
   }
@@ -192,13 +192,13 @@ With this knowledge, let's fix our two annoying meows:
 var cat = {
   name : "Curie",
 
-  annoyingTimeoutMeow : function(){
+  annoyingTimeoutMeow : function() {
     console.log(this.name + " says meow");
     setTimeout(this.annoyingTimeoutMeow.bind(cat), 1000);
   },
 
-  annoyingIntervalMeow : function(){
-    setInterval(function(){
+  annoyingIntervalMeow : function() {
+    setInterval(function() {
       console.log(this.name + " says meow");
     }.bind(cat), 1000);
   }

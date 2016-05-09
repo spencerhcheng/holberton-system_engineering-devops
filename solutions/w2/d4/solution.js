@@ -36,7 +36,7 @@ function lcm(num1, num2) {
 
 //----------------------------------------------------------------------------//
 
-function hipsterfyWord(word){
+function hipsterfyWord(word) {
   var vowels = ["a","e","i","o","u"];
 
   for (var i = word.length - 1; i >= 0; i -= 1) {

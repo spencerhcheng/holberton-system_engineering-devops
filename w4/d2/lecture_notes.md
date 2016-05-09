@@ -9,7 +9,7 @@ three cats:
 var cat1 = {
   name : "Kitty",
   age : 2,
-  meow : function(){
+  meow : function() {
     console.log(this.name + " says meow.");
   }
 }
@@ -17,7 +17,7 @@ var cat1 = {
 var cat2 = {
   name : "Whiskers",
   age : 7,
-  meow : function(){
+  meow : function() {
     console.log(this.name + " says meow.");
   }
 }
@@ -25,7 +25,7 @@ var cat2 = {
 var cat3 = {
   name : "Whitney",
   age : 11,
-  meow : function(){
+  meow : function() {
     console.log(this.name + " says meow.");
   }
 }
@@ -57,7 +57,7 @@ a Class and a Constructor are synonymous. If you are interested in the distincti
 Let's create the `Cat` class:
 
 ```javascript
-function Cat(){
+function Cat() {
 
 }
 
@@ -86,7 +86,7 @@ We want all of our cats to have a name, age, and color property, but we want the
 values of those properties to be different for every cat instance.
 
 ```javascript
-function Cat(name, age, color){
+function Cat(name, age, color) {
   this.name = name;
   this.age = age;
   this.color = color;
@@ -118,7 +118,7 @@ variables is to pass in the values as arguments.
 By now, you'd probably expect the below to be how we defined instance methods:
 
 ```javascript
-function Cat(name, age, color){
+function Cat(name, age, color) {
   this.name = name;
   this.age = age;
   this.color = color;
@@ -136,7 +136,7 @@ method once and have all instances refer to that definition when they call the m
 We achieve this by defining the method on the `prototype` property of the `Constructor`:
 
 ```javascript
-function Cat(name, age, color){
+function Cat(name, age, color) {
   this.name = name;
   this.age = age;
   this.color = color;

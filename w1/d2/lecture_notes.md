@@ -35,7 +35,7 @@ if (condition1) {
   //do something...
 } else if (condition2) {
   //do something else...
-} else if (condition3){
+} else if (condition3) {
   //do this if no conditions are true...
 }
 ```
@@ -227,7 +227,7 @@ It's pretty hard to tell. How about if we rewrite it and give our variables
 significant names:
 
 ```javascript
-function isGoodTip(mealCost, amountTipped){
+function isGoodTip(mealCost, amountTipped) {
   var percentage = (amountTipped / mealCost) * 100;
   var badTip = 15;
 

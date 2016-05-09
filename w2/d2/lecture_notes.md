@@ -31,9 +31,9 @@ the array.
 function pairZero(array) {
   var pairs = [];
 
-  for(var i = 0; i < array.length; i += 1){
-    for(var j = 0; j < array.length; j += 1){
-      if(array[i] + array[j] === 0){
+  for(var i = 0; i < array.length; i += 1) {
+    for(var j = 0; j < array.length; j += 1) {
+      if(array[i] + array[j] === 0) {
         pairs.push([i, j]);
       }
     }

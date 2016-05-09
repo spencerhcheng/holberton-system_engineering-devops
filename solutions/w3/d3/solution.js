@@ -8,7 +8,7 @@ function mySelect1 (arr, cb) {
   var selected = [];
 
   myForEach(arr, function (ele, i, ar) {
-    if(cb(ele, i, ar)){
+    if(cb(ele, i, ar)) {
       selected.push(ele);
     }
   });
@@ -20,7 +20,7 @@ function mySelect2 (arr, cb) {
   var selected = [];
 
   for (var i = 0; i < arr.length; i++) {
-    if(cb(arr[i], i, arr)){
+    if(cb(arr[i], i, arr)) {
       selected.push(arr[i]);
     }
   }
@@ -32,7 +32,7 @@ function myReject1 (arr, cb) {
   var selected = [];
 
   myForEach(arr, function (ele, i, ar) {
-    if(!cb(ele, i, ar)){
+    if(!cb(ele, i, ar)) {
       selected.push(ele);
     }
   });
@@ -44,7 +44,7 @@ function myReject2 (arr, cb) {
   var selected = [];
 
   for (var i = 0; i < arr.length; i++) {
-    if(!cb(arr[i], i, arr)){
+    if(!cb(arr[i], i, arr)) {
       selected.push(arr[i]);
     }
   }

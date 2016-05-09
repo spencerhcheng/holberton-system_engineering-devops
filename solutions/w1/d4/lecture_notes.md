@@ -70,14 +70,14 @@ to the object it belongs to. The keyword `this` exist in every function and it
 evaluates to the object that the method is being called on. If that sounds
 abstract, let's look at an example:
 
-```
+```js
 var spaceship = { fuel : 100 };
 
 // I want to write a function called 'fly', that will fly if there's enough fuel
 // or print an error message if there isn't
 
-spaceship.fly = function(){
-  if(this.fuel >= 50){
+spaceship.fly = function() {
+  if(this.fuel >= 50) {
     this.fuel -= 50;
     return "You have a calm flight..."
   } else {
@@ -91,7 +91,7 @@ var spaceship1 = {
   fuel : 100,
 
   fly  : function() {
-    if(fuel >= 50){
+    if(fuel >= 50) {
       fuel -= 50;
       return "You have a calm flight..."
     } else {

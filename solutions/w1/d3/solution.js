@@ -1,11 +1,11 @@
 //see w1d2 solution for isPrime
 
-function firstNPrimes(n){
+function firstNPrimes(n) {
   var primes = [];
   var num = 2;
 
-  while(primes.length < n){
-    if(isPrime(num)){
+  while(primes.length < n) {
+    if(isPrime(num)) {
       primes.push(num);
     }
 
@@ -15,11 +15,11 @@ function firstNPrimes(n){
   return primes;
 }
 
-function sumOfNPrimes(n){
+function sumOfNPrimes(n) {
   var sum = 0;
   var primes = firstNPrimes(n);
 
-  for(var i = 0;  i < primes.length; i += 1){
+  for(var i = 0;  i < primes.length; i += 1) {
     sum += primes[i];
   }
 
@@ -28,19 +28,19 @@ function sumOfNPrimes(n){
 
 /******************************************************************************/
 
-function logEach(array){
-  for(var i = 0; i < array.length; i += 1){
+function logEach(array) {
+  for(var i = 0; i < array.length; i += 1) {
     console.log(i + ": " + array[i]);
   }
 }
 
-function maxValue(numbers){
+function maxValue(numbers) {
   var largest = null;
 
-  for (var i = 0; i < numbers.length; i += 1){
+  for (var i = 0; i < numbers.length; i += 1) {
     var num = numbers[i];
 
-    if (largest === null || num > largest){
+    if (largest === null || num > largest) {
       largest = num;
     }
   }
@@ -48,12 +48,12 @@ function maxValue(numbers){
   return largest;
 }
 
-function printRange (start, end){
+function printRange (start, end) {
   if (start > end) {
     return "Bad Range";
   }
 
-  for (var i = start; i <= end; i += 1){
+  for (var i = start; i <= end; i += 1) {
     console.log(i);
   }
 }
