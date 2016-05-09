@@ -17,13 +17,13 @@ var cookieMonster = {
     for(var i = 0; i < food.length; i += 1) {
       var foodItem = food[i];
 
-      if(this.favoriteFoods.indexOf(foodItem.toLowerCase()) !== -1) {
+      if (this.favoriteFoods.indexOf(foodItem.toLowerCase()) !== -1) {
         score += 2;
-      } else if(this.goodFoods.indexOf(foodItem.toLowerCase()) !== -1) {
+      } else if (this.goodFoods.indexOf(foodItem.toLowerCase()) !== -1) {
         score += 1;
-      } else if(this.badFoods.indexOf(foodItem.toLowerCase()) !== -1) {
+      } else if (this.badFoods.indexOf(foodItem.toLowerCase()) !== -1) {
         score -= 1;
-      } else if(this.hatedFoods.indexOf(foodItem.toLowerCase()) !== -1) {
+      } else if (this.hatedFoods.indexOf(foodItem.toLowerCase()) !== -1) {
         score -= 2;
       }
     }

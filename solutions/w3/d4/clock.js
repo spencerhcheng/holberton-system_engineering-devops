@@ -4,7 +4,7 @@ var clock = {
   getSeconds : function() {
     var seconds = this.totalSeconds % 60;
 
-    if(seconds < 10) {
+    if (seconds < 10) {
       return "0" + seconds;
     }
 
@@ -14,7 +14,7 @@ var clock = {
   getMinutes : function() {
     var minutes = (Math.floor(this.totalSeconds/60) % 60);
 
-    if(minutes < 10) {
+    if (minutes < 10) {
       return "0" + minutes;
     }
 
@@ -24,7 +24,7 @@ var clock = {
   getHours : function() {
     var hours = Math.floor((this.totalSeconds/60) / 60);
 
-    if(hours < 10) {
+    if (hours < 10) {
       return "0" + hours;
     }
 
@@ -32,7 +32,7 @@ var clock = {
   },
 
   timeoutTick : function(startSeconds) {
-    if(startSeconds) {
+    if (startSeconds) {
       this.totalSeconds = startSeconds;
     }
 
@@ -42,7 +42,7 @@ var clock = {
   },
 
   intervalTick : function(startSeconds) {
-    if(startSeconds) {
+    if (startSeconds) {
       this.totalSeconds = startSeconds;
     }
 

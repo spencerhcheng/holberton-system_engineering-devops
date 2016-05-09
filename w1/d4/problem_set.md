@@ -28,7 +28,7 @@ function howOld(array) {
   for(var i = 0; i < array.length; i += 1) {
     var element = array[i];
 
-    if(element.age < 7) {
+    if (element.age < 7) {
       sentence = element.name + " is " + element.age + " years young.";
     } else {
       sentence = element.name + " is " + element.age + " years old.";

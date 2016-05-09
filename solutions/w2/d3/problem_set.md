@@ -7,7 +7,7 @@ function unique(array) {
   for(var i = 0, i <= array.length, i += 1) {
     var ele = array[i];
 
-    if(uniqueArray.indexOf(ele) === -1) {
+    if (uniqueArray.indexOf(ele) === -1) {
       uniqueArray.push(ele);
     }
   }
@@ -18,7 +18,7 @@ unique([1,23,2,4,5,1,23]) === [1, 23, 2, 4, 5];
 
 ```javascript
 function isHappy(person) {
-  if(person.happiness > 5) {
+  if (person.happiness > 5) {
     return true;
   }
   return false;
@@ -30,12 +30,12 @@ function isHappyGroup(group) {
   for(var i = 0; i < group.length; i += 1) {
     var person = group[i];
 
-    if(idHappy[person]) {
+    if (idHappy[person]) {
       amount += 1;
     }
   }
 
-  if(amount > 5) {
+  if (amount > 5) {
     return true;
   }
 
@@ -64,7 +64,7 @@ var magicify = function(number) {
 var isMagicNumer = function(number) {
   var magicNumb = magicify(number);
 
-  if(magicNumb % 13 === 0 || magicNumb < 0) {
+  if (magicNumb % 13 === 0 || magicNumb < 0) {
     return true;
   }
 
@@ -94,7 +94,7 @@ function fizzBuzz(max) {
   var array = [];
 
   while(i < max) {
-    if(i % 5 || 3 === 0 && i !== 15) {
+    if (i % 5 || 3 === 0 && i !== 15) {
       array.push(array[i]);
     }
     i += 1;

@@ -77,7 +77,7 @@ var spaceship = { fuel : 100 };
 // or print an error message if there isn't
 
 spaceship.fly = function() {
-  if(this.fuel >= 50) {
+  if (this.fuel >= 50) {
     this.fuel -= 50;
     return "You have a calm flight..."
   } else {
@@ -91,7 +91,7 @@ var spaceship1 = {
   fuel : 100,
 
   fly  : function() {
-    if(fuel >= 50) {
+    if (fuel >= 50) {
       fuel -= 50;
       return "You have a calm flight..."
     } else {

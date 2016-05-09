@@ -119,7 +119,7 @@ var fs = require("fs");
 
 function getRecordsFromFile(filename) {
   fs.readFile(filename, function(err, data) {
-    if(err) {
+    if (err) {
       console.log("---Error---");
       console.log(err);
       return;
@@ -162,7 +162,7 @@ var fs = require("fs");
 
 function getRecordsFromFile(filename) {
   fs.readFile(filename, 'utf8', function(err, data) {
-    if(err) {
+    if (err) {
       console.log("---Error---");
       console.log(err);
       return;
@@ -194,7 +194,7 @@ var fs = require("fs");
 
 function getRecordsFromFile(filename) {
   fs.readFile(filename, 'utf8', function(err, data) {
-    if(err) {
+    if (err) {
       console.log("---Error---");
       console.log(err);
       return;
@@ -215,7 +215,7 @@ function mostCoolFromFile(filename) {
     var name = record.split(" ")[0];
     var rating = parseInt(record.split(" "))[1];
 
-    if(rating > coolestRating) {
+    if (rating > coolestRating) {
       coolest = name;
     }
   });
@@ -243,7 +243,7 @@ var fs = require("fs");
 
 function getRecordsFromFile(filename, cb) {
   fs.readFile(filename, 'utf8', function(err, data) {
-    if(err) {
+    if (err) {
       console.log("---Error---");
       console.log(err);
       return;
@@ -264,7 +264,7 @@ function mostCoolFromFile(filename) {
       var name = record.split(" ")[0];
       var rating = parseInt(record.split(" "))[1];
 
-      if(rating > coolestRating) {
+      if (rating > coolestRating) {
         coolest = name;
       }
     });
@@ -285,7 +285,7 @@ var fs = require("fs");
 
 function getRecordsFromFile(filename, cb) {
   fs.readFile(filename, 'utf8', function(err, data) {
-    if(err) {
+    if (err) {
       console.log("---Error---");
       console.log(err);
       return;
@@ -306,7 +306,7 @@ function mostCoolFromFile(filename, cb) {
       var name = record.split(" ")[0];
       var rating = parseInt(record.split(" ")[1]);
 
-      if(rating > coolestRating) {
+      if (rating > coolestRating) {
         coolest = name;
       }
     });
