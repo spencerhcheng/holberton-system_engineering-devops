@@ -65,11 +65,12 @@ Welcome to Bootcamp Prep!
   + `this`
 + [Problem Set][w1d4-pset]
 + [Cookie Monster Project][cookie-monster]
-  + Install [mocha](https://www.npmjs.com/package/mocha)
+  + Install [mocha][mocha]
 
 [w1d4-lecture-notes]:./w1/d4/lecture_notes.md
 [w1d4-pset]:./w1/d4/problem_set.md
 [cookie-monster]:./w1/d4/cookieMonster
+[mocha]:./other/install_mocha.md
 
 ### w1d5
 + **Assessment 1**
