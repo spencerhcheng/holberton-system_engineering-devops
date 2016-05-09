@@ -14,7 +14,7 @@ var cookieMonster = {
   eat : function(food) {
     var score = 0;
 
-    for(var i = 0; i < food.length; i += 1) {
+    for (var i = 0; i < food.length; i += 1) {
       var foodItem = food[i];
 
       if (this.favoriteFoods.indexOf(foodItem.toLowerCase()) !== -1) {

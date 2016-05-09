@@ -30,7 +30,7 @@ console.log(bar(5)); //What is bar() on this line?
 ```javascript
 var foo = "Happy";
 
-for(var foo = 0; foo <= 5; foo += 1) {
+for (var foo = 0; foo <= 5; foo += 1) {
   console.log(foo); //What will foo be on each iteration?
 }
 
@@ -83,16 +83,16 @@ Write a function `factorial(n)`, that returns the factorial of the number `n`.
 Example: `factorial(4) => 4 * 3 * 2 * 1 => 24`
 
 ```js
-> factorial(1)
+> factorial(1);
 1
 
-> factorial(4)
+> factorial(4);
 24
 
-> factorial(5)
+> factorial(5);
 120
 
-> factorial(10)
+> factorial(10);
 3628800
 ```
 
@@ -102,22 +102,22 @@ Write a function `longWordCount(string)` that takes in a string and returns the
 number of words longer than 7 characters.
 
 ```js
->longWordCount("")
+> longWordCount("");
 0
 
->longWordCount("short words only")
+> longWordCount("short words only");
 0
 
->longWordCount("one reallylong word")
+> longWordCount("one reallylong word");
 1
 
->longWordCount("two reallylong words inthisstring")
+> longWordCount("two reallylong words inthisstring");
 2
 
->longWordCount("allwordword longwordword wordswordword")
+> longWordCount("allwordword longwordword wordswordword");
 3
 
->longWordCount("seventy schfifty five")
+> longWordCount("seventy schfifty five");
 1
 ```
 
@@ -127,13 +127,13 @@ Write a function `lcm(num1, num2)` that returns the lowest number which is a
 multiple of both inputs.
 
 ```js
->lcm(2, 3)
+> lcm(2, 3);
 6
 
->lcm(6, 10)
+> lcm(6, 10);
 30
 
->lcm(24, 26)
+> lcm(24, 26);
 312
 ```
 
@@ -142,18 +142,18 @@ Write a function `hipsterfy(sentence)` that takes takes a string containing
 several words as input. Remove the last vowel from each word. `'y'` is not a vowel.
 
 ```js
->hipsterfy("proper")
+> hipsterfy("proper");
 "propr"
 
->hipsterfy("proper tonic panther")
+> hipsterfy("proper tonic panther");
 "propr tonc panthr"
 
->hipsterfy("towel flicker banana")
+> hipsterfy("towel flicker banana");
 "towl flickr banan"
 
->hipsterfy("runner anaconda")
+> hipsterfy("runner anaconda");
 "runnr anacond"
 
->hipsterfy("turtle cheeseburger fries")
+> hipsterfy("turtle cheeseburger fries");
 "turtl cheeseburgr fris"
 ```
