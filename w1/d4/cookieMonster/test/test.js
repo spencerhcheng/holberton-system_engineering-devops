@@ -12,20 +12,20 @@ describe('Cookie Monster', function() {
       assert.equal(cookieMonster.hair, "blue");
     });
 
-    it('cookieMonster.favorite_foods === ["cookies"]', function () {
-      assert.deepEqual(cookieMonster.favorite_foods, ["cookies"]);
+    it('cookieMonster.favoriteFoods === ["cookies"]', function () {
+      assert.deepEqual(cookieMonster.favoriteFoods, ["cookies"]);
     });
 
-    it('cookieMonster.good_foods === ["pizza", "skittles"]', function () {
-      assert.deepEqual(cookieMonster.good_foods, ["pizza", "skittles"]);
+    it('cookieMonster.goodFoods === ["pizza", "skittles"]', function () {
+      assert.deepEqual(cookieMonster.goodFoods, ["pizza", "skittles"]);
     });
 
-    it('cookieMonster.bad_foods === ["water", "banana"]', function () {
-      assert.deepEqual(cookieMonster.bad_foods, ["water", "banana"]);
+    it('cookieMonster.badFoods === ["water", "banana"]', function () {
+      assert.deepEqual(cookieMonster.badFoods, ["water", "banana"]);
     });
 
-    it('cookieMonster.hated_foods === ["spinach"]', function () {
-      assert.deepEqual(cookieMonster.hated_foods, ["spinach"]);
+    it('cookieMonster.hatedFoods === ["spinach"]', function () {
+      assert.deepEqual(cookieMonster.hatedFoods, ["spinach"]);
     });
   });
 
