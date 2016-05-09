@@ -1,5 +1,5 @@
-function createAdder (num) {
-  return function (n) {
+function createAdder(num) {
+  return function(n) {
     return n + num;
   }
 }

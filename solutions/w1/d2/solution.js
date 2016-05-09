@@ -1,12 +1,12 @@
 function logBetween(lowNum, highNum) {
-  for(var i = lowNum; i <= highNum; i += 1) {
+  for (var i = lowNum; i <= highNum; i += 1) {
     console.log(i);
   }
 }
 
 
 function fizzBuzz1(max) {
-  for(var i = 0; i < max; i += 1) {
+  for (var i = 0; i < max; i += 1) {
 
     if (i % 3 === 0 && i % 5 !== 0) {
       console.log(i);
@@ -19,7 +19,7 @@ function fizzBuzz1(max) {
 
 
 function fizzBuzz2(max) {
-  for(var i = 0; i < max; i += 1) {
+  for (var i = 0; i < max; i += 1) {
 
     if (i % 3 === 0) {
       if (i % 5 !== 0) {
@@ -45,7 +45,7 @@ function isPrime(number) {
 
   var prime = true;
 
-  for(var i = 2; i < number; i += 1) {
+  for (var i = 2; i < number; i += 1) {
     if (number % i === 0) {
       prime = false;
     }
@@ -59,7 +59,7 @@ function isPrimeOptimized(number) {
     return false;
   }
 
-  for(var i = 2; i < number; i += 1) {
+  for (var i = 2; i < number; i += 1) {
     if (number % i === 0) {
       return false;
     }

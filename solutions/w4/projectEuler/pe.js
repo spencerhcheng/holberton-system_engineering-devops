@@ -1,6 +1,6 @@
 function pe1() {
   var sum = 0;
-  for(var i = 3; i <1000; i += 1) {
+  for (var i = 3; i <1000; i += 1) {
     if (i%3===0 || i%5 === 0) {
       sum += i;
     }
@@ -150,7 +150,7 @@ function pe8(cb) {
 
     for (var i = 12; i < nums.length; i++) {
       var product = nums[i];
-      for(var j = 1; j <= 12; j += 1) {
+      for (var j = 1; j <= 12; j += 1) {
         product *= parseInt(nums[i - j]);
       }
 

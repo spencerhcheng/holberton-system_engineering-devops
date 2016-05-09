@@ -19,7 +19,7 @@ function sumOfNPrimes(n) {
   var sum = 0;
   var primes = firstNPrimes(n);
 
-  for(var i = 0;  i < primes.length; i += 1) {
+  for (var i = 0;  i < primes.length; i += 1) {
     sum += primes[i];
   }
 
@@ -29,7 +29,7 @@ function sumOfNPrimes(n) {
 /******************************************************************************/
 
 function logEach(array) {
-  for(var i = 0; i < array.length; i += 1) {
+  for (var i = 0; i < array.length; i += 1) {
     console.log(i + ": " + array[i]);
   }
 }

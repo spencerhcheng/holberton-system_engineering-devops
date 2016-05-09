@@ -25,7 +25,7 @@ var dogs = [dog1, dog2, dog3];
 function howOld(array) {
   var result = [];
 
-  for(var i = 0; i < array.length; i += 1) {
+  for (var i = 0; i < array.length; i += 1) {
     var element = array[i];
 
     if (element.age < 7) {

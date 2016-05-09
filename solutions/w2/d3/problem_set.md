@@ -4,7 +4,7 @@
 function unique(array) {
   var uniqueArray = [];
 
-  for(var i = 0, i <= array.length, i += 1) {
+  for (var i = 0, i <= array.length, i += 1) {
     var ele = array[i];
 
     if (uniqueArray.indexOf(ele) === -1) {
@@ -27,7 +27,7 @@ function isHappy(person) {
 function isHappyGroup(group) {
   var amount = 0;
 
-  for(var i = 0; i < group.length; i += 1) {
+  for (var i = 0; i < group.length; i += 1) {
     var person = group[i];
 
     if (idHappy[person]) {

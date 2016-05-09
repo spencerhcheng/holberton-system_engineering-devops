@@ -26,7 +26,7 @@ Example:
 function myMap(arr, cb) {
   var results = [];
 
-  for(var i = 0; i < arr.length; i++) {
+  for (var i = 0; i < arr.length; i++) {
     var element = arr[i];
     results.push(cb(element, i, arr));
   }

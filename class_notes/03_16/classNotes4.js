@@ -3,7 +3,7 @@
 var a = ["Anthony", "John", "Carson"]);
 
 function logEach(array) { // "declaring" the logEach function
-  for(var i = 0; i < array.length; i++) {
+  for (var i = 0; i < array.length; i++) {
     var str = i + ": " + array[i];
     console.log(str);
   }

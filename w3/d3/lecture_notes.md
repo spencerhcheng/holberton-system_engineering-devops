@@ -185,7 +185,7 @@ Javascript, and many other languages, evaluate code in a single thread. Single-t
 function foo() {
   console.log("start");
 
-  for(var i = 0; i < 99999999; i+=1) {
+  for (var i = 0; i < 99999999; i+=1) {
   }
 
   console.log("done");

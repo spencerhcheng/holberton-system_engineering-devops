@@ -2,7 +2,7 @@
 
 function maxValue(array) {
   var max = null; // max value I have seen so far
-  for(var i = 0; i < array.length; i++) {
+  for (var i = 0; i < array.length; i++) {
     var currentElement = array[i];
     if (currentElement > max) {
       max = currentElement;

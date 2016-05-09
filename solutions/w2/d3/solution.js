@@ -29,7 +29,7 @@ function titleize(title, stopWords) {
   var words = title.split(" ");
   var goodTitle = [];
 
-  for(var i = 0; i < words.length; i += 1) {
+  for (var i = 0; i < words.length; i += 1) {
     var word = words[i].toLowerCase();
 
     if (isStopWord(word, stopWords)) {
