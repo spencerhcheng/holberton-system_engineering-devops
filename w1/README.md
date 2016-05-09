@@ -47,7 +47,7 @@ Welcome to Bootcamp Prep!
 
 [w1d4-lecture-notes]:./d4/lecture_notes.md
 [w1d4-pset]:./d4/problem_set.md
-[cookie-monster]:./d4/cookie_monster
+[cookie-monster]:./d4/cookieMonster
 
 ### w1d5
 + **Assessment 1**

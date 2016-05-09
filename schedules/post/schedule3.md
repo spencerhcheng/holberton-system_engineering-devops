@@ -30,7 +30,7 @@
   * [Complete The Primitive Data Recitation](../../recitations)
 
 ### Tuesday
-  * [Redo Week 1 Day 4 Problem Set](../../w1/d4/cookie_monster)
+  * [Redo Week 1 Day 4 Problem Set](../../w1/d4/cookieMonster)
 
 ### Wednesday
   * [Type Week 1 Day 1 Solutions](../../solutions/w1/d1/solution.js)
