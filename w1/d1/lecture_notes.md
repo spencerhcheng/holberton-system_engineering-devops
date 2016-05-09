@@ -60,7 +60,7 @@ var myVar;
 
 ### Variable Assignment and Initialization
 To initialize a variable to a value, simply assign the variable to a value when you
-declare it using the *assignment operator*, `=`. 
+declare it using the *assignment operator*, `=`.
 
 *NB*: In programming, a equal sign is used to assign values to variables, not to indicate equality like it is in math.
 
@@ -159,13 +159,13 @@ describes it as taking as an input any three numbers and returning as the output
 The syntax for defining a function is as follows:
 
 ```javascript
-function nameOfFunction(param1, param2, param3, paramN){
+function nameOfFunction(param1, param2, param3, paramN) {
   //function body...
 }
 
 OR
 
-var nameOfFunction = function(param1, param2, param3, paramN){
+var nameOfFunction = function(param1, param2, param3, paramN) {
   //function body...
 }
 ```
@@ -173,7 +173,7 @@ var nameOfFunction = function(param1, param2, param3, paramN){
 Let's see how we would define our `addThree` function.
 
 ```javascript
-function addThree(number1, number2, number3){
+function addThree(number1, number2, number3) {
   return number1 + number2 + number3;
 }
 ```
@@ -186,7 +186,7 @@ function doesn't return anything explicitly, then it implicitly returns `undefin
 Another important thing to remember is that `return` hops out of a function. For example:
 
 ```javascript
-function myFunc(){
+function myFunc() {
   return "Hello world!!!";
   return "This line will never be hit".
 }

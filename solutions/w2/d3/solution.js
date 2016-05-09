@@ -32,7 +32,7 @@ function titleize(title, stopWords) {
   for(var i = 0; i < words.length; i += 1) {
     var word = words[i].toLowerCase();
 
-    if (isStopWord(word, stopWords)){
+    if (isStopWord(word, stopWords)) {
       goodTitle.push(word);
     } else {
       word = word[0].toUpperCase() + word.slice(1);
@@ -111,7 +111,7 @@ var magicify = function(number) {
 var isMagicNumer = function(number) {
   var magicNumb = magicify(number);
 
-  if(magicNumb % 13 === 0 || magicNumb < 0){
+  if(magicNumb % 13 === 0 || magicNumb < 0) {
     return true;
   }
 

@@ -5,7 +5,7 @@
 ```javascript
 var cat = {
   sound : "Meowr",
-  purr : function(){
+  purr : function() {
     return (sound + "..." + sound);
   }
 }
@@ -25,10 +25,10 @@ var dogs = [dog1, dog2, dog3];
 function howOld(array) {
   var result = [];
 
-  for(var i = 0; i < array.length; i += 1){
+  for(var i = 0; i < array.length; i += 1) {
     var element = array[i];
 
-    if(element.age < 7){
+    if(element.age < 7) {
       sentence = element.name + " is " + element.age + " years young.";
     } else {
       sentence = element.name + " is " + element.age + " years old.";

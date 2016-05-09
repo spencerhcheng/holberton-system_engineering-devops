@@ -1,4 +1,4 @@
-var foo = function(){
+var foo = function() {
   console.log("the callback function");
 }
 
@@ -7,14 +7,14 @@ var fooTwo = function() {
   return 2 + 2;
 }
 
-var bar = function(cb){
+var bar = function(cb) {
   console.log("before the callback");
   cb(); // calling the cb function
   console.log("after the callback");
 }
 
 bar(foo);
-bar(function(){
+bar(function() {
   console.log("the callback function");
 });
 bar(fooTwo); // bar function call
@@ -28,20 +28,20 @@ bar(fooTwo); // bar function call
 //   console.log("meow");
 // }
 
-var logTheAnswer = function(answer){ // callback 1
+var logTheAnswer = function(answer) { // callback 1
   return ("The answer is " + answer + ".");
 }
 
-var add5ToAnswer = function(answer){ // callback 2
+var add5ToAnswer = function(answer) { // callback 2
   return answer + 5;
 }
 
-var add = function(num1, num2, cb){
+var add = function(num1, num2, cb) {
   var sum = num1 + num2;
   return cb(sum);
 }
 
-var concatenate = function(str1, str2, cb){
+var concatenate = function(str1, str2, cb) {
   var str = str1 + str2;
   return cb(str);
 }
@@ -58,7 +58,7 @@ var concatenate = function(str1, str2, cb){
 
 var array = ["a", "b", "c", "d", "e"];
 
-var cb = function(ele, idx, arr){
+var cb = function(ele, idx, arr) {
   console.log("Current ele is: " + ele);
   console.log("Current idx is: " + idx);
   console.log("Current array is: " + arr);
@@ -113,35 +113,35 @@ var cookieMonster = {
   name : "Cookie",
   favoriteFoods : ["apple", "cookie", "orange"],
 
-  badLogFavFoods: function(){
+  badLogFavFoods: function() {
     console.log(this);
     var favFoodsArr = this.favoriteFoods; // ["apple", "cookie", "orange"]
-    favFoodsArr.forEach(function(ele, idx, arr){
+    favFoodsArr.forEach(function(ele, idx, arr) {
       // this.name = "Tofu"; // how does this change things?
       console.log(this.name + " loves " + ele + "!");
     });
   },
 
-  logFavFoods1: function(){
-    this.favoriteFoods.forEach(function(food){
+  logFavFoods1: function() {
+    this.favoriteFoods.forEach(function(food) {
       console.log(this.name + " loves " + food + "!");
     }.bind(cookieMonster));
   },
 
-  logFavFoods2 : function(){
-    this.favoriteFoods.forEach(function(food){
+  logFavFoods2 : function() {
+    this.favoriteFoods.forEach(function(food) {
       console.log(this.name + " loves " + food + "!");
     }, cookieMonster);
   },
 
-  logFavFoods3 : function(){
-    this.favoriteFoods.forEach(function(food){
+  logFavFoods3 : function() {
+    this.favoriteFoods.forEach(function(food) {
       console.log(this.name + " loves " + food + "!");
     }.bind(this));
   },
 
-  logFavFoods4 : function(){
-    this.favoriteFoods.forEach(function(food){
+  logFavFoods4 : function() {
+    this.favoriteFoods.forEach(function(food) {
       console.log(this.name + " loves " + food + "!");
     }, this);
   }

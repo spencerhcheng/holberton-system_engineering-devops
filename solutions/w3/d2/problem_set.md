@@ -4,11 +4,11 @@
 var dog = {
   age : 5,
 
-  live : function(){
-    setInterval(function(){
+  live : function() {
+    setInterval(function() {
       this.age += 1;
 
-      if(this.age < 15){
+      if(this.age < 15) {
         console.log("Dog lives another dat at age " + this.age);
       } else {
         console.log("Dog has been dead for " + (this.age - 15) + " years");
@@ -29,13 +29,13 @@ var annoyingDancer = {
 
   currentFav : 0,
 
-  askQuestion : function(){
+  askQuestion : function() {
     var currentFavDance = this.favoriteDances[this.currentFav];
     console.log("Do you want to dance " + currentFavDance + "with me?");
 
     this.currentFav += 1;
 
-    if(this.currentFav === this.favoriteDances.length){
+    if(this.currentFav === this.favoriteDances.length) {
       this.currentFav = 0;
     }
 

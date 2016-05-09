@@ -5,7 +5,7 @@
 ```
 var cat = {
   sound : "Meowr",
-  purr : function(){
+  purr : function() {
     return (sound + "..." + sound);
   }
 }

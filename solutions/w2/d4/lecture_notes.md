@@ -27,7 +27,7 @@ I can create key-value pairs where the value is of any data-type. Let's create a
 function (method) in the object:
 
 ```
-scope.myFunc = function(){
+scope.myFunc = function() {
   console.log("This is my func");
 };
 ```
@@ -86,12 +86,12 @@ same variable names in them without worrying about overwriting one of the
 variables:
 
 ```javascript
-function func1(){
+function func1() {
   var name = "Anthony";
   console.log("Hello, " + name);
 }
 
-function func2(){
+function func2() {
   var name = "Bammsie";
   console.log("Hello, " + name);
 }
@@ -103,7 +103,7 @@ variable in an outer scope, the variable in the outer scope won't be overwritten
 ```javascript
 var myVar = 20;
 
-function foo(){
+function foo() {
   var myVar = 2;
   return myVar + 5;
 }
@@ -118,7 +118,7 @@ scope.
 ```javascript
 var myVar = 20;
 
-function foo(){
+function foo() {
   myVar = 2;
   return myVar + 5;
 }
@@ -154,7 +154,7 @@ being called. This feature of JavaScript has implications for how we think about
 ```javascript
 var myObj = {
   name : "Markov",
-  sayHi : function(){
+  sayHi : function() {
     console.log(this.name + " says Hi.");
   }
 };
@@ -181,7 +181,7 @@ Let's attach a `name` to the global object and try to run the earlier code again
 ```javascript
 var myObj = {
   name : "Markov",
-  sayHi : function(){
+  sayHi : function() {
     console.log(this.name + " says Hi.");
   }
 };

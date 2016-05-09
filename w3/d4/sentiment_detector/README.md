@@ -9,28 +9,28 @@ For this project, you will create a function `detectSentiment(filename, sentence
 ### Examples
 
 ```javascript
-detectSentiment("sentimentDict.txt", "I love you", function(sentence, score){
+detectSentiment("sentimentDict.txt", "I love you", function(sentence, score) {
   console.log("~~~~Example 1~~~~")
   console.log("'" + sentence + "' has a score of " + score + ".");
 });
 
-detectSentiment("sentimentDict.txt", "I LOVE you so much", function(sentence, score){
+detectSentiment("sentimentDict.txt", "I LOVE you so much", function(sentence, score) {
   console.log("~~~~Example 2~~~~")
   console.log("'" + sentence + "' has a score of " + score + ".");
 });
 
-detectSentiment("sentimentDict.txt", "You are a loveless fool", function(sentence, score){
+detectSentiment("sentimentDict.txt", "You are a loveless fool", function(sentence, score) {
   console.log("~~~~Example 3~~~~")
   console.log("'" + sentence + "' has a score of " + score + ".");
 });
 
-detectSentiment("sentimentDict.txt", "I cherish your smile", function(sentence, score){
+detectSentiment("sentimentDict.txt", "I cherish your smile", function(sentence, score) {
   console.log("~~~~Example 4~~~~")
   console.log("'" + sentence + "' has a score of " + score + ".");
 });
 
 var sentence = "I despise your hateful attitude";
-detectSentiment("sentimentDict.txt", sentence, function(sentence, score){
+detectSentiment("sentimentDict.txt", sentence, function(sentence, score) {
   console.log("~~~~Example 5~~~~")
   console.log("'" + sentence + "' has a score of " + score + ".");
 });

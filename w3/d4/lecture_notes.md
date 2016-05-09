@@ -117,9 +117,9 @@ one step at a time. First I will create a function that will give me all the rec
 
 var fs = require("fs");
 
-function getRecordsFromFile(filename){
-  fs.readFile(filename, function(err, data){
-    if(err){
+function getRecordsFromFile(filename) {
+  fs.readFile(filename, function(err, data) {
+    if(err) {
       console.log("---Error---");
       console.log(err);
       return;
@@ -160,9 +160,9 @@ With this knowledge, let's modify our above function:
 
 var fs = require("fs");
 
-function getRecordsFromFile(filename){
-  fs.readFile(filename, 'utf8', function(err, data){
-    if(err){
+function getRecordsFromFile(filename) {
+  fs.readFile(filename, 'utf8', function(err, data) {
+    if(err) {
       console.log("---Error---");
       console.log(err);
       return;
@@ -192,9 +192,9 @@ Yay! Now we just need to `split` this up on the newlines (`"\n"`) and this funct
 
 var fs = require("fs");
 
-function getRecordsFromFile(filename){
-  fs.readFile(filename, 'utf8', function(err, data){
-    if(err){
+function getRecordsFromFile(filename) {
+  fs.readFile(filename, 'utf8', function(err, data) {
+    if(err) {
       console.log("---Error---");
       console.log(err);
       return;
@@ -206,16 +206,16 @@ function getRecordsFromFile(filename){
   })
 }
 
-function mostCoolFromFile(filename){
+function mostCoolFromFile(filename) {
   var records = getRecordsFromFile(filename);
   var coolest;
   var coolestRating = -1;
 
-  records.forEach(function(record){
+  records.forEach(function(record) {
     var name = record.split(" ")[0];
     var rating = parseInt(record.split(" "))[1];
 
-    if(rating > coolestRating){
+    if(rating > coolestRating) {
       coolest = name;
     }
   });
@@ -229,7 +229,7 @@ mostCoolFromFile("data.txt");
 ```
 // the console
 $ node myFile.js
-records.forEach(function(record){
+records.forEach(function(record) {
          ^
 TypeError: Cannot read property 'forEach' of undefined...
 ```
@@ -241,9 +241,9 @@ Wait, what happened? `readFile` is an asynchronous function. That means that it'
 
 var fs = require("fs");
 
-function getRecordsFromFile(filename, cb){
-  fs.readFile(filename, 'utf8', function(err, data){
-    if(err){
+function getRecordsFromFile(filename, cb) {
+  fs.readFile(filename, 'utf8', function(err, data) {
+    if(err) {
       console.log("---Error---");
       console.log(err);
       return;
@@ -255,16 +255,16 @@ function getRecordsFromFile(filename, cb){
   });
 }
 
-function mostCoolFromFile(filename){
-  getRecordsFromFile(filename, function(records){
+function mostCoolFromFile(filename) {
+  getRecordsFromFile(filename, function(records) {
     var coolest;
     var coolestRating = -1;
 
-    records.forEach(function(record){
+    records.forEach(function(record) {
       var name = record.split(" ")[0];
       var rating = parseInt(record.split(" "))[1];
 
-      if(rating > coolestRating){
+      if(rating > coolestRating) {
         coolest = name;
       }
     });
@@ -283,9 +283,9 @@ But now we still have a problem. How will I actually get the coolest person back
 
 var fs = require("fs");
 
-function getRecordsFromFile(filename, cb){
-  fs.readFile(filename, 'utf8', function(err, data){
-    if(err){
+function getRecordsFromFile(filename, cb) {
+  fs.readFile(filename, 'utf8', function(err, data) {
+    if(err) {
       console.log("---Error---");
       console.log(err);
       return;
@@ -297,16 +297,16 @@ function getRecordsFromFile(filename, cb){
   });
 }
 
-function mostCoolFromFile(filename, cb){
-  getRecordsFromFile(filename, function(records){
+function mostCoolFromFile(filename, cb) {
+  getRecordsFromFile(filename, function(records) {
     var coolest;
     var coolestRating = -1;
 
-    records.forEach(function(record){
+    records.forEach(function(record) {
       var name = record.split(" ")[0];
       var rating = parseInt(record.split(" ")[1]);
 
-      if(rating > coolestRating){
+      if(rating > coolestRating) {
         coolest = name;
       }
     });
@@ -315,7 +315,7 @@ function mostCoolFromFile(filename, cb){
   });
 }
 
-mostCoolFromFile("data.txt", function(coolestPerson){
+mostCoolFromFile("data.txt", function(coolestPerson) {
   console.log(coolestPerson);
 });
 ```

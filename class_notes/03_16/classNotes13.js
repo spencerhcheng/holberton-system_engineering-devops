@@ -16,7 +16,7 @@ func(); // calling my function
 
 /////////////////////////////////////////////////////
 
-var foo = function(){
+var foo = function() {
   console.log("the callback function");
 }
 
@@ -24,7 +24,7 @@ var foo2 = function() {
   console.log("hey hello");
 }
 
-var bar = function(cb){
+var bar = function(cb) {
   console.log("before the callback");
   console.log(cb);
   console.log("after the callback");
@@ -35,15 +35,15 @@ bar(foo2)
 
 /////////////////////////////////////////////////////
 
-var logTheAnswer = function(answer){
+var logTheAnswer = function(answer) {
   return ("The answer is " + answer + ".");
 }
 
-var add5ToAnswer = function(answer){
+var add5ToAnswer = function(answer) {
   return answer + 5;
 }
 
-var add = function(num1, num2, cb){
+var add = function(num1, num2, cb) {
   var sum = num1 + num2;
   return cb(sum);
 }
@@ -51,7 +51,7 @@ var add = function(num1, num2, cb){
 add(1, 5, logTheAnswer);
 add(3, 10, add5ToAnswer);
 
-var concatenate = function(str1, str2, cb){
+var concatenate = function(str1, str2, cb) {
   var str = str1 + str2;
   return cb(str);
 }
@@ -82,20 +82,20 @@ var cookieMonster = {
   name : "Cookie",
   favoriteFoods : ["apple", "cookie", "orange"],
 
-  badLogFavFoods: function(){
-    this.favoriteFoods.forEach(function(food){
+  badLogFavFoods: function() {
+    this.favoriteFoods.forEach(function(food) {
       console.log(cookieMonster.name + " loves " + food + "!");
     });
   },
 
-  logFavFoods1: function(){
-    this.favoriteFoods.forEach(function(food){
+  logFavFoods1: function() {
+    this.favoriteFoods.forEach(function(food) {
       console.log(this.name + " loves " + food + "!");
     }.bind(cookieMonster));
   },
 
-  logFavFoods2 : function(){
-    this.favoriteFoods.forEach(function(food){
+  logFavFoods2 : function() {
+    this.favoriteFoods.forEach(function(food) {
       console.log(this.name + " loves " + food + "!");
     }, cookieMonster);
   },
