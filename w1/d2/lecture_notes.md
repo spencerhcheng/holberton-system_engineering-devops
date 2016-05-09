@@ -207,9 +207,11 @@ function printNStop5(n) {
 ## Importance of Naming
 
 It is very important that we give our variables and function significant names.
-`x` is a very undescriptive name or a variable/function, as as our code grows to
-be more complex, we are likely to forget what it originally stood for. It makes
-our code error prone. What is the purpose of the following function?
+For example, `x` is a very non-descriptive name for a variable or function. As we tackle more complicated problems and our code grows to
+be more complex, we are likely to forget what it originally stood for and its purpose. Non-descriptive names make
+our code error-prone. 
+
+What is the purpose of the following function?
 
 ```javascript
 function x (n, j) {
@@ -238,3 +240,21 @@ function isGoodTip(mealCost, amountTipped){
   }
 }
 ```
+
+**Whenever you are naming a variable or a function use concise descriptive names.**
+
+```
+x = 5 + 5;
+```
+Non-descriptive.
+
+```
+sumOfFiveAndFive = 5 + 5;
+```
+Not-concise.
+
+```
+sum = 5 + 5;
+```
+Concise and descriptive.
+
