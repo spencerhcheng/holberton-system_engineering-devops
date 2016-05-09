@@ -130,15 +130,15 @@ for (var i = 1; i == 20; i += 2) {
 ### `while` loop
 
 ```js
-while([conditional]) {
+while ([conditional]) {
   //do something...
 }
 
 var i = 0;
 
-while(i < 10) {
+while (i < 10) {
   console.log(i);
-  i += 1;
+  i++;
 }
 ```
 
@@ -148,18 +148,18 @@ don't.
 With these new constructs in our toolbelt, we can fix the problems with our
 earlier `print10` function.
 
-```
+```js
 function printN(n) {
   var i = 0;
 
-  while(i < n) {
+  while (i < n) {
     console.log(i);
-    i += 1;
+    i++;
   }
 }
 ```
 
-Can you write this using a `for` loop?
+Can you write this using a `for` loop? Do it.
 
 ### Looping Keywords
 
@@ -174,8 +174,8 @@ we could write:
 function printNSkip5(n) {
   var i = 0;
 
-  while(i < n) {
-    if(i % 5 === 0) {
+  while (i < n) {
+    if (i % 5 === 0) {
       i += 1;
       continue;
     }
@@ -193,8 +193,8 @@ a multiple of 5, we could write:
 function printNStop5(n) {
   var i = 0;
 
-  while(i < n) {
-    if(i % 5 === 0 && i !== 0) {
+  while (i < n) {
+    if (i % 5 === 0 && i !== 0) {
       break;
     }
 
@@ -207,17 +207,15 @@ function printNStop5(n) {
 ## Importance of Naming
 
 It is very important that we give our variables and function significant names.
-For example, `x` is a very non-descriptive name for a variable or function. As we tackle more complicated problems and our code grows to
-be more complex, we are likely to forget what it originally stood for and its purpose. Non-descriptive names make
-our code error-prone. 
+For example, `x` is a very non-descriptive name for a variable or function. As we tackle more complicated problems and our code grows to be more complex, we are likely to forget what it originally stood for and its purpose. Non-descriptive names make our code error-prone.
 
 What is the purpose of the following function?
 
 ```javascript
-function x (n, j) {
-  var z = (j/n) * 100;
+function x(n, j) {
+  var z = (j / n) * 100;
 
-  if(z < 15){
+  if (z < 15) {
     return false;
   } else {
     return true;
@@ -230,10 +228,10 @@ significant names:
 
 ```javascript
 function isGoodTip(mealCost, amountTipped){
-  var percentage = (amountTipped/mealCost) * 100;
+  var percentage = (amountTipped / mealCost) * 100;
   var badTip = 15;
 
-  if(percentage < badTip){
+  if (percentage < badTip) {
     return false;
   } else {
     return true;
@@ -257,4 +255,3 @@ Not-concise.
 sum = 5 + 5;
 ```
 Concise and descriptive.
-

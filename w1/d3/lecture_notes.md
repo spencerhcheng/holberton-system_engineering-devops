@@ -64,7 +64,7 @@ but these are the ones you should commit to memory:
 * `Array.prototype.concat(other_array)`
 * `Array.prototype.slice(startIndex, endIndex)`
 * `Array.prototype.length` (property)
-* `Array.isArray(obj)` 
+* `Array.isArray(obj)`
 
 #### `String.prototype.split(separator)` and `Array.prototype.join(separator)`
 
@@ -132,7 +132,7 @@ your programs: Decomposition and Abstraction.
 Decomposition is the process of breaking down a larger problem into it's smaller
 sub problems. Let's look at an example:
 
-###### laligatSequence(base, n)
+###### `laligatSequence(base, n)`
 
 A number's laligat sum is the the sum of all the prime numbers less than or equal
 to that number.
@@ -157,24 +157,24 @@ For example, the first 4 numbers in the laligat sequence of 10 are: 10, 17, 58, 
 We could try to write the whole thing in a single function:
 
 ```javascript
-function laligatSequence(base, n){
+function laligatSequence(base, n) {
   var sequence = [base];
 
-  while(sequence.length < n){
+  while (sequence.length < n) {
       var prevElement = sequence[sequence.length - 1];
 
       var laligatSum = 0;
 
-      for(var maybePrime = 2; maybePrime <= prevElement; maybePrime += 1){
+      for (var maybePrime = 2; maybePrime <= prevElement; maybePrime += 1) {
         var prime = true;
 
-        for(var i = 2; i < maybePrime; i += 1){
-          if(maybePrime % i === 0){
+        for (var i = 2; i < maybePrime; i += 1) {
+          if (maybePrime % i === 0) {
             prime = false;
           }
         }
 
-        if(prime){
+        if (prime) {
           laligatSum += maybePrime;
         }
       }
@@ -193,20 +193,20 @@ with how prime numbers are found, would you know where to look?
 Let's decompose this method into a bunch of smaller methods:
 
 ```javascript
-function isPrime(n){
-  for(var i = 2; i  < n; i += 1){
-    if(n % i === 0){
+function isPrime(n) {
+  for (var i = 2; i  < n; i += 1) {
+    if (n % i === 0) {
       return false
     }
   }
   return true;
 }
 
-function sumOfPrimesUpToN(n){
+function sumOfPrimesUpToN(n) {
   var sum = 0;
 
-  for(var i = 2; i <= n; i += 1){
-    if(isPrime(i)){
+  for (var i = 2; i <= n; i += 1) {
+    if (isPrime(i)) {
       sum += i;
     }
   }
@@ -214,10 +214,10 @@ function sumOfPrimesUpToN(n){
   return sum;
 }
 
-function laligatSequence(base, n){
+function laligatSequence(base, n) {
   var seq = [base];
 
-  while(seq.length < n){
+  while (seq.length < n) {
     var prevElement = seq[seq.length - 1];
     var nextElement = sumOfPrimesUpToN(prevElement);
     seq.push(nextElement);
@@ -236,5 +236,5 @@ a programmer is to manage the complexity by keeping the program modular and
 hiding details. The act of hiding details allows our minds to focus on other
 aspects of the program that need attention. Decomposition is a technique that
 uses abstraction because it hides details. Go back and look at the two
-`laligatSequence` functions. The decomposed one exposed less implementation
+`laligatSequence` solutions. The decomposed one exposes less implementation
 details and is easier to reason about.
