@@ -84,7 +84,7 @@ undefined
 'Hey, whats up? Hello'
 ```
 
-The opposite of that is `Array.prototype.join(separator)`. This string method joins an array into a string where array elements are joined by the `separator`. If no separator is specified, array elements are joined by a comma. If an element is undefined or null, it is converted to an empty string. Like `split()`, `join()` does not change the original string.
+The opposite of that is `Array.prototype.join(separator)`. This array method joins an array into a string where array elements are concatenated by the `separator`. If no separator is specified, array elements are joined by a comma. If an element is undefined or null, it is converted to an empty string. Like `split()`, `join()` does not change the original array.
 
 Try it out in your terminal/command prompt!
 
