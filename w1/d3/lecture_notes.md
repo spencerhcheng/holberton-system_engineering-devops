@@ -92,7 +92,7 @@ Try it out in your terminal/command prompt!
 > splitStr;
 [ 'Hey,', 'whats', 'up?', 'Hello' ]
 
-> vaar joinStr = splitStr.join(" ");
+> var joinStr = splitStr.join(" ");
 'Hey, whats up? Hello'
 
 > joinStr;
