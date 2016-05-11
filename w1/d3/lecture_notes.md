@@ -89,16 +89,16 @@ The opposite of that is `Array.prototype.join(separator)`. This string method jo
 Try it out in your terminal/command prompt!
 
 ```js
-> splitStr
+> splitStr;
 [ 'Hey,', 'whats', 'up?', 'Hello' ]
 
-> joinStr = splitStr.join(" ")
+> vaar joinStr = splitStr.join(" ");
 'Hey, whats up? Hello'
 
-> joinStr
+> joinStr;
 'Hey, whats up? Hello'
 
-> splitStr.join()
+> splitStr.join();
 'Hey,,whats,up?,Hello'
 ```
 
