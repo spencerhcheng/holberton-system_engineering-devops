@@ -71,16 +71,16 @@ but these are the ones you should commit to memory:
 `String.prototype.split(separator)` is a very helpful string method that splits a string into an array of substrings on the separator and returns the new array. It does not change the original string.
 
 ```js
-> str = "Hey, whats up? Hello"
-'Hey, whats up? Hello'
+> var str = "Hey, whats up? Hello";
+undefined
 
-> splitStr = str.split(" ")
+> var splitStr = str.split(" "); // separator is a space
 [ 'Hey,', 'whats', 'up?', 'Hello' ]
 
-> splitStr
-[ 'Hey,', 'whats', 'up?', 'Hello' ]
+> splitStr;
+[ 'Hey,', 'whats', 'up?', 'Hello' ];
 
-> str
+> str;
 'Hey, whats up? Hello'
 ```
 
