@@ -107,16 +107,16 @@ One side effect of `split()` and `join()` is that when used in conjunction they 
 Check it out!
 
 ```js
-> var replaceHey = str.split("Hey")
+> var replaceHey = str.split("Hey");
 [ '', ', whats up? Hello' ]
 
-> replaceHey.join("Hi") // all the Hey's got replaced with Hi's!
+> replaceHey.join("Hi"); // all the Hey's got replaced with Hi's!
 'Hi, whats up? Hello'
 
-> var replaceE = str.split("e")
+> var replaceE = str.split("e");
 [ 'H', 'y, whats up? H', 'llo' ]
 
-> replaceE.join("o") // all the e's got replaced with e's!
+> replaceE.join("o"); // all the e's got replaced with e's!
 'Hoy, whats up? Hollo'
 ```
 
