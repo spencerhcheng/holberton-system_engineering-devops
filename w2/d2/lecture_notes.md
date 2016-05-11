@@ -73,16 +73,20 @@ Say we have to write a function where we are given an array of items and it has 
 I could represent the count as a multi-dimensional array:
 
 ```js
-> var myArray = ["a", "b", "a", "c", "a", "b", "d"]
-> getCount(myArray)
+> var myArray = ["a", "b", "a", "c", "a", "b", "d"];
+undefined
+
+> getCount(myArray);
 [["a", 3], ["b", 2], ["c", 1], ["d", 1]]
 ```
 
 I could also represent the count as an object:
 
 ```js
-> var myArray = ["a", "b", "a", "c", "a", "b", "d"]
-> getCount(myArray)
+> var myArray = ["a", "b", "a", "c", "a", "b", "d"];
+undefined
+
+> getCount(myArray);
 { a : 3, b : 2, c : 1, d : 1 }
 ```
 
@@ -101,6 +105,6 @@ var car = {
   type : "Tesla",
   mpg : 1000,
   engines: ["Rev4", "Mark22"]
-  //etc...
-}
+  // etc...
+};
 ```
