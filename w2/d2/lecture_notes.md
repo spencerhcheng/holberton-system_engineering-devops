@@ -22,10 +22,7 @@ multiArray[3][1] === 5;
 
 ## Nested Loops
 
-Sometimes you will need to nest a loop inside of another loop. Let's say we are
-given an array and have to return the indices of all pair of elements that sum
-to 0. This means we we will have to add each element to the other elements in
-the array.
+Sometimes you will need to nest a loop inside of another loop. Let's say we are given an array and have to return the indices of all pair of elements that sum to 0. This means we will have to add each element to the other elements in the array.
 
 ```javascript
 function pairZero(array) {
@@ -50,18 +47,18 @@ will add the same pair of indices into the array. (i.e. If the array is
   `[4, 1, 0]`, we will get back `[ [2, 2] ]`)
 
 * Our answer will contain a bunch on inverse pairs. (i.e If the array is
-  `[1, 2, -1]`, we will get back `[ [0,1], [1,0] ]` instead of `[ [0,1] ]`).
+  `[1, 2, -1]`, we will get back `[ [0,2], [2,0] ]` instead of `[ [0,2] ]`).
 
 How can you fix these issues? We want our output to `pairZero` to look like this:
 
 ```js
-> pairZero([4, 1, 0,])
+> pairZero([4, 1, 0,]);
 [ ]
 
-> pairZero([1, 2, -1])
-[ [0, 1] ]
+> pairZero([1, 2, -1]);
+[ [0, 2] ]
 
-> pairZero([0, 2, 5, -2, 0])
+> pairZero([0, 2, 5, -2, 0]);
 [ [0, 4], [1, 3] ]
 ```
 
