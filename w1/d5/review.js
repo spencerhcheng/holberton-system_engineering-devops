@@ -1,33 +1,36 @@
 /*
-Write a function `countScores(people)` that takes in a 2D array (people) as its
-input. Each inner array as two elements: a name (string) and a score (number).
-`countScores(people)` should return an object that has each name is mapped to their
-total score.
+Write a function `countScores(people)` that takes in an array of score
+objects (people) as its input. A score object has two key-value pairs:
+a name (string) and a score (number). `countScores(people)` should
+return an object that has key-value pairs where each name is a key and
+the value is their total score.
 
 Example 1
-var ppl = [["Anthony", 10], ["Fred", 10], ["Anthony", -8], ["Winne", 12]];
-var count = countScores(ppl);
+var ppl = [ {name: "Anthony", score: 10},
+            {name: "Fred", score : 10},
+            {name: "Anthony", score: -8},
+            {name: "Winnie", score: 12}];
 
-count; //=> { "Anthony": 2, "Fred" : 10, "Winnie" : 12 }
+var countPpl = countScores(ppl);
+countPpl; //=> { Anthony: 2, Fred: 10, Winnie: 12 }
 
 Example 2
 var peeps = [
-  ["Anthony", 2],
-  ["Winne", 2],
-  ["Fred", 2],
-  ["Winne", 2],
-  ["Fred", 2],
-  ["Anthony", 2],
-  ["Winne", 2]
+  {name: "Anthony", score: 2},
+  {name: "Winnie", score: 2},
+  {name: "Fred", score: 2},
+  {name: "Winnie", score: 2},
+  {name: "Fred", score: 2},
+  {name: "Anthony", score: 2},
+  {name: "Winnie", score: 2}
 ];
-var count = countScores(peeps);
 
-count; //=> { "Anthony": 4, "Fred" : 4, "Winnie" : 6 }
+countScores(peeps); //=> { Anthony: 4, Fred: 4, Winnie: 6 }
 
 */
 
-function countScores (people) {
-  //your code here
+function countScores(people) {
+  // your code here...
 }
 
 
@@ -35,14 +38,18 @@ function countScores (people) {
 /*
 Write a function wordYeller(sentence) that takes in a sentence string as input. It
 should return the sentence where every word has an exclamation point behind it,
-except words that already have punctuation. Punctuation marks are ". , ! ? ; :"
+except words that already have punctuation. Punctuation marks are: . , ! ? ; :
 
 Example 1
 var sent = "Stop it now! Please, wont you stop?";
-wordYeller(sent) === "Stop! it! now! Please, wont! you! stop?";
+var yelledWords = wordYeller(sent);
+yelledWords === "Stop! it! now! Please, wont! you! stop?";
 
 Example 2
 var words = "Go to the store and grab the following: milk, bread, run, and cake";
-var yelledWords = wordYeller(words);
+wordYeller(words) === "Go! to! the! store! and! grab! the! following: milk, bread, run, and! cake!";
+*/
 
-yelledWords === "Go! to! the! store! and! grab! the! following: milk, bread, run, and! cake!";
+function wordYeller(sentence) {
+  // your code here...
+}
