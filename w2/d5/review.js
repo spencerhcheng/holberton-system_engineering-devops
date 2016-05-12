@@ -18,7 +18,7 @@ function arraySumN(ary, n) {
 }
 
 /***************************************************************************
-Write a function concatObjects(obj1, obj2) which "concates" two objects.
+Write a function concatObjects(obj1, obj2) which "concatenates" two objects.
 It returns an object containing all of the keys found in both obj1 and
 obj2. If a key appears in both obj1 and obj2, its value is the concatenation
 of its values in obj1 and obj2. Otherwise, a key's value is its value
