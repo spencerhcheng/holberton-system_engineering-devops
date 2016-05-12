@@ -13,7 +13,7 @@ an explanation as to why Arrays and Strings share many of the same methods:
 * `String.prototype.slice(startIndex, endIndex)`
 * `[]` - indexing
 
-Now with these new tools in our toolkil let's solve this problem. (Hint: Don't forget your old tools!)
+Now with these new tools in our toolkit, let's solve this problem. Hint: Don't forget your old tools!
 
 ```js
 /* Write a function capitalize(str) which takes as an argument a string
