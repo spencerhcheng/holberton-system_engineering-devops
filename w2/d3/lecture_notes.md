@@ -8,10 +8,33 @@ character is an element in the Array. While this doesn't directly apply to
 JavaScript in the same way (i.e. this is no Character data type), it does provide
 an explanation as to why Arrays and Strings share many of the same methods:
 
-* `indexOf`
-* `concat`
-* `slice`
+* `String.prototype.indexOf(str)`
+* `String.prototype.concat(str)`
+* `String.prototype.slice(startIndex, endIndex)`
 * `[]` - indexing
+
+Now with these new tools in our toolkil let's solve this problem. (Hint: Don't forget your old tools!)
+
+```js
+/* Write a function capitalize(str) which takes as an argument a string
+and returns a copy of the string capitalized. It does not modify the
+argument.
+
+Example 1:
+var str1 = "sunny";
+var capitalizedStr = capitalize(str1);
+capitalizeStr; // => "Sunny"
+str1; // => "sunny"
+
+Example 2:
+var str2 = "HAPPY";
+capitalize(str2); // => "Happy"
+str2; // => "HAPPY"
+
+Example 3:
+capitalize("LeEt SpEaK"); //=> "Leet speak"
+*/
+```
 
 ## Why is style important?
 
@@ -29,7 +52,7 @@ the idioms of a language you're working in because (1) will help you write less 
 
 Good code should almost read like English.
 
-## JS Style Guidelines
+### JS Style Guidelines
 
 Below are some of the most common JavaScript style conventions. We expect you to follow them from now on..
 
@@ -62,7 +85,7 @@ Below are some of the most common JavaScript style conventions. We expect you to
   - Ask questions about state
   - Test your assumptions
 
-## Common JS Errors
+### Common JS Errors
 
 * ReferenceError: `x` is not defined
 * TypeError: Cannot read property `x` of `object`
