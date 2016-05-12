@@ -1,4 +1,4 @@
-Calculate Your Score.
+Calculate Your Score. Sum up your answers and divide by 3 (aka find the average)
 
 How comfortable to do feel with the material?
   * 1 - Comfortable (passed at least 2 test)
