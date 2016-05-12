@@ -54,7 +54,7 @@ Good code should almost read like English.
 
 ### JS Style Guidelines
 
-Below are some of the most common JavaScript style conventions. We expect you to follow them from now on..
+Below are some of the most common JavaScript style conventions.
 
 * Always use semi-colons.
 * Use camelCase for variable naming.
