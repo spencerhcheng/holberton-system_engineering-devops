@@ -9,8 +9,8 @@ var results1 = arraySumN(ary1, 1);
 results1; // => [0, 2]
 
 Example 2:
-var ary2 = [ [3, 2, 1], [100], [0, 1, 2, 3], [6] ];
-arraySumN(ary2, 6); // => [0, 2, 3]
+var ary2 = [ [3, 2, 1], [100], [0, 1, 2, 3, 100], [6] ];
+arraySumN(ary2, 6); // => [0, 3]
 ***************************************************************************/
 
 function arraySumN(ary, n) {
@@ -22,7 +22,7 @@ Write a function concatObjects(obj1, obj2) which "concatenates" two objects.
 It returns an object containing all of the keys found in both obj1 and
 obj2. If a key appears in both obj1 and obj2, its value is the concatenation
 of its values in obj1 and obj2. Otherwise, a key's value is its value
-in the original object.
+in the original object. Do not modify the arguments.
 
 Example 1:
 var cat1 = {name: "hello", bow: "pink"};
