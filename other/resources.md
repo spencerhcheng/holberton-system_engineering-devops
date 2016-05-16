@@ -2,6 +2,7 @@
 ## Additional Practice Problems
 
 * [Selected Project Euler Problems](./project_euler.md)
+  + [Solutions](../solutions/w4/projectEuler)
 * [Easy Coderbyte Problems](https://coderbyte.com/challenges/)
 + [ReactiveX](http://reactivex.io/learnrx/) (up to problem 20)
 
@@ -13,7 +14,7 @@
 * Techsith Youtube
     - [JavaScript: how to properly declare a variable](https://www.youtube.com/watch?v=v1Q7pkcpShs)
     - [Callbacks Explained](https://www.youtube.com/watch?v=71AtaJpJHw0)
-    
+
 ### Command Line Interface
 * [Codecademy](https://www.codecademy.com/learn/learn-the-command-line)
 * [Shortcuts](./commandline_shortcuts.md)
