@@ -5,6 +5,7 @@
 + [Review][w4d1-lecture-notes]
 + Additional Practice Problems
   + [Selected Project Euler Problems](../other/project_euler.md)
+    + [Solutions](../solutions/w4/projectEuler)
   + [Free Coderbyte Problems](https://coderbyte.com/challenges/)
   + [Bonus Problems](../other/bonus_problems)
 
