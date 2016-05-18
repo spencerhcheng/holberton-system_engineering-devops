@@ -84,6 +84,6 @@ For this mini-project, you will create a clock that ticks every second, displayi
   - Using either `setTimeout` or `setInterval`, make this behavior repeat itself every second. Remember, arguments in Javascript are optional, so no
   need to worry about constantly setting the `startSecond` parameter.
 
-  - Test is out. When you're done, you'll have a clock that prints out a new time every second!
+  - Test it out. When you're done, you'll have a clock that prints out a new time every second!
 
 11. **Bonus:** Try writing `tick` using both `setTimeout` and `setInterval`! I called my methods `intervalTick` and `timeoutTick`.
