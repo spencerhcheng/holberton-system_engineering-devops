@@ -49,7 +49,7 @@ For this mini-project, you will create a clock that ticks every second, displayi
 
   - If `clock.totalSeconds = 4342`, `clock.getMinutes()` will evaluate to `"12"`
 
-7. Write a method `getHours` that will return minute count of our clock. It can return any value from 00 to being arbitrarily high (i.e 72)
+7. Write a method `getHours` that will return hour count of our clock. It can return any value from 00 to being arbitrarily high (i.e 72)
 
 8. Test `getHours`:
 
