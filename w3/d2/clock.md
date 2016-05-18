@@ -16,7 +16,7 @@ For this mini-project, you will create a clock that ticks every second, displayi
 
   - *hint:* If the value is less than 9, you may have to append a 0 to the beginning
 
-4. Test you `getSeconds` method. Open node and manually set the `totalSeconds` and make sure `getSeconds` is giving you the right value. Test cases below:
+4. Test your `getSeconds` method. Open node and manually set the `totalSeconds` and make sure `getSeconds` is giving you the right value. Test cases below:
 
   - If `clock.totalSeconds = 0`, `clock.getSeconds()` will evaluate to `"00"`
 
