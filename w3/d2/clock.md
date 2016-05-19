@@ -16,7 +16,7 @@ For this mini-project, you will create a clock that ticks every second, displayi
 
   - *hint:* If the value is less than 9, you may have to append a 0 to the beginning
 
-4. Test you `getSeconds` method. Open node and manually set the `totalSeconds` and make sure `getSeconds` is giving you the right value. Test cases below:
+4. Test your `getSeconds` method. Open node and manually set the `totalSeconds` and make sure `getSeconds` is giving you the right value. Test cases below:
 
   - If `clock.totalSeconds = 0`, `clock.getSeconds()` will evaluate to `"00"`
 
@@ -49,7 +49,7 @@ For this mini-project, you will create a clock that ticks every second, displayi
 
   - If `clock.totalSeconds = 4342`, `clock.getMinutes()` will evaluate to `"12"`
 
-7. Write a method `getHours` that will return minute count of our clock. It can return any value from 00 to being arbitrarily high (i.e 72)
+7. Write a method `getHours` that will return hour count of our clock. It can return any value from 00 to being arbitrarily high (i.e 72)
 
 8. Test `getHours`:
 
@@ -84,6 +84,6 @@ For this mini-project, you will create a clock that ticks every second, displayi
   - Using either `setTimeout` or `setInterval`, make this behavior repeat itself every second. Remember, arguments in Javascript are optional, so no
   need to worry about constantly setting the `startSecond` parameter.
 
-  - Test is out. When you're done, you'll have a clock that prints out a new time every second!
+  - Test it out. When you're done, you'll have a clock that prints out a new time every second!
 
 11. **Bonus:** Try writing `tick` using both `setTimeout` and `setInterval`! I called my methods `intervalTick` and `timeoutTick`.
