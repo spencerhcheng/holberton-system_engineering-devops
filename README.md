@@ -41,7 +41,6 @@ Welcome to Bootcamp Prep!
   + Looping
   + Importance of Naming
 + [Problem Set][w1d2-pset]
-+ [Lecture Video](https://vimeo.com/165338384)
 
 [w1d2-lecture-notes]:./w1/d2/lecture_notes.md
 [w1d2-pset]:./w1/d2/problem_set.md
@@ -53,7 +52,6 @@ Welcome to Bootcamp Prep!
 + Problem Set
   + [Arrays][w1d3-pset-arrays]
   + [Functions][w1d3-pset-functions]
-+ [Lecture Video](https://vimeo.com/162008795)
 
 [w1d3-lecture-notes]:./w1/d3/lecture_notes.md
 [w1d3-pset-arrays]:./w1/d3/problem_set/arrays.md
@@ -112,7 +110,6 @@ Welcome to Bootcamp Prep!
   + Style
   + Debugging
 + [Problem Set][w2d3-pset]
-+ [Lecture Video](https://vimeo.com/163014203)
 
 [w2d3-lecture-notes]:./w2/d3/lecture_notes.md
 [w2d3-pset]:./w2/d3/problem_set.md
@@ -125,7 +122,6 @@ Welcome to Bootcamp Prep!
     + Scope of `this`
   + Closures
 + [Problem Set][w2d4-pset]
-+ [Lecture Video](https://vimeo.com/163040194)
 
 [w2d4-lecture-notes]:./w2/d4/lecture_notes.md
 [w2d4-pset]:./w2/d4/problem_set.md
@@ -158,10 +154,6 @@ Welcome to Bootcamp Prep!
   + Binding
 + [Problem Set][w3d2-pset]
 + [Clock Project][clock]
-+ Lecture Video
-  + [Part 1](https://vimeo.com/163589957)
-  + [Part 2](https://vimeo.com/163589954)
-  + [Part 3](https://vimeo.com/163589955)
 
 [w3d2-lecture-notes]:./w3/d2/lecture_notes.md
 [w3d2-pset]:./w3/d2/problem_set.md
