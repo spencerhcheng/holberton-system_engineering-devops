@@ -57,4 +57,3 @@
   + Closures
 
 [w4d1-lecture-notes]:../w4/d1/lecture_notes.md
-[w3d5-assessment]:./d5/assessment
