@@ -10,7 +10,6 @@
   + Scope
   + `this`
 
-[w3d1-assessment]:./d1/assessment
 [w3d1-lecture-notes]:./d1/lecture_notes.md
 
 ### w3d2
@@ -55,5 +54,7 @@
   + Higher-Order Functions
   + Asynchronous Programming
   + Closures
++ [Review Problems][w3-review-problems]
 
+[w3-review-problems]:./d5/review.js
 [w4d1-lecture-notes]:../w4/d1/lecture_notes.md

@@ -51,7 +51,7 @@ Welcome to Bootcamp Prep!
 
 ### w1d5
 + **Assessment 1**
-+ [Review][w2d1-lecture-notes]
++ [Topics][w2d1-lecture-notes]
   + Primitive Data Types
   + Functions
   + Looping
@@ -59,6 +59,7 @@ Welcome to Bootcamp Prep!
   + Objects and Arrays
   + Decomposition
   + Abstraction
++ [Review Problems][w1-review-problems]
 
-[w1d5-assessment]:./d5/assessment
+[w1-review-problems]:./d5/review.js
 [w2d1-lecture-notes]:../w2/d1/lecture_notes.md

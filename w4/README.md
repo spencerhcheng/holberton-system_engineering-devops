@@ -9,7 +9,6 @@
   + [Free Coderbyte Problems](https://coderbyte.com/challenges/)
   + [Bonus Problems](../other/bonus_problems)
 
-[w4d1-assessment]:./d1/assessment
 [w4d1-lecture-notes]:./d1/lecture_notes.md
 
 ### w4d2
