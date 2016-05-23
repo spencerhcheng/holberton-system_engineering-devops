@@ -11,7 +11,7 @@
   + [Week 4](./w4)
 
 #### Other
-  + [Lecture Videos](./lecture_videos)
+  + [Lecture Videos](./other/lecture_videos.md)
   + [Solutions](./solutions)
   + [Bonus Problems](./bonus_problems)
   + [Recitations](./recitations)
@@ -72,7 +72,7 @@ Welcome to Bootcamp Prep!
 
 ### w1d5
 + **Assessment 1**
-+ [Review][w2d1-lecture-notes]
++ [Topics][w2d1-lecture-notes]
   + Primitive Data Types
   + Functions
   + Looping
@@ -80,8 +80,9 @@ Welcome to Bootcamp Prep!
   + Objects and Arrays
   + Decomposition
   + Abstraction
++ [Review Problems][w1-review-problems]
 
-[w1d5-assessment]:./w1/d5/assessment
+[w1-review-problems]:./w1/d5/review.js
 
 ## Week 2
 
@@ -89,7 +90,6 @@ Welcome to Bootcamp Prep!
 + **Assessment 2**
 + [Review][w2d1-lecture-notes]
 
-[w2d1-assessment]:./w2/d1/assessment
 [w2d1-lecture-notes]:./w2/d1/lecture_notes.md
 
 ### w2d2
@@ -128,15 +128,16 @@ Welcome to Bootcamp Prep!
 
 ### w2d5
 + **Assessment 3**
-+ [Review][w3d1-lecture-notes]
++ [Topics][w3d1-lecture-notes]
   + Multi-Dimensional Arrays
   + Nested Loops
   + `Array.prototype.slice()`
   + Style
   + Scope
   + `this`
++ [Review Problems][w2-review-problems]
 
-[w2d5-assessment]:./w2/d5/assessment
+[w2-review-problems]:./w2/d5/review.js
 
 ## Week 3
 
@@ -144,7 +145,6 @@ Welcome to Bootcamp Prep!
 + **Assessment 4**
 + [Review][w3d1-lecture-notes]
 
-[w3d1-assessment]:./w3/d1/assessment
 [w3d1-lecture-notes]:./w3/d1/lecture_notes.md
 
 ### w3d2
@@ -184,14 +184,15 @@ Welcome to Bootcamp Prep!
 
 ### w3d5
 + **Assessment 5**
-+ [Review][w4d1-lecture-notes]
++ [Topics][w4d1-lecture-notes]
   + Data Modeling
   + Callbacks
   + Higher-Order Functions
   + Asynchronous Programming
   + Closures
++ [Review Problems][w3-review-problems]
 
-[w3d5-assessment]:./w3/d5/assessment
+[w3-review-problems]:./w3/d5/review.js
 
 ## Week 4
 
@@ -204,7 +205,6 @@ Welcome to Bootcamp Prep!
   + [Free Coderbyte Problems](https://coderbyte.com/challenges/)
   + [Bonus Problems](./other/bonus_problems)
 
-[w4d1-assessment]:./w4/d1/assessment
 [w4d1-lecture-notes]:./w4/d1/lecture_notes.md
 
 ### w4d2
