@@ -58,5 +58,4 @@
   + Scope
   + `this`
 
-[w3d1-lecture-notes]:../d3/d1/lecture_notes.md
-[w2d5-assessment]:./d5/assessment
+[w3d1-lecture-notes]:../w3/d1/lecture_notes.md
