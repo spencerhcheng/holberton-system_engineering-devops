@@ -11,7 +11,6 @@
   + Decomposition
   + Abstraction
 
-[w2d1-assessment]:./d1/assessment
 [w2d1-lecture-notes]:./d1/lecture_notes.md
 
 ### w2d2
@@ -50,12 +49,14 @@
 
 ### w2d5
 + **Assessment 3**
-+ [Review][w3d1-lecture-notes]
++ [Topics][w3d1-lecture-notes]
   + Multi-Dimensional Arrays
   + Nested Loops
   + `Array.prototype.slice()`
   + Style
   + Scope
   + `this`
++ [Review Problems][w2-review-problems]
 
+[w2-review-problems]:./d5/review.js
 [w3d1-lecture-notes]:../w3/d1/lecture_notes.md
