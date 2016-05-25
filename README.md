@@ -203,7 +203,7 @@ Welcome to Bootcamp Prep!
   + [Selected Project Euler Problems](./other/project_euler.md)
     + [Solutions](./solutions/w4/projectEuler)
   + [Free Coderbyte Problems](https://coderbyte.com/challenges/)
-  + [Bonus Problems](./other/bonus_problems)
+  + [Bonus Problems](./bonus_problems)
 
 [w4d1-lecture-notes]:./w4/d1/lecture_notes.md
 
