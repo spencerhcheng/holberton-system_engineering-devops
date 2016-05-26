@@ -1,4 +1,5 @@
 ## What Would JavaScript Do?
+Write out all the steps that the interpreter would take to evaluate the specified line.
 1. ```js
   var str = "happy";
   str.split("").slice(0 + 1, 2 + 3); // WWJD?
@@ -15,11 +16,8 @@
   ary.join(" ").toUpperCase().toLowerCase(); // WWJD?
   ```
 
-
 ## Debug These Programs
-
 -----------------------------------------------------
-
 ```javascript
 function unique(array) {
   var uniqueArray = [];
@@ -35,7 +33,6 @@ function unique(array) {
 
 unique([1,23,2,4,5,1,23]) //==> [1, 23, 2, 4, 5];
 ```
-
 -----------------------------------------------------
 
 ```javascript
