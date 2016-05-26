@@ -199,11 +199,6 @@ Welcome to Bootcamp Prep!
 ### w4d1
 + **Assessment 6**
 + [Review][w4d1-lecture-notes]
-+ Additional Practice Problems
-  + [Selected Project Euler Problems](./other/project_euler.md)
-    + [Solutions](./solutions/w4/projectEuler)
-  + [Free Coderbyte Problems](https://coderbyte.com/challenges/)
-  + [Bonus Problems](./bonus_problems)
 
 [w4d1-lecture-notes]:./w4/d1/lecture_notes.md
 
@@ -213,27 +208,29 @@ Welcome to Bootcamp Prep!
   + Creating New Classes
   + Creating Instance Variables
   + Creating Methods on Classes
++ Introduce Additional Practice Problems
+  + [Selected Project Euler Problems](./other/project_euler.md)
+    + [Solutions](./solutions/w4/projectEuler)
+  + [Free Coderbyte Problems](https://coderbyte.com/challenges/)
+  + [Bonus Problems](./bonus_problems)
 + [Pokemon Project Part 1][pokemon_1]
 
 [w4d2-lecture-notes]:./w4/d2/lecture_notes.md
 
 ### w4d3
-+ **Mini Assessment**
-+ [Lecture Notes][w4d3-lecture-notes]
-  + Monkey-Patching
-+ [Callback Review][w3d3-lecture-notes]
++ **Mock Interviews**
++ [Interview Prep](./w4/d4/interview_prep.md)
 + [Pokemon Project Part 2][pokemon_2]
 
-[w4d3-lecture-notes]:./w4/d3/lecture_notes.md
+[interview_prompts]:./w4/d4/interview_prompts.js
+
 ### w4d4
-+ **Mock Interviews**
-  + [Interview Prep](./w4/d4/interview_prep.md)
++ **Mini Assessment**
 + Additional Practice Problems
   + [ReactiveX](http://reactivex.io/learnrx/) (up to problem 20)
 
 [pokemon_1]:./w4/pokemon/pokemon.md
 [pokemon_2]:./w4/pokemon/battle.md
-[interview_prompts]:./w4/d4/interview_prompts.js
 
 ### w4d5
 + **Assessment 7**
