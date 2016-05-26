@@ -29,10 +29,11 @@ function censor(sentence, curseWords) {
 }
 
 /******************************************************************************
-Write a function greatestMapCreator(ary, cb1, cb2) which takes as an argument an
-array of numbers and two callbacks. It creates a new array with each element from ary
-"mapped" to a new element using the callback which returns a larger mapped value.
-Each callback take as its arguments the element, index and array.
+Write a function greatestMapCreator(ary, cb1, cb2) which takes as an
+argument an array of numbers and two callbacks. It creates a new array
+with each element from ary "mapped" to a new element using whichever
+callback that returns a larger mapped value. Both callbacks take as
+arguments the element, index and array.
 
 Use Array.prototype.forEach.
 
@@ -46,6 +47,15 @@ var half = function(num) {
 };
 greatestMapCreator(ary1, squareRootRounder, half); //=> [ 1, 2.5, 5 ]
 
+Hint 1:
+squareRootRounder(1); //=> 1
+squareRootRounder(5); //=> 2
+squareRootRounder(10); //=> 3
+
+half(1); //=> 0.5
+half(5); //=> 2.5
+half(10); //=> 5
+
 Example 2:
 var ary2 = [10, 20, -100];
 var absoluteValue = function(num) {
@@ -55,6 +65,15 @@ var power = function(a, b) {
   return Math.pow(a, b);
 }
 greatestMapCreator(ary2, absoluteValue, power); //=> [ 10, 20, 10000 ]
+
+Hint 2:
+absoluteValue(10); //=> 10
+absoluteValue(20); //=> 20
+absoluteValue(-100); //=> 100
+
+power(10, 0); //=> 1
+power(20, 1); //=> 20
+power(-100, 2); //=> 10000
 ******************************************************************************/
 
 function greatestMapCreator(ary, cb1, cb2) {
@@ -64,8 +83,7 @@ function greatestMapCreator(ary, cb1, cb2) {
     var mappedEle1 = cb1(num, idx, arry);
     var mappedEle2 = cb2(num, idx, arry);
 
-    var greatestEle = mappedEle1 > mappedEle2 ? mappedEle1 : mappedEle2;
-    mappedAry.push(greatestEle);
+    mappedAry.push(mappedEle1 > mappedEle2 ? mappedEle1 : mappedEle2);
   });
 
   return mappedAry;
