@@ -17,7 +17,6 @@ true |false|false|                       |
 false|true |false|                       |
 false|false|false|                       |
 
-
 ## logBetween
 
 Define a function logBetween(lowNum, highNum) that will print every number
@@ -46,7 +45,7 @@ number and prints to the console every number from 0 to `max` that is divisible
 by either 3 or 5, but not both.
 
 Example:
-```
+```js
 > fizzBuzz(20);
 3
 5
@@ -104,7 +103,7 @@ bar();
 Define a function `isFactorOf(number, factor)` that returns `true` if `factor`
 is a factor of `number`. Otherwise, false.
 
-```
+```js
 > isFactorOf(6,2);
 true
 
@@ -120,7 +119,7 @@ false
 Define a function `isPrime(number)` that returns `true` if `number` is prime.
 Otherwise, false. Assume `number` is a positive integer.
 
-```
+```js
 > isPrime(2);
 true
 
@@ -136,7 +135,7 @@ false
 
 ## Debug The Program
 
-```
+```js
 function sayHiNTimes(n) {
   var i = 0;
 
@@ -146,7 +145,7 @@ function sayHiNTimes(n) {
 }
 ```
 
-```
+```js
 function isFive(n) {
   if (n = 5) {
     return true;
