@@ -33,7 +33,7 @@ null
 ```
 
 ### wordYeller
-Write a function wordYeller(sentence) that takes in a sentence string as input. It should return the sentence where every word has an exclamation point behind it, except words that already have punctuation. Punctuation marks are ". , ! ? ; :"
+Write a function `wordYeller(sentence)` that takes in a sentence string as input. It should return the sentence where every word has an exclamation point behind it, except words that already have punctuation. Punctuation marks are ". , ! ? ; :"
 
 Example 1
 ```js

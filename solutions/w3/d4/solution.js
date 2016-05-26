@@ -1,3 +1,7 @@
+function wordYeller(sentence) {
+
+}
+
 function divisibleByNPairSum(ary, n) {
   var results = [];
 
