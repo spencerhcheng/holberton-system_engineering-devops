@@ -1,5 +1,38 @@
-function wordYeller(sentence) {
+function logEach(array) {
+  array.forEach(function (ele, idx) {
+    console.log(idx + ": " + ele);
+  });
+}
 
+function maxValue(array) {
+  var max = null;
+
+  array.forEach(num) {
+    if (num > max) {
+      max = num;
+    }
+  });
+
+  return max;
+}
+
+function wordYeller(sentence) {
+  var yelledWords = [];
+
+  var punctuation = [".", ",", "!", "?", ";", ":"];
+  var words = sentence.split(" ");
+
+  words.forEach(function(word) {
+    var lastCharacter = word.slice(-1);
+
+    if (punctuation.indexOf(lastCharacter) !== -1) { // word already has punctuation
+      yelledWords.push(word);
+    } else {
+      yelledWords.push(word + "!");
+    }
+  });
+
+  return yelledWords.join(" ");
 }
 
 function divisibleByNPairSum(ary, n) {
