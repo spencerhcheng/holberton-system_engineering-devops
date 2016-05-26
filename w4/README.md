@@ -16,12 +16,12 @@
   + [Selected Project Euler Problems](../other/project_euler.md)
     + [Solutions](../solutions/w4/projectEuler)
   + [Free Coderbyte Problems](https://coderbyte.com/challenges/)
-  + [Bonus Problems](../bonus_problems)
 + [Pokemon Project Part 1][pokemon_1]
 
 [w4d2-lecture-notes]:./d2/lecture_notes.md
 
 ### w4d3
++ **Mini Assessment**
 + **Mock Interviews**
   + [Interview Prep](./d4/interview_prep.md)
 + [Pokemon Project Part 2][pokemon_2]
@@ -38,5 +38,8 @@
 
 ### w4d5
 + **Assessment 7**
++ [Review Problems][w4-review-problems]
 + What's Next? [Applying to Bootcamps](../other/whats_next.md)
 + :joy_cat: **Graduation** :joy_cat:
+
+[w4-review_problems]:./d4/review.js

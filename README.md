@@ -218,8 +218,9 @@ Welcome to Bootcamp Prep!
 [w4d2-lecture-notes]:./w4/d2/lecture_notes.md
 
 ### w4d3
++ **Mini Assessment**
 + **Mock Interviews**
-+ [Interview Prep](./w4/d4/interview_prep.md)
+  + [Interview Prep](./w4/d4/interview_prep.md)
 + [Pokemon Project Part 2][pokemon_2]
 
 [interview_prompts]:./w4/d4/interview_prompts.js
@@ -234,5 +235,8 @@ Welcome to Bootcamp Prep!
 
 ### w4d5
 + **Assessment 7**
++ [Review Problems][w4-review-problems]
 + What's Next? [Applying to Bootcamps](./other/whats_next.md)
 + :joy_cat: **Graduation** :joy_cat:
+
+[w4-review_problems]:./w4/d4/review.js
