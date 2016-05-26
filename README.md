@@ -176,11 +176,11 @@ Welcome to Bootcamp Prep!
   + Node I/O - File System
 + Finish [Clock Project][clock]
 + [Sentiment Detector Project][sentiment-detector]
-+ Yesterday's [Problem Set][w3d3-pset]
-+ [Bonus Problems](./bonus_problems)
++ [Problem Set][w3d4-pset]
 
 [sentiment-detector]:./w3/d4/sentiment_detector
 [w3d4-lecture-notes]:./w3/d4/lecture_notes.md
+[w3d4-pset]:./w3/d4/problem_set.md
 
 ### w3d5
 + **Assessment 5**
