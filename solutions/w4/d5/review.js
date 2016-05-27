@@ -32,7 +32,7 @@ function censor(sentence, curseWords) {
 Write a function greatestMapCreator(ary, cb1, cb2) which takes as an
 argument an array of numbers and two callbacks. It creates a new array
 with each element from ary "mapped" to a new element using whichever
-callback that returns a larger mapped value. Both callbacks take as
+callback returns a larger mapped value. Both callbacks take as
 arguments the element, index and array.
 
 Use Array.prototype.forEach.

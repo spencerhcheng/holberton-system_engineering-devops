@@ -42,4 +42,4 @@
 + What's Next? [Applying to Bootcamps](../other/whats_next.md)
 + :joy_cat: **Graduation** :joy_cat:
 
-[w4-review_problems]:./d4/review.js
+[w4-review-problems]:./d4/review.js
