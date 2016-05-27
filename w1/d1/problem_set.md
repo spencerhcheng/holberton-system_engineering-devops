@@ -141,7 +141,7 @@ false
 "JUMP ... JUMp ... jump"
 ```
 
-#Boolean
+# Boolean
 
 ### isEven
 **Input:** A Number.

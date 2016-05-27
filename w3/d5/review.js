@@ -46,7 +46,7 @@ function objectSelect(obj, callback) {
 /*
 ******************************************************************************
 Write a function randomNumberGenerator(min, range), which takes a minimum value
-and a range, it should return random whole numbers in the specified range 
+and a range, it should return random whole numbers in the specified range
 starting at the minimum value.
 
 randomNumberGenerator(1, 10) => 1

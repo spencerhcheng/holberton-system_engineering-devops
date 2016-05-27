@@ -1,3 +1,11 @@
+# NB:
+When you're redoing problems, here's how you'll get the most of it:
+
+1. Then redo them again, but now time yourself. For example, 15 minutes per problem.
+2. Then redo them again, but now time yourself and do them without testing using Node. Test only when you believe you've completed your solution. This will test whether or not you really understand your code and how the interpreter will behave when your code is run. In addition, this simulates a technical interview situation.
+
+Ok let's get to work.
+
 # Month 1
 
 ## Week 1
@@ -23,8 +31,6 @@
 
 ### Saturday
   * [Complete The Data Structures Recitation](../../recitations)
-
-
 
 ## Week 2
 
@@ -116,5 +122,3 @@
 
 ### Thursday
   * Self-Study (Try some More CoderByte Questions!)
-
-### etc...

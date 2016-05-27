@@ -67,12 +67,12 @@ it's a peak if it is greater than its one neighbor. Assume the array has a lengt
 of at least 2.
 
 ```
->peakFinder([1,2,3,2,1])
+>peakFinder([1, 2, 3, 2, 1]);
 [2]
 
->peakFinder([2,1,2,3,4,5])
+>peakFinder([2, 1, 2, 3, 4, 5]);
 [0, 5]
 
->peakFinder([4,6,9,4,2,-7,2,-4,5])
-[2,6,8]
+>peakFinder([4, 6, 9, 4, 2, -7, 2, -4, 5]);
+[2, 6, 8]
 ```

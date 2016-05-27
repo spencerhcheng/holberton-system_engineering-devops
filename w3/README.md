@@ -41,10 +41,11 @@
   + Node I/O - File System
 + Finish [Clock Project][clock]
 + [Sentiment Detector Project][sentiment-detector]
-+ [Bonus Problems](./bonus_problems)
++ [Problem Set][w3d4-pset]
 
-[w3d4-lecture-notes]:./d4/lecture_notes.md
 [sentiment-detector]:./d4/sentiment_detector
+[w3d4-lecture-notes]:./d4/lecture_notes.md
+[w3d4-pset]:./d4/problem_set.md
 
 ### w3d5
 + **Assessment 5**

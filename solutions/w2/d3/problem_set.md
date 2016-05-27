@@ -1,3 +1,20 @@
+## What Would JavaScript Do?
+1. ```js
+  var str = "happy";
+  str.split("").slice(0 + 1, 2 + 3); // WWJD?
+  ```
+
+2. ```js
+  var str = "abcdef";
+  var letter = "e";
+  str.split("").indexOf(letter) === -1; // WWJD?
+  ```
+
+3. ```js
+  var ary = ["cat", "in", "the", "hat"];
+  ary.join(" ").toUpperCase().toLowerCase(); // WWJD?
+  ```
+
 ## Debug These Programs
 
 ```javascript
