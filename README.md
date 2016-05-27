@@ -239,4 +239,4 @@ Welcome to Bootcamp Prep!
 + What's Next? [Applying to Bootcamps](./other/whats_next.md)
 + :joy_cat: **Graduation** :joy_cat:
 
-[w4-review_problems]:./w4/d5/review.js
+[w4-review-problems]:./w4/d5/review.js
