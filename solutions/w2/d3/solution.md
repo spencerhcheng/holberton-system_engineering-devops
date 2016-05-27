@@ -1,44 +1,49 @@
 ## What Would JavaScript Do?
-1. ```js
-  var str = "happy";
-  str.split("").slice(0 + 1, 2 + 3); // WWJD?
-  ```
 
-  WWJD:
-  ```js
-  "happy".split("").slice(0 + 1, 2 + 3) //=>
-  [ 'h', 'a', 'p', 'p', 'y' ].slice(0 + 1, 2 + 3) //=>
-  [ 'h', 'a', 'p', 'p', 'y' ].slice(1, 2 + 3) //=>
-  [ 'h', 'a', 'p', 'p', 'y' ].slice(1, 5) //=>
-  [ 'a', 'p', 'p', 'y' ]
-  ```
-2. ```js
-  var str = "abcdef";
-  var letter = "e";
-  str.split("").indexOf(letter) === -1; // WWJD?
-  ```
+#### 1.
+```js
+var str = "happy";
+str.split("").slice(0 + 1, 2 + 3); // WWJD?
+```
 
-  WWJD:
-  ```js
-  "abcdef".split("").indexOf(letter) === -1 //=>
-  [ 'a', 'b', 'c', 'd', 'e', 'f' ].indexOf(letter) === -1 //=>
-  [ 'a', 'b', 'c', 'd', 'e', 'f' ].indexOf("e") === -1 //=>
-  4 === -1 //=>
-  false
-  ```
+WWJD:
+```js
+"happy".split("").slice(0 + 1, 2 + 3) //=>
+[ 'h', 'a', 'p', 'p', 'y' ].slice(0 + 1, 2 + 3) //=>
+[ 'h', 'a', 'p', 'p', 'y' ].slice(1, 2 + 3) //=>
+[ 'h', 'a', 'p', 'p', 'y' ].slice(1, 5) //=>
+[ 'a', 'p', 'p', 'y' ]
+```
 
-3. ```js
-  var ary = ["cat", "in", "the", "hat"];
-  ary.join(" ").toUpperCase().toLowerCase(); // WWJD?
-  ```
+#### 2.
+```js
+var str = "abcdef";
+var letter = "e";
+str.split("").indexOf(letter) === -1; // WWJD?
+```
 
-  WWJD:
-  ```js
-  ["cat", "in", "the", "hat"].join(" ").toUpperCase().toLowerCase() //=>
-  'cat in the hat'.toUpperCase().toLowerCase() //=>
-  'CAT IN THE HAT'.toLowerCase() //=>
-  'cat in the hat'
-  ```
+WWJD:
+```js
+"abcdef".split("").indexOf(letter) === -1 //=>
+[ 'a', 'b', 'c', 'd', 'e', 'f' ].indexOf(letter) === -1 //=>
+[ 'a', 'b', 'c', 'd', 'e', 'f' ].indexOf("e") === -1 //=>
+4 === -1 //=>
+false
+```
+
+#### 3.
+```js
+var ary = ["cat", "in", "the", "hat"];
+ary.join(" ").toUpperCase().toLowerCase(); // WWJD?
+```
+
+WWJD:
+```js
+["cat", "in", "the", "hat"].join(" ").toUpperCase().toLowerCase() //=>
+'cat in the hat'.toUpperCase().toLowerCase() //=>
+'CAT IN THE HAT'.toLowerCase() //=>
+'cat in the hat'
+```
 
 ## Debug These Programs
 
