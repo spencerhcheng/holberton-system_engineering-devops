@@ -31,6 +31,7 @@
 ### w4d4
 + **Mini Assessment**
 + Additional Practice Problems
+  + [Bonus Problems](../bonus_problems)
   + [ReactiveX](http://reactivex.io/learnrx/) (up to problem 20)
 
 [pokemon_1]:./pokemon/pokemon.md

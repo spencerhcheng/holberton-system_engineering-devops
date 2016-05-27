@@ -212,7 +212,6 @@ Welcome to Bootcamp Prep!
   + [Selected Project Euler Problems](./other/project_euler.md)
     + [Solutions](./solutions/w4/projectEuler)
   + [Free Coderbyte Problems](https://coderbyte.com/challenges/)
-  + [Bonus Problems](./bonus_problems)
 + [Pokemon Project Part 1][pokemon_1]
 
 [w4d2-lecture-notes]:./w4/d2/lecture_notes.md
@@ -228,6 +227,7 @@ Welcome to Bootcamp Prep!
 ### w4d4
 + **Mini Assessment**
 + Additional Practice Problems
+  + [Bonus Problems](./bonus_problems)
   + [ReactiveX](http://reactivex.io/learnrx/) (up to problem 20)
 
 [pokemon_1]:./w4/pokemon/pokemon.md
