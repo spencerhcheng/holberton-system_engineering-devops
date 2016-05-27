@@ -107,7 +107,26 @@ isogramMatcher("ultrasonic", "ostracized"); //=> [3, 4]
 isogramMatcher("unpredictably", "hydromagnetic"); //=> [1, 8]
 ******************************************************************************/
 
-function isogramMatcher(word1, word2) {
+function isogramMatcher(string1, string2) { // solution 1
+  var lettersSamePos = 0;
+  var lettersDiffPos = 0;
+
+  for (var i = 0; i < string1.length; i++) {
+    for (var j = 0; j < string2.length; j++) {
+      if (string1[i] === string2[j]) {
+        if (i === j) {
+          lettersSamePos += 1;
+        } else {
+          lettersDiffPos += 1;
+        }
+      }
+    }
+  }
+
+  return [lettersSamePos, lettersDiffPos];
+}
+
+function isogramMatcher(word1, word2) { // solution 2
   return [lettersSamePos(word1, word2), lettersDiffPos(word1, word2)];
 }
 
