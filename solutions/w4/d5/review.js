@@ -107,4 +107,31 @@ isogramMatcher("ultrasonic", "ostracized"); //=> [3, 4]
 isogramMatcher("unpredictably", "hydromagnetic"); //=> [1, 8]
 ******************************************************************************/
 
-// your code here...
+function isogramMatcher(word1, word2) {
+  return [lettersSamePos(word1, word2), lettersDiffPos(word1, word2)];
+}
+
+function lettersSamePos(w1, w2) {
+  var count = 0;
+
+  for (var i = 0; i < w1.length; i++) {
+    if (w1[i] === w2[i]) {
+      count++;
+    }
+  }
+
+  return count;
+}
+
+function lettersDiffPos(w1, w2) {
+  var count = 0;
+
+  for (var i = 0; i < w1.length; i++) {
+    var indexOf = w2.indexOf(w1[i]);
+    if (indexOf !== -1 && indexOf !== i) {
+      count++;
+    }
+  }
+
+  return count;
+}
