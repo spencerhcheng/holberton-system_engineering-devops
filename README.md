@@ -11,6 +11,7 @@
   + [Week 4](./w4)
 
 #### Other
+  + [Logical Reasoning Prep](./logical_reasoning_prep)
   + [Lecture Videos](./other/lecture_videos.md)
   + [Solutions](./solutions)
   + [Bonus Problems](./bonus_problems)
