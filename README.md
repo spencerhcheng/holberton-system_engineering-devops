@@ -17,6 +17,7 @@
   + [Recitations](./recitations)
   + [Additional Resources](./other/resources.md)
   + [What's Next?](./other/whats_next.md)
+  + [Post-Course Study](./schedules)
 
 ## Week 1
 
