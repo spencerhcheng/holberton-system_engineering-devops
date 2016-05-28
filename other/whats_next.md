@@ -8,30 +8,23 @@ But before you start applying, ask yourself how comfortable you feel with the co
 
 If you're not feeling very confident, then remember, practice makes perfect! Redo problems introduced during class, and on assessments. Find new problems and try them out. Identify what is wrong with your solution. Double check your syntax. Practice talking about what you're doing (your logical approach and your code) aloud. Do it again!
 
-** We highly suggest following one of our directed post-course schedules. You can find them [here](../schedules)**.
+**We highly suggest following one of our directed post-course schedules. You can find them [here](../schedules)**.
 
 ## When you're feeling ready...
 If you're feeling good, then take a look at the list below.
 
 A good strategy is to apply to *every* bootcamp in the city(s) you are considering. Even if you are dead-set on attending one particular coding bootcamp, going through multiple application processes will make for invaluable practice. Each application will force you to practice problem solving using programming, write code in a high-stress and timed environment, talk about your solution and sell yourself as an applicant. Start by applying to bootcamps that you don't care about or with less challenging application processes, and move your way up. Take every coding challenge and technical interview you receive seriously--remember, it's *invaluable practice*. Schedule technical interviews with bootcamps that you care about only when you truly feel ready.
 
-For extra practice and to further test to see if you are ready or not, we offer up to *two* mock interviews for each graduate. Please email us (`wngo@appacademy.io` or `aladson@appacademy.io`) if you are interested in scheduling one.
-
-Lastly, here's a blog [post][haseeb_post] called 'Cracking the Coding Bootcamp – The Definitive Guide' written by an App Academy graduate outlining his process and thoughts about applying to bootcamps which might also be helpful to read.
+For extra practice and to further test to see if you are ready or not, we offer up to *two* mock interviews for each graduate. Please schedule one [here](https://calendly.com/aladson/bootcamp_prep_mock_interview/).
 
 Best of luck!
 
-[haseeb_post]:http://haseebq.com/cracking-the-coding-bootcamp-the-definitive-guide/
-
-<!-- ### DEV BOOTCAMP -->
-<!-- [Apply here.](http://devbootcamp.com/) -->
-
+### GENERAL ASSEMBLY - SF
+[Apply here.](https://generalassemb.ly/)
 ### CODING DOJO - SF
 [Apply here.](http://www.codingdojo.com/)
 ### GALVANIZE - SF
 [Apply here.](http://www.galvanize.com/)
-### GENERAL ASSEMBLY - SF
-[Apply here.](https://generalassemb.ly/)
 ###  FULL STACK ACADEMY - NY
 [Apply here.](http://www.fullstackacademy.com/)
 ### LAUNCH ACADEMY - BOSTON
@@ -53,6 +46,7 @@ Things to know well:
   3. An applicant should also enthusiastically respond to new concepts and material, reasoning their thoughts out loud.
 
 [Apply here.](http://www.makersquare.com/)
+
 ### HACK REACTOR - SF
 Things to know well:
 - Anonymous Functions
