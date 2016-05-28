@@ -15,7 +15,7 @@ If you're feeling good, then take a look at the list below.
 
 A good strategy is to apply to *every* bootcamp in the city(s) you are considering. Even if you are dead-set on attending one particular coding bootcamp, going through multiple application processes will make for invaluable practice. Each application will force you to practice problem solving using programming, write code in a high-stress and timed environment, talk about your solution and sell yourself as an applicant. Start by applying to bootcamps that you don't care about or with less challenging application processes, and move your way up. Take every coding challenge and technical interview you receive seriously--remember, it's *invaluable practice*. Schedule technical interviews with bootcamps that you care about only when you truly feel ready.
 
-For extra practice and to further test to see if you are ready or not, we offer up to *two* mock interviews for each graduate. Please schedule one [here](https://calendly.com/aladson/bootcamp_prep_mock_interview/).
+For extra practice and to further test to see if you are ready or not, we offer up to *two* mock interviews for each graduate. If you are interested, please schedule yours [here](https://calendly.com/aladson/bootcamp_prep_mock_interview/)!
 
 Best of luck!
 
