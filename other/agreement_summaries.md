@@ -26,7 +26,7 @@ For quick references, here are **brief summaries** of the contracts you signed u
   - You fee is forfeited if you are dismissed.
 
 ### Program Rules
-Many of our program rules are enforced through a system of **strikes**. Students who earn **4** strikes or more will lose their eligibility for a refund, and be dismissed.
+Many of our program rules are enforced through a system of **strikes**. Students who earn **4** strikes or more will lose their eligibility for a refund and/or be dismissed.
 
 #### Earning Strikes:
 - **Attendance and Tardiness**
