@@ -154,23 +154,6 @@ With them, the structure of our data can match our semantic understanding of the
 
 This method accepts an object as the argument and returns an array of all of its keys.
 
-#### **`Object.values`**
-
-This method accepts an object as the argument and returns an array of all of its values.
-
-```js
-var dog = {
-  name : 'Rover',
-  age : 12,
-  bark : function () {
-    console.log("woof woof woof");
-  }
-}
-
-Object.keys(dog); //=> ["name", "age", "bark"]
-Object.values(dog); //=> ["Rover", 12, [Function: bark]]
-```
-
 #### **`for (var key in object)`**
 
 Useful for looping through the keys and values of an object. For example:
