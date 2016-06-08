@@ -1,10 +1,10 @@
 # Logical Reasoning Prep Course
 
-## Part 1
+## Procedural Reasoning
 
 ### Getting Started With Scratch
 
-Due: Email your instructor your dance party program. The following videos will teach you how to register and get started with Scratch. 
+Due: Email your instructor your dance party program. The following videos will teach you how to register and get started with Scratch.
 
 1. [Registering with Scratch](https://vimeo.com/168403407)
 2. [The Scratch Interface](https://vimeo.com/168400060)
@@ -18,8 +18,20 @@ Due: Email your instructor your dance party program. The following videos will t
 
 ### Make a Platformer
 
+Due: Add about two - three more levels. Maybe your own bad guy. Email your instructor your game.
+
+1. [Planning Stage]()
+2. Building the Player
+  * [Part 1]()
+  * [Part 2]()
+3. Building the Stage
+  * You may notice that I didn't build the second according to the plan. Can you fix it?
+  * [Part 1]()
+  * [Part 2]()
+4. [Building the Enemy](https://vimeo.com/169877891)
+
 ### Make a Shooter
 
 ### Make your own game
 
-## Part 2
+## What Would JavaScript Do?
