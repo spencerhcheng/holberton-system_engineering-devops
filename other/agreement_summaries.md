@@ -22,11 +22,11 @@ For quick references, here are **brief summaries** of the contracts you signed u
 ## Program Rules Agreement Summary
   - Bootcamp Prep program rules exist in order to maintain a productive and successful environment for students.
   - App Academy is the sole arbiter of Bootcamp Prep's program rules.
-  - Violating program rules are a cause of for dismissal from the program.
+  - Violating program rules are a cause of for revoking the guarantee.
   - You fee is forfeited if you are dismissed.
 
 ### Program Rules
-Many of our program rules are enforced through a system of **strikes**. Students who earn **4** strikes or more will lose their eligibility for a refund, and be dismissed.
+Many of our program rules are enforced through a system of **strikes**. Students who earn **4** strikes or more will lose their eligibility for a refund and/or be dismissed.
 
 #### Earning Strikes:
 - **Attendance and Tardiness**

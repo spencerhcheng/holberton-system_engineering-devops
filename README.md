@@ -11,12 +11,14 @@
   + [Week 4](./w4)
 
 #### Other
+  + [Logical Reasoning Prep](./logical_reasoning_prep)
   + [Lecture Videos](./other/lecture_videos.md)
   + [Solutions](./solutions)
   + [Bonus Problems](./bonus_problems)
   + [Recitations](./recitations)
   + [Additional Resources](./other/resources.md)
   + [What's Next?](./other/whats_next.md)
+  + [Post-Course Study](./schedules)
 
 ## Week 1
 

@@ -191,10 +191,10 @@ a multiple of 5, we could write:
 
 ```javascript
 function printNStop5(n) {
-  var i = 0;
+  var i = 1; //if we start at 0, the loop will never run
 
   while (i < n) {
-    if (i % 5 === 0 && i !== 0) {
+    if (i % 5 === 0) {
       break;
     }
 
