@@ -134,7 +134,7 @@ function printBestStudent(students) {
   var bestScores = {};
 
   for (var s = 0; s < students.length; s++) {
-    var student = students[i];
+    var student = students[s];
 
     for (var j = 0; j < student.grades.length; j++) {
       var grade = student.grades[j];
