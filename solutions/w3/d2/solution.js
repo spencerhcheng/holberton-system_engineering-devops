@@ -7,7 +7,7 @@ var dog = {
       this.age += 1;
 
       if (this.age < 15) {
-        console.log("Dog lives another dat at age " + this.age);
+        console.log("Dog lives another day at age " + this.age);
       } else {
         console.log("Dog has been dead for " + (this.age - 15) + " years");
       }
@@ -27,7 +27,7 @@ var annoyingDancer = {
 
   askQuestion : function() {
     var currentFavDance = this.favoriteDances[this.currentFav];
-    console.log("Do you want to dance " + currentFavDance + "with me?");
+    console.log("Do you want to dance " + currentFavDance + " with me?");
 
     this.currentFav += 1;
 
