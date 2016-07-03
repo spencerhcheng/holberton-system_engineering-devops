@@ -20,14 +20,14 @@ Due: Email your instructor your dance party program. The following videos will t
 
 Due: Add about two - three more levels. Maybe your own bad guy. Email your instructor your game.
 
-1. [Planning Stage]()
+1. [Planning Stage](https://vimeo.com/169877893)
 2. Building the Player
-  * [Part 1]()
-  * [Part 2]()
+  * [Part 1](https://vimeo.com/169877894)
+  * [Part 2](https://vimeo.com/169877895)
 3. Building the Stage
   * You may notice that I didn't build the second according to the plan. Can you fix it?
-  * [Part 1]()
-  * [Part 2]()
+  * [Part 1](https://vimeo.com/169877897)
+  * [Part 2](https://vimeo.com/169877896)
 4. [Building the Enemy](https://vimeo.com/169877891)
 
 ### Make a Shooter
