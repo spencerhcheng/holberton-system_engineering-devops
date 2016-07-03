@@ -13,7 +13,7 @@ Write a function `myForEach(arr, cb)` that accepts an array and a callback. It s
 3 is at position 2 in array [1,2,3]
 ```
 --------------------------------------------------------------------------------
-Write a function `mySelect(arr, cb)` that accepts an array and a callback. It should pass each element, its corresponding index, and the array itself to the callback. It should return a new array of all the elements in the input array `arr` where the callback `cb` returns true.
+Write a function `mySelect(arr, cb)` that accepts an array and a callback. It should pass the callback three arguments: (1) each element, (2) its corresponding index, (3) and the array itself. `mySelect` should return a new array of all the elements in the input array - arr - where the callback - cb  - returned true.
 
 ```js
 > mySelect([1,2,3,4,5,6], function(ele, i, arr) {

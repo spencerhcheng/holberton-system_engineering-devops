@@ -6,6 +6,8 @@
 
 Due: Email your instructor your dance party program. The following videos will teach you how to register and get started with Scratch.
 
+**vimeo password:** go_bootcamp_go
+
 1. [Registering with Scratch](https://vimeo.com/168403407)
 2. [The Scratch Interface](https://vimeo.com/168400060)
 3. Your Toolkit

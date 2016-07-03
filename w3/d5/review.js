@@ -55,10 +55,10 @@ randomNumberGenerator(1, 10) => 10
 randomNumberGenerator(1, 10) => 3
 
 randomNumberGenerator(30, 1) => 30
-randomNumberGenerator(30, 1) => 31
+randomNumberGenerator(30, 1) => 30
 
 randomNumberGenerator(100, 100) => 100
-randomNumberGenerator(100, 100) => 200
+randomNumberGenerator(100, 100) => 199
 randomNumberGenerator(100, 100) => 136
 randomNumberGenerator(100, 100) => 175
 */

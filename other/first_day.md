@@ -13,6 +13,7 @@ We'll hit the ground running from day 1. If you don't want to be behind, please:
 + Complete the first unit of [Codecademy's JavaScript][codecademy_js] course.
 + Complete exercises 1 to 9 of  [Codecademy's Learn the Command Line][codecademy_cli] course.
 + Read [this][cli] about navigating your command line and prepare any questions you may have.
++ If you have no programming experience, we suggest tackling some of the [logical reasoning exercises][logical_reason].
 
 [course_intro]:./programming_intro.md
 [node]:https://nodejs.org/en/
@@ -21,3 +22,4 @@ We'll hit the ground running from day 1. If you don't want to be behind, please:
 [codecademy_js]:https://www.codecademy.com/learn/javascript
 [codecademy_cli]:https://www.codecademy.com/learn/learn-the-command-line
 [cli]:./cli.md
+[logical_reason]:../logical_reasoning_prep

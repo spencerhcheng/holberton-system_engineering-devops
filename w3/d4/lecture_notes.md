@@ -262,7 +262,7 @@ function mostCoolFromFile(filename) {
 
     records.forEach(function(record) {
       var name = record.split(" ")[0];
-      var rating = parseInt(record.split(" "))[1];
+      var rating = parseInt(record.split(" ")[1]);
 
       if (rating > coolestRating) {
         coolest = name;
