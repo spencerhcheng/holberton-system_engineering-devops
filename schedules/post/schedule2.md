@@ -26,7 +26,7 @@ Ok let's get to work.
 
 ### Friday
   * [Redo Week 1 Day 4 Problem Set](../../w1/d4/cookieMonster)
-  * [Type Week 1 Day 4 Solution](../../solutions/w1/d4/solution.js)
+  * [Type Week 1 Day 4 Solution](../../solutions/w1/d4/cookieMonster)
 
 ### Saturday
   * [Take Assessment W1D5](https://github.com/appacademy/Bootcamp-Prep-Assessments)
