@@ -23,7 +23,7 @@ Ok let's get to work.
   * [Type Week 1 Day 1 Solutions](../../solutions/w1/d1/solution.js)
   * [Type Week 1 Day 2 Solutions](../../solutions/w1/d2/solution.js)
   * [Type Week 1 Day 3 Solutions](../../solutions/w1/d3/solution.js)
-  * [Type Week 1 Day 4 Solution](../../solutions/w1/d4/solution.js)
+  * [Type Week 1 Day 4 Solution](../../solutions/w1/d4/cookieMonster)
 
 ### Friday
   * [Take Assessment W1D5](https://github.com/appacademy/Bootcamp-Prep-Assessments)
