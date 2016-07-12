@@ -105,7 +105,7 @@ Ok let's get to work.
 ### Saturday
   * Schedule a mock interview with your instructor
   * [Apply and schedule interview for all other Bootcamps!](../../other/whats_next.md)
-    - Make sure your Hack Rector and App Academy interviews are last
+    - Make sure your Hack Reactor and App Academy interviews are last
 
 # Month 2
 
