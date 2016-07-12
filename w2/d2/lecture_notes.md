@@ -62,7 +62,7 @@ How can you fix these issues? We want our output to `pairZero` to look like this
 [ [0, 4], [1, 3] ]
 ```
 
-Note: the order of the indices matters
+Note: the order of the indices matters.
 
 ## Data Modeling
 
