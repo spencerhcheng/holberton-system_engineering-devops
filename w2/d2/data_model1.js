@@ -32,7 +32,7 @@ var students2 = [
   }
 ];
 
-//Write a function that will print the name and id of all the stuents
+//Write a function that will print the name and id of all the students
 //Example
 // printStudents(students2)
 // Anthony is student #0
