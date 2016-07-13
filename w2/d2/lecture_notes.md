@@ -52,7 +52,7 @@ will add the same pair of indices into the array. (i.e. If the array is
 How can you fix these issues? We want our output to `pairZero` to look like this:
 
 ```js
-> pairZero([4, 1, 0,]);
+> pairZero([4, 1, 0]);
 [ ]
 
 > pairZero([1, 2, -1]);
