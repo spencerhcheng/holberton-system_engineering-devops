@@ -62,7 +62,7 @@ Below are some of the most common JavaScript style conventions.
 * Always use `var` to declare a variable.
 * Indent blocks of code (i.e. lines of code wrapped by a pair of curly brackets, `{}`).
 * Use blank lines to set off sections of code that are logically related.
-* Follow commas by a space (eg. `[0, 1, 2]` not `[0,1,2]`).
+* Follow commas by a space (e.g. `[0, 1, 2]` not `[0,1,2]`).
 * When calling a function, do not use a space to separate the function name and the pair of parenthesis (e.g. `foo()` not `foo ()`).
 * Be consistent.
 
