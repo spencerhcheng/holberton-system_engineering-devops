@@ -1,28 +1,18 @@
-function containsPunctuation(word) {
+function removePunctuation(word) {
   var punctuation = [";", "!", ".", "?", ",", "-"];
+  var lastChar = word[word.length - 1];
 
-
-  for (var i = 0; i < punctuation.length; i += 1) {
-    if (word.indexOf(punctuation[i]) !== -1) {
-      return true;
-    }
+  if (punctuation.indexOf(lastChar) !== -1) {
+    return word.slice(0, -1);
+  } else {
+    return word;
   }
-
-  return false;
 }
 
 function isStopWord(word, stopWords) {
-  for (var i = 0; i < stopWords.length; i += 1) {
-    var stopWord = stopWords[i];
+  var noPuncWord = removePunctuation(word);
 
-    if ((containsPunctuation(word)) && (word.indexOf(stopWord) === 0) && (word.length === stopWord.length + 1)) {
-      return true;
-    } else if (word === stopWord) {
-      return true;
-    }
-  }
-
-  return false;
+  return stopWords.indexOf(noPuncWord) !== -1;
 }
 
 function titleize(title, stopWords) {
