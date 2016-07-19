@@ -19,7 +19,7 @@ functionality that we can use in our programs:
 * `Math.ceil(number)` - Returns the smallest integer greater that or equal to the `number`
 * `Math.floor(number)` - Returns the largest integer less than or equal to the `number`
 * `Math.round(number)` - Returns the value of the `number` rounded to the nearest integer
-* `Math.random()` - Return a (pseudo) random number between 0 and 1
+* `Math.random()` - Return a (pseudo) random number between 0 (inclusive) and 1 (exclusive)
 * `Math.sqrt(number)` - Returns the square root of the `number`
 
 Never reassign the `Math` object. You will never be able to access its
