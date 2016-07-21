@@ -20,7 +20,7 @@ var dog = {
 //What will happen when we run this? Make a prediction, then test.
 //Call over an instructor if you need help understanding what happened.
 //Now fix it.
-dog.live()
+dog.live();
 ```
 ---------------------------------------------------------------------------
 ```javascript
@@ -46,6 +46,6 @@ var annoyingDancer = {
 //What will happen when we run this? Make a prediction, then test.
 //Call over an instructor if you need help understanding what happened.
 //Now fix it.
-annoyingDancer.askQuestion()
+annoyingDancer.askQuestion();
 ```
 ---------------------------------------------------------------------------
