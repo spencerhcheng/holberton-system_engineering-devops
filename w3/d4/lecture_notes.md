@@ -217,6 +217,7 @@ function mostCoolFromFile(filename) {
 
     if (rating > coolestRating) {
       coolest = name;
+      coolestRating = rating;
     }
   });
 
