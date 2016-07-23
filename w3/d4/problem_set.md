@@ -7,7 +7,7 @@ Redo these previous exercises using `Array.prototype.forEach`.
 ### logEach
 
 Write a function `logEach(array)` that prints every element of the array and its
-index to the console . Example:
+index to the console. Example:
 
 ```
 > logEach(["Anthony", "John", "Carson"]);
