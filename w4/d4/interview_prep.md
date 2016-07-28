@@ -4,7 +4,7 @@
 
   It's always better to be over-prepared than under-prepared. If you have an interview scheduled but there's still a concept you're not confident about (eg. loops, high-order functions, etc.), consider rescheduling your interview.
 
-- **Always read the prompt thoroughly and make sure you understand what it's asking for**. If not, clarify your confusion with your interviewer. Even if you think you understand the problem, double check with your interview.
+- **Always read the prompt thoroughly and make sure you understand what it's asking for**. If not, clarify your confusion with your interviewer. Even if you think you understand the problem, double check with your interviewer.
 
   Do all the examples make sense to you? Can you think of some weird examples? If so, ask the interviewer about them.
 
