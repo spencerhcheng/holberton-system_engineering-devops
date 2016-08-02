@@ -79,6 +79,8 @@ tree structure, box model, semantics (header vs nav)
 
 [Watch This: Workflow](https://vimeo.com/168826664) (12 minutes)
 
+The password for both videos is: go_video_go
+
 ## Popular Tags
 
 ### Paragraphs and Headers
