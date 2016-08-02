@@ -7,6 +7,7 @@ function changeColor(e){
 		target.className = 'black';
 	}
 }
+
 function createGrid (COLS, ROWS){
 	var body = document.body;
 
