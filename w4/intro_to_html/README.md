@@ -162,7 +162,7 @@ The use of the `#` in the beginning of the url tells the browser to find an elem
 We create image elements in html using a self-closing image tag with the src attribute referring to the path to the image data.
 
 ```html
-`<img src="http://appacademy.io/images/app-academy-logo.img" alt="app-academy-logo"/>`
+<img src="http://appacademy.io/images/app-academy-logo.img" alt="app-academy-logo"/>
 ```
 
 The alt attribute provides alternate text for the image which is used in image search rankings, speech-accessibility, and displayed when a user hovers over the image.
