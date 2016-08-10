@@ -112,7 +112,7 @@ Evaluate each expression. Check your answer in the console.
 * 1) A String, called `searchString`.
 * 2) A String, called `subString`.
 
-**Output:** A Boolean. `true` is the `subString` is apart of the `searchString`.
+**Output:** A Boolean. `true` if the `subString` is apart of the `searchString`.
 
 ```
 > isSubstring("The cat went to the store", "he cat went")
