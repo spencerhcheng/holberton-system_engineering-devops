@@ -3,7 +3,7 @@
 ## isPrime
 
 Write a function `isPrime(number)` that returns a boolean indicating if `number`
-is prime or not. Assume number is a positive integer.
+is prime or not. Assume `number` is a positive integer.
 
 ```
 > isPrime(2)
