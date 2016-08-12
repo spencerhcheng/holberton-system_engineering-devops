@@ -14,7 +14,7 @@ Let's say we want to make a function that will determine whether a number is pri
 
 What is a prime number? According to Wikipedia, it is a number greater than 1 that has no positive divisors other than 1 and itself. That means that any number less than 2 will definitely not be prime. Let's write a test case.
 
-````
+```javascript
 var assert = require('assert');
 
 var isPrime = require('../problem_set.js').isPrime;
@@ -27,33 +27,33 @@ describe('#isPrime()', function () {
 		assert.strictEqual(isPrime(-953), false);
 	});
 });
-````
+```
 
 Next, let's write a test cases for some numbers that are greater than 2, but not prime. These should all be false.
 
-````
+```javascript
 it('should return false for non-prime numbers greater than 2', function() {
 	assert.strictEqual(isPrime(10), false);
 	assert.strictEqual(isPrime(24), false);
 	assert.strictEqual(isPrime(56), false);
 	assert.strictEqual(isPrime(111), false);
 });
-````
+```
 
 Finally, let's write a test case for some prime numbers, which should return true.
 
-````
+```javascript
 it('should return true for prime numbers', function() {
 	assert.strictEqual(isPrime(2), true);
 	assert.strictEqual(isPrime(3), true);
 	assert.strictEqual(isPrime(97), true);
 	assert.strictEqual(isPrime(19087), true);
 });
-````
+```
 
 Now run your tests using Mocha. They should fail. Great! Let's complete our function `isPrime(n)`. Hopefully you remember it from earlier in the course.
 
-````
+```javascript
 function isPrime(n) {
 	if (n < 2) {
 		return false;
@@ -65,7 +65,7 @@ function isPrime(n) {
 	}
 	return true;
 }
-````
+```
 
 Run your tests. Everything should pass. Hopefully you wrote a readable and efficient function so there is no need to refactor. If not, make sure to clean it up.
 
