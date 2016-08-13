@@ -57,7 +57,7 @@ We often have to find the maximum or minimum values in an array.<sup>[1](#apply)
 ```javascript
 Array.prototype.max = function(){
   return this.reduce(function(previous, current){
-    return Math.max(current, accumulator)
+    return Math.max(current, previous)
   });
 };
 
