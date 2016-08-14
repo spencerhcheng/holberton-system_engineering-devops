@@ -34,6 +34,15 @@ Due: Add about two - three more levels. Maybe your own bad guy. Email your instr
 
 ### Make a Shooter
 
+Due: Complete the shooter described in the videos, and add a personal twist. Email it to your instructor.
+
+1. [Setting the Stage](https://vimeo.com/178809583)
+2. [Adding Movement](https://vimeo.com/178809584)
+3. [Adding Projectiles](https://vimeo.com/178809585)
+4. [Adding Enemies](https://vimeo.com/178809586)
+5. [Scoring the Game](https://vimeo.com/178809587)
+6. [Creating a Game Over Screen](https://vimeo.com/178809588)
+
 ### Make your own game
 
 ## What Would JavaScript Do?
