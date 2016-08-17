@@ -44,10 +44,10 @@ There are a few issues with this solution though:
 
 * We end up adding every element to itself. If the array contains a 0, then we
 will add the same pair of indices into the array. (i.e. If the array is
-  `[4, 1, 0]`, we will get back `[ [2, 2] ]`)
+  `[4, 1, 0]`, we will get back `[ [2, 2] ]` instead of `[ ]`).
 
 * Our answer will contain a bunch on inverse pairs. (i.e If the array is
-  `[1, 2, -1]`, we will get back `[ [0,2], [2,0] ]` instead of `[ [0,2] ]`).
+  `[1, 2, -1]`, we will get back `[ [0, 2], [2, 0] ]` instead of `[ [0, 2] ]`).
 
 How can you fix these issues? We want our output to `pairZero` to look like this:
 
