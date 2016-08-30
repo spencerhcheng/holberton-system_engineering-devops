@@ -20,7 +20,7 @@
     + [Solutions](./solutions/w4/projectEuler)
   + [Free Coderbyte Problems](https://coderbyte.com/challenges/)
   + [ReactiveX](http://reactivex.io/learnrx/) (up to problem 20)
-  + [Bonus Problems](./bonus_problems)
+  + [Bonus Problems](../bonus_problems)
 
 [w4d2-lecture-notes]:./d2/lecture_notes.md
 [pokemon_1]:./d2/pokemon/pokemon.md
@@ -37,7 +37,7 @@
 + [What Makes A Strong Interview?](./d4/interview_prep.md)
 + [Lecture Notes][w4d4-lecture-notes]
   + Test-Driven Development
-+ [Problem Set](./problem_set)
++ [Problem Set](./d4/problem_set)
 
 [w4d4-lecture-notes]:./d4/lecture_notes.md
 

@@ -235,7 +235,7 @@ Welcome to Bootcamp Prep!
 + [What Makes A Strong Interview?](./w4/d4/interview_prep.md)
 + [Lecture Notes][w4d4-lecture-notes]
   + Test-Driven Development
-+ [Problem Set](./problem_set)
++ [Problem Set](./w4/d4/problem_set)
 
 [w4d4-lecture-notes]:./w4/d4/lecture_notes.md
 
