@@ -232,8 +232,8 @@ Welcome to Bootcamp Prep!
   + [Bonus Problems](./bonus_problems)
   + [ReactiveX](http://reactivex.io/learnrx/) (up to problem 20)
 
-[pokemon_1]:./w4/pokemon/pokemon.md
-[pokemon_2]:./w4/pokemon/battle.md
+[pokemon_1]:./w4/d2/pokemon/pokemon.md
+[pokemon_2]:./w4/d2/pokemon/battle.md
 
 ### w4d5
 + **Assessment 7**
