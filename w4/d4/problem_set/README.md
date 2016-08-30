@@ -1,3 +1,5 @@
+**You will be modifying the [test.js](./test/test.js) and [problem_set.js](./problem_set.js) files.**
+
 ### isPrime
 
 Write a function `isPrime(num)` which takes a number and returns true if that number is prime.

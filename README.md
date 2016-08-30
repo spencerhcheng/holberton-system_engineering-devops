@@ -210,30 +210,35 @@ Welcome to Bootcamp Prep!
   + Creating New Classes
   + Creating Instance Variables
   + Creating Methods on Classes
++ Problem Set
+  + [Pokemon Project Part 1][pokemon_1]
+  + [Pokemon Project Part 2][pokemon_2]
 + Introduce Additional Practice Problems
   + [Selected Project Euler Problems](./other/project_euler.md)
     + [Solutions](./solutions/w4/projectEuler)
   + [Free Coderbyte Problems](https://coderbyte.com/challenges/)
-+ [Pokemon Project Part 1][pokemon_1]
+  + [ReactiveX](http://reactivex.io/learnrx/) (up to problem 20)
+  + [Bonus Problems](./bonus_problems)
 
 [w4d2-lecture-notes]:./w4/d2/lecture_notes.md
-
-### w4d3
-+ **Mini Assessment**
-+ **Mock Interviews**
-  + [Interview Prep](./w4/d4/interview_prep.md)
-+ [Pokemon Project Part 2][pokemon_2]
-
-[interview_prompts]:./w4/d4/interview_prompts.js
-
-### w4d4
-+ **Mini Assessment**
-+ Additional Practice Problems
-  + [Bonus Problems](./bonus_problems)
-  + [ReactiveX](http://reactivex.io/learnrx/) (up to problem 20)
-
 [pokemon_1]:./w4/d2/pokemon/pokemon.md
 [pokemon_2]:./w4/d2/pokemon/battle.md
+
+### w4d3
++ [Lecture Notes][w4d3-lecture-notes]
+  + Introduction To HTML
++ [Problem Set](./w4/d3/problem_set.md)
+
+[w4d3-lecture-notes]:./w4/d3/lecture_notes.md
+
+### w4d4
++ [What Makes A Strong Interview?](./w4/d4/interview_prep.md)
++ [Lecture Notes][w4d4-lecture-notes]
+  + Test-Driven Development
++ [Problem Set](./problem_set)
+
+[w4d4-lecture-notes]:./w4/d4/lecture_notes.md
+
 
 ### w4d5
 + **Assessment 7**
