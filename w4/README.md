@@ -16,8 +16,8 @@
   + [Pokemon Project Part 1][pokemon_1]
   + [Pokemon Project Part 2][pokemon_2]
 + Introduce Additional Practice Problems
-  + [Selected Project Euler Problems](./other/project_euler.md)
-    + [Solutions](./solutions/w4/projectEuler)
+  + [Selected Project Euler Problems](../other/project_euler.md)
+    + [Solutions](../solutions/w4/projectEuler)
   + [Free Coderbyte Problems](https://coderbyte.com/challenges/)
   + [ReactiveX](http://reactivex.io/learnrx/) (up to problem 20)
   + [Bonus Problems](../bonus_problems)
