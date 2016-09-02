@@ -72,7 +72,7 @@ result2 === 9 // 0 + (1 + 0) + (2 + 1) + (3 + 2)
 // Test #3:
 var result3 = myInject(["I like", "dogs and", "also cats!"],
 function(accum, ele, i, arr) {
- return accum + " " + e.split(" ")[Math.floor(Math.random() * 2)];
+ return accum + " " + ele.split(" ")[Math.floor(Math.random() * 2)];
 }, "Maybe If");
 
 // Assert this:
