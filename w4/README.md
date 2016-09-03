@@ -45,7 +45,7 @@
 ### w4d5
 + **Assessment 7**
 + [Review Problems][w4-review-problems]
-+ What's Next? [Applying to Bootcamps](./other/whats_next.md)
++ What's Next? [Applying to Bootcamps](../other/whats_next.md)
 + :joy_cat: **Graduation** :joy_cat:
 
 [w4-review-problems]:./d5/review.js
