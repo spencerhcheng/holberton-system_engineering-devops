@@ -54,7 +54,7 @@ Let's take a closer look at our example. `cat.js` exports the `Cat` constructor 
 
 ### Phase 0
 
-Let's export our `Pikachu` class. Add `module.exports = Pokemon` at the end of your Pokemon class file. Create a new file in the same directory called `battle.js` and add `var Pokemon = require("./pokemon")`.
+Let's export our `Pokemon` class. Add `module.exports = Pokemon` at the end of your Pokemon class file. Create a new file in the same directory called `battle.js` and add `var Pokemon = require("./pokemon")`.
 
 To test if you've exported and imported your `Pokemon` class correctly, try creating a few pokemon.
 
