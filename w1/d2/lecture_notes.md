@@ -48,7 +48,37 @@ if (1 + 2 === 3) {
   console.log("Branch 2");
 }
 ```
+### Switch Block
 
+An _alternative_ to `if`, `else if` & `else` exists: the `switch` block. Switch
+blocks are often used when a branching statement would contain more than three
+different outcomes, such as menus. The use of a `switch` block rather than chained `else if`'s
+is a _purely stylistic_ choice.
+
+```javascript
+var hours = 3;
+
+if (hours == 0) {
+  console.log("Ya didn't work today");
+} else if (hours == 2) {
+  console.log("Ya barely worked, 'mon");
+} else {
+  console.log("Hope yer' gettin' overtime pay");
+}
+
+// This may be rewritten in a switch block:
+switch (hours) {
+  case 0:
+    console.log("Ya didn't work today");
+    break;
+  case 2:
+    console.log("Ya barely worked, 'mon");
+    break;
+  default:
+    console.log("Hope yer' gettin' overtime pay");
+}
+```
+[MDN Documentation - Switch](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch)
 ## Looping
 
 A common maneuver in programming is to do a task over and over again. Say, for
