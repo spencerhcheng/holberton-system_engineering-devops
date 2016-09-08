@@ -133,7 +133,7 @@ function fizzBuzz(max) {
 ## titleize
 
 Write a function `titleize(title, stopWords)` that takes in a string `title`
-and and array of strings `stopWords`. Return the `title` where every word that
+and an array of strings `stopWords`. Return the `title` where every word that
 does not exist in the `stopWords` array is capitalized; all others lowercase.
 
 **Hints**

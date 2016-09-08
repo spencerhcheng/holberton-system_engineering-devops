@@ -152,7 +152,7 @@ for (var i = 32; i >= 2; i -= 1) {
 
 
 D)
-for (var i = 1; i == 20; i += 2) {
+for (var i = 1; i === 20; i += 2) {
   //some code...
 }
 ```

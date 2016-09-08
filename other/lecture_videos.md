@@ -15,7 +15,7 @@ The password to all videos: **go_bootcamp_go**
 
 ### Week 3
 + w3d2
-  + [Part 1](https://vimeo.com/album/3888493/video/163589956)
+  + [Part 1](https://vimeo.com/163589956)
   + [Part 2](https://vimeo.com/163589957)
   + [Part 3](https://vimeo.com/163589954)
   + [Part 4](https://vimeo.com/163589955)

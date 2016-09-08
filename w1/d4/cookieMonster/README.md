@@ -12,7 +12,7 @@
 * Now fix all the "initial properties" specs.
 
 * We are going to create two methods `#eat(food)` and `#isAlrightMeal(food)`:
-  * `#eat(food)`: returns a score (integer). `food` is an array of of string
+  * `#eat(food)`: returns a score (integer). `food` is an array of string
   food items. Every food item that is a favorite food add +2 to the score; good
   foods add +1; bad foods add -1; hated foods add -2. Make sure the spec passes.
   * `#isAlrightMeal(food)`: return `true` if the `food` score is between 1 and -1 (inclusive).
