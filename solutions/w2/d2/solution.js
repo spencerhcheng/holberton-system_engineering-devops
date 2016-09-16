@@ -37,7 +37,7 @@ function isNumeric(char) {
 }
 
 function isAlphanumeric(char) {
-  return (isAlpha(char) || isNumeric(char);
+  return (isAlpha(char) || isNumeric(char));
 }
 
 function isValidEmail(email) {
