@@ -7,7 +7,7 @@ function logEach(array) {
 function maxValue(array) {
   var max = null;
 
-  array.forEach(num) {
+  array.forEach(function(num) {
     if (num > max) {
       max = num;
     }
