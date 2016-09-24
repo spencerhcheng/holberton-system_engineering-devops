@@ -25,6 +25,7 @@
 ### Regular Expressions
 
 * [RegEx](http://regexone.com/)
+* [RegExr](http://www.regexr.com)
 
 ### Talks
 
