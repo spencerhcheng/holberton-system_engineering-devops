@@ -59,3 +59,10 @@
 
 [w3-review-problems]:./d5/review.js
 [w4d1-lecture-notes]:../w4/d1/lecture_notes.md
+
+## Assessment 05 Solutions
++ [myForEach](https://vimeo.com/163840454) (4:58)
++ [mySelect](https://vimeo.com/163840456) (5:21)
++ [inPigLatin](https://vimeo.com/163840452) (19:38)
+
+The password to all videos: **go_bootcamp_go**
