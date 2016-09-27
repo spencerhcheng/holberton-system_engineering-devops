@@ -113,7 +113,6 @@ Evaluate each expression. Check your answer in the console.
 * 2) A String, called `subString`.
 
 **Output:** A Boolean. `true` if the `subString` is apart of the `searchString`.
-* *Isn't this phrasing odd?*
 
 ```
 > isSubstring("The cat went to the store", "he cat went")
