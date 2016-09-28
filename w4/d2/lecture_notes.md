@@ -155,7 +155,7 @@ cat2.meow(); // logs "Whiskers says meow."
 cat3.meow(); // logs "Whitney says meow."
 ```
 
-### Prototype Modification
+## Prototype Modification
 
 Wouldn't it be cool if this actually worked?
 
