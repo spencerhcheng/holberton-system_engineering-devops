@@ -36,6 +36,7 @@
   * Using the `document.getElementById` method, initialize a variable to the `div`, `input`, and `button` elements
     * Example: `var input = document.getElementById("input1")`
   * The variable that holds the `button` element (we'll call it `btn` for simplicity's sake) needs to listen to the "click" event (when a user clicks the button). When the button is clicked, it will take the text in the `input` and set it equal to the background color of the `div`
+  
 ```javascript
     btn.addEventListener('click', function() {
         canvas.style.backgroundColor = input.value;
