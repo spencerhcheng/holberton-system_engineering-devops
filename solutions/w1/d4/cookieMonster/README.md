@@ -1,5 +1,7 @@
 ## Cookie Monster Project
 
+[Solution Video](https://vimeo.com/184782260) : password is __go_bootcamp_go__.
+
 * For this project, we are going to make a `cookieMonster` object.
   * Type `mocha` in the command prompt/terminal to see all the failing tests. Your job will be to make them all pass.
 
