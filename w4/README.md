@@ -12,6 +12,7 @@
   + Creating New Classes
   + Creating Instance Variables
   + Creating Methods on Classes
+  + [Prototype Modification](./d2/prototype-modification.md)
 + Problem Set
   + [Pokemon Project Part 1][pokemon_1]
   + [Pokemon Project Part 2][pokemon_2]
