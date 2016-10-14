@@ -207,7 +207,7 @@ var myObj = {
 
 var myFunc = myObj.sayHi; // not calling sayHi
 
-var name = "Bill";
+name = "Bill";
 
 myFunc(); // What does this output?
 ```
