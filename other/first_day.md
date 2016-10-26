@@ -10,16 +10,23 @@ We'll hit the ground running from day 1. If you don't want to be behind, please:
    ![install_shell_commands](./install_shell_commands.png)
 
   + If you have trouble downloading and using Atom, please install [Sublime][sublime]. It'll periodically ask you to purchase a license. You can ignore that and continue using it for free.
-+ Complete the first unit of [Codecademy's JavaScript][codecademy_js] course.
 + Complete exercises 1 to 9 of  [Codecademy's Learn the Command Line][codecademy_cli] course.
 + Read [this][cli] about navigating your command line and prepare any questions you may have.
-+ If you have no programming experience, we suggest tackling some of the [logical reasoning exercises][logical_reason].
++ If you have no programming experience, do the [logical reasoning exercises][logical_reason].
++ Watch the first [lecture video (w1d1)][vid]
+   + Write down everything you don't understand, so you can ask your teacher about it during lecture.
++ Read through [Week 1 Day 1 lecture notes][notes]
++ Do the [first two recitations:][recitation]
+  + "Introduction To Recitation" and "Primitive Data"
+
 
 [course_intro]:./programming_intro.md
 [node]:https://nodejs.org/en/
 [atom]:https://atom.io/
 [sublime]:https://www.sublimetext.com/
-[codecademy_js]:https://www.codecademy.com/learn/javascript
 [codecademy_cli]:https://www.codecademy.com/learn/learn-the-command-line
 [cli]:./cli.md
 [logical_reason]:../logical_reasoning_prep
+[vid]:./lecture_videos.md
+[notes]:../w1/d1/lecture_notes.md
+[recitation]:../recitations
