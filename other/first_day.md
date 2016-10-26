@@ -18,6 +18,7 @@ We'll hit the ground running from day 1. If you don't want to be behind, please:
 + Read through [Week 1 Day 1 lecture notes][notes]
 + Do the [first two recitations:][recitation]
   + "Introduction To Recitation" and "Primitive Data"
++ Read our [tips for success][tips]
 
 
 [course_intro]:./programming_intro.md
@@ -29,4 +30,5 @@ We'll hit the ground running from day 1. If you don't want to be behind, please:
 [logical_reason]:../logical_reasoning_prep
 [vid]:./lecture_videos.md
 [notes]:../w1/d1/lecture_notes.md
+[tips]:./tips.md
 [recitation]:../recitations
