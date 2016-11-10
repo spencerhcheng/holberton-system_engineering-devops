@@ -93,8 +93,8 @@ var isMagicNumer = function(number) {
   return false;
 }
 
-isMagicNumer(26) === true;
-isMagicNumer(50) === false;
+isMagicNumer(26) //==> true;
+isMagicNumer(50) //==> false;
 ```
 
 -----------------------------------------------------
@@ -108,8 +108,8 @@ function jump(height) {
   return "I'm jumping " + howhigh(height);
 }
 
-jump(5) === "I'm jumping 5 feet high!";
-jump(12) === "I'm jumping 12 feet high!";
+jump(5) //==> "I'm jumping 5 feet high!";
+jump(12) //==> "I'm jumping 12 feet high!";
 ```
 
 -----------------------------------------------------
@@ -128,6 +128,8 @@ function fizzBuzz(max) {
 
   return array;
 }
+
+fizzBuzz(19) //==> [3, 5, 6, 9, 10, 12, 18];
 ```
 
 ## titleize
