@@ -22,4 +22,4 @@
 
 - Lastly, be confident. You've worked really hard in Bootcamp Prep and your hard work has paid off. Please do not give up on a problem. **Please always attempt each problem you are given in a technical interview.**
 
-- As you may know, each students receives two mock interviews to help them prepare for the bootcamp application process. You can schedule your mock interviews [here](https://calendly.com/bootcamp_prep/bp_mock)!
+- As you may know, each students receives two mock interviews to help them prepare for the bootcamp application process. You can schedule your mock interviews [here](https://calendly.com/aa-bootcamp/mock)!
