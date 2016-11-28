@@ -82,4 +82,4 @@ If you're interested in applying to [App Academy][app_academy], here is the proc
 In either scenario, there will be no coding challenges.
 
 [app_academy]:http://www.appacademy.io/
-[app_academy_app]:http://www.appacademy.io/apply
+[app_academy_app]:https://www.appacademy.io/immersive/application/full-time
