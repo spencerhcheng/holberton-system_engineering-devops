@@ -31,7 +31,7 @@ Many of our program rules are enforced through a system of **strikes**. Students
 #### Earning Strikes:
 - **Attendance and Tardiness**
 
-  - Roll will be called at 6:00 PM everyday. If you are not present at roll call, you will earn 1 strike.
+  - Roll will be called at 6:30 PM everyday. If you are not present at roll call, you will earn 1 strike.
   - Absences/tardiness are not excusable. However, students who come to class on time consistently will have more than enough strikes to take off any time they need.
   - Please email us ahead of time if you know you will be late or absent.
 
