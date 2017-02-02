@@ -1,3 +1,5 @@
+Password to all videos: **go_bootcamp_go**
+
 ##Data Model 1##
 
 [printNames](https://vimeo.com/167197922)
@@ -15,4 +17,5 @@
 [printUsersWebsitesInfo](https://vimeo.com/167964228)
 
 
-
+##Problem Set##
+[isValidEmail](https://vimeo.com/168261711)
