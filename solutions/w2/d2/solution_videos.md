@@ -18,4 +18,8 @@ Password to all videos: **go_bootcamp_go**
 
 
 ##Problem Set##
+[divisibleByThreePairSum](https://vimeo.com/167192847)
+
 [isValidEmail](https://vimeo.com/168261711)
+
+[peakFinder](https://vimeo.com/167195302)
