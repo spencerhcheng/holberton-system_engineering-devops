@@ -174,7 +174,7 @@ The opponent pokemon's `hp` should reflect the `damage` of the move. If no avail
 > pikachu.attack(bulbasaur, "Thunder Shock");
 PIKACHU attacked with Thunder Shock!
 Damage to BULBASAUR: -4
-PIKACHU hp: 24
+PIKACHU hp: 22
 BULBASAUR hp: 20
 
 > pikachu.attack(onyx);
