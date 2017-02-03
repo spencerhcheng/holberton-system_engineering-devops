@@ -42,7 +42,3 @@ Due: Complete the shooter described in the videos, and add a personal twist. Ema
 4. [Adding Enemies](https://vimeo.com/178809586)
 5. [Scoring the Game](https://vimeo.com/178809587)
 6. [Creating a Game Over Screen](https://vimeo.com/178809588)
-
-### Make your own game
-
-## What Would JavaScript Do?
