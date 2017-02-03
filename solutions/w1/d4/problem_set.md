@@ -1,6 +1,6 @@
 # Problem Set
 
-### Debug The Programs
+### Debug The Program
 
 ```javascript
 var cat = {
