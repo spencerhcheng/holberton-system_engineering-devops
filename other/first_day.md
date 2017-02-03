@@ -4,6 +4,7 @@ We'll hit the ground running from day 1. If you don't want to be behind, please:
 + Read our [course introduction][course_intro].
 + Install [Node.js][node]
   + Download the current stable version for your operating system. The installation is very user-friendly. If you run into any problems, email us describing it and plan on coming in about 15 minutes early on the first day.
+  + To check if you have installed it Node correctly, launch your command line interface (Terminal on Mac, Command Prompt on Windows), type in `node -v` and hit enter. If you see a version number, you are ready to rock. 
 + Install [Atom][atom]. It's going to be our text editor of choice during this course.
   + Once you have Atom installed, open it up and install its shell commands. (Atom > Install Shell Commands)
 
