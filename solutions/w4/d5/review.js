@@ -112,14 +112,10 @@ function isogramMatcher(string1, string2) { // solution 1
   var lettersDiffPos = 0;
 
   for (var i = 0; i < string1.length; i++) {
-    for (var j = 0; j < string2.length; j++) {
-      if (string1[i] === string2[j]) {
-        if (i === j) {
-          lettersSamePos += 1;
-        } else {
-          lettersDiffPos += 1;
-        }
-      }
+    if (string1[i] === string2[i]) {
+      lettersSamePos++;
+    } else if (string2.indexOf(string1[i]) !== -1) {
+      lettersDiffPos++;
     }
   }
 
