@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 /**
- * main - function prints out
+ * main - Function prints out
  * letters from a to z using
  * putchar rather than printf
- * return: 0
+ * Return: 0
 */
 
 int main(void)
