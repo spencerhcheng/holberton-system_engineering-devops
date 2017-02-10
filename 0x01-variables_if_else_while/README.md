@@ -1,87 +1,44 @@
-C- Variables, if, else, while
+ - variables, if, else, while
+0. Positive anything is better than negative nothing
 
-1. The last digit mandatory
-Progress vs Score
-This program will affect a random number to the variable n each time it is executed. Complete the source code in order to print the last digit of the number stored in the variable n.
-	•	You can find the source code here
-	•	The variable n will store a different value every time you will run this program
-	•	You don't have to understand what are and what do rand, srand, RAND_MAX do. Please do not touch this code
-	•	The output of the program should be:
-	◦	The string Last digit of, followed by
-	◦	n, followed by
-	◦	the string is, followed by
-	▪	if n is greater than 5: the string and is greater than 5
-	▪	if n is 0: the string and is 0
-	▪	if n is less than 6 and not 0: the string and is less than 6 and not 0
-	◦	followed by a new line
-2. I sometimes suffer from insomnia. And when I can't fall asleep, I play what I call the alphabet game mandatory
-Progress vs Score
-Write a program that prints the alphabet, in lowercase, followed by a new line.
-	•	You can only use the putchar function (every other functions (printf, puts, etc...) are forbidden)
-	•	All your code should be in the main function
-	•	You can only use putchar twice in your code
+A program that will affect a random number to the variable n each time it is executed. Complete the source code to print whether the number in variable n is positive or negative.
 
-3. When I was having that alphabet soup, I never thought that it would pay off mandatory
-Progress vs Score
-Write a program that prints the alphabet, in lowercase, followed by a new line.
-	•	Print all the letters except q and e
-	•	You can only use the putchar function (every other functions (printf, puts, etc...) are forbidden)
-	•	All your code should be in the main function
-	•	You can only use putchar twice in your code
+1. The last digit
 
-4. alphABET mandatory
-Progress vs Score
-Write a program that prints the alphabet, in lowercase, and then in uppercase, followed by a new line.
-	•	You can only use the putchar function (every other functions (printf, puts, etc...) are forbidden)
-	•	All your code should be in the main function
-	•	You can only use putchar three times in your code
+A program that will affect a random number to the variable n each time it is executed. Complete the source code to print the last digit of the number stored in the variable n.
 
+2. I sometimes suffer from insomnia. And when I can't fall asleep, I play what I call the alphabet game
 
-5. Numbers mandatory
-Progress vs Score
-Write a program that prints all numbers of base 10, starting from 0, followed by a new line.
-	•	All your code should be in the main function
+A program that prints the alphabet in lowercase followed by a newline, using only putchar function
 
-6. Numberz mandatory
-Progress vs Score
-Write a program that prints all numbers of base 10, starting from 0, followed by a new line.
-	•	You are not allowed to use any variable of type char
-	•	You can only use the putchar function (every other functions (printf, puts, etc...) are forbidden)
-	•	You can only use putchar twice in your code
-	•	All your code should be in the main function
+3. When I was having that alphabet soup, I never thought that it would pay off
 
-7. Smile in the mirror mandatory
-Progress vs Score
-Write a program that prints the alphabet, in reverse order, in lowercase, followed by a new line.
-	•	You can only use the putchar function (every other functions (printf, puts, etc...) are forbidden)
-	•	All your code should be in the main function
-	•	You can only use putchar twice in your code
+A program that prints the alphabet in lowercase followed by a new line, except for q and e, only using putchar function
 
-8. Hexadecimal mandatory
-Progress vs Score
-Write a program that prints all the numbers of base 16, in lowercase, followed by a new line.
-	•	You can only use the putchar function (every other functions (printf, puts, etc...) are forbidden)
-	•	All your code should be in the main function
-	•	You can only use putchar three times in your code
+4. alphABET
 
-9. Patience, persistence and perspiration make an unbeatable combination for success mandatory
-Progress vs Score
-Write a program that prints all possible combinations of single-digit numbers.
-	•	Numbers must be separated by ,, followed by a space
-	•	Numbers should be printed in ascending order
-	•	You can only use the putchar function (every other functions (printf, puts, etc...) are forbidden)
-	•	All your code should be in the main function
-	•	You can only use putchar four times maximum in your code
-	•	You are not allowed to use any variable of type char
+A program that prints the alphabet in lowercase and then in uppercase followed by a new line, using only putchar function
 
-10. 00...99 mandatory
-Progress vs Score
-Write a program that prints numbers from 0 to 99.
-	•	Numbers must be separated by ,, followed by a space
-	•	Numbers should be printed in ascending order, with two digits
-	•	You can only use the putchar function (every other functions (printf, puts, etc...) are forbidden)
-	•	You can only use putchar five times maximum in your code
-	•	You are not allowed to use any variable of type char
-	•	All your code should be in the main function
+5. Numbers
 
+A program that prints all numbers of base 10, starting from 0, followed by a new line
 
+6. Numberz
+
+A program that prints all numbers of base 10, starting from 0, followed by a new line without using a variable of type char, using only putchar function
+
+7. Smile in the mirror
+
+A program that prints the alphabet, in reverse order, in lowercase, followed by a new line, using only putchar function
+
+8. Hexadecimal
+
+A program that prints all the numbers of base 16, in lowercase, followed by a new line, using only putchar function
+
+9. Patience, persistence and perspiration make an unbeatable combination for success
+
+A program that prints all possible combinations of single-digit numbers
+
+10. 00...99
+
+A program that prints numbers from 0 to 99
