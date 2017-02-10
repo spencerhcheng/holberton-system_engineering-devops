@@ -1,16 +1,17 @@
-#include <stdio.h> 
+#include <stdio.h>
 
-/** main -
- * 
- *
- * return 0
+/**
+ * main - Function that prints out
+ * letters from A to Z in reverse
+ * order using putchar.
+ * Return: 0
 */
 
 int main(void)
 {
 	char letter;
-	letter = 'z';
 
+	letter = 'z';
 	while (letter >= 'a')
 	{
 		putchar(letter);

@@ -1,29 +1,29 @@
 #include <stdio.h>
 
-/** main -  function prints out lower case
+/**
+ * main -  function prints out lower case
  * a to z followed by upper case A
  * to Z followed by a new line.
- * return 0
+ * Return: 0
 */
 
 int main(void)
 {
-	char letter;
+	char lowerLtr = 'a';
+	char upperLtr = 'A';
 
-	letter = 'a';
-
-	while (letter <= 'z')
+	while (lowerLtr <= 'z')
 	{
-		putchar(letter);
-		letter++;
+		putchar(lowerLtr);
+		lowerLtr++;
 	}
 
-	letter = 'a';
+	upperLtr = 'A';
 
-	while (letter <= 'z')
+	while (upperLtr <= 'Z')
 	{
-		putchar(toupper(letter));
-		letter++;
+		putchar(upperLtr);
+		upperLtr++;
 	}
 
 	putchar('\n');
