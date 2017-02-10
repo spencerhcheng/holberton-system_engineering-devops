@@ -5,7 +5,7 @@
  * letters from a to z using
  * putchar rather than printf
  * Return: 0
-*/
+ */
 
 int main(void)
 {
