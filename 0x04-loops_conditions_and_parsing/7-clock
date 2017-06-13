@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
-hours=1
-minutes=0
+hours=0
+minutes=1
 while ((hours <= 12))
 do
-	minutes=0
+	minutes=1
 	echo "Hour: $hours"
 	((hours++))
 	while ((minutes < 60))
