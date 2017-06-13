@@ -13,6 +13,10 @@
 
 ##### GitHub repository: `holberton-system_engineering-devops``
 ##### Directory: `1-for_holberton_school`
+### Author
+#### Twitter: @spencerhcheng
+#### LinkedIn: https://www.linkedin.com/in/spencer-cheng-284b4b55
+#### Github: @spencerhcheng
 
 ### FILE SETUP
 All files are written and compiles on Ubuntu 14.04 LTS. Scripts will pass `Shellcheck` (version `0x3.3-1~ubuntu14.04.1`)
