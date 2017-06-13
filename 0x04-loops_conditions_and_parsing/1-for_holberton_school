@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+for((i = 0; i <= 9; i++))
+{
+	echo "Holberton School"
+}
+exit 0
