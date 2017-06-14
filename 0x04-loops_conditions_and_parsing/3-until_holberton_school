@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
-#Script that prints Holberton School 10 times using the until loop
+# Script that prints Holberton School 10 times using the until loop
 i=0
 until ((i == 10))
 do
-    echo "holberton school"
+    echo "Holberton School"
     ((i++))
 done
