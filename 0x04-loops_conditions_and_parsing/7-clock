@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+#Displays the time for 12 hours and 59 minutes.
 hours=0
 minutes=1
 while ((hours <= 12))
