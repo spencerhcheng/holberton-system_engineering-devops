@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+#script that displays Holberton School 10x using a for loop
 for((i = 0; i <= 9; i++))
 {
 	echo "Holberton School"
