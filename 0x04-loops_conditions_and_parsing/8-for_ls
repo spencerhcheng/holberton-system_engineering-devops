@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-for f in *
+for files in *
 do
-	echo "$f"
+	echo "$files" | cut -d "-" -f 2
 done
