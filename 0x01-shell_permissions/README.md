@@ -76,8 +76,8 @@ total 4
 @ubuntu:/tmp/h$ sudo ./3-new_owner 
 @ubuntu:/tmp/h$ ls -l
 total 4
--rwxrw-r-- 1 julien julien 30 Sep 20 14:23 3-new_owner
--rw-rw-r-- 1 betty  julien  0 Sep 20 14:18 hello
+-rwxrw-r-- 1 spencer spencer 30 Sep 20 14:23 3-new_owner
+-rw-rw-r-- 1 betty  spencer 0 Sep 20 14:18 hello
 @ubuntu:/tmp/h$
 ```
 GitHub repository: holberton-system_engineering-devops
@@ -312,8 +312,8 @@ total 24
 drwx--x--x 2 spencer 4096 Sep 20 14:49 dir0
 drwx--x--x 2 spencer 4096 Sep 20 14:49 dir1
 drwx--x--x 2 spencer 4096 Sep 20 14:49 dir2
-drwxr-x--x 2 julien julien 4096 Sep 20 14:59 dir_holberton
--rw-rw-r-- 1 julien julien   23 Sep 20 14:25 hello
+drwxr-x--x 2 spencer spencer 4096 Sep 20 14:59 dir_holberton
+-rw-rw-r-- 1 spencer spencer23 Sep 20 14:25 hello
 julien@ubuntu:/tmp/h$ sudo ./14-change_owner_and_group 
 julien@ubuntu:/tmp/h$ ls -l
 total 24
@@ -346,8 +346,8 @@ lrwxrwxrwx 1 spencer 5 Sep 20 15:10 _hello -> hello
 julien@ubuntu:/tmp/h$ sudo ./15-symbolic_link_permissions 
 julien@ubuntu:/tmp/h$ ls -l
 total 24
--rwxrwxr-x 1 julien julien      44 Sep 20 15:12 15-symbolic_link_permissions
--rw-rw-r-- 1 julien julien      23 Sep 20 14:25 hello
+-rwxrwxr-x 1 spencer spencer 44 Sep 20 15:12 15-symbolic_link_permissions
+-rw-rw-r-- 1 spencer spencer      23 Sep 20 14:25 hello
 lrwxrwxrwx 1 betty  holberton    5 Sep 20 15:10 _hello -> hello
 spencer@ubuntu:/tmp/h$
 ```
@@ -365,13 +365,13 @@ The file hello will be in the working directory
 ```
 spencer@ubuntu:/tmp/h$ ls -l
 total 24
--rwxrwxr-x 1 julien    julien      47 Sep 20 15:18 16-if_only
--rw-rw-r-- 1 guillaume julien      23 Sep 20 14:25 hello
+-rwxrwxr-x 1 spencer    spencer 47 Sep 20 15:18 16-if_only
+-rw-rw-r-- 1 spencer      23 Sep 20 14:25 hello
 spencer@ubuntu:/tmp/h$ sudo ./16-if_only 
 spencer@ubuntu:/tmp/h$ ls -l
 total 24
--rwxrwxr-x 1 julien julien      47 Sep 20 15:18 16-if_only
--rw-rw-r-- 1 betty  julien      23 Sep 20 14:25 hello
+-rwxrwxr-x 1 spencer 47 Sep 20 15:18 16-if_only
+-rw-rw-r-- 1 betty  spencer 23 Sep 20 14:25 hello
 spencer@ubuntu:/tmp/h$ 
 ```
 
@@ -381,24 +381,21 @@ File: 16-if_only
 
 #### 17. Star Wars #advanced
 
-Write a script that will play the StarWars IV episode in the terminal.
+Script that will play the StarWars IV episode in the terminal.
 
 GitHub repository: holberton-system_engineering-devops
 Directory: 0x01-shell_permissions
 File: 100-Star_Wars
-Check your code?
-  Done!  
-Help!
 
 #### 18. RTFM #advanced
 
-A manual that looks exactly like this one and passes all checks.
-
+A manual that looks exactly like this one:
+```
 ubuntu@ip-172-31-63-244:/tmp/man$ wc 101-man_holberton
  16  89 608 101-man_holberton
 ubuntu@ip-172-31-63-244:/tmp/man$ man ./101-man_holberton
 man_holberton
-
+```
 GitHub repository: holberton-system_engineering-devops
 Directory: 0x01-shell_permissions
 File: 101-man_holberton
