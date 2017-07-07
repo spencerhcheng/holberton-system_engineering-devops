@@ -46,7 +46,7 @@ File: 0-OSI_model
 
 #### 1. Types of network
 
-![Networksicon)(http://i.imgur.com/kbaNEA1.jpg)
+![Networksicon](http://i.imgur.com/kbaNEA1.jpg)
 **Questions**
 On what type of network are Holberton iMacs connected to?
 
@@ -72,7 +72,7 @@ File: 1-types_of_network
 
 ##### 2. MAC and IP Address
 
-![MACIP)(http://i.imgur.com/YWtKMUr.jpg)
+![MACIP](http://i.imgur.com/YWtKMUr.jpg)
 
 What is a MAC address?
 
@@ -151,7 +151,7 @@ File: 4-TCP_and_UDP_ports
 
 ##### 5. Host on the network
 
-![UDP/TCP)(https://media.giphy.com/media/uDxkJAVSU7GY8/giphy.gifi)
+![UDP/TCP](https://media.giphy.com/media/uDxkJAVSU7GY8/giphy.gifi)
 
 The Internet Control Message Protocol (ICMP) is a protocol in the Internet protocol suite. It is used by network devices, to check if other network devices are available on the network. The command ping is using ICMP to make sure that a network device remains online or to troubleshoot issues on the network.
 
