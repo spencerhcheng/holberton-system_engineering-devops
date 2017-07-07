@@ -151,7 +151,7 @@ File: 4-TCP_and_UDP_ports
 
 ##### 5. Host on the network
 
-![UDP/TCP](https://media.giphy.com/media/uDxkJAVSU7GY8/giphy.gifi)
+![UDP/TCP](https://media.giphy.com/media/uDxkJAVSU7GY8/giphy.gif)
 
 The Internet Control Message Protocol (ICMP) is a protocol in the Internet protocol suite. It is used by network devices, to check if other network devices are available on the network. The command ping is using ICMP to make sure that a network device remains online or to troubleshoot issues on the network.
 
