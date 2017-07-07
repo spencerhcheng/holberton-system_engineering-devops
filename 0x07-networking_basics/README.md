@@ -46,7 +46,7 @@ File: 0-OSI_model
 
 #### 1. Types of network
 
-![Networksicon](http://i.imgur.com/kbaNEA1.jpg)
+![Networksicon](https://media.giphy.com/media/uDxkJAVSU7GY8/giphy.gif)
 **Questions**
 On what type of network are Holberton iMacs connected to?
 
