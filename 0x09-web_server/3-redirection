@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Script that redirects to another page
+sudo apt-get -y install nginx
+sudo service nginx start
+
