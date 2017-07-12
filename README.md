@@ -1,6 +1,17 @@
-# SHELL BASICS
+![Holberton_logo](https://i.imgur.com/1HeldQT.png)
 
-### In computing, a shell is a user interface for access to an operating system's services. In general, operating system shells use either a command-line interface (CLI) or graphical user interface (GUI), depending on a computer's role and particular operation. It is named a shell because it is a layer around the operating system kernel.[1][2]
+#### AUTHOR:
+
+*Spencer Cheng* - [Github](https://github.com/spencerhcheng) || [Twitter](https://twitter.com/spencerhcheng) || [email](spencer.cheng@gmail.com)
+
+### FILE AND ENVIRONMENT SETUP
+All files are written and compiles on Ubuntu 14.04 LTS. The first line of script files begins with exactly `#!/bin/bash`
+
+All files will have executable priviledge for users.
+
+### SHELL BASICS
+
+#### In computing, a shell is a user interface for access to an operating system's services. In general, operating system shells use either a command-line interface (CLI) or graphical user interface (GUI), depending on a computer's role and particular operation. It is named a shell because it is a layer around the operating system kernel.[1][2]
 
 The design of a shell is guided by cognitive ergonomics and the goal is to achieve the best workflow possible for the intended tasks; the design can be constricted by the available computing power (for example, of the CPU) or the available amount of graphics memory. The design of a shell is also dictated by the employed computer periphery, such as computer keyboard, pointing device (a mouse with one button, or one with five buttons, or a 3D mouse) or touchscreen, which is the direct human–machine interface.
 
@@ -10,6 +21,6 @@ Graphical shells place a low burden on beginning computer users, and they are ch
 
 On most Linux systems a program called bash (which stands for Bourne Again SHell, an enhanced version of the original Unix shell program, sh, written by Steve Bourne) acts as the shell program. Besides bash, there are other shell programs that can be installed in a Linux system. These include: ksh, tcsh and zsh.
 
-### What's A "Terminal?
+#### What's A "Terminal?
 
 It's a program called a terminal emulator. This is a program that opens a window and lets you interact with the shell. There are a bunch of different terminal emulators you can use. Most Linux distributions supply several, such as: gnome-terminal, konsole, xterm, rxvt, kvt, nxterm, and eterm.
