@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
 # Installs nginx on my web server
-sudo sed -i '21d' /etc/nginx/sites-enabled/default
-sudo sed -i "21i \ \tlisten 80;\n" /etc/nginx/sites-enabled/default
+sudo sed -i "s/8080;/80;/" /etc/nginx/sites-enabled/default
 sudo service nginx restart
