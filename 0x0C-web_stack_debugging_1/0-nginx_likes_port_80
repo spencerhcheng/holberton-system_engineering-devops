@@ -2,7 +2,6 @@
 # Installs nginx on my web server
 sudo apt-get update
 sudo apt-get -y install nginx
-sudo service nginx start
 sudo sed -i '21d;22d' /etc/nginx/sites-enabled/default
 sudo sed -i "21i \ \tlisten 80;\n\tlisten [::]:80;\n" /etc/nginx/sites-enabled/default
-sudo service nginx restart
+sudo service nginx start
