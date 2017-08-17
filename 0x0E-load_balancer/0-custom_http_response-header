@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# Configures web-02 to be identical to web-01
+# shellcheck disable=SC2016
+sudo apt-get update
+sudo apt-get -y install nginx
+sudo service nginx start
+sudo sed -i '23 i \ \tadd_header X-Served-By $hostname;' /etc/nginx/sites-enabled/default
+sudo service nginx restart
