@@ -1,3 +1,5 @@
+# Creates file /tmp/holberton
+
 file { '/tmp/holberton':
     ensure  => file,
     path    => '/tmp/holberton',
