@@ -12,7 +12,7 @@ All files are written and compiles on `Ubuntu 14.04 LTS`. The first line of bash
 Learning points:
 * What are puppet manifests and how to create them
 
-##### 0. Creating a file
+#### 0. Creating a file
 File created using `Puppet` in folder `/tmp`
 
 File path is `tmp/holberton`
@@ -39,7 +39,7 @@ GitHub repository: `holberton-system_engineering-devops`
 Directory: `0x0F-configuration_management`
 File: `0-create_a_file.pp`
 
-##### 1. Install a package
+#### 1. Install a package
 File created with puppet to install `puppet-lint version 2.1.1`
 
 Example:
@@ -61,7 +61,7 @@ GitHub repository: `holberton-system_engineering-devops`
 Directory: `0x0F-configuration_management`
 File: `1-install_a_package.pp`
 
-##### Executing a command
+#### Executing a command
 Using puppet, a manifest that kills a process named `killmenow` using the `exec` puppet resource and `pkill`.
 
 Example:
