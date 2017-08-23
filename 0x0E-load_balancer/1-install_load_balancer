@@ -10,5 +10,5 @@ sudo apt-get -y install haproxy
 listen_string="listen Holberton *:80\n\tmode http\n\tstats enable\n\tstats uri /haproxy?status\n\tbalance roundrobin\n\tserver 136-web-01 34.207.108.29:80 check\n\tserver 136-web-02 34.229.54.8:80 check"
 
 sudo sed -i '8 i ENABLED=1' /etc/default/haproxy
-sudo sed -ie "\$a$listen_string" /etc/haproxy/haproxy.cfg
+sudo sed -i -e "\$a$listen_string" /etc/haproxy/haproxy.cfg
 sudo service haproxy restart
