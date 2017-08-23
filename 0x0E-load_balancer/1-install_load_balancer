@@ -11,5 +11,4 @@ listen_string="listen Holberton *:80\n\tmode http\n\tstats enable\n\tstats uri /
 
 sudo sed -i '8 i ENABLED=1' /etc/default/haproxy
 sudo sed -ie "\$a$listen_string" /etc/haproxy/haproxy.cfg
-sudo rsyslog start
 sudo service haproxy restart
