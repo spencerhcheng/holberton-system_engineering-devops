@@ -2,8 +2,6 @@
 # Changes access from root to nginx and listens on port 8080
 sudo chmod 644 /etc/nginx/nginx.conf
 sudo sed -i "4 i\user nginx;" /etc/nginx/nginx.conf
-sudo apt-get -y install psmisc
-killall apache2
+kill -9 `ps -A | grep apache | awk '{print $1}'`
 sudo sed -i "s/80/8080/g" /etc/nginx/sites-available/default
 sudo service nginx restart
-su -c "service nginx start" nginx
