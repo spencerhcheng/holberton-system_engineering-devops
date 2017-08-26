@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# Changes access from root to nginx and listens on port 8080
+
+sudo sed -i '1i user nginx;' /etc/nginx/nginx.conf
+sudo apt-get install psmisc
+sudo killall apache2
+sudo sed -i 's/80/8080/g' /etc/nginx/sites-enabled/default
+sudo service nginx restart
