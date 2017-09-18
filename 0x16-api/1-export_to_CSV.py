@@ -1,12 +1,11 @@
 #!/usr/bin/python3
 """Returns information about TODO list progress"""
+import csv
 import requests
 import sys
-import csv
 
 
 if __name__ == "__main__":
-
     id_number = sys.argv[1]
     url_users = 'https://jsonplaceholder.typicode.com/users'
     url_todos = 'https://jsonplaceholder.typicode.com/todos'
@@ -19,11 +18,12 @@ if __name__ == "__main__":
     for users in r_obj_users:
         if (users['id'] == int(id_number)):
             id_number = id_number
-            user_name = users['username']
+            user_name = users.get('username')
             for entry in r_obj_todos:
-                if (entry['userId'] == int(id_number)):
-                    task_list.append([id_number, user_name, str(
-                                     entry['completed']), entry['title']])
+                if (entry.get('userId') == int(id_number)):
+                    task_list.append([id_number, user_name,
+                                     entry.get('completed'),
+                                     entry.get('title')])
 
     with open("{}.csv".format(id_number), "wt") as csvfile:
         reader = csv.writer(csvfile, delimiter=',', quoting=csv.QUOTE_ALL)
