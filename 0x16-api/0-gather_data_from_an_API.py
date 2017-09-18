@@ -20,7 +20,7 @@ if __name__ == "__main__":
         if (entry['userId'] == int(id_number)):
             total_tasks += 1
             if entry['completed'] is True:
-                task_list.append(entry['title'])
+                task_list.append(entry.get('title'))
                 completed_tasks += 1
 
     for users in r_obj_users:
