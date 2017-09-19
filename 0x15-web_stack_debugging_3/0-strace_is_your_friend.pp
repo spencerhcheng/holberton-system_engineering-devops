@@ -1,5 +1,5 @@
-# Fix typo with file extension
-exec { 'Replace line in /var/www/html/wp-settings.php':
-    path        => [ '/bin/', '/sbin/' , '/usr/bin/', '/usr/sbin/' ],
-    command     => 'sudo sed -i "s/phpp/php/g" /var/www/html/wp-settings.php',
+# fixing typo phpp instead of php in the wp-settings.php
+exec { 'replace phpp typo with php':
+  path    => '/usr/bin/:/usr/sbin/:/bin/',
+  command => 'sed -i "s/phpp/php/g" /var/www/html/wp-settings.php',
 }
