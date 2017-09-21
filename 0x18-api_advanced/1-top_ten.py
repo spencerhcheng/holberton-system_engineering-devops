@@ -30,4 +30,5 @@ def top_ten(subreddit):
                 i += 1
                 print(v)
     if i == 0:
-        return ('None')
+        print('None')
+        return
