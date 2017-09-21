@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-import sys
 import requests
+import sys
 
 
 def number_of_subscribers(subreddit):
