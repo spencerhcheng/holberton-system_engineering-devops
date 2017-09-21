@@ -12,7 +12,8 @@ def top_ten(subreddit):
     r = requests.get(reddit_url, headers={'User-agent': 'Spencer'})
 
     if r.status_code == 301:
-        return (0)
+        print('None')
+        return
 
     i = 0
     r_sub = r.json().get('data', {}).get('children', {})
