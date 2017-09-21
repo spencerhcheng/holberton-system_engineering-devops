@@ -15,7 +15,8 @@ def number_of_subscribers(subreddit):
     if r.status_code == 301:
         return (0)
 
-    r_sub = r.json().get('data').get('subscribers')
+    r_sub = r.json().get('data', {}).get('subscribers')
+
     if r_sub is None:
         return (0)
     else:
