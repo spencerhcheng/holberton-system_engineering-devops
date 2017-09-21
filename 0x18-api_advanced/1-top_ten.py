@@ -23,12 +23,13 @@ def top_ten(subreddit):
         return
 
     for entries in r_sub:
-        for k, v in entries.get('data').items():
-            if k == 'title':
-                if i == 10:
-                    break
-                i += 1
-                print(v)
+        title = entries.get('data').get('title')
+        if title is None:
+            return
+        if i == 10:
+            break
+        i += 1
+        print(title)
     if i == 0:
         print('None')
         return
