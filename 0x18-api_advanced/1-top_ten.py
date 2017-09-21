@@ -23,7 +23,7 @@ def top_ten(subreddit):
         return
 
     for entries in r_sub:
-        title = entries.get('data').get('title')
+        title = entries.get('data', {}).get('title', {})
         if title is None:
             print('None')
             return
