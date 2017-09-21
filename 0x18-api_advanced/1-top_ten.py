@@ -16,6 +16,9 @@ def top_ten(subreddit):
 
     i = 0
 
+    if r.json() is None:
+        print('None')
+        return
     r_sub = r.json().get('data', {}).get('children', {})
 
     if (r_sub is None or len(r_sub) == 0):
