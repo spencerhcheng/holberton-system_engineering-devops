@@ -24,7 +24,7 @@ def top_ten(subreddit):
 
     for entries in r_sub:
         title = entries.get('data', {}).get('title', {})
-        if title is None:
+        if (title is None or len(title) == 0):
             print('None')
             return
         if i == 10:
