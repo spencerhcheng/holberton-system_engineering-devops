@@ -13,6 +13,9 @@ def number_of_subscribers(subreddit):
     reddit_url = url + sub_reddit + "/about.json"
 
     r = requests.get(reddit_url, headers={'User-agent': 'Spencer'})
+    if r.status_code == 301:
+        return (0)
+
     r_sub = r.json().get('data')
     if r_sub is None:
         return (0)
