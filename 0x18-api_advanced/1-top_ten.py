@@ -19,7 +19,7 @@ def top_ten(subreddit):
     r_sub = r.json().get('data', {}).get('children', {})
 
     if (r_sub is None or len(r_sub) == 0):
-        print ("None")
+        print ('None')
         return
 
     for entries in r_sub:
@@ -29,3 +29,5 @@ def top_ten(subreddit):
                     break
                 i += 1
                 print(v)
+    if i == 0:
+        return ('None')
