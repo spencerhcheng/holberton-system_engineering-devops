@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 import requests
-import sys
 
 
 def top_ten(subreddit):
@@ -16,6 +15,7 @@ def top_ten(subreddit):
         return
 
     i = 0
+
     r_sub = r.json().get('data', {}).get('children', {})
 
     if (r_sub is None or len(r_sub) == 0):
