@@ -15,10 +15,11 @@ def top_ten(subreddit):
         return (0)
 
     i = 0
-    r_sub = r.json().get('data').get('children')
+    r_sub = r.json().get('data', {}).get('children', {})
 
-    if r_sub == []:
-        print (None)
+    if (r_sub is None or len(r_sub) == 0):
+        print ("None")
+        return
 
     for entries in r_sub:
         for k, v in entries.get('data').items():
