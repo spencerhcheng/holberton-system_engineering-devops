@@ -34,3 +34,6 @@ def top_ten(subreddit):
     if i == 0:
         print('None')
         return
+
+if __name__ == "__main__":
+    top_ten(subreddit)
