@@ -1,11 +1,11 @@
 #!/usr/bin/python3
+"""Top ten of subreddit"""
 import requests
 
 
 def top_ten(subreddit):
     """
-    Queries the Reddit API and returns the number of subscribers
-    for a given subreddit
+    Queries the Reddit API and returns the top ten reddict posts
     """
     reddit_url = ('https://www.reddit.com/r/{}/hot.json'.format(subreddit))
     r = requests.get(reddit_url, headers={'User-agent': 'Spencer'})
