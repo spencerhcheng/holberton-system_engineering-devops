@@ -33,7 +33,7 @@ def top_ten(subreddit):
         if i == 10:
             break
         i += 1
-        print(title)
+        print("{}".format(title))
     if i == 0:
         print('None')
         return
